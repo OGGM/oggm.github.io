@@ -1,9 +1,5 @@
-_site
-.sass-cache
-.DS_Store
-codekit-config.json
-node_modules
-_asset_bundler_cache
 .idea
+_site
+node_modules
 Gemfile.lock
 
