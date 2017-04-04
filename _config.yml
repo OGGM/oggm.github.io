@@ -4,10 +4,10 @@ description: "An open source glacier model in Python"
 url: "https://OGGM.github.io"
 
 # Secondary Parameters
-baseurl: "/project-pages"
+baseurl: "https://oggm.github.io/"
 header-img: img/backgrounds/glace_t.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/logo.png
+logo: img/logos/logo.png
 header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "img/backgrounds/slide_4.jpg", "img/backgrounds/slide_5.jpg"]
 
 # Tertiary Parameters
