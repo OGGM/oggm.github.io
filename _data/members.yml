@@ -48,5 +48,5 @@
   visible: true
 
 - name: Beatriz Recinos
-- role: Contribute to this website
-
+  role: Contribute to this website
+  visible: true
