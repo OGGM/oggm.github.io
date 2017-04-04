@@ -1,0 +1,50 @@
+# Members
+
+- name: Fabien Maussion
+  role: Project leader, core developer, Post-Doc based at UIBK.
+  github: fmaussion
+  url: http://fabienmaussion.info/
+  visible: true
+
+- name: Ben Marzeion
+  role: Project leader, scientific advisor, Professor based at University of Bremen.
+  github: bmarzeion
+  url: http://www.marzeion.info/
+  visible: true
+
+- name: Alexander H. Jarosch 
+  role: Developer, Associate Professor based at University of Iceland.
+  github: alexjarosch
+  url: http://alexj.at/
+  visible: true
+
+- name: Felix Oesterle
+  role: Developer, Post-Doc, based at UIBK.
+  github: fso42
+  visible: true
+
+- name: Timo Rothenpieler
+  role: Developer, Technical Staff Member at University of Bremen.
+  github: TimoRoth
+  url: http://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=79
+  visible: true
+
+- name: Christian Wild
+  role: Participated in the development of the centerline determination algorithm (2014). Former master student at UIBK
+  url: https://polarchristian.wordpress.com/
+  visible: true
+
+- name: Johannes Landmann
+  role: Participated to the links between databases project (2015). PhD student at UIBK
+  github: JohannesUIBK
+  visible: true
+
+- name: Kévin Fourteau
+  role: Participated to the development of the inversion and the flowline modelling algorithms (2014-2015). Former intern at UIBK, ENS Cachan.
+  visible: true
+
+- name: Michael Adamer
+  role: Participated to the development of the centerline determination algorithm (2014). Former intern at UIBK.
+  visible: true
+
+

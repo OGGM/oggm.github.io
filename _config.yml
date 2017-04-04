@@ -1,0 +1,37 @@
+# Site settings
+title: "OGGM"
+description: "An open source glacier model in Python"
+url: "https://OGGM.github.io"
+
+# Secondary Parameters
+baseurl: "/project-pages"
+header-img: img/backgrounds/glace_t.jpg
+headercolor: "#FFFFFF"
+logo: /project-pages/img/logos/logo.png
+header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "img/backgrounds/slide_4.jpg", "img/backgrounds/slide_5.jpg"]
+
+# Tertiary Parameters
+github_username:  OGGM
+project_repository: oggm
+#disqus_shortname: oggm
+#g-analytics: UA-75881392-1
+#altmetric: true
+
+# Build settings
+gems: [jekyll-paginate, jekyll-watch, jekyll-assets]
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Jekyll Settings
+
+defaults:
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"
+      header-img: "img/backgrounds/dahlbreen_v1.jpg"

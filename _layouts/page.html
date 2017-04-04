@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% if page.url == '/' %}
+<!-- Page Header -->
+<header class="intro-header" style="height: 594px;">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: absolute; width: 100%;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {% for image in site.header-images %}
+      <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index | minus:1}}"{% if forloop.index == 1 %} class="active"{% endif %}></li>
+      {% endfor %}
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      {% for image in site.header-images %}
+        <div class="item{% if forloop.index == 1 %} active{% endif %}" style="background-image: url({{image}});">
+          <div class="carousel-caption"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container" style="position: absolute; height: 700px; width: 100%;">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" {% if page.url != '/' %}style="padding: 75px 0"{% endif %}>
+					{% if site.logo %}
+					<img src= "{{ site.logo }}" style="height: 234px">
+					{% endif %}
+          <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+          <hr class="small">
+          <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{% else %}
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="site-heading" {% if page.url != '/' %}style="padding: 75px 0"{% endif %}>
+                  <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+                  <hr class="small">
+                  <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+{% endif %}
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<hr>

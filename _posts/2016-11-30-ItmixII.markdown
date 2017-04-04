@@ -1,0 +1,17 @@
+---
+layout: post
+title:  ITMIX Results
+author: Fabien Maussion
+tags: 	itmix
+category:  home
+---
+<!-- Start Writing Below in Markdown -->
+
+---
+
+The paper summarizing the ITMIX experiment is online for review! Visit [**this link**][1]{:target="_blank"} to read and discuss the manuscript.
+
+[1]:http://www.the-cryosphere-discuss.net/tc-2016-250/
+
+
+	
