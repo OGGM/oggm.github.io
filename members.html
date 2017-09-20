@@ -1,20 +1,22 @@
 ---
 layout: page
 title: "Members"
-description: "Past and recent collaborators working on this project."
+description: "Past and present collaborators working on this project."
 header-img: "img/backgrounds/members.jpg"
 ---
 <hr>
 
 {% for member in site.data.members %} {% if member.visible == true %}
 
-	
+
 	<h3>{{ member.name }}</h3>
-	
+
+	<div>{{ member.organisation }}</div>
+
 	<div>{{ member.role }}</div>
-	
-	{% if member.github %} 
-	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github" target="_blank"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
+
+	{% if member.github %}
+	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github" target="_blank"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span>
 	{% endif %}
 	{% if member.gplus %}
 	<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus" target="_blank"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
@@ -22,14 +24,13 @@ header-img: "img/backgrounds/members.jpg"
 	{% if member.url %}
 	<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus" target="_blank"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 	{% endif %}
-	
+
 	</br>
 
-	{% if member.bio %} 
+	{% if member.bio %}
 	{{ member.bio }}
 	{% endif %}
-	
+
 	<hr>
 
 {% endif %}{% endfor %}
-
