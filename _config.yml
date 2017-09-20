@@ -22,7 +22,7 @@ project_repository: oggm
 plugins: [jekyll-watch, jekyll-assets]
 markdown: kramdown
 highlighter: rouge
-permalink: ordinal
+permalink: pretty
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 kramdown:
