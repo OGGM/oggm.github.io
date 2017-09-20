@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ""
 ---
 
 ## About
@@ -7,7 +8,7 @@ layout: page
 We are a group of scientists which aim is to develop open source tools to
 better understand the past and future dynamics of glaciers at the global scale.
 
-Our major project is [OGGM](https://github.com/OGGM/oggm) a modular and
+Our major project is [OGGM](https://github.com/OGGM/oggm), a modular and
 open source model for glacier dynamics. Building upon and extending
 [Marzeion et al., (2012)](http://www.the-cryosphere.net/6/1295/2012/tc-6-1295-2012.html),
 the model accounts for glacier geometry (including contributory branches) and
