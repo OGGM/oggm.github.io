@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Search
-description: Search by keyword or tag.
+description: Search by keyword or tag
 ---
 
 <form action="get" id="site_search">
@@ -19,23 +19,23 @@ description: Search by keyword or tag.
 <script src="{{ site.baseurl }}/js/search.js"></script>
 
 <ul class="tag-box inline"><div class="notepad-index-post-tags" style="">
-{% assign tags_list = site.tags %}  
+{% assign tags_list = site.tags %}
   {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %} 
+    {% for tag in tags_list %}
       <a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
     {% endfor %}
   {% else %}
-    {% for tag in tags_list %} 
+    {% for tag in tags_list %}
       <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
 </div></ul>
 
-{% for tag in site.tags %} 
+{% for tag in site.tags %}
   <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
-    {% assign pages_list = tag[1] %}  
+    {% assign pages_list = tag[1] %}
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}

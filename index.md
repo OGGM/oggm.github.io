@@ -5,22 +5,18 @@ title: ""
 
 ## About
 
-We are a group of scientists working together to better understand the
-past and future evolution of mountain glaciers at the global scale.
-
-Our major project is [OGGM](https://github.com/OGGM/oggm), a modular and
-open source model for glacier dynamics. Building upon and extending
+OGGM is an open source model for glacier dynamics. Building upon and extending
 [Marzeion et al., (2012)](http://www.the-cryosphere.net/6/1295/2012/tc-6-1295-2012.html),
 the model accounts for glacier geometry (including contributory branches) and
-includes a simple (yet explicit) ice dynamics module. It can simulate past and
-future mass-balance, volume and geometry of any glacier in a fully automated
-workflow. We rely exclusively on publicly available data for calibration and
-validation.
+includes an explicit ice dynamics module. It can simulate past and
+future mass-balance, volume and geometry of (almost) any glacier in a fully
+automated workflow. We rely exclusively on publicly available data for
+calibration and validation.
 
-Please [get in touch](#get-involved) with us if you are interested in using the model,
-or if you'd like to contribute to the project!
+Please [get in touch](#get-involved) with us if you are interested in using
+the model or if you'd like to contribute to the project!
 
-## Mission statement
+## Mission
 
 <p>
 <center>
@@ -38,7 +34,7 @@ simulating past and future global scale glacier change"
  representation of ice flow and surface mass balance to be combined and
  compared against each other. *Open source* so that the code can be
  read and used by anyone and so that new modules can be added and discussed by
- the community, following the principles of open governance.
+ the community, following the principles of transparency and open governance.
  *Consistent* in order to provide well-defined uncertainty measures at all
  realizable scales.
 
@@ -53,19 +49,17 @@ Our project is motivated by the far reaching goal of contributing
 - How much model complexity is just right?
 - ...
 
-## Vision
-
 We envision the model as a seed that has high potential to grow into a
 self-sustained, community-driven global scale model for glaciers. It will enable
 regional and global studies of glacier-climate interactions
-without the need for a self-developed tool.
+without the need for a self-developed tool, and open new possibilities to run
+model or parameterization intercomparisons in a controlled environment.
 
 ## Get involved
-
 
 We welcome anyone to contribute to the project!
 - View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
   [<u>ReadTheDocs</u>](http://oggm.readthedocs.io/).
 - Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues).
-- Improve the code by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
-- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>.
+- Improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
+- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way.
