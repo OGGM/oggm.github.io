@@ -1,7 +1,8 @@
 # Site settings
 title: "OGGM"
 description: "An open source glacier model in Python"
-url: "https://OGGM.github.io"
+url: https://OGGM.github.io
+# url: http://localhost:4000  # for testing
 
 # Secondary Parameters
 baseurl: ""
@@ -18,15 +19,16 @@ project_repository: oggm
 #altmetric: true
 
 # Build settings
-gems: [jekyll-paginate, jekyll-watch, jekyll-assets]
+plugins: [jekyll-watch, jekyll-assets]
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
-paginate: 10
+permalink: ordinal
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# Jekyll Settings
+kramdown:
+  auto_ids: true
 
+# Jekyll Settings
 defaults:
   -
     scope:
@@ -35,4 +37,3 @@ defaults:
     values:
       layout: "project"
       header-img: "img/backgrounds/dahlbreen_v1.jpg"
-
