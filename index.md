@@ -5,12 +5,13 @@ title: ""
 
 ## About
 
-OGGM is an open source model for glacier dynamics. Building upon and extending
-[Marzeion et al., (2012)](http://www.the-cryosphere.net/6/1295/2012/tc-6-1295-2012.html),
+**OGGM is an open source model for glacier dynamics**
+
+Extending [Marzeion et al., (2012)](http://www.the-cryosphere.net/6/1295/2012/tc-6-1295-2012.html),
 the model accounts for glacier geometry (including contributory branches) and
 includes an explicit ice dynamics module. It can simulate past and
-future mass-balance, volume and geometry of (almost) any glacier in a fully
-automated workflow. We rely exclusively on publicly available data for
+future mass-balance, volume and geometry of (almost) any glacier in the world
+in a fully automated workflow. We rely exclusively on publicly available data for
 calibration and validation.
 
 Please [get in touch](#get-involved) with us if you are interested in using
