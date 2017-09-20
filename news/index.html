@@ -1,8 +1,10 @@
 ---
 layout: page
 title: "News"
-description: "Latest news about our project."
+description: ""
+header-img: "img/backgrounds/glace_t.jpg"
 ---
+
 {% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -21,5 +23,3 @@ description: "Latest news about our project."
 </div>
 <hr>
 {% endfor %}
-
-

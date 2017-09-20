@@ -5,8 +5,4 @@ description: ""
 header-img: "img/backgrounds/dahlbreen_v1.jpg"
 ---
 
-<p>
-Coming soon.
-</p>
-<hr>
-
+Coming soon...
