@@ -5,8 +5,8 @@ title: ""
 
 ## About
 
-We are a group of scientists which aim is to develop open source tools to
-better understand the past and future dynamics of glaciers at the global scale.
+We are a group of scientists working together to better understand the
+past and future evolution of mountain glaciers at the global scale.
 
 Our major project is [OGGM](https://github.com/OGGM/oggm), a modular and
 open source model for glacier dynamics. Building upon and extending
@@ -17,8 +17,8 @@ future mass-balance, volume and geometry of any glacier in a fully automated
 workflow. We rely exclusively on publicly available data for calibration and
 validation.
 
-Please get in touch with us if you are
-interested in using or contributing to the model!
+Please [get in touch](#get-involved) with us if you are interested in using the model,
+or if you'd like to contribute to the project!
 
 ## Mission statement
 
@@ -61,6 +61,7 @@ regional and global studies of glacier-climate interactions
 without the need for a self-developed tool.
 
 ## Get involved
+
 
 We welcome anyone to contribute to the project!
 - View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
