@@ -15,7 +15,7 @@ header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "i
 github_username:  OGGM
 project_repository: oggm
 #disqus_shortname: oggm
-#g-analytics: UA-75881392-1
+g-analytics: UA-106829797-1
 #altmetric: true
 
 # Build settings
