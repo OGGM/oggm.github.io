@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Second OGGM workshop
+title: OGGM workshop registration
 subtitle: to be held in Spiekeroog, Northern Germany
 author: Fabien Maussion
 date: 2016-10-24T00:00:00
