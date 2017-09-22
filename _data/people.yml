@@ -1,0 +1,113 @@
+# Members
+
+- first_name: Fabien
+  last_name: Maussion
+  institution: University of Innsbruck
+  github: fmaussion
+  url: http://fabienmaussion.info/
+  visible: true
+
+- first_name: Ben
+  last_name: Marzeion
+  institution: University of Bremen
+  github: bmarzeion
+  url: http://www.marzeion.info/
+  visible: true
+
+- first_name: Alexander H.
+  last_name: Jarosch
+  institution: University of Iceland
+  github: alexjarosch
+  url: http://alexj.at/
+  visible: true
+
+- first_name: Felix
+  last_name: Oesterle
+  institution: University of Innsbruck
+  github: fso42
+  url:
+  visible: true
+
+- first_name: Timo
+  last_name: Rothenpieler
+  institution: University of Bremen
+  github: TimoRoth
+  url: http://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=79
+  visible: true
+
+- first_name: Christian
+  last_name: Wild
+  institution: University of Innsbruck, now at University of Canterbury
+  url: https://polarchristian.wordpress.com/
+  github:
+  visible: true
+
+- first_name: Johannes
+  last_name: Landmann
+  institution: University of Innsbruck, now at ETH Zürich
+  github: jlandmann
+  url:
+  visible: true
+
+- first_name: Kévin
+  last_name: Fourteau
+  institution: University of Innsbruck, now at Université Grenoble Alpes
+  github:
+  url:
+  visible: true
+
+- first_name: Michael
+  last_name: Adamer
+  institution: University of Innsbruck, now at Oxford University
+  github:
+  url:
+  visible: true
+
+- first_name: Beatriz
+  last_name: Recinos
+  institution: University of Bremen
+  github:
+  url:
+  visible: true
+
+- first_name: Anouk
+  last_name: Vlug
+  institution: University of Bremen
+  github:
+  url:
+  visible: true
+
+- first_name: Julia
+  last_name: Eis
+  institution: University of Bremen
+  github:
+  url:
+  visible: true
+
+- first_name: Anton
+  last_name: Butenko
+  institution: University of Bremen
+  github:
+  url:
+  visible: true
+
+- first_name: Nicolas
+  last_name: Champollion
+  institution: University of Bremen
+  github:
+  url:
+  visible: true
+
+- first_name: Ulrike
+  last_name: Falk
+  institution: University of Bremen, now at AWI Bremerhafen
+  github:
+  url:
+  visible: true
+
+- first_name:  Hugues
+  last_name: Goosse
+  institution: Université catholique de Louvain
+  github:
+  url: http://www.elic.ucl.ac.be/modx/index.php?id=78
+  visible: true
