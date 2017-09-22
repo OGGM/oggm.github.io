@@ -66,28 +66,28 @@
 - first_name: Beatriz
   last_name: Recinos
   institution: University of Bremen
-  github: bearecinos
-  url: 
+  github:
+  url:
   visible: true
 
 - first_name: Anouk
   last_name: Vlug
   institution: University of Bremen
-  github: anoukvlug
+  github:
   url:
   visible: true
 
 - first_name: Julia
   last_name: Eis
   institution: University of Bremen
-  github: juliaeis
+  github:
   url:
   visible: true
 
 - first_name: Anton
   last_name: Butenko
   institution: University of Bremen
-  github: anton-ub
+  github:
   url:
   visible: true
 
@@ -100,8 +100,8 @@
 
 - first_name: Ulrike
   last_name: Falk
-  institution: University of Bremen, now at AWI Bremerhafen
-  github: the-uli
+  institution: University of Bremen, now at AWI Bremerhaven
+  github:
   url:
   visible: true
 
