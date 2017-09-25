@@ -20,3 +20,11 @@ The research conducted with the model was presented during Arc­Train An­nu­al
     <figcaption><i><bold>Anouk Vlug presenting her project</bold>: "Im­pact of na­tu­ral cli­ma­te va­ria­bi­li­ty on Ca­na­di­an Arc­tic gla­ciers du­ring the Ho­lo­ce­ne".</i></figcaption>
 </figure>
 
+
+<figure>
+    <a href="/img/blog/workshops/OGGM_ArcTrain_bea.jpg" >
+    <img src="/img/blog/workshops/OGGM_ArcTrain_bea.jpg" alt="Image missing" width="100%" />
+    </a>
+    <figcaption><i><bold>Upper right corner: Beatriz discussing her poster</bold>: "Ocean-glacier interactions on the regional and large scale".</i></figcaption>
+</figure>
+
