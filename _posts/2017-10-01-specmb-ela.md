@@ -115,4 +115,4 @@ These questions are left open for the reader ;)
 ### Notes
 
 The code used to generate these plots can be found in the
-[OGGM repository]().
+[OGGM repository](https://github.com/OGGM/oggm/blob/master/docs/notebooks/specmb_vs_ela.ipynb).
