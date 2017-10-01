@@ -4,7 +4,7 @@ title: ITMIX Experiment 2016
 subtitle: Ice Thickness Models Intercomparison eXperiment, Phase 1
 author: Fabien Maussion
 date: 2016-06-18T00:00:00
-tags: itmix
+tags: itmix science
 ---
 
 *Note: this post was originally published in March 2016.
