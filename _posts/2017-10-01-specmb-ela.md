@@ -4,7 +4,7 @@ title: Specific mass-balance and climate change
 subtitle: A simple experiment with OGGM
 author: Fabien Maussion
 date: 2017-10-01T09:00:00
-tags: science
+tags: science model
 ---
 
 During last week's [glaciological field course](http://fabienmaussion.info/2017/09/30/langenferner-field-course/)
