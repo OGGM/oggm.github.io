@@ -7,11 +7,13 @@ date: 2017-10-23T00:00:00
 tags: science model
 ---
 
-*Note: this blog post is a work in progress and it might be edited in the
-future. The code used to generate the plots will be made available soon.*
+*Note: this blog post is a work in progress and it might be edited for content
+from time to time.*
 
-With this short note we illustrate how the non-linear behavior of glaciers can
-make the job of linking climate change to glacier length changes can be quite
+*The code used to generate the plots available [here](https://github.com/OGGM/oggm/blob/master/docs/notebooks/dynamics_and_length_changes.ipynb).*
+
+With this short note we illustrate why the non-linear behavior of glaciers
+make the job of linking climate change to glacier length changes quite
 a challenging task.
 
 Our study glacier is the [Hintereisferner](http://acinn.uibk.ac.at/research/ice-and-climate/projects/opal),
@@ -37,7 +39,7 @@ and the glacier responds to them.
 ## Experiment 2: wrong initial state
 
 Now we drive the glacier run with real climate data (obtained from
-[HISTALP](http://www.zamg.ac.at/histalp/)) during the period 1850-2010 and we
+[HISTALP](http://www.zamg.ac.at/histalp/)) during the period 1855-2003 and we
 compare the modeled length changes with observations from P. Leclercq's
 [glacier length fluctuations database](https://folk.uio.no/paulwl/length.php).
 
@@ -49,8 +51,8 @@ model with today's glacier geometry**. Let's see what happens:
 
 This result is particularly interesting: *if the 1850 Hintereisferner was
 as big as it is today, it would still be of the same size today*. How is this
-possible? I don't think this has something to do with a model error (as we show
-below). There is another simple explanation: today's Hintereisferner would
+possible? I don't think this has something to do with a model error, and  
+there is another simple explanation: today's Hintereisferner would
 be too small for the 1900's climate (i.e. in disequilibrium). As shown by the
 model output, the glacier grows during the colder first half of the
 20th century as a response to it's small size, and starts to melt again as
@@ -59,7 +61,7 @@ delayed response to the warming of the second half of the century.
 ## Experiment 3: a better initial state
 
 In fact, we know that the glacier was much larger than it is today (about 3 km
-longer according to observations). With OGGM, we then let the glacier grow
+longer according to observations). With OGGM, we now let the glacier grow
 under a colder climate[^1] and use this larger glacier as initial conditions
 for our past climate simulation:
 
@@ -77,8 +79,8 @@ cold during this period (also plausible).
 
 To test the model sensitivity to the ice creep parameter A (see the
 [documentation](http://oggm.readthedocs.io/en/latest/ice-dynamics.html) for more
-info), we now replicate our experiment after increasing the default A o 50%
-(this implies a more fluid ice). We
+info), we now replicate our experiment but *double the values of the
+ice creep parameter A* (this implies a more fluid ice). We
 grow our glacier to the desired length and run our past model again:
 
 <a href="/img/blog/length-changes/lengths_from_colder_2.png"><img src="/img/blog/length-changes/lengths_from_colder_2.png" alt="Image missing" width="100%" /></a>
@@ -91,13 +93,31 @@ pause. This might be an indication for an inadequate climate forcing.
 
 *If the initial glacier state is known*, it is relatively trivial to tune the
 model for good results (at least in the Hintereisferner case). In a blind run,
-one can show that unrealistic initial conditions can lead to realistic
-end conditions with a completely wrong path in between (see experiment 1).
+one can show that unrealistic initial conditions can lead to a plausible
+present day glacier with a completely wrong path in between (experiment 1).
 
 What do we do from here? The OGGM team members are now working hard on this
 issue, and are exploring several ways to go forward. In a first step, we are
 likely to adopt a stochastic approach in which many possible initial states are
 tested and selected based on the model response.
+
+## Addendum
+
+We have shown that the *initial glacier state* is important for length changes.
+But how long is the initial state influencing the glacier behavior in a given
+climate? The answer will depend on the size of the glacier, but for
+Hintereisferner we can run a simple experiment again: we let the glacier grow
+at various sizes and then run the model with past climate simulations
+from the [CESM model](http://www.cesm.ucar.edu/models/). The climate forcing is
+therefore the same for all simulations (from 1600 to 2003):
+
+<a href="/img/blog/length-changes/lengths_from_cesm.png"><img src="/img/blog/length-changes/lengths_from_cesm.png" alt="Image missing" width="100%" /></a>
+
+The good news is that the initial state has a visible influence during the
+first 150 years or so. This indicates that climate is the most important
+driver of length changes at long time scales (in particular in this shrinking
+case). The bad news is, the CESM data seem to be too warm for most of the
+period and shows a very small Little Ice Age signal. 
 
 ### Notes
 
