@@ -47,13 +47,13 @@ use the model yourself.
 
 Anyone interested in the model, or in glaciological modeling
 in general! In particular, we would like to encourage potential users and
-developers to join us to get to know each other and to gather first hand
+developers to join us to get to know each other and to gather first-hand
 information about the model internals. Note that in case of high interest
-we have might have to limit the number of participants.
+we might have to limit the number of participants.
 
 ### Workshop fee
 
-In addition to the hotel reservations (€79 per night per person in a double room
+In addition to the hotel reservation (€79 per night per person in a double room
 including all meals, €89 for a single room), there will be a small conference
 fee to cover the other organization costs (exact amount to be announced, but
 probably no more than €100 per person).
