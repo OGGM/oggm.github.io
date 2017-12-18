@@ -5,8 +5,8 @@ url: http://oggm.org
 # url: http://localhost:4000  # for testing
 
 # Secondary Parameters
-baseurl: 
-header-img: img/backgrounds/glace_t.jpg
+baseurl:
+header-img: img/backgrounds/blue_ice.jpg
 headercolor: "#FFFFFF"
 logo: img/logos/logo.png
 header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "img/backgrounds/slide_4.jpg", "img/backgrounds/slide_5.jpg"]
@@ -36,4 +36,4 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/backgrounds/dahlbreen_v1.jpg"
+      header-img: "img/backgrounds/blue_ice.jpg"

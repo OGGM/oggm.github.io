@@ -2,7 +2,6 @@
 layout: page
 title: "OGGM e.V."
 description: "The OGGM organization"
-header-img: "img/backgrounds/dahlbreen_v1.jpg"
 ---
 
 **OGGM e.V.** is a non-profit organization based in Bremen, Germany.

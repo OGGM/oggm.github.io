@@ -2,7 +2,6 @@
 layout: page
 title: "Publications"
 description: "Publications related to OGGM"
-header-img: "img/backgrounds/dahlbreen_v1.jpg"
 ---
 
 ## 2017
