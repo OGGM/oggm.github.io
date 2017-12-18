@@ -64,6 +64,10 @@ If you wish to participate to the workshop or if you have questions regarding
 the organization please send us an e-mail at _info [at] oggm.org_
 **before January 12th, 2018**.
 
+### Organisators
+
+[Fabien Maussion](http://fabienmaussion.info/) and [Ben Marzeion](http://marzeion.info/)
+
 ### Past workshops
 
 - <u> <a href="{{ site.url }}/2016/02/11/1st-oggm-worshop-summary/"> 1st OGGM workshop </a> </u>
