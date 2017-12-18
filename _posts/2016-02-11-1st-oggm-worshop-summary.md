@@ -7,7 +7,7 @@ date: 2016-02-11T00:00:00
 tags: workshop
 ---
 
-**The first OGGM workshop was hold from 30.03.2017 to 02.04.2017 in
+**The first OGGM workshop was hold from 30.03.2015 to 02.04.2015 in
 Obergurgl, Austrian Alps**. We had 10 participants from Bremen and Innsbruck.
 
 <figure>
