@@ -5,8 +5,8 @@
   color: #FFFFFF;
 }
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
   color: #404040;
 }
 p {
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 800;
 }
 a {
@@ -57,14 +57,14 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -167,10 +167,10 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
   text-shadow: 0 0 10px #000, 0 0 5px #000;
@@ -178,11 +178,11 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
 }
 .intro-header .post-heading h1 {
-  font-size: 35px;
+  font-size: 28px;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -190,26 +190,26 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
 }
 .intro-header .post-heading .meta a {
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 .post-preview > a {
@@ -221,7 +221,7 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 26px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -232,7 +232,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   margin-top: 0;
 }
@@ -247,11 +247,11 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 .section-heading {
-  font-size: 36px;
+  font-size: 28px;
   margin-top: 60px;
   font-weight: 700;
 }
@@ -328,7 +328,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -337,7 +337,7 @@ form .row:first-child .floating-label-form-group {
   padding: 15px 25px;
 }
 .btn-lg {
-  font-size: 16px;
+  font-size: 14px;
   padding: 25px 35px;
 }
 .btn-default:hover,
@@ -351,7 +351,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
