@@ -64,8 +64,8 @@ hr.small {
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -221,7 +221,7 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 26px;
+  font-size: 22px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -247,7 +247,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 .section-heading {
