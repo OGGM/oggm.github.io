@@ -1,0 +1,43 @@
+---
+layout: page
+title: "Community"
+description: "Users and developpers of the OGGM model"
+header-img: "img/backgrounds/members.jpg"
+---
+
+<h3>Mailing list</h3>
+<br>
+If you want to be informed about the OGGM developments, publications or
+workshops please subscribe to the OGGM mailing list by
+<u><a href="mailto:info@oggm.org">writing us an e-mail</a></u>.
+<br>
+<br>
+
+<h3>Past and present OGGM contributors</h3>
+
+<hr>
+
+{% assign people = site.data.people | sort:"last_name" %}
+
+<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; list-style-type: none;">
+{% for member in people %}
+{% if member.visible %}
+  <li>
+	<strong>{{ member.first_name }} {{ member.last_name }} </strong>
+	{% if member.github %}
+	<small>
+	<a href="https://github.com/{{ member.github }}" title="Github" target="_blank"><span class="fa-stack fa-lg"> <i class="fa fa-github fa-stack-1x"></i> </span></a>
+  </small>
+	{% endif %}
+	{% if member.url %}
+	<small>
+	<a href="{{ member.url }}" title="Google Plus" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-external-link fa-stack-1x"></i></span></a>
+  </small>
+	{% endif %}
+	<br>
+	<small><i>{{ member.institution }}</i></small>
+  <hr>
+	</li>
+{% endif %}
+{% endfor %}
+</ul>
