@@ -37,23 +37,23 @@
 
 - first_name: Christian
   last_name: Wild
-  institution: University of Innsbruck, now at University of Canterbury
+  institution: University of Canterbury
   url: https://polarchristian.wordpress.com/
   github:
   visible: true
 
 - first_name: Johannes
   last_name: Landmann
-  institution: University of Innsbruck, now at ETH Zürich
+  institution: ETH Zürich
   github: jlandmann
   url:
   visible: true
 
 - first_name: Kévin
   last_name: Fourteau
-  institution: University of Innsbruck, now at Université Grenoble Alpes
+  institution: Université Grenoble Alpes
   github:
-  url:
+  url: http://www.lthe.fr/PagePerso/fourteau/
   visible: true
 
 - first_name: Michael
@@ -61,7 +61,7 @@
   institution: University of Innsbruck, now at Oxford University
   github:
   url:
-  visible: true
+  visible: false
 
 - first_name: Beatriz
   last_name: Recinos
@@ -95,7 +95,7 @@
   last_name: Champollion
   institution: University of Bremen
   github:
-  url:
+  url: https://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=87
   visible: true
 
 - first_name: Ulrike
@@ -103,11 +103,39 @@
   institution: University of Bremen, now at AWI Bremerhaven
   github: the-uli
   url:
-  visible: true
+  visible: false
 
 - first_name:  Hugues
   last_name: Goosse
   institution: Université catholique de Louvain
   github:
   url: http://www.elic.ucl.ac.be/modx/index.php?id=78
+  visible: true
+
+- first_name:  Philipp
+  last_name: Gregor
+  institution: University of Innsbruck
+  github: phigre
+  url:
+  visible: true
+
+- first_name:  Moritz
+  last_name: Oberrauch
+  institution: University of Innsbruck
+  github: oberrauch
+  url: http://acinn.uibk.ac.at/persons/moritz_oberrauch
+  visible: true
+
+- first_name:  Matthias
+  last_name: Dusch
+  institution: University of Innsbruck
+  github:
+  url: http://acinn.uibk.ac.at/persons/matthias_dusch
+  visible: true
+
+- first_name:  David
+  last_name: Parkes
+  institution: University of Bremen
+  github:
+  url: https://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=83
   visible: true
