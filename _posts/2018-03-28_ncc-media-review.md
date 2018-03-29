@@ -20,13 +20,13 @@ Two main press releases were done as well as one short message in the Nature jou
   2. University of Innsbruck: [Glacier mass loss: past the point of no return](https://www.uibk.ac.at/newsroom/glacier-mass-loss-past-the-point-of-no-return.html.en)
   3. Nature journal: [Glacier shrinkage is past the point of no return](https://www.nature.com/articles/d41586-018-03356-5)
   
-Numerous medias wrote articles concerning this study among them Carbon Brief, The Weather Channel, Science Daily, Daily Mail, Phys.Org and International Business Times ... The main study message is the best communicated in [Breitart](http://www.breitbart.com/news/glaciers-are-going-to-keep-melting-for-decades-research-predicts/).
+Numerous medias wrote articles concerning this study among them Carbon Brief, The Weather Channel, Science Daily, Daily Mail, Phys.Org and International Business Times. The main study message is the best communicated in [Breitart](http://www.breitbart.com/news/glaciers-are-going-to-keep-melting-for-decades-research-predicts/).
 
-* The whole press review is available [here](https://www.dropbox.com/s/dk133x27xq2zmff/List-of-media.txt?dl=0). *
+*The whole press review is available [here](https://www.dropbox.com/s/dk133x27xq2zmff/List-of-media.txt?dl=0).*
 
 One interview has been done by Fabien Maussion for the [Radio Television Suisse, in French](https://pages.rts.ch/la-1ere/programmes/cqfd/9401549-la-fonte-des-glaciers-nest-pas-prete-de-sarreter-26-03-2018.html?mediaShare=1).
  
-The diffusion of the paper can be followed [here](https://www.altmetric.com/details/34521367/news), especially for the tweeter and facebook. Valerie Masson-Delmotte, the lead of Working Group 1 of IPCC, has shared information on tweeter ! 
+The diffusion of the paper can be followed [here](https://www.altmetric.com/details/34521367/news), especially for Tweeter and Facebook. Valerie Masson-Delmotte, the lead of the Working Group 1 of IPCC, has shared information on Tweeter ! 
 
 ## Future work
 
@@ -36,4 +36,4 @@ The Marzeion et al., 2012, model's used in this study inspired the developpment 
 
 Marzeion, Ben, Kaser, Georg, Maussion, Fabien and Champollion, Nicolas (2018). Limited influence of climate change mitigation on short-term glacier mass loss, Nature Climate Change, 10.1038/s41558-018-0093-1.
 
-* The paper is available [here](https://www.nature.com/articles/s41558-018-0093-1). *
+*The paper is available [here](https://www.nature.com/articles/s41558-018-0093-1).*
