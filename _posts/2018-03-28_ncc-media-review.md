@@ -7,6 +7,7 @@ date: 2018-03-28T12:00:00
 tags: publication
 ---
 
+
 ## Innsbruck \& Bremen collaboration
 
 A recent study jointly conducted by the **University of Bremen and the University of Innsbruck** has just been published in Nature Climate Change about glacier mass loss commitment. The main message can be summarized as follow: **if all Greenhouse gas emissions stop today, one third of the total glacier ice mass is commited to melt at long-term** ; if we reach a new climate equilibrium of the global mean temperature at 1.5, 2 and 3K above pre-industrial values, around 50, 60 and 75\% respectively are commited to melt. Those results can be translated into CO2 emissions thanks to the quasi-linear relationship between cumulative anthropogenic CO2 emissions and global mean temperature. It results that today each kg of emmited C02 into the atmosphere generates the commitment of ice melt around 15 kg at long-term. This amount of commited ice melt drops to 10, 9 and 6 kg if the global mean temperature is stabilized to 1.5, 2 and 3K respectively.
@@ -37,3 +38,4 @@ The Marzeion et al., 2012, model's used in this study inspired the developpment 
 Marzeion, Ben, Kaser, Georg, Maussion, Fabien and Champollion, Nicolas (2018). Limited influence of climate change mitigation on short-term glacier mass loss, Nature Climate Change, 10.1038/s41558-018-0093-1.
 
 *The paper is available [here](https://www.nature.com/articles/s41558-018-0093-1).*
+
