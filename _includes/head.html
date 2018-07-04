@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
 	{% include ogmeta.html %}
-	
+
 	{% if site.altmetric == true %}
 
 	{% include altmetric.html %}
@@ -17,13 +17,13 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl | prepend: site.url }}">
-	
+
 	<!-- Adjust Colors -->
     <link rel="stylesheet" href="{{ "/colorscheme.css" | prepend: site.baseurl | prepend: site.url }}">
 
@@ -46,7 +46,7 @@
 	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 	</script>
 	<script type="text/javascript"
-	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 	</script>
 	<script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
@@ -64,7 +64,7 @@
 
 	<!-- Custom Theme JavaScript -->
 	<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
-	
+
 	{% include analytics.html %}
-	
+
 </head>
