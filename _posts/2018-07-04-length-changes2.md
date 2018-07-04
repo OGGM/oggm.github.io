@@ -88,4 +88,4 @@ on global and millennial scales.
 ### Notes
 [^1]: For simplicity all plots show a 36-months running average.
 
-[^2]: All glaciers are initialised with today's glacier geometry as provided by [Randolph Glacier Inventory 6.0](https://www.glims.org/RGI/)
+[^2]: All glaciers are initialised with today's glacier geometry as provided by the [Randolph Glacier Inventory 6.0](https://www.glims.org/RGI/)
