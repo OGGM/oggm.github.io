@@ -47,10 +47,12 @@ kilometers.
 We now repeat this experiment for other Alpine glaciers and use the same 5
 climate sequences:
 
-<a href="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher.png" alt="Image missing" width="45%" /></a>
-<a href="/img/blog/length-changes2/rdn_1995_lengths_Tschierva.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Tschierva.png" alt="Image missing" width="45%" /></a>
-<a href="/img/blog/length-changes2/rdn_1995_lengths_Pasterze.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Pasterze.png" alt="Image missing" width="45%" /></a>
-<a href="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner.png" alt="Image missing" width="45%" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher.png" alt="Image missing" width="50%" style="float:left" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Tschierva.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Tschierva.png" alt="Image missing" width="50%" /></a>
+
+
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Pasterze.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Pasterze.png" alt="Image missing" width="50%" style="float:left" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner.png" alt="Image missing" width="50%" /></a>
 
 
 All glaciers show a initial retreat within the first 50 years, but with
@@ -83,7 +85,7 @@ it makes research in this field interesting and challenging. And it shows
 the advantage of treating glaciers as individual entities within a model, even
 on global and millennial scales.
 
-<a href="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png" alt="Image missing" width="45%" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png" alt="Image missing" width="100%" /></a>
 
 ### Notes
 [^1]: For simplicity all plots show a 36-months running average.
