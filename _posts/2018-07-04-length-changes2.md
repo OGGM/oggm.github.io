@@ -8,7 +8,9 @@ tags: science model
 ---
 
 *Note: this blog post is a work in progress and it might be edited for content
-from time to time.*
+from time to time.*  
+*The paragraph **Random climate with unique samples** was added on July 10,
+2018.*
 
 A couple of months ago Fabien Maussion wrote about [glacier length changes
 under a random climate](https://oggm.org/2017/10/23/length-changes).
@@ -26,7 +28,6 @@ With this method it is possible, but very unlikely, that one specific year
 Fabien's experiment showed for [Hintereisferner](http://acinn.uibk.ac.at/research/ice-and-climate/projects/opal)
 that with such a random climate sequence absolute length changes of the order
 of kilometers are possible.
-
 
 ## Length changes under a current random climate
 
@@ -87,7 +88,42 @@ on global and millennial scales.
 
 <a href="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Hintereisferner30.png" alt="Image missing" width="100%" /></a>
 
-### Notes
-[^1]: For simplicity all plots show a 36-months running average.
+## Random climate with unique samples (Update)
 
+In the first paragraph of this blog post we described how a random climate is
+currently determined within OGGM.
+[Meanwhile](https://github.com/OGGM/oggm/pull/502) we have implemented a second
+technique to come up with a random climate for model runs:
+
+All years from a prescribed climate period will be used in random order before
+one year can be picked again.
+In our experiment we used the 31-year period 1980-2010 and simulated 400 years.
+With this new random climate all full 31-year sub-periods of the 400 years will
+have the same mean and standard deviation.
+If a 100-year period would be used to simulate 100 years, every year would be
+exactly once but in a different order than the reference period.
+
+This random climate reduces the variability between individual runs for each
+glacier.
+But the initial retreat over the first 100 years of all glaciers is
+approximately the same as before.
+After this initial period the absolute length changes are smaller compared to
+the completely independent random climate which was used before.
+Glaciers which already showed little changes in the previous experiment after
+the first 100 years (Pasterze and Gepatschferner) now almost show no length
+changes at all.
+
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher_unique.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Aletschgletscher_unique.png" alt="Image missing" width="50%" style="float:left" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Tschierva_unique.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Tschierva_unique.png" alt="Image missing" width="50%" /></a>
+
+
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Pasterze_unique.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Pasterze_unique.png" alt="Image missing" width="50%" style="float:left" /></a>
+<a href="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner_unique.png"><img src="/img/blog/length-changes2/rdn_1995_lengths_Gepatschferner_unique.png" alt="Image missing" width="50%" /></a>
+
+We do **explicitly not** say that one random climate is superior to  or even
+more *true* than the other one. This is just to illustrate different methods.
+Which one to choose will depend on your particular question.
+
+### Footnotes
+[^1]: For simplicity all plots show a 3-year running average.  
 [^2]: All glaciers are initialised with today's glacier geometry as provided by the [Randolph Glacier Inventory 6.0](https://www.glims.org/RGI/)
