@@ -78,7 +78,7 @@ cold during this period (also plausible).
 ## Experiment 4: a better initial state and other ice parameters
 
 To test the model sensitivity to the ice creep parameter A (see the
-[documentation](http://oggm.readthedocs.io/en/latest/ice-dynamics.html) for more
+[documentation](http://docs.oggm.org/en/latest/ice-dynamics.html) for more
 info), we now replicate our experiment but *double the values of the
 ice creep parameter A* (this implies a more fluid ice). We
 grow our glacier to the desired length and run our past model again:
@@ -117,7 +117,7 @@ The good news is that the initial state has a visible influence during the
 first 150 years or so. This indicates that climate is the most important
 driver of length changes at long time scales (in particular in this shrinking
 case). The bad news is, the CESM data seem to be too warm for most of the
-period and shows a very small Little Ice Age signal. 
+period and shows a very small Little Ice Age signal.
 
 ### Notes
 
