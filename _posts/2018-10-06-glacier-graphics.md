@@ -58,9 +58,9 @@ alt="Image missing" width="24.9%"  /></a>
 Although these are the first scientific graphics my sister ever made, I believe
 she made a really good job!
 
-Since these images might be useful to other, we decided to release them under
+Since these images might be useful to others, we decided to release them under
 an [open license](http://creativecommons.org/licenses/by-nc/4.0/). You'll find
-all these graphics (as well as some others) on a
+all these graphics (as well as some other plots) on a
 [dedicated repository](https://github.com/OGGM/glacier-graphics).
 
 **Don't hesitate to leave us some comments here or on Github**! We'd love to hear
