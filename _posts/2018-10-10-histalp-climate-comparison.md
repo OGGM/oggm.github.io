@@ -60,7 +60,7 @@ I want to make clear that regarding statistics I have no idea what I'm doing, an
 
 **Correlation of cyclic data:** Monthly (and daily) precipitation and temperature data have an inherent periodicity on longer time scales. A similar seasonal cycle is seen in the data of any station, resulting in an overestimated correlation. The key is to look at anomalies rather than absolute values. Therefore an average value for each month over the entire period is estimated. The anomaly is given by the difference (positive or negative) to the months average value.
 
-![Temperature anomalies](../figures/temp_anomalies.eps)
+![Temperature anomalies](../img/blog/climate-comparison/temp_anomalies.eps)
 
 
 
@@ -70,33 +70,33 @@ I want to make clear that regarding statistics I have no idea what I'm doing, an
 
 The HistAlp data shows generally higher monthly (and yearly) precipitation sum than the station data. Since rain gauges are prone to undercatch [Pollock, et. al 2014](http://adsabs.harvard.edu/abs/2014EGUGA..1611643P), this is not too suprising. The station Kleine Scheidegg is situated 260 m below the station Eigergletscher, which can be explained the even lower values [Frei and Schär 1997](http://www.map.meteoswiss.ch/sop-doc/rr_sop/FreiSchaer1998.pdf) (@TODO: does this statement even make sense?! If so, better source needed).
 
-![yearly precipitation sum](../figures/precip_timeseries.eps)
+![yearly precipitation sum](../img/blog/climate-comparison/precip_timeseries.eps)
 
 **Regional precipitation distribution (SLF stations):** The SLF stations allow the inverstigation of the precipitaion distribution with height and location, even if only for the last 10ish years. Since it are only six stations, the validity of the findings is questionable.  
 
 A decrease of precipitation with elevation is possible, even if it is a quite bold statement with a coefficient of determination well below 0.3. In addition, precipiation seems to be higher on the northwesterly slope of Bernese Alps and lower on the southeasterly slope. I would say that the average yearly  precipitation sum depends on both, the geographical location and elevation, most probalbly in an non linear way (again, I'm guestimating here...).
 
-![](../figures/precip_elev_distribution.eps)
+![](../img/blog/climate-comparison/precip_elev_distribution.eps)
 
-![](../figures/precip_regional_distribution.eps)
+![](../img/blog/climate-comparison/precip_regional_distribution.eps)
 
 
 
 **Temperature:** The monthly mean temperature records of the Jungfraujoch station correlate to over 92% with the HistAlp data. It is more than likely that the HistAlp data set is directly linked to the Jungfraujoch records, explaining the strong correlation. The difference in absolute values between the station and the HistAlp data ranges between 6°C and 12.5°C. The Jungfraujoch station is located at 3580 m asl., whereas the HistAlp is referenced at 2011 m asl., resulting in an elevation difference of roughly 1570 m. Using the dry adiabtic lapse rate of 6.5 K/km this yields a temperature drop of a little over 10°C, matching the calculated differnces.
 
-![](../figures/temp_diff_histogram.eps)
+![](../img/blog/climate-comparison/temp_diff_histogram.eps)
 
 **Trend in yearly average temperature:** A common way to investigate temperature trends is to look at the anomalies in yearly temperature average with respect to the average over the climatological reference period between 1961and 1990. There is a positive trend after 1990, as to be expected. The trend is most prominent in spring months, followed by summer and fall. The winter months show a slight negative trend if anything at all... (@TODO: get some hard facts, calculated trend!) The summer of 2003 shows exeptionally high values, with an anomaly of +4.5°C and +3.9°C for the HistAlp and Jungfraujoch data, respectively.
 
-![tempeature anomaly fall](../figures/tempanomaly.eps)
+![tempeature anomaly fall](../img/blog/climate-comparison/tempanomaly.eps)
 
-![tempeature anomaly fall](../figures/tempanomaly_spring.eps)
+![tempeature anomaly fall](../img/blog/climate-comparison/tempanomaly_spring.eps)
 
-![tempeature anomaly fall](../figures/tempanomaly_summer.eps)
+![tempeature anomaly fall](../img/blog/climate-comparison/tempanomaly_summer.eps)
 
-![tempeature anomaly fall](../figures/tempanomaly_fall.eps)
+![tempeature anomaly fall](../img/blog/climate-comparison/tempanomaly_fall.eps)
 
-![tempeature anomaly fall](../figures/tempanomaly_winter.eps)
+![tempeature anomaly fall](../img/blog/climate-comparison/tempanomaly_winter.eps)
 
 
 
@@ -114,6 +114,6 @@ The precipitation amount in the HistAlp data set is generally higher than the me
 
 Considering all this informations the Alps/HistAlp default value of 1.75 seems like a good starting point for the following calibration/validation phase.
 
-![computed precipitation scaling factor](../figures/precip_factor.eps)
+![computed precipitation scaling factor](../img/blog/climate-comparison/precip_factor.eps)
 
 **General concerns, error sources, ...** The correlation should not be over intrepreted, since HistAlp incorporates all three long term stations (*EIG*, *KSE*, *JUN*) @TODO: citation needed or state that it as assumption.
