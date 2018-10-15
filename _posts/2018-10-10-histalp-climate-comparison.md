@@ -40,7 +40,7 @@ The station *Junfraujoch (JUN)* provides monthly (and daily) mean air temperatur
 
 - JUN: Junfraujoch (7°59'/46°33'), 3580 m asl., data from 1933 until 2018
 
-![stations: plotly html file(s) in *.zip](../figures/stations.png)
+![stations: plotly html file(s) in *.zip](img/climate-comparison/stations.png)
 
 
 
