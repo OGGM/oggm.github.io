@@ -65,4 +65,6 @@ We welcome anyone to contribute to the project!
 - Improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
 - Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
 - Follow us on [<u>Twitter</u>](https://twitter.com/OGGM1).
-- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>. We would love to hear about you!
+- Subscribe to the [<u>OGGM-Announce</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-announce)
+  and [<u>OGGM-Users</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-users) mailing lists.
+- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
