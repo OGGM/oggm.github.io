@@ -3,7 +3,7 @@ layout: post
 title: HISTALP gridded data compared to in-situ observations
 subtitle: An assessment for the Upper Grindelwald glacier, Switzerland
 author: Moritz Oberrauch
-date: 2018-10-30T12:00:00
+date: 2018-11-27T00:00:00
 tags: science
 ---
 
@@ -46,7 +46,14 @@ The station *Junfraujoch (JUN)* provides monthly (and daily) mean air temperatur
 
 - JUN: Junfraujoch (7°59'/46°33'), 3580 m asl., data from 1933 until 2018
 
-![stations map](/img/blog/climate-comparison/stations.png)
+<iframe src="/img/blog/climate-comparison/grindel_map.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="800"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 ## Methods
 
