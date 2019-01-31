@@ -18,7 +18,7 @@ open the event to any interested scientist (within the limits of our capacities!
 
 ### Save the date
 
-Monday 17 to Wednesday 19 midday June 2019. If you are coming from far away, you might
+Monday midday 17 to Wednesday 19 June 2019. If you are coming from far away, you might
 plan one day before and/or after the workshop for travel.
 
 ### Location
