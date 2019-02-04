@@ -3,7 +3,7 @@ layout: post
 title: OGGM workshop 2019
 subtitle: to be held 17-19 June 2019 in Grenoble, France
 author: Nicolas Champollion
-date: 2019-02-01T00:00:00
+date: 2019-02-04T00:00:00
 tags: workshop
 ---
 
@@ -31,7 +31,7 @@ hotel rooms, seminar rooms, and a great view on the Vercors mountains.
 
 This workshop has three main objectives:
 
-1. **State of OGG*** : the first day will be spent with presentations from the
+1. **State of OGGM*** : the first halfday will be spent with presentations from the
 participants about recent developments and results.
 
 2. **Future developments and visions for OGGM** : the second day will be dedicated
@@ -53,9 +53,9 @@ we might have to limit the number of participants.
 
 ### Workshop fee
 
-The hotel reservation & breakfeast is €90.1 for a single room in a single room and
-€55.6 per night per person in a twin room. There will probably be no conference
-fees, other organization costs (including all meals) will be covered by OGGM e.V.
+The hotel accomodation (night & breakfeast) is €90 in a single room and €56 in a twin room.
+The prices are per night per person. The conference fees are €240 covering all other organization costs
+(including all meals).
 
 ### Registration
 
