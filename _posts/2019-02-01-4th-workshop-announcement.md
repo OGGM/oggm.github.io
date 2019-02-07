@@ -24,7 +24,7 @@ from far away, you might plan one day before and/or after the workshop for trave
 
 ### Location
 
-At [Hôtel les Mésanges](http://www.hotel-les-mesanges.com/),
+At [Hotel les Mésanges](http://www.hotel-les-mesanges.com/),
 in the vicinity of Grenoble for the workshop. The hotel provides all facilities for our workshop
 (incl. catering). The location is reachable by bus from Grenoble campus
 (about 30/40 mins). Depending on the bus stop, you will be in front of the hotel
@@ -58,14 +58,14 @@ in smaller groups at the IGE in Grenoble:
 - **Q&A**: we will leave time open to discuss actual problems in the model itself,
   and try to develop strategies to solve them.
 
-This second part is targetting current and future model *users*, or 
+This second part is targeting current and future model *users*, or 
 maybe just people interested in the model internals. 
 It will be rather technical and could be skipped if you do not plan to
 use the model yourself.
 
 ### Who can participate ?
 
-Anyone interested in the model, or in glaciological modeling
+Anyone interested in the model, or in glaciological modelling
 in general! In particular, we would like to encourage potential users and
 developers to join us to get to know each other and to gather first-hand
 information about the model internals, as well as PhD students and young scientists.
@@ -73,13 +73,13 @@ Note that in case of high interest we might have to limit the number of particip
 
 ### Workshop fee
 
-**For the workshop part**, the hotel accomodation (night & breakfeast)
+**For the workshop part**, the hotel accommodation (night & breakfast)
 is €90 in a single room and €56 in a twin room. The prices are per night per person.
 The conference fees are €240 covering all other organization costs
 (including all meals).
 
 **For the training part** there are no fees, but attendants should take 
-care of their own accomodation and meals.
+care of their own accommodation and meals.
 
 ### Registration
 
@@ -87,7 +87,7 @@ If you wish to participate to the workshop or if you have questions regarding
 the organization please send us an e-mail at _info [at] oggm.org_
 **before March 31st, 2019**.
 
-### Organisators
+### Organisers
 
 [Nicolas Champollion](https://geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=87), [Fabien Maussion](http://fabienmaussion.info/) and [Ben Marzeion](http://marzeion.info/).
 
