@@ -13,27 +13,27 @@ France.**
 ### What is it ?
 
 The OGGM workshop is an annual, informal meeting for developers, users, and future users
-of the [OGGM](http://docs.oggm.org) model. For this fourth edition, as for the third edition, we
-open the event to any interested scientist (within the limits of our capacities!).
+of the [OGGM](http://docs.oggm.org) model. Like last year, this 4th edition
+is open to any interested scientist (within the limits of our capacities!).
 
 ### Save the date
 
-**Monday 17th to Wednesday 19th June 2019 for the official part, and Thursday 20th to 
-Friday 21st June 2019 for the optional part**. If you are coming from far away,
-you might plan one day before and/or after the workshop for travel.
+**Monday 17th to Wednesday 19th June 2019 for the workshop, and Thursday 20th to 
+Friday 21st June 2019 for the trainings and coding sessions (optional)**. If you are coming 
+from far away, you might plan one day before and/or after the workshop for travel.
 
 ### Location
 
 At [Hôtel les Mésanges](http://www.hotel-les-mesanges.com/),
-in the vicinity of Grenoble for the official part. The facilities include full board
+in the vicinity of Grenoble for the workshop. The facilities include full board
 hotel rooms, seminar rooms, and a great view on the Vercors mountains.
 
 At [IGE lab](http://www.ige-grenoble.fr/), in the Saint-Martin d'Hères campus close 
-to Grenoble for the optional part. The facilities include only the seminar rooms.
+to Grenoble for the trainings. The facilities include only the seminar rooms.
 
 ### Agenda
 
-The official part of the workshop has two main objectives:
+The the first part of the workshop (17-19th of June) has two main objectives:
 
 1. **State of OGGM** : the first sessions will be spent with presentations from the
 participants about recent developments and results.
@@ -42,15 +42,20 @@ participants about recent developments and results.
 will be dedicated to general discussions and brainstorming about the future and 
 goals of the OGGM project.
 
-The optional part of the workshop has two main objectives:
+This workshop will be followed by two days of training and coding session 
+in smaller groups at the IGE in Grenoble:
 
-3. **Tutorial**: these sessions are for current and future OGGM users to
-get to know the model internals, and learn how to set-up and customize a model run.
-This part of the workshop will be rather technical and might be skipped if you do not plan to
-use the model yourself, or if you are already an advanced user of the model.
+- **Beginner tutorials**: these sessions are for current and future OGGM users to
+  get to know the model internals, and learn how to set-up and customize a model run.
+- **Code sprints**: we will address specific coding challenges
+  together, in the form of a [programming sprint](https://oggm.org/2018/10/16/hack-day/).
+- **Q&A**: we will leave time open to discuss actual problems in the model itself,
+  and try to develop strategies to solve them.
 
-4. **Programming**: the rest of the time will be dedicated to developp OGGM model,
-perhaps like a programming [sprint](https://oggm.org/2018/10/16/hack-day/).
+This second part is targetting current and future model *users*, or 
+maybe just people interested in the model internals. 
+It will be rather technical and could be skipped if you do not plan to
+use the model yourself.
 
 ### Who can participate ?
 
@@ -62,10 +67,13 @@ Note that in case of high interest we might have to limit the number of particip
 
 ### Workshop fee
 
-For the official part only, the hotel accomodation (night & breakfeast)
+**For the workshop part**, the hotel accomodation (night & breakfeast)
 is €90 in a single room and €56 in a twin room. The prices are per night per person.
 The conference fees are €240 covering all other organization costs
 (including all meals).
+
+**For the training part** there are no fees, but attendants should take 
+care of their own accomodation and meals.
 
 ### Registration
 
@@ -75,7 +83,7 @@ the organization please send us an e-mail at _info [at] oggm.org_
 
 ### Organisators
 
-[Fabien Maussion](http://fabienmaussion.info/) and [Ben Marzeion](http://marzeion.info/) and [Nicolas Champollion](https://geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=87)
+[Nicolas Champollion](https://geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=87), [Fabien Maussion](http://fabienmaussion.info/) and [Ben Marzeion](http://marzeion.info/).
 
 ### Past workshops
 
