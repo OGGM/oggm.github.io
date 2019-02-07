@@ -1,13 +1,13 @@
 ---
 layout: post
 title: OGGM workshop 2019
-subtitle: to be held 17-19 June 2019 in Grenoble, France
+subtitle: to be held 17-21 June 2019 in Grenoble, France
 author: Nicolas Champollion
-date: 2019-02-04T00:00:00
+date: 2019-02-08T00:00:00
 tags: workshop
 ---
 
-**The 2019 OGGM workshop will take place from June 17th to 19th in Grenoble,
+**The 2019 OGGM workshop will take place from June 17th to 21st in Grenoble,
 France.**
 
 ### What is it ?
@@ -18,43 +18,53 @@ open the event to any interested scientist (within the limits of our capacities!
 
 ### Save the date
 
-Monday midday 17 to Wednesday 19 June 2019. If you are coming from far away, you might
-plan one day before and/or after the workshop for travel.
+**Monday 17th to Wednesday 19th June 2019 for the official part, and Thursday 20th to 
+Friday 21st June 2019 for the optional part**. If you are coming from far away,
+you might plan one day before and/or after the workshop for travel.
 
 ### Location
 
 At [Hôtel les Mésanges](http://www.hotel-les-mesanges.com/),
-in the vicinity of Grenoble. The facilities include full board
+in the vicinity of Grenoble for the official part. The facilities include full board
 hotel rooms, seminar rooms, and a great view on the Vercors mountains.
+
+At [IGE lab](http://www.ige-grenoble.fr/), in the Saint-Martin d'Hères campus close 
+to Grenoble for the optional part. The facilities include only the seminar rooms.
 
 ### Agenda
 
-This workshop has three main objectives:
+The official part of the workshop has two main objectives:
 
-1. **State of OGGM*** : the first halfday will be spent with presentations from the
+1. **State of OGGM** : the first sessions will be spent with presentations from the
 participants about recent developments and results.
 
-2. **Future developments and visions for OGGM** : the second day will be dedicated
-to general discussions and brainstorming about the future and 
+2. **Future developments and visions for OGGM** : the rest of the sessions
+will be dedicated to general discussions and brainstorming about the future and 
 goals of the OGGM project.
 
-3. **Tutorial**: the third day is for current and future OGGM users to
+The optional part of the workshop has two main objectives:
+
+3. **Tutorial**: these sessions are for current and future OGGM users to
 get to know the model internals, and learn how to set-up and customize a model run.
-This day will be rather technical and might be skipped if you do not plan to
-use the model yourself.
+This part of the workshop will be rather technical and might be skipped if you do not plan to
+use the model yourself, or if you are already an advanced user of the model.
+
+4. **Programming**: the rest of the time will be dedicated to developp OGGM model,
+perhaps like a programming [sprint](https://oggm.org/2018/10/16/hack-day/).
 
 ### Who can participate ?
 
 Anyone interested in the model, or in glaciological modeling
 in general! In particular, we would like to encourage potential users and
 developers to join us to get to know each other and to gather first-hand
-information about the model internals. Note that in case of high interest
-we might have to limit the number of participants.
+information about the model internals, as well as PhD students and young scientists.
+Note that in case of high interest we might have to limit the number of participants.
 
 ### Workshop fee
 
-The hotel accomodation (night & breakfeast) is €90 in a single room and €56 in a twin room.
-The prices are per night per person. The conference fees are €240 covering all other organization costs
+For the official part only, the hotel accomodation (night & breakfeast)
+is €90 in a single room and €56 in a twin room. The prices are per night per person.
+The conference fees are €240 covering all other organization costs
 (including all meals).
 
 ### Registration
@@ -72,3 +82,7 @@ the organization please send us an e-mail at _info [at] oggm.org_
 - <u> <a href="{{ site.url }}/2016/02/11/1st-oggm-worshop-summary/"> 1st OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
+
+### Announcement
+
+[Workshop Announcement](https://docs.google.com/document/d/1j6nFeEDh777P-97F4ToTA4KJ4fOBiuXGG73nyCjaZdg/edit?usp=sharing)
