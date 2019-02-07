@@ -13,7 +13,7 @@ France.**
 ### What is it ?
 
 The OGGM workshop is an annual, informal meeting for developers, users, and future users
-of the [OGGM](http://docs.oggm.org) model. The workshopis open to any interested scientist
+of the [OGGM](http://docs.oggm.org) model. The workshop is open to any interested scientist
 (within the limits of our capacities!).
 
 ### Save the date
