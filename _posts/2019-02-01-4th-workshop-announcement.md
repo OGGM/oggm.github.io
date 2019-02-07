@@ -25,24 +25,30 @@ from far away, you might plan one day before and/or after the workshop for trave
 ### Location
 
 At [Hôtel les Mésanges](http://www.hotel-les-mesanges.com/),
-in the vicinity of Grenoble for the workshop. The facilities include full board
-hotel rooms, seminar rooms, and a great view on the Vercors mountains.
+in the vicinity of Grenoble for the workshop. The hotel provides all facilities for our workshop
+(incl. catering). The location is reachable by bus from Grenoble campus
+(about 30/40 mins). Depending on the bus stop, you will be in front of the hotel
+or need a short walk (500 m). 
 
 At [IGE lab](http://www.ige-grenoble.fr/), in the Saint-Martin d'Hères campus close 
-to Grenoble for the trainings. The facilities include only the seminar rooms.
+to Grenoble for the trainings. The facilities include only the seminar rooms. IGE lab is
+20/25 minutes away by tram from Grenoble main train station.
 
 ### Agenda
 
-The the first part of the workshop (17-19th of June) has two main objectives:
+This tentative schedule is for orientation only. We would like this workshop
+to be as flexible as possible! The first part of the workshop (17-19th of June)
+has two main objectives:
 
 1. **State of OGGM** : the first sessions will be spent with presentations from the
-participants about recent developments and results.
+participants about the state, recent developments and results of OGGM, 
+and its place in the international context of glacier modelling.
 
 2. **Future developments and visions for OGGM** : the rest of the sessions
 will be dedicated to general discussions and brainstorming about the future and 
 goals of the OGGM project.
 
-This workshop will be followed by two days of training and coding session 
+This workshop will be followed by two days of hands-on sessions 
 in smaller groups at the IGE in Grenoble:
 
 - **Beginner tutorials**: these sessions are for current and future OGGM users to
@@ -90,7 +96,3 @@ the organization please send us an e-mail at _info [at] oggm.org_
 - <u> <a href="{{ site.url }}/2016/02/11/1st-oggm-worshop-summary/"> 1st OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
-
-### Announcement
-
-[Workshop Announcement](https://docs.google.com/document/d/1j6nFeEDh777P-97F4ToTA4KJ4fOBiuXGG73nyCjaZdg/edit?usp=sharing)
