@@ -1,19 +1,20 @@
 ---
 layout: post
-title: GlaThiDa Analysis
-subtitle: An overview of the Glacier Thickness Database
+title: An overview of the Glacier Thickness Database
+subtitle: Some statistics and interactive plots
 author: Matteo Castellani
-date: 2018-12-18T00:00:00
+date: 2019-03-21T00:00:00
 tags: science, glacier, thickness, RGI
 ---
 
 # GlaThiDa analysis
-The <a href="https://www.gtn-g.ch/data_catalogue_glathida/">GlaThiDa 2.0 </a> (GLAcier THIckness DAtabase) is a collection of thickness measurements from glaciers all over the world. Different research groups used different techniques in collecting these measurements over several years.
-This database is potentially an amazing tool for glacier research and it could be particularly useful for the validation of models like OGGM. <br>
+
+The <a href="https://www.gtn-g.ch/data_catalogue_glathida/">GlaThiDa 2.0</a> (GLAcier THIckness DAtabase) is a collection of thickness measurements from glaciers all over the world. Different research groups used different techniques in collecting these measurements over several years.
+This database is potentially an amazing tool for glacier research and it could be particularly useful for the validation of models like OGGM.<br>
 This analysis breaks down the structure of this database and the statistics about the surveyed glaciers, to give its users a fast overview over the entire data-set.
 
 ### Database Structure
-There are 820370 entries (thickness measurements) in the GlaThiDa all associated to GPS coordinates. Some of them have a glacier name associated with but many don't. It is therefore important to point each observation to its respective glacier. To do so we used the [Randolph Glacier Inventory 6.0](https://www.glims.org/RGI/) (RGI) associating each measurement from the GlaThiDa to a glacier in the RGI if its GPS coordinates were lying inside a glacier outlines. The result is that **771** glaciers have thickness measurements in the GlaThiDa. Out of the 820370 initial entries 27882 , 3.4%, resulted outside of any glacier outlines defined in the RGI. Some reason for this could be: a slightly wrong GPS coordinate collected in the GlaThiDa measurement; observations taken outside of the glacier by mistake or intentionally, to make sure that all the glacier was covered; a different shape of the glacier at the moment when the observation was taken, compared to the moment when the RGI was compiled; a wrong assessment of the glacier shape in the RGI.
+There are 820370 entries (thickness measurements) in the GlaThiDa all associated to GPS coordinates. Some of them have a glacier name associated with but many don't. It is therefore important to point each observation to its respective glacier. To do so we used the [Randolph Glacier Inventory 6.0](https://www.glims.org/RGI/) (RGI) associating each measurement from the GlaThiDa to a glacier in the RGI if its GPS coordinates were lying inside a glacier outlines. The result is that **771** glaciers have thickness measurements in the GlaThiDa. Out of the 820370 initial entries 27882, 3.4% resulted outside of any glacier outlines defined in the RGI. Some reason for this could be: a slightly wrong GPS coordinate collected in the GlaThiDa measurement; observations taken outside of the glacier by mistake or intentionally, to make sure that all the glacier was covered; a different shape of the glacier at the moment when the observation was taken, compared to the moment when the RGI was compiled; a wrong assessment of the glacier shape in the RGI.
 ### GlaThiDa glaciers distribution and types
 The map below shows the spacial distribution of the glaciers with at least one GlaThiDa entry.
 <iframe src="/img/blog/glathida_analysis/glathida_map.html" sandbox="allow-same-origin allow-scripts" width="100%" height="500" scrolling="no" seamless="seamless" frameborder="0"> </iframe>
