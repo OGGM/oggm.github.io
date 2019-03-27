@@ -1,8 +1,8 @@
 
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.1.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js" type="text/javascript"></script>
@@ -81,11 +81,11 @@ HoloViewsWidget.prototype.update = function(current){
 
 HoloViewsWidget.prototype.init_comms = function() {
   var that = this
-  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.process_msg(msg) })
+  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.msg_handler(msg) })
   if (!this.cached || this.dynamic) {
     function ack_callback(msg) {
-      msg = JSON.parse(msg.content.data);
-      var comm_id = msg["comm_id"]
+      var msg = msg.metadata;
+      var comm_id = msg.comm_id;
       var comm_status = HoloViews.comm_status[comm_id];
       if (that.queue.length > 0) {
         that.time = Date.now();
@@ -97,12 +97,26 @@ HoloViewsWidget.prototype.init_comms = function() {
       if ((msg.msg_type == "Ready") && msg.content) {
         console.log("Python callback returned following output:", msg.content);
       } else if (msg.msg_type == "Error") {
-        console.log("Python failed with the following traceback:", msg['traceback'])
+        console.log("Python failed with the following traceback:", msg.traceback)
       }
     }
     var comm = HoloViews.comm_manager.get_client_comm(this.plot_id, this.id+'_client', ack_callback);
     return comm
   }
+}
+
+HoloViewsWidget.prototype.msg_handler = function(msg) {
+  var metadata = msg.metadata;
+  if ((metadata.msg_type == "Ready")) {
+    if (metadata.content) {
+      console.log("Python callback returned following output:", metadata.content);
+    }
+	return;
+  } else if (metadata.msg_type == "Error") {
+    console.log("Python failed with the following traceback:", metadata.traceback)
+    return
+  }
+  this.process_msg(msg)
 }
 
 HoloViewsWidget.prototype.process_msg = function(msg) {
@@ -561,6 +575,47 @@ for (var k in _namespace) {
   }
 }
 
+// Define MPL specific subclasses
+function MPLSelectionWidget() {
+  SelectionWidget.apply(this, arguments);
+}
+
+function MPLScrubberWidget() {
+  ScrubberWidget.apply(this, arguments);
+}
+
+// Let them inherit from the baseclasses
+MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
+MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
+
+// Define methods to override on widgets
+var MPLMethods = {
+  init_slider : function(init_val){
+    if(this.load_json) {
+      this.from_json()
+    } else {
+      this.update_cache();
+    }
+    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
+      this.update(0)
+    } else {
+      this.set_frame(this.current_vals[0], 0)
+    }
+  },
+  process_msg : function(msg) {
+    var data = msg.content.data;
+    this.frames[this.current] = data;
+    this.update_cache(true);
+    this.update(this.current);
+  }
+}
+// Extend MPL widgets with backend specific methods
+extend(MPLSelectionWidget.prototype, MPLMethods);
+extend(MPLScrubberWidget.prototype, MPLMethods);
+
+window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
+window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
+
 // Define Bokeh specific subclasses
 function BokehSelectionWidget() {
   SelectionWidget.apply(this, arguments);
@@ -629,47 +684,6 @@ extend(BokehScrubberWidget.prototype, BokehMethods);
 
 window.HoloViews.BokehSelectionWidget = BokehSelectionWidget
 window.HoloViews.BokehScrubberWidget = BokehScrubberWidget
-
-// Define MPL specific subclasses
-function MPLSelectionWidget() {
-  SelectionWidget.apply(this, arguments);
-}
-
-function MPLScrubberWidget() {
-  ScrubberWidget.apply(this, arguments);
-}
-
-// Let them inherit from the baseclasses
-MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
-MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
-
-// Define methods to override on widgets
-var MPLMethods = {
-  init_slider : function(init_val){
-    if(this.load_json) {
-      this.from_json()
-    } else {
-      this.update_cache();
-    }
-    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
-      this.update(0)
-    } else {
-      this.set_frame(this.current_vals[0], 0)
-    }
-  },
-  process_msg : function(msg) {
-    var data = msg.content.data;
-    this.frames[this.current] = data;
-    this.update_cache(true);
-    this.update(this.current);
-  }
-}
-// Extend MPL widgets with backend specific methods
-extend(MPLSelectionWidget.prototype, MPLMethods);
-extend(MPLScrubberWidget.prototype, MPLMethods);
-
-window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
-window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
 </script>
 <script type="text/javascript">
     function JupyterCommManager() {
@@ -712,12 +726,25 @@ window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
     window.PyViz.comm_manager = new JupyterCommManager();
     </script>
 
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<style>div.hololayout {
+<style>div.bk-hbox {
+    display: flex;
+    justify-content: center;
+}
+
+div.bk-hbox div.bk-plot {
+    padding: 8px;
+}
+
+div.bk-hbox div.bk-data-table {
+    padding: 20px;
+}
+
+div.hololayout {
   display: flex;
   align-items: center;
   margin: 0;
@@ -810,19 +837,6 @@ div.hologroup {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-
-div.bk-hbox {
-    display: flex;
-    justify-content: center;
-}
-
-div.bk-hbox div.bk-plot {
-    padding: 8px;
-}
-
-div.bk-hbox div.bk-data-table {
-    padding: 20px;
-}
 </style><div style='display: table; margin: 0 auto;'>
 
 
@@ -830,14 +844,14 @@ div.bk-hbox div.bk-data-table {
 
 
 
-  <div class="bk-root" id="f40d9931-bc7a-4455-b0f8-c0bf4ca8cdca"></div>
+  <div class="bk-root" id="5040c9bf-4008-4d8f-bc7f-5efd882555dd" data-root-id="3986"></div>
 
 <script type="text/javascript">
   (function(root) {
   function embed_document(root) {
     
-  var docs_json = {"64b53ec9-026b-43f8-be88-a660a7865b18":{"roots":{"references":[{"attributes":{"below":[{"id":"13695","type":"LinearAxis"}],"left":[{"id":"13700","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":800,"renderers":[{"id":"13695","type":"LinearAxis"},{"id":"13699","type":"Grid"},{"id":"13700","type":"LinearAxis"},{"id":"13704","type":"Grid"},{"id":"13714","type":"BoxAnnotation"},{"id":"13733","type":"Legend"},{"id":"13725","type":"GlyphRenderer"}],"title":{"id":"13686","type":"Title"},"toolbar":{"id":"13710","type":"Toolbar"},"x_range":{"id":"13683","type":"Range1d"},"x_scale":{"id":"13691","type":"LinearScale"},"y_range":{"id":"13684","type":"Range1d"},"y_scale":{"id":"13693","type":"LinearScale"}},"id":"13687","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"13696","type":"BasicTicker"},{"attributes":{},"id":"13706","type":"PanTool"},{"attributes":{"overlay":{"id":"13714","type":"BoxAnnotation"}},"id":"13708","type":"BoxZoomTool"},{"attributes":{},"id":"13709","type":"ResetTool"},{"attributes":{},"id":"13729","type":"BasicTickFormatter"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"13687","subtype":"Figure","type":"Plot"},"ticker":{"id":"13696","type":"BasicTicker"}},"id":"13699","type":"Grid"},{"attributes":{},"id":"13701","type":"BasicTicker"},{"attributes":{},"id":"13691","type":"LinearScale"},{"attributes":{"axis_label":"Measurements per squared km","bounds":"auto","formatter":{"id":"13729","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"13687","subtype":"Figure","type":"Plot"},"ticker":{"id":"13696","type":"BasicTicker"}},"id":"13695","type":"LinearAxis"},{"attributes":{"callback":null,"end":96.61835748792271,"reset_end":96.61835748792271,"reset_start":0.00890805109658109,"start":0.00890805109658109},"id":"13683","type":"Range1d"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"13724","type":"Quad"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"13687","subtype":"Figure","type":"Plot"},"ticker":{"id":"13701","type":"BasicTicker"}},"id":"13704","type":"Grid"},{"attributes":{"callback":null,"end":43.83916990920869,"reset_end":43.83916990920869,"reset_start":0.0},"id":"13684","type":"Range1d"},{"attributes":{"source":{"id":"13719","type":"ColumnDataSource"}},"id":"13726","type":"CDSView"},{"attributes":{},"id":"13707","type":"WheelZoomTool"},{"attributes":{},"id":"13731","type":"BasicTickFormatter"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"13714","type":"BoxAnnotation"},{"attributes":{"callback":null,"renderers":[{"id":"13725","type":"GlyphRenderer"}],"tooltips":[["Measurements per squared km","@{x}"],["Relative Count of Glaciers %","@{Frequency}"]]},"id":"13685","type":"HoverTool"},{"attributes":{},"id":"13745","type":"UnionRenderers"},{"attributes":{},"id":"13720","type":"Selection"},{"attributes":{},"id":"13693","type":"LinearScale"},{"attributes":{"callback":null,"data":{"Frequency":{"__ndarray__":"WOtp62nrRUBugn2CfYIxQOgC/QL9AiVAYN133XfdF0AgyjXKNcoFQIDAlMCUwARAAJoQmhCaAEBArVKtUq3yPwDnGOcY5+g/AJoQmhCa4D9ArVKtUq3yPwDnGOcY59g/AJoQmhCawD8AmhCaEJrgP4DAlMCUwOQ/AJoQmhCa0D8AAAAAAAAAAACaEJoQmsA/AJoQmhCa0D8A5xjnGOfYPw==","dtype":"float64","shape":[20]},"left":{"__ndarray__":"+BsMYWI+gj+gq1uRhlsTQJlow/j2ViNAYvvYqCoALUAVR3csr1QzQHkQggRJKThA3tmM3OL9PECi0UtaPulAQFQ2UUaLU0NABptWMti9RUC4/1seJShIQGtkYQpykkpAHclm9r78TEDPLWziC2dPQEHJOGes6FBAmns73dIdUkDzLT5T+VJTQEzgQMkfiFRApZJDP0a9VUD+REa1bPJWQA==","dtype":"float64","shape":[20]},"right":{"__ndarray__":"oKtbkYZbE0CZaMP49lYjQGL72KgqAC1AFUd3LK9UM0B5EIIESSk4QN7ZjNzi/TxAotFLWj7pQEBUNlFGi1NDQAabVjLYvUVAuP9bHiUoSEBrZGEKcpJKQB3JZva+/ExAzy1s4gtnT0BByThnrOhQQJp7O93SHVJA8y0+U/lSU0BM4EDJH4hUQKWSQz9GvVVA/kRGtWzyVkBY90grkydYQA==","dtype":"float64","shape":[20]},"top":{"__ndarray__":"WOtp62nrRUBugn2CfYIxQOgC/QL9AiVAYN133XfdF0AgyjXKNcoFQIDAlMCUwARAAJoQmhCaAEBArVKtUq3yPwDnGOcY5+g/AJoQmhCa4D9ArVKtUq3yPwDnGOcY59g/AJoQmhCawD8AmhCaEJrgP4DAlMCUwOQ/AJoQmhCa0D8AAAAAAAAAAACaEJoQmsA/AJoQmhCa0D8A5xjnGOfYPw==","dtype":"float64","shape":[20]},"x":{"__ndarray__":"rjGMwqVkA0BpPnFBugQdQP4xztCQKyhAY+JxQGLqMEDHq3wY/L41QCx1h/CVkzpAkT6SyC9oP0D7g07QZB5CQK3oU7yxiERAX01ZqP7yRkASsl6US11JQMQWZICYx0tAdntpbOUxTkAUcDcsGU5QQG4iOqI/g1FAxtQ8GGa4UkAghz+OjO1TQHg5QgSzIlVA0utEetlXVkArnkfw/4xXQA==","dtype":"float64","shape":[20]}},"selected":{"id":"13720","type":"Selection"},"selection_policy":{"id":"13745","type":"UnionRenderers"}},"id":"13719","type":"ColumnDataSource"},{"attributes":{"axis_label":"Relative Count of Glaciers %","bounds":"auto","formatter":{"id":"13731","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"13687","subtype":"Figure","type":"Plot"},"ticker":{"id":"13701","type":"BasicTicker"}},"id":"13700","type":"LinearAxis"},{"attributes":{"plot":null,"text":"Observations for glaciers with less than 100 measurements per squared kilometer","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"13686","type":"Title"},{"attributes":{},"id":"13705","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"13685","type":"HoverTool"},{"id":"13705","type":"SaveTool"},{"id":"13706","type":"PanTool"},{"id":"13707","type":"WheelZoomTool"},{"id":"13708","type":"BoxZoomTool"},{"id":"13709","type":"ResetTool"}]},"id":"13710","type":"Toolbar"},{"attributes":{"data_source":{"id":"13719","type":"ColumnDataSource"},"glyph":{"id":"13722","type":"Quad"},"hover_glyph":null,"muted_glyph":{"id":"13724","type":"Quad"},"nonselection_glyph":{"id":"13723","type":"Quad"},"selection_glyph":null,"view":{"id":"13726","type":"CDSView"}},"id":"13725","type":"GlyphRenderer"},{"attributes":{"background_fill_alpha":{"value":0},"border_line_alpha":{"value":0},"items":[],"plot":{"id":"13687","subtype":"Figure","type":"Plot"}},"id":"13733","type":"Legend"},{"attributes":{"bottom":{"value":0},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"13722","type":"Quad"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"13723","type":"Quad"}],"root_ids":["13687"]},"title":"Bokeh Application","version":"1.0.1"}};
-  var render_items = [{"docid":"64b53ec9-026b-43f8-be88-a660a7865b18","roots":{"13687":"f40d9931-bc7a-4455-b0f8-c0bf4ca8cdca"}}];
+  var docs_json = {"a085dfbc-b21f-4c34-9092-bd90b09343a0":{"roots":{"references":[{"attributes":{"below":[{"id":"3994","type":"LinearAxis"}],"left":[{"id":"3999","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":700,"renderers":[{"id":"3994","type":"LinearAxis"},{"id":"3998","type":"Grid"},{"id":"3999","type":"LinearAxis"},{"id":"4003","type":"Grid"},{"id":"4013","type":"BoxAnnotation"},{"id":"4024","type":"GlyphRenderer"}],"title":{"id":"3985","type":"Title"},"toolbar":{"id":"4009","type":"Toolbar"},"x_range":{"id":"3982","type":"Range1d"},"x_scale":{"id":"3990","type":"LinearScale"},"y_range":{"id":"3983","type":"Range1d"},"y_scale":{"id":"3992","type":"LinearScale"}},"id":"3986","subtype":"Figure","type":"Plot"},{"attributes":{"bottom":{"value":0},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"4021","type":"Quad"},{"attributes":{},"id":"4008","type":"ResetTool"},{"attributes":{},"id":"4026","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"Frequency":[338,135,81,46,21,20,16,9,6,4,9,3,1,4,5,2,0,1,2,3],"left":{"__ndarray__":"+BsMYWI+gj+gq1uRhlsTQJlow/j2ViNAYvvYqCoALUAVR3csr1QzQHkQggRJKThA3tmM3OL9PECi0UtaPulAQFQ2UUaLU0NABptWMti9RUC4/1seJShIQGtkYQpykkpAHclm9r78TEDPLWziC2dPQEHJOGes6FBAmns73dIdUkDzLT5T+VJTQEzgQMkfiFRApZJDP0a9VUD+REa1bPJWQA==","dtype":"float64","shape":[20]},"right":{"__ndarray__":"oKtbkYZbE0CZaMP49lYjQGL72KgqAC1AFUd3LK9UM0B5EIIESSk4QN7ZjNzi/TxAotFLWj7pQEBUNlFGi1NDQAabVjLYvUVAuP9bHiUoSEBrZGEKcpJKQB3JZva+/ExAzy1s4gtnT0BByThnrOhQQJp7O93SHVJA8y0+U/lSU0BM4EDJH4hUQKWSQz9GvVVA/kRGtWzyVkBY90grkydYQA==","dtype":"float64","shape":[20]},"top":[338,135,81,46,21,20,16,9,6,4,9,3,1,4,5,2,0,1,2,3],"x":{"__ndarray__":"rjGMwqVkA0BpPnFBugQdQP4xztCQKyhAY+JxQGLqMEDHq3wY/L41QCx1h/CVkzpAkT6SyC9oP0D7g07QZB5CQK3oU7yxiERAX01ZqP7yRkASsl6US11JQMQWZICYx0tAdntpbOUxTkAUcDcsGU5QQG4iOqI/g1FAxtQ8GGa4UkAghz+OjO1TQHg5QgSzIlVA0utEetlXVkArnkfw/4xXQA==","dtype":"float64","shape":[20]}},"selected":{"id":"4019","type":"Selection"},"selection_policy":{"id":"4036","type":"UnionRenderers"}},"id":"4018","type":"ColumnDataSource"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"3986","subtype":"Figure","type":"Plot"},"ticker":{"id":"4000","type":"BasicTicker"}},"id":"4003","type":"Grid"},{"attributes":{},"id":"4019","type":"Selection"},{"attributes":{"data_source":{"id":"4018","type":"ColumnDataSource"},"glyph":{"id":"4021","type":"Quad"},"hover_glyph":null,"muted_glyph":{"id":"4023","type":"Quad"},"nonselection_glyph":{"id":"4022","type":"Quad"},"selection_glyph":null,"view":{"id":"4025","type":"CDSView"}},"id":"4024","type":"GlyphRenderer"},{"attributes":{},"id":"4006","type":"WheelZoomTool"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"4022","type":"Quad"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"4023","type":"Quad"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3984","type":"HoverTool"},{"id":"4004","type":"SaveTool"},{"id":"4005","type":"PanTool"},{"id":"4006","type":"WheelZoomTool"},{"id":"4007","type":"BoxZoomTool"},{"id":"4008","type":"ResetTool"}]},"id":"4009","type":"Toolbar"},{"attributes":{"callback":null,"renderers":[{"id":"4024","type":"GlyphRenderer"}],"tooltips":[["Measurements per squared km","@{x}"],["Count of Number of Glaciers","@{Frequency}"]]},"id":"3984","type":"HoverTool"},{"attributes":{"source":{"id":"4018","type":"ColumnDataSource"}},"id":"4025","type":"CDSView"},{"attributes":{},"id":"3990","type":"LinearScale"},{"attributes":{"callback":null,"end":338.0,"reset_end":338.0,"reset_start":0.0,"tags":[[["Frequency","Count of Number of Glaciers",null]]]},"id":"3983","type":"Range1d"},{"attributes":{"axis_label":"Count of Number of Glaciers","bounds":"auto","formatter":{"id":"4028","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"3986","subtype":"Figure","type":"Plot"},"ticker":{"id":"4000","type":"BasicTicker"}},"id":"3999","type":"LinearAxis"},{"attributes":{"callback":null,"end":96.61835748792271,"reset_end":96.61835748792271,"reset_start":0.00890805109658109,"start":0.00890805109658109,"tags":[[["x","Measurements per squared km",null]]]},"id":"3982","type":"Range1d"},{"attributes":{"overlay":{"id":"4013","type":"BoxAnnotation"}},"id":"4007","type":"BoxZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"4013","type":"BoxAnnotation"},{"attributes":{},"id":"4028","type":"BasicTickFormatter"},{"attributes":{},"id":"3992","type":"LinearScale"},{"attributes":{},"id":"4004","type":"SaveTool"},{"attributes":{"plot":null,"text":"Observations for glaciers with less than 100 measurements per squared kilometer","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"3985","type":"Title"},{"attributes":{},"id":"4005","type":"PanTool"},{"attributes":{},"id":"4000","type":"BasicTicker"},{"attributes":{},"id":"4036","type":"UnionRenderers"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"3986","subtype":"Figure","type":"Plot"},"ticker":{"id":"3995","type":"BasicTicker"}},"id":"3998","type":"Grid"},{"attributes":{"axis_label":"Measurements per squared km","bounds":"auto","formatter":{"id":"4026","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"3986","subtype":"Figure","type":"Plot"},"ticker":{"id":"3995","type":"BasicTicker"}},"id":"3994","type":"LinearAxis"},{"attributes":{},"id":"3995","type":"BasicTicker"}],"root_ids":["3986"]},"title":"Bokeh Application","version":"1.0.4"}};
+  var render_items = [{"docid":"a085dfbc-b21f-4c34-9092-bd90b09343a0","roots":{"3986":"5040c9bf-4008-4d8f-bc7f-5efd882555dd"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
 
   }

@@ -1,8 +1,8 @@
 
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.1.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js" type="text/javascript"></script>
@@ -81,11 +81,11 @@ HoloViewsWidget.prototype.update = function(current){
 
 HoloViewsWidget.prototype.init_comms = function() {
   var that = this
-  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.process_msg(msg) })
+  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.msg_handler(msg) })
   if (!this.cached || this.dynamic) {
     function ack_callback(msg) {
-      msg = JSON.parse(msg.content.data);
-      var comm_id = msg["comm_id"]
+      var msg = msg.metadata;
+      var comm_id = msg.comm_id;
       var comm_status = HoloViews.comm_status[comm_id];
       if (that.queue.length > 0) {
         that.time = Date.now();
@@ -97,12 +97,26 @@ HoloViewsWidget.prototype.init_comms = function() {
       if ((msg.msg_type == "Ready") && msg.content) {
         console.log("Python callback returned following output:", msg.content);
       } else if (msg.msg_type == "Error") {
-        console.log("Python failed with the following traceback:", msg['traceback'])
+        console.log("Python failed with the following traceback:", msg.traceback)
       }
     }
     var comm = HoloViews.comm_manager.get_client_comm(this.plot_id, this.id+'_client', ack_callback);
     return comm
   }
+}
+
+HoloViewsWidget.prototype.msg_handler = function(msg) {
+  var metadata = msg.metadata;
+  if ((metadata.msg_type == "Ready")) {
+    if (metadata.content) {
+      console.log("Python callback returned following output:", metadata.content);
+    }
+	return;
+  } else if (metadata.msg_type == "Error") {
+    console.log("Python failed with the following traceback:", metadata.traceback)
+    return
+  }
+  this.process_msg(msg)
 }
 
 HoloViewsWidget.prototype.process_msg = function(msg) {
@@ -561,6 +575,47 @@ for (var k in _namespace) {
   }
 }
 
+// Define MPL specific subclasses
+function MPLSelectionWidget() {
+  SelectionWidget.apply(this, arguments);
+}
+
+function MPLScrubberWidget() {
+  ScrubberWidget.apply(this, arguments);
+}
+
+// Let them inherit from the baseclasses
+MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
+MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
+
+// Define methods to override on widgets
+var MPLMethods = {
+  init_slider : function(init_val){
+    if(this.load_json) {
+      this.from_json()
+    } else {
+      this.update_cache();
+    }
+    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
+      this.update(0)
+    } else {
+      this.set_frame(this.current_vals[0], 0)
+    }
+  },
+  process_msg : function(msg) {
+    var data = msg.content.data;
+    this.frames[this.current] = data;
+    this.update_cache(true);
+    this.update(this.current);
+  }
+}
+// Extend MPL widgets with backend specific methods
+extend(MPLSelectionWidget.prototype, MPLMethods);
+extend(MPLScrubberWidget.prototype, MPLMethods);
+
+window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
+window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
+
 // Define Bokeh specific subclasses
 function BokehSelectionWidget() {
   SelectionWidget.apply(this, arguments);
@@ -629,47 +684,6 @@ extend(BokehScrubberWidget.prototype, BokehMethods);
 
 window.HoloViews.BokehSelectionWidget = BokehSelectionWidget
 window.HoloViews.BokehScrubberWidget = BokehScrubberWidget
-
-// Define MPL specific subclasses
-function MPLSelectionWidget() {
-  SelectionWidget.apply(this, arguments);
-}
-
-function MPLScrubberWidget() {
-  ScrubberWidget.apply(this, arguments);
-}
-
-// Let them inherit from the baseclasses
-MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
-MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
-
-// Define methods to override on widgets
-var MPLMethods = {
-  init_slider : function(init_val){
-    if(this.load_json) {
-      this.from_json()
-    } else {
-      this.update_cache();
-    }
-    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
-      this.update(0)
-    } else {
-      this.set_frame(this.current_vals[0], 0)
-    }
-  },
-  process_msg : function(msg) {
-    var data = msg.content.data;
-    this.frames[this.current] = data;
-    this.update_cache(true);
-    this.update(this.current);
-  }
-}
-// Extend MPL widgets with backend specific methods
-extend(MPLSelectionWidget.prototype, MPLMethods);
-extend(MPLScrubberWidget.prototype, MPLMethods);
-
-window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
-window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
 </script>
 <script type="text/javascript">
     function JupyterCommManager() {
@@ -712,12 +726,25 @@ window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
     window.PyViz.comm_manager = new JupyterCommManager();
     </script>
 
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<style>div.hololayout {
+<style>div.bk-hbox {
+    display: flex;
+    justify-content: center;
+}
+
+div.bk-hbox div.bk-plot {
+    padding: 8px;
+}
+
+div.bk-hbox div.bk-data-table {
+    padding: 20px;
+}
+
+div.hololayout {
   display: flex;
   align-items: center;
   margin: 0;
@@ -810,19 +837,6 @@ div.hologroup {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-
-div.bk-hbox {
-    display: flex;
-    justify-content: center;
-}
-
-div.bk-hbox div.bk-plot {
-    padding: 8px;
-}
-
-div.bk-hbox div.bk-data-table {
-    padding: 20px;
-}
 </style><div style='display: table; margin: 0 auto;'>
 
 
@@ -830,14 +844,14 @@ div.bk-hbox div.bk-data-table {
 
 
 
-  <div class="bk-root" id="da6c25a7-319f-4aee-9730-d8a28a51664a"></div>
+  <div class="bk-root" id="83bed79e-4296-4a57-b51a-a6492b7dbe11" data-root-id="2161"></div>
 
 <script type="text/javascript">
   (function(root) {
   function embed_document(root) {
     
-  var docs_json = {"0c771099-5d74-4926-8a17-ecaad3f7f3e6":{"roots":{"references":[{"attributes":{"children":[{"id":"19279","type":"ToolbarBox"},{"id":"19277","type":"Column"}]},"id":"19280","type":"Column"},{"attributes":{"axis_label":"Region","bounds":"auto","formatter":{"id":"19248","type":"CategoricalTickFormatter"},"major_label_orientation":0.5235987755982988,"plot":{"id":"19207","subtype":"Figure","type":"Plot"},"ticker":{"id":"19216","type":"CategoricalTicker"}},"id":"19215","type":"CategoricalAxis"},{"attributes":{"axis_label":"Relative Number of Glaciers %","bounds":"auto","formatter":{"id":"19250","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"19207","subtype":"Figure","type":"Plot"},"ticker":{"id":"19220","type":"BasicTicker"}},"id":"19219","type":"LinearAxis"},{"attributes":{"callback":null,"renderers":[{"id":"19189","type":"GlyphRenderer"}],"tooltips":[["Region","@{rg_name}"],["Number of Glaciers","@{Count}"]]},"id":"19150","type":"HoverTool"},{"attributes":{},"id":"19228","type":"ResetTool"},{"attributes":{},"id":"19216","type":"CategoricalTicker"},{"attributes":{"overlay":{"id":"19233","type":"BoxAnnotation"}},"id":"19227","type":"BoxZoomTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"19150","type":"HoverTool"},{"id":"19169","type":"SaveTool"},{"id":"19170","type":"PanTool"},{"id":"19171","type":"WheelZoomTool"},{"id":"19172","type":"BoxZoomTool"},{"id":"19173","type":"ResetTool"}]},"id":"19174","type":"Toolbar"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"19152","subtype":"Figure","type":"Plot"},"ticker":{"id":"19165","type":"BasicTicker"}},"id":"19168","type":"Grid"},{"attributes":{"plot":null,"text":"GlaThiDa Galciers per Region","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"19151","type":"Title"},{"attributes":{"axis_label":"Region","bounds":"auto","formatter":{"id":"19193","type":"CategoricalTickFormatter"},"major_label_orientation":0.5235987755982988,"plot":{"id":"19152","subtype":"Figure","type":"Plot"},"ticker":{"id":"19161","type":"CategoricalTicker"}},"id":"19160","type":"CategoricalAxis"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"19207","subtype":"Figure","type":"Plot"},"ticker":{"id":"19216","type":"CategoricalTicker"}},"id":"19218","type":"Grid"},{"attributes":{},"id":"19170","type":"PanTool"},{"attributes":{},"id":"19169","type":"SaveTool"},{"attributes":{"children":[{"id":"19152","subtype":"Figure","type":"Plot"},{"id":"19207","subtype":"Figure","type":"Plot"}]},"id":"19276","type":"Row"},{"attributes":{"data_source":{"id":"19238","type":"ColumnDataSource"},"glyph":{"id":"19241","type":"VBar"},"hover_glyph":null,"muted_glyph":{"id":"19243","type":"VBar"},"nonselection_glyph":{"id":"19242","type":"VBar"},"selection_glyph":null,"view":{"id":"19245","type":"CDSView"}},"id":"19244","type":"GlyphRenderer"},{"attributes":{},"id":"19165","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"19205","type":"HoverTool"},{"id":"19224","type":"SaveTool"},{"id":"19225","type":"PanTool"},{"id":"19226","type":"WheelZoomTool"},{"id":"19227","type":"BoxZoomTool"},{"id":"19228","type":"ResetTool"}]},"id":"19229","type":"Toolbar"},{"attributes":{},"id":"19273","type":"UnionRenderers"},{"attributes":{},"id":"19224","type":"SaveTool"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"19152","subtype":"Figure","type":"Plot"},"ticker":{"id":"19161","type":"CategoricalTicker"}},"id":"19163","type":"Grid"},{"attributes":{},"id":"19225","type":"PanTool"},{"attributes":{"tools":[{"id":"19150","type":"HoverTool"},{"id":"19169","type":"SaveTool"},{"id":"19170","type":"PanTool"},{"id":"19171","type":"WheelZoomTool"},{"id":"19172","type":"BoxZoomTool"},{"id":"19173","type":"ResetTool"},{"id":"19205","type":"HoverTool"},{"id":"19224","type":"SaveTool"},{"id":"19225","type":"PanTool"},{"id":"19226","type":"WheelZoomTool"},{"id":"19227","type":"BoxZoomTool"},{"id":"19228","type":"ResetTool"}]},"id":"19278","type":"ProxyToolbar"},{"attributes":{},"id":"19171","type":"WheelZoomTool"},{"attributes":{"axis_label":"Number of Glaciers","bounds":"auto","formatter":{"id":"19195","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"19152","subtype":"Figure","type":"Plot"},"ticker":{"id":"19165","type":"BasicTicker"}},"id":"19164","type":"LinearAxis"},{"attributes":{"toolbar":{"id":"19278","type":"ProxyToolbar"},"toolbar_location":"above"},"id":"19279","type":"ToolbarBox"},{"attributes":{},"id":"19195","type":"BasicTickFormatter"},{"attributes":{},"id":"19173","type":"ResetTool"},{"attributes":{"items":[],"plot":{"id":"19152","subtype":"Figure","type":"Plot"}},"id":"19197","type":"Legend"},{"attributes":{},"id":"19239","type":"Selection"},{"attributes":{"source":{"id":"19183","type":"ColumnDataSource"}},"id":"19190","type":"CDSView"},{"attributes":{"children":[{"id":"19276","type":"Row"}]},"id":"19277","type":"Column"},{"attributes":{"data_source":{"id":"19183","type":"ColumnDataSource"},"glyph":{"id":"19186","type":"VBar"},"hover_glyph":null,"muted_glyph":{"id":"19188","type":"VBar"},"nonselection_glyph":{"id":"19187","type":"VBar"},"selection_glyph":null,"view":{"id":"19190","type":"CDSView"}},"id":"19189","type":"GlyphRenderer"},{"attributes":{},"id":"19220","type":"BasicTicker"},{"attributes":{},"id":"19193","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"19207","subtype":"Figure","type":"Plot"},"ticker":{"id":"19220","type":"BasicTicker"}},"id":"19223","type":"Grid"},{"attributes":{"below":[{"id":"19160","type":"CategoricalAxis"}],"left":[{"id":"19164","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":400,"renderers":[{"id":"19160","type":"CategoricalAxis"},{"id":"19163","type":"Grid"},{"id":"19164","type":"LinearAxis"},{"id":"19168","type":"Grid"},{"id":"19178","type":"BoxAnnotation"},{"id":"19197","type":"Legend"},{"id":"19189","type":"GlyphRenderer"}],"title":{"id":"19151","type":"Title"},"toolbar":{"id":"19174","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"19148","type":"FactorRange"},"x_scale":{"id":"19156","type":"CategoricalScale"},"y_range":{"id":"19149","type":"Range1d"},"y_scale":{"id":"19158","type":"LinearScale"}},"id":"19152","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"factors":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"id":"19203","type":"FactorRange"},{"attributes":{"callback":null,"data":{"Count":{"__ndarray__":"AAAAAAAAEEAAAAAAAAAsQAAAAAAAoG1AAAAAAAAAOEAAAAAAADByQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAAEEAAAAAAAIBaQAAAAAAAAABAAAAAAAAAEEAAAAAAAAD4fwAAAAAAAPh/AAAAAAAAEEAAAAAAAAAsQAAAAAAAAABAAAAAAABAUEA=","dtype":"float64","shape":[19]},"rg_name":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"selected":{"id":"19184","type":"Selection"},"selection_policy":{"id":"19264","type":"UnionRenderers"}},"id":"19183","type":"ColumnDataSource"},{"attributes":{"callback":null,"renderers":[{"id":"19244","type":"GlyphRenderer"}],"tooltips":[["Region","@{rg_name}"],["Relative Number of Glaciers %","@{rel_count}"]]},"id":"19205","type":"HoverTool"},{"attributes":{},"id":"19156","type":"CategoricalScale"},{"attributes":{"fill_color":{"value":"#30a2da"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19186","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"19178","type":"BoxAnnotation"},{"attributes":{"callback":null,"end":5.201931518876207,"reset_end":5.201931518876207,"reset_start":0},"id":"19204","type":"Range1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19187","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19188","type":"VBar"},{"attributes":{"items":[],"plot":{"id":"19207","subtype":"Figure","type":"Plot"}},"id":"19252","type":"Legend"},{"attributes":{"callback":null,"data":{"rel_count":{"__ndarray__":"ehRy1Eg4jj+m3U2/GgKzP29r1iLHzhRAxkZy/vq21D+CSEoz6h34PwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/LU7Fwi/hsz/h591sFpgFQAQNJ3VfHrs/fnFWeQIafj8AAAAAAAD4fwAAAAAAAPh/9H3uir9rwT81leJAkIe2P/dZFYl686w/WVPWlDXlAkA=","dtype":"float64","shape":[19]},"rg_name":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"selected":{"id":"19239","type":"Selection"},"selection_policy":{"id":"19273","type":"UnionRenderers"}},"id":"19238","type":"ColumnDataSource"},{"attributes":{},"id":"19264","type":"UnionRenderers"},{"attributes":{"below":[{"id":"19215","type":"CategoricalAxis"}],"left":[{"id":"19219","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":400,"renderers":[{"id":"19215","type":"CategoricalAxis"},{"id":"19218","type":"Grid"},{"id":"19219","type":"LinearAxis"},{"id":"19223","type":"Grid"},{"id":"19233","type":"BoxAnnotation"},{"id":"19252","type":"Legend"},{"id":"19244","type":"GlyphRenderer"}],"title":{"id":"19206","type":"Title"},"toolbar":{"id":"19229","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"19203","type":"FactorRange"},"x_scale":{"id":"19211","type":"CategoricalScale"},"y_range":{"id":"19204","type":"Range1d"},"y_scale":{"id":"19213","type":"LinearScale"}},"id":"19207","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"factors":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"id":"19148","type":"FactorRange"},{"attributes":{"source":{"id":"19238","type":"ColumnDataSource"}},"id":"19245","type":"CDSView"},{"attributes":{},"id":"19158","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#ff4d3b"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19243","type":"VBar"},{"attributes":{"callback":null,"end":291.0,"reset_end":291.0,"reset_start":0},"id":"19149","type":"Range1d"},{"attributes":{"plot":null,"text":"% of Galciers with Measurements per Region","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"19206","type":"Title"},{"attributes":{},"id":"19184","type":"Selection"},{"attributes":{"fill_color":{"value":"#ff4d3b"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19241","type":"VBar"},{"attributes":{},"id":"19211","type":"CategoricalScale"},{"attributes":{},"id":"19161","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff4d3b"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"19242","type":"VBar"},{"attributes":{},"id":"19248","type":"CategoricalTickFormatter"},{"attributes":{},"id":"19250","type":"BasicTickFormatter"},{"attributes":{"overlay":{"id":"19178","type":"BoxAnnotation"}},"id":"19172","type":"BoxZoomTool"},{"attributes":{},"id":"19213","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"19233","type":"BoxAnnotation"},{"attributes":{},"id":"19226","type":"WheelZoomTool"}],"root_ids":["19280"]},"title":"Bokeh Application","version":"1.0.1"}};
-  var render_items = [{"docid":"0c771099-5d74-4926-8a17-ecaad3f7f3e6","roots":{"19280":"da6c25a7-319f-4aee-9730-d8a28a51664a"}}];
+  var docs_json = {"e62ac6db-06b7-4445-b18c-d9d588ffbebb":{"roots":{"references":[{"attributes":{"children":[{"id":"2160","type":"ToolbarBox"},{"id":"2158","type":"Column"}]},"id":"2161","type":"Column"},{"attributes":{"children":[{"id":"2157","type":"Row"}]},"id":"2158","type":"Column"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2049","subtype":"Figure","type":"Plot"},"ticker":{"id":"2058","type":"CategoricalTicker"}},"id":"2060","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2094","type":"HoverTool"},{"id":"2113","type":"SaveTool"},{"id":"2114","type":"PanTool"},{"id":"2115","type":"WheelZoomTool"},{"id":"2116","type":"BoxZoomTool"},{"id":"2117","type":"ResetTool"}]},"id":"2118","type":"Toolbar"},{"attributes":{},"id":"2088","type":"CategoricalTickFormatter"},{"attributes":{},"id":"2145","type":"UnionRenderers"},{"attributes":{"plot":null,"text":"GlaThiDa Galciers per Region","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2048","type":"Title"},{"attributes":{"source":{"id":"2080","type":"ColumnDataSource"}},"id":"2087","type":"CDSView"},{"attributes":{"callback":null,"end":5.201931518876207,"reset_end":5.201931518876207,"reset_start":0,"tags":[[["rel_count","Relative Number of Glaciers %",null]]]},"id":"2093","type":"Range1d"},{"attributes":{},"id":"2128","type":"Selection"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"2096","subtype":"Figure","type":"Plot"},"ticker":{"id":"2109","type":"BasicTicker"}},"id":"2112","type":"Grid"},{"attributes":{},"id":"2062","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"Count":{"__ndarray__":"AAAAAAAAEEAAAAAAAAAsQAAAAAAAoG1AAAAAAAAAOEAAAAAAADByQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAAEEAAAAAAAIBaQAAAAAAAAABAAAAAAAAAEEAAAAAAAAD4fwAAAAAAAPh/AAAAAAAAEEAAAAAAAAAsQAAAAAAAAABAAAAAAABAUEA=","dtype":"float64","shape":[19]},"rg_name":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"selected":{"id":"2081","type":"Selection"},"selection_policy":{"id":"2145","type":"UnionRenderers"}},"id":"2080","type":"ColumnDataSource"},{"attributes":{"callback":null,"end":291.0,"reset_end":291.0,"reset_start":0,"tags":[[["Count","Number of Glaciers",null]]]},"id":"2046","type":"Range1d"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"2049","subtype":"Figure","type":"Plot"},"ticker":{"id":"2062","type":"BasicTicker"}},"id":"2065","type":"Grid"},{"attributes":{"callback":null,"data":{"rel_count":{"__ndarray__":"ehRy1Eg4jj+m3U2/GgKzP29r1iLHzhRAxkZy/vq21D+CSEoz6h34PwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/LU7Fwi/hsz/h591sFpgFQAQNJ3VfHrs/fnFWeQIafj8AAAAAAAD4fwAAAAAAAPh/9H3uir9rwT81leJAkIe2P/dZFYl686w/WVPWlDXlAkA=","dtype":"float64","shape":[19]},"rg_name":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"]},"selected":{"id":"2128","type":"Selection"},"selection_policy":{"id":"2154","type":"UnionRenderers"}},"id":"2127","type":"ColumnDataSource"},{"attributes":{},"id":"2090","type":"BasicTickFormatter"},{"attributes":{},"id":"2135","type":"CategoricalTickFormatter"},{"attributes":{"below":[{"id":"2057","type":"CategoricalAxis"}],"left":[{"id":"2061","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":350,"plot_width":350,"renderers":[{"id":"2057","type":"CategoricalAxis"},{"id":"2060","type":"Grid"},{"id":"2061","type":"LinearAxis"},{"id":"2065","type":"Grid"},{"id":"2075","type":"BoxAnnotation"},{"id":"2086","type":"GlyphRenderer"}],"title":{"id":"2048","type":"Title"},"toolbar":{"id":"2071","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"2045","type":"FactorRange"},"x_scale":{"id":"2053","type":"CategoricalScale"},"y_range":{"id":"2046","type":"Range1d"},"y_scale":{"id":"2055","type":"LinearScale"}},"id":"2049","subtype":"Figure","type":"Plot"},{"attributes":{"children":[{"id":"2049","subtype":"Figure","type":"Plot"},{"id":"2096","subtype":"Figure","type":"Plot"}]},"id":"2157","type":"Row"},{"attributes":{"callback":null,"renderers":[{"id":"2086","type":"GlyphRenderer"}],"tooltips":[["Region","@{rg_name}"],["Number of Glaciers","@{Count}"]]},"id":"2047","type":"HoverTool"},{"attributes":{"tools":[{"id":"2047","type":"HoverTool"},{"id":"2066","type":"SaveTool"},{"id":"2067","type":"PanTool"},{"id":"2068","type":"WheelZoomTool"},{"id":"2069","type":"BoxZoomTool"},{"id":"2070","type":"ResetTool"},{"id":"2094","type":"HoverTool"},{"id":"2113","type":"SaveTool"},{"id":"2114","type":"PanTool"},{"id":"2115","type":"WheelZoomTool"},{"id":"2116","type":"BoxZoomTool"},{"id":"2117","type":"ResetTool"}]},"id":"2159","type":"ProxyToolbar"},{"attributes":{},"id":"2081","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2047","type":"HoverTool"},{"id":"2066","type":"SaveTool"},{"id":"2067","type":"PanTool"},{"id":"2068","type":"WheelZoomTool"},{"id":"2069","type":"BoxZoomTool"},{"id":"2070","type":"ResetTool"}]},"id":"2071","type":"Toolbar"},{"attributes":{},"id":"2105","type":"CategoricalTicker"},{"attributes":{},"id":"2066","type":"SaveTool"},{"attributes":{"callback":null,"factors":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"],"tags":[[["rg_name","Region",null]]]},"id":"2045","type":"FactorRange"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2096","subtype":"Figure","type":"Plot"},"ticker":{"id":"2105","type":"CategoricalTicker"}},"id":"2107","type":"Grid"},{"attributes":{},"id":"2067","type":"PanTool"},{"attributes":{"callback":null,"factors":["Alaska","Western Canada and US","Arctic Canada North","Arctic Canada South","Greenland Periphery","Iceland","Svalbard","Scandinavia","Russian Arctic","North Asia","Central Europe","Caucasus and Middle East","Central Asia","South Asia West","South Asia East","Low Latitudes","Southern Andes","New Zealand","Antarctic and Subantarctic"],"tags":[[["rg_name","Region",null]]]},"id":"2092","type":"FactorRange"},{"attributes":{"callback":null,"renderers":[{"id":"2133","type":"GlyphRenderer"}],"tooltips":[["Region","@{rg_name}"],["Relative Number of Glaciers %","@{rel_count}"]]},"id":"2094","type":"HoverTool"},{"attributes":{},"id":"2068","type":"WheelZoomTool"},{"attributes":{},"id":"2114","type":"PanTool"},{"attributes":{"axis_label":"Region","bounds":"auto","formatter":{"id":"2088","type":"CategoricalTickFormatter"},"major_label_orientation":0.5235987755982988,"plot":{"id":"2049","subtype":"Figure","type":"Plot"},"ticker":{"id":"2058","type":"CategoricalTicker"}},"id":"2057","type":"CategoricalAxis"},{"attributes":{"overlay":{"id":"2122","type":"BoxAnnotation"}},"id":"2116","type":"BoxZoomTool"},{"attributes":{"overlay":{"id":"2075","type":"BoxAnnotation"}},"id":"2069","type":"BoxZoomTool"},{"attributes":{},"id":"2115","type":"WheelZoomTool"},{"attributes":{},"id":"2117","type":"ResetTool"},{"attributes":{"axis_label":"Region","bounds":"auto","formatter":{"id":"2135","type":"CategoricalTickFormatter"},"major_label_orientation":0.5235987755982988,"plot":{"id":"2096","subtype":"Figure","type":"Plot"},"ticker":{"id":"2105","type":"CategoricalTicker"}},"id":"2104","type":"CategoricalAxis"},{"attributes":{"source":{"id":"2127","type":"ColumnDataSource"}},"id":"2134","type":"CDSView"},{"attributes":{},"id":"2070","type":"ResetTool"},{"attributes":{"axis_label":"Number of Glaciers","bounds":"auto","formatter":{"id":"2090","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"2049","subtype":"Figure","type":"Plot"},"ticker":{"id":"2062","type":"BasicTicker"}},"id":"2061","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"2075","type":"BoxAnnotation"},{"attributes":{},"id":"2100","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#ff4d3b"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2132","type":"VBar"},{"attributes":{"fill_color":{"value":"#30a2da"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2083","type":"VBar"},{"attributes":{"below":[{"id":"2104","type":"CategoricalAxis"}],"left":[{"id":"2108","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":350,"plot_width":350,"renderers":[{"id":"2104","type":"CategoricalAxis"},{"id":"2107","type":"Grid"},{"id":"2108","type":"LinearAxis"},{"id":"2112","type":"Grid"},{"id":"2122","type":"BoxAnnotation"},{"id":"2133","type":"GlyphRenderer"}],"title":{"id":"2095","type":"Title"},"toolbar":{"id":"2118","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"2092","type":"FactorRange"},"x_scale":{"id":"2100","type":"CategoricalScale"},"y_range":{"id":"2093","type":"Range1d"},"y_scale":{"id":"2102","type":"LinearScale"}},"id":"2096","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"2109","type":"BasicTicker"},{"attributes":{"toolbar":{"id":"2159","type":"ProxyToolbar"},"toolbar_location":"above"},"id":"2160","type":"ToolbarBox"},{"attributes":{},"id":"2053","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2084","type":"VBar"},{"attributes":{"fill_color":{"value":"#ff4d3b"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2130","type":"VBar"},{"attributes":{},"id":"2154","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff4d3b"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"top":{"field":"rel_count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2131","type":"VBar"},{"attributes":{},"id":"2055","type":"LinearScale"},{"attributes":{"axis_label":"Relative Number of Glaciers %","bounds":"auto","formatter":{"id":"2137","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"2096","subtype":"Figure","type":"Plot"},"ticker":{"id":"2109","type":"BasicTicker"}},"id":"2108","type":"LinearAxis"},{"attributes":{"plot":null,"text":"% of Galciers with Measurements per Region","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2095","type":"Title"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"top":{"field":"Count"},"width":{"value":0.8},"x":{"field":"rg_name"}},"id":"2085","type":"VBar"},{"attributes":{},"id":"2137","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"2127","type":"ColumnDataSource"},"glyph":{"id":"2130","type":"VBar"},"hover_glyph":null,"muted_glyph":{"id":"2132","type":"VBar"},"nonselection_glyph":{"id":"2131","type":"VBar"},"selection_glyph":null,"view":{"id":"2134","type":"CDSView"}},"id":"2133","type":"GlyphRenderer"},{"attributes":{},"id":"2102","type":"LinearScale"},{"attributes":{},"id":"2113","type":"SaveTool"},{"attributes":{"data_source":{"id":"2080","type":"ColumnDataSource"},"glyph":{"id":"2083","type":"VBar"},"hover_glyph":null,"muted_glyph":{"id":"2085","type":"VBar"},"nonselection_glyph":{"id":"2084","type":"VBar"},"selection_glyph":null,"view":{"id":"2087","type":"CDSView"}},"id":"2086","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"2122","type":"BoxAnnotation"},{"attributes":{},"id":"2058","type":"CategoricalTicker"}],"root_ids":["2161"]},"title":"Bokeh Application","version":"1.0.4"}};
+  var render_items = [{"docid":"e62ac6db-06b7-4445-b18c-d9d588ffbebb","roots":{"2161":"83bed79e-4296-4a57-b51a-a6492b7dbe11"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
 
   }

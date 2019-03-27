@@ -1,8 +1,8 @@
 
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.js" type="text/javascript"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.1.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.0.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js" type="text/javascript"></script>
@@ -81,11 +81,11 @@ HoloViewsWidget.prototype.update = function(current){
 
 HoloViewsWidget.prototype.init_comms = function() {
   var that = this
-  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.process_msg(msg) })
+  HoloViews.comm_manager.register_target(this.plot_id, this.id, function (msg) { that.msg_handler(msg) })
   if (!this.cached || this.dynamic) {
     function ack_callback(msg) {
-      msg = JSON.parse(msg.content.data);
-      var comm_id = msg["comm_id"]
+      var msg = msg.metadata;
+      var comm_id = msg.comm_id;
       var comm_status = HoloViews.comm_status[comm_id];
       if (that.queue.length > 0) {
         that.time = Date.now();
@@ -97,12 +97,26 @@ HoloViewsWidget.prototype.init_comms = function() {
       if ((msg.msg_type == "Ready") && msg.content) {
         console.log("Python callback returned following output:", msg.content);
       } else if (msg.msg_type == "Error") {
-        console.log("Python failed with the following traceback:", msg['traceback'])
+        console.log("Python failed with the following traceback:", msg.traceback)
       }
     }
     var comm = HoloViews.comm_manager.get_client_comm(this.plot_id, this.id+'_client', ack_callback);
     return comm
   }
+}
+
+HoloViewsWidget.prototype.msg_handler = function(msg) {
+  var metadata = msg.metadata;
+  if ((metadata.msg_type == "Ready")) {
+    if (metadata.content) {
+      console.log("Python callback returned following output:", metadata.content);
+    }
+	return;
+  } else if (metadata.msg_type == "Error") {
+    console.log("Python failed with the following traceback:", metadata.traceback)
+    return
+  }
+  this.process_msg(msg)
 }
 
 HoloViewsWidget.prototype.process_msg = function(msg) {
@@ -561,6 +575,47 @@ for (var k in _namespace) {
   }
 }
 
+// Define MPL specific subclasses
+function MPLSelectionWidget() {
+  SelectionWidget.apply(this, arguments);
+}
+
+function MPLScrubberWidget() {
+  ScrubberWidget.apply(this, arguments);
+}
+
+// Let them inherit from the baseclasses
+MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
+MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
+
+// Define methods to override on widgets
+var MPLMethods = {
+  init_slider : function(init_val){
+    if(this.load_json) {
+      this.from_json()
+    } else {
+      this.update_cache();
+    }
+    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
+      this.update(0)
+    } else {
+      this.set_frame(this.current_vals[0], 0)
+    }
+  },
+  process_msg : function(msg) {
+    var data = msg.content.data;
+    this.frames[this.current] = data;
+    this.update_cache(true);
+    this.update(this.current);
+  }
+}
+// Extend MPL widgets with backend specific methods
+extend(MPLSelectionWidget.prototype, MPLMethods);
+extend(MPLScrubberWidget.prototype, MPLMethods);
+
+window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
+window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
+
 // Define Bokeh specific subclasses
 function BokehSelectionWidget() {
   SelectionWidget.apply(this, arguments);
@@ -629,47 +684,6 @@ extend(BokehScrubberWidget.prototype, BokehMethods);
 
 window.HoloViews.BokehSelectionWidget = BokehSelectionWidget
 window.HoloViews.BokehScrubberWidget = BokehScrubberWidget
-
-// Define MPL specific subclasses
-function MPLSelectionWidget() {
-  SelectionWidget.apply(this, arguments);
-}
-
-function MPLScrubberWidget() {
-  ScrubberWidget.apply(this, arguments);
-}
-
-// Let them inherit from the baseclasses
-MPLSelectionWidget.prototype = Object.create(SelectionWidget.prototype);
-MPLScrubberWidget.prototype = Object.create(ScrubberWidget.prototype);
-
-// Define methods to override on widgets
-var MPLMethods = {
-  init_slider : function(init_val){
-    if(this.load_json) {
-      this.from_json()
-    } else {
-      this.update_cache();
-    }
-    if (this.dynamic | !this.cached | (this.current_vals === undefined)) {
-      this.update(0)
-    } else {
-      this.set_frame(this.current_vals[0], 0)
-    }
-  },
-  process_msg : function(msg) {
-    var data = msg.content.data;
-    this.frames[this.current] = data;
-    this.update_cache(true);
-    this.update(this.current);
-  }
-}
-// Extend MPL widgets with backend specific methods
-extend(MPLSelectionWidget.prototype, MPLMethods);
-extend(MPLScrubberWidget.prototype, MPLMethods);
-
-window.HoloViews.MPLSelectionWidget = MPLSelectionWidget
-window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
 </script>
 <script type="text/javascript">
     function JupyterCommManager() {
@@ -712,12 +726,25 @@ window.HoloViews.MPLScrubberWidget = MPLScrubberWidget
     window.PyViz.comm_manager = new JupyterCommManager();
     </script>
 
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.css">
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.1.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<style>div.hololayout {
+<style>div.bk-hbox {
+    display: flex;
+    justify-content: center;
+}
+
+div.bk-hbox div.bk-plot {
+    padding: 8px;
+}
+
+div.bk-hbox div.bk-data-table {
+    padding: 20px;
+}
+
+div.hololayout {
   display: flex;
   align-items: center;
   margin: 0;
@@ -810,19 +837,6 @@ div.hologroup {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-
-div.bk-hbox {
-    display: flex;
-    justify-content: center;
-}
-
-div.bk-hbox div.bk-plot {
-    padding: 8px;
-}
-
-div.bk-hbox div.bk-data-table {
-    padding: 20px;
-}
 </style><div style='display: table; margin: 0 auto;'>
 
 
@@ -830,14 +844,14 @@ div.bk-hbox div.bk-data-table {
 
 
 
-  <div class="bk-root" id="c9fae0e1-ad89-4d0f-a9d9-c13b923b6f3c"></div>
+  <div class="bk-root" id="0c5bcba1-09b9-44c3-ac48-213710920049" data-root-id="3426"></div>
 
 <script type="text/javascript">
   (function(root) {
   function embed_document(root) {
     
-  var docs_json = {"a353d2c5-5f50-47f3-aa6b-3ba66a5d5595":{"roots":{"references":[{"attributes":{"below":[{"id":"21093","type":"LinearAxis"}],"left":[{"id":"21098","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":800,"renderers":[{"id":"21093","type":"LinearAxis"},{"id":"21097","type":"Grid"},{"id":"21098","type":"LinearAxis"},{"id":"21102","type":"Grid"},{"id":"21112","type":"BoxAnnotation"},{"id":"21131","type":"Legend"},{"id":"21123","type":"GlyphRenderer"}],"title":{"id":"21084","type":"Title"},"toolbar":{"id":"21108","type":"Toolbar"},"x_range":{"id":"21081","type":"Range1d"},"x_scale":{"id":"21089","type":"LinearScale"},"y_range":{"id":"21082","type":"Range1d"},"y_scale":{"id":"21091","type":"LinearScale"}},"id":"21085","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"21129","type":"BasicTickFormatter"},{"attributes":{"axis_label":"% of Altitude bands covered","bounds":"auto","formatter":{"id":"21127","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"21085","subtype":"Figure","type":"Plot"},"ticker":{"id":"21094","type":"BasicTicker"}},"id":"21093","type":"LinearAxis"},{"attributes":{},"id":"21099","type":"BasicTicker"},{"attributes":{},"id":"21105","type":"WheelZoomTool"},{"attributes":{"axis_label":"Number of Glaciers","bounds":"auto","formatter":{"id":"21129","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"21085","subtype":"Figure","type":"Plot"},"ticker":{"id":"21099","type":"BasicTicker"}},"id":"21098","type":"LinearAxis"},{"attributes":{"callback":null,"end":77,"reset_end":77,"reset_start":0},"id":"21082","type":"Range1d"},{"attributes":{},"id":"21094","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"21083","type":"HoverTool"},{"id":"21103","type":"SaveTool"},{"id":"21104","type":"PanTool"},{"id":"21105","type":"WheelZoomTool"},{"id":"21106","type":"BoxZoomTool"},{"id":"21107","type":"ResetTool"}]},"id":"21108","type":"Toolbar"},{"attributes":{"background_fill_alpha":{"value":0},"border_line_alpha":{"value":0},"items":[],"plot":{"id":"21085","subtype":"Figure","type":"Plot"}},"id":"21131","type":"Legend"},{"attributes":{},"id":"21143","type":"UnionRenderers"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"21121","type":"Quad"},{"attributes":{"bottom":{"value":0},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"21120","type":"Quad"},{"attributes":{},"id":"21107","type":"ResetTool"},{"attributes":{"callback":null,"end":100.0,"reset_end":100.0,"reset_start":0.0},"id":"21081","type":"Range1d"},{"attributes":{"callback":null,"renderers":[{"id":"21123","type":"GlyphRenderer"}],"tooltips":[["% of Altitude bands covered","@{x}"],["Number of Glaciers","@{Frequency}"]]},"id":"21083","type":"HoverTool"},{"attributes":{},"id":"21104","type":"PanTool"},{"attributes":{"plot":null,"text":"100m Altitudes Bands covered per Glacier","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"21084","type":"Title"},{"attributes":{"callback":null,"data":{"Frequency":[4,38,56,56,53,77,56,32,50,14,60,21,38,34,22,21,34,26,13,63],"left":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAUQAAAAAAAACRAAAAAAAAALkAAAAAAAAA0QAAAAAAAADlAAAAAAAAAPkAAAAAAAIBBQAAAAAAAAERAAAAAAACARkAAAAAAAABJQAAAAAAAgEtAAAAAAAAATkAAAAAAAEBQQAAAAAAAgFFAAAAAAADAUkAAAAAAAABUQAAAAAAAQFVAAAAAAACAVkAAAAAAAMBXQA==","dtype":"float64","shape":[20]},"right":{"__ndarray__":"AAAAAAAAFEAAAAAAAAAkQAAAAAAAAC5AAAAAAAAANEAAAAAAAAA5QAAAAAAAAD5AAAAAAACAQUAAAAAAAABEQAAAAAAAgEZAAAAAAAAASUAAAAAAAIBLQAAAAAAAAE5AAAAAAABAUEAAAAAAAIBRQAAAAAAAwFJAAAAAAAAAVEAAAAAAAEBVQAAAAAAAgFZAAAAAAADAV0AAAAAAAABZQA==","dtype":"float64","shape":[20]},"top":[4,38,56,56,53,77,56,32,50,14,60,21,38,34,22,21,34,26,13,63],"x":{"__ndarray__":"AAAAAAAABEAAAAAAAAAeQAAAAAAAAClAAAAAAACAMUAAAAAAAIA2QAAAAAAAgDtAAAAAAABAQEAAAAAAAMBCQAAAAAAAQEVAAAAAAADAR0AAAAAAAEBKQAAAAAAAwExAAAAAAABAT0AAAAAAAOBQQAAAAAAAIFJAAAAAAABgU0AAAAAAAKBUQAAAAAAA4FVAAAAAAAAgV0AAAAAAAGBYQA==","dtype":"float64","shape":[20]}},"selected":{"id":"21118","type":"Selection"},"selection_policy":{"id":"21143","type":"UnionRenderers"}},"id":"21117","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"21117","type":"ColumnDataSource"},"glyph":{"id":"21120","type":"Quad"},"hover_glyph":null,"muted_glyph":{"id":"21122","type":"Quad"},"nonselection_glyph":{"id":"21121","type":"Quad"},"selection_glyph":null,"view":{"id":"21124","type":"CDSView"}},"id":"21123","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"21112","type":"BoxAnnotation"},{"attributes":{},"id":"21127","type":"BasicTickFormatter"},{"attributes":{},"id":"21118","type":"Selection"},{"attributes":{},"id":"21089","type":"LinearScale"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"21085","subtype":"Figure","type":"Plot"},"ticker":{"id":"21099","type":"BasicTicker"}},"id":"21102","type":"Grid"},{"attributes":{"source":{"id":"21117","type":"ColumnDataSource"}},"id":"21124","type":"CDSView"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"21085","subtype":"Figure","type":"Plot"},"ticker":{"id":"21094","type":"BasicTicker"}},"id":"21097","type":"Grid"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"21122","type":"Quad"},{"attributes":{"overlay":{"id":"21112","type":"BoxAnnotation"}},"id":"21106","type":"BoxZoomTool"},{"attributes":{},"id":"21091","type":"LinearScale"},{"attributes":{},"id":"21103","type":"SaveTool"}],"root_ids":["21085"]},"title":"Bokeh Application","version":"1.0.1"}};
-  var render_items = [{"docid":"a353d2c5-5f50-47f3-aa6b-3ba66a5d5595","roots":{"21085":"c9fae0e1-ad89-4d0f-a9d9-c13b923b6f3c"}}];
+  var docs_json = {"6aecee56-94e2-400d-820b-ba5109698d1d":{"roots":{"references":[{"attributes":{"below":[{"id":"3434","type":"LinearAxis"}],"left":[{"id":"3439","type":"LinearAxis"}],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":700,"renderers":[{"id":"3434","type":"LinearAxis"},{"id":"3438","type":"Grid"},{"id":"3439","type":"LinearAxis"},{"id":"3443","type":"Grid"},{"id":"3453","type":"BoxAnnotation"},{"id":"3464","type":"GlyphRenderer"}],"title":{"id":"3425","type":"Title"},"toolbar":{"id":"3449","type":"Toolbar"},"x_range":{"id":"3422","type":"Range1d"},"x_scale":{"id":"3430","type":"LinearScale"},"y_range":{"id":"3423","type":"Range1d"},"y_scale":{"id":"3432","type":"LinearScale"}},"id":"3426","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3435","type":"BasicTicker"},{"attributes":{},"id":"3446","type":"WheelZoomTool"},{"attributes":{},"id":"3476","type":"UnionRenderers"},{"attributes":{"bottom":{"value":0},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"3461","type":"Quad"},{"attributes":{},"id":"3432","type":"LinearScale"},{"attributes":{"overlay":{"id":"3453","type":"BoxAnnotation"}},"id":"3447","type":"BoxZoomTool"},{"attributes":{},"id":"3444","type":"SaveTool"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"3462","type":"Quad"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"left":{"field":"left"},"line_alpha":{"value":0.2},"line_color":{"value":"black"},"right":{"field":"right"},"top":{"field":"top"}},"id":"3463","type":"Quad"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3424","type":"HoverTool"},{"id":"3444","type":"SaveTool"},{"id":"3445","type":"PanTool"},{"id":"3446","type":"WheelZoomTool"},{"id":"3447","type":"BoxZoomTool"},{"id":"3448","type":"ResetTool"}]},"id":"3449","type":"Toolbar"},{"attributes":{"callback":null,"end":100.0,"reset_end":100.0,"reset_start":0.0,"tags":[[["x","% of Altitude bands covered",null]]]},"id":"3422","type":"Range1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3453","type":"BoxAnnotation"},{"attributes":{},"id":"3459","type":"Selection"},{"attributes":{"callback":null,"end":77.0,"reset_end":77.0,"reset_start":0.0,"tags":[[["Frequency","Number of Glaciers",null]]]},"id":"3423","type":"Range1d"},{"attributes":{"data_source":{"id":"3458","type":"ColumnDataSource"},"glyph":{"id":"3461","type":"Quad"},"hover_glyph":null,"muted_glyph":{"id":"3463","type":"Quad"},"nonselection_glyph":{"id":"3462","type":"Quad"},"selection_glyph":null,"view":{"id":"3465","type":"CDSView"}},"id":"3464","type":"GlyphRenderer"},{"attributes":{"callback":null,"renderers":[{"id":"3464","type":"GlyphRenderer"}],"tooltips":[["% of Altitude bands covered","@{x}"],["Number of Glaciers","@{Frequency}"]]},"id":"3424","type":"HoverTool"},{"attributes":{},"id":"3440","type":"BasicTicker"},{"attributes":{},"id":"3430","type":"LinearScale"},{"attributes":{},"id":"3448","type":"ResetTool"},{"attributes":{"source":{"id":"3458","type":"ColumnDataSource"}},"id":"3465","type":"CDSView"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"3426","subtype":"Figure","type":"Plot"},"ticker":{"id":"3440","type":"BasicTicker"}},"id":"3443","type":"Grid"},{"attributes":{"callback":null,"data":{"Frequency":[4,38,56,56,53,77,56,32,50,14,60,21,38,34,22,21,34,26,13,63],"left":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAUQAAAAAAAACRAAAAAAAAALkAAAAAAAAA0QAAAAAAAADlAAAAAAAAAPkAAAAAAAIBBQAAAAAAAAERAAAAAAACARkAAAAAAAABJQAAAAAAAgEtAAAAAAAAATkAAAAAAAEBQQAAAAAAAgFFAAAAAAADAUkAAAAAAAABUQAAAAAAAQFVAAAAAAACAVkAAAAAAAMBXQA==","dtype":"float64","shape":[20]},"right":{"__ndarray__":"AAAAAAAAFEAAAAAAAAAkQAAAAAAAAC5AAAAAAAAANEAAAAAAAAA5QAAAAAAAAD5AAAAAAACAQUAAAAAAAABEQAAAAAAAgEZAAAAAAAAASUAAAAAAAIBLQAAAAAAAAE5AAAAAAABAUEAAAAAAAIBRQAAAAAAAwFJAAAAAAAAAVEAAAAAAAEBVQAAAAAAAgFZAAAAAAADAV0AAAAAAAABZQA==","dtype":"float64","shape":[20]},"top":[4,38,56,56,53,77,56,32,50,14,60,21,38,34,22,21,34,26,13,63],"x":{"__ndarray__":"AAAAAAAABEAAAAAAAAAeQAAAAAAAAClAAAAAAACAMUAAAAAAAIA2QAAAAAAAgDtAAAAAAABAQEAAAAAAAMBCQAAAAAAAQEVAAAAAAADAR0AAAAAAAEBKQAAAAAAAwExAAAAAAABAT0AAAAAAAOBQQAAAAAAAIFJAAAAAAABgU0AAAAAAAKBUQAAAAAAA4FVAAAAAAAAgV0AAAAAAAGBYQA==","dtype":"float64","shape":[20]}},"selected":{"id":"3459","type":"Selection"},"selection_policy":{"id":"3476","type":"UnionRenderers"}},"id":"3458","type":"ColumnDataSource"},{"attributes":{},"id":"3468","type":"BasicTickFormatter"},{"attributes":{"plot":null,"text":"100m Altitudes Bands covered per Glacier","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"3425","type":"Title"},{"attributes":{"axis_label":"Number of Glaciers","bounds":"auto","formatter":{"id":"3468","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"3426","subtype":"Figure","type":"Plot"},"ticker":{"id":"3440","type":"BasicTicker"}},"id":"3439","type":"LinearAxis"},{"attributes":{},"id":"3445","type":"PanTool"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"3426","subtype":"Figure","type":"Plot"},"ticker":{"id":"3435","type":"BasicTicker"}},"id":"3438","type":"Grid"},{"attributes":{"axis_label":"% of Altitude bands covered","bounds":"auto","formatter":{"id":"3466","type":"BasicTickFormatter"},"major_label_orientation":"horizontal","plot":{"id":"3426","subtype":"Figure","type":"Plot"},"ticker":{"id":"3435","type":"BasicTicker"}},"id":"3434","type":"LinearAxis"},{"attributes":{},"id":"3466","type":"BasicTickFormatter"}],"root_ids":["3426"]},"title":"Bokeh Application","version":"1.0.4"}};
+  var render_items = [{"docid":"6aecee56-94e2-400d-820b-ba5109698d1d","roots":{"3426":"0c5bcba1-09b9-44c3-ac48-213710920049"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
 
   }
