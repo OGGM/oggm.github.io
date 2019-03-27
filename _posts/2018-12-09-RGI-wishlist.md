@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A (sometimes) realistic wishlist for the RGI
+title: A (not so) realistic wishlist for the RGI
 subtitle: Christmas is coming
 author: Fabien Maussion
 date: 2018-12-09T12:00:00
