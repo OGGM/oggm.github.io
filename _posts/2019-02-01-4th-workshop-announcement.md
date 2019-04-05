@@ -7,6 +7,8 @@ date: 2019-02-08T00:00:00
 tags: workshop
 ---
 
+### DEADLINE EXTENSION: The registration is extended until April 21, 2019 !!!
+
 **The 2019 OGGM workshop will take place from June 17th to 21st in Grenoble,
 France.**
 
