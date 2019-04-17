@@ -4,7 +4,7 @@ title: An overview of the Glacier Thickness Database
 subtitle: Some statistics and interactive plots
 author: Matteo Castellani
 date: 2019-03-21T00:00:00
-tags: science, glacier, thickness, RGI
+tags: science glacier thickness RGI
 ---
 
 # GlaThiDa analysis
