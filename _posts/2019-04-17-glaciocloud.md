@@ -71,7 +71,7 @@ You will build similar applications using the OGGM model and the tools below.
 (alternatively, [Plotly](https://plot.ly) and [Dash](https://plot.ly/products/dash/)).
 
 **Your profile**: creative, interested in interactive visualization programming,
-independent learner of new tools, problem solver, strong interest in
+independent learner, problem solver, strong interest in
 programming and in glaciology.
 
 ### Task 3: cloud deployment
@@ -87,7 +87,7 @@ with the OGGM model installed and runnable in a scalable environment.
 [JupyterHub](https://jupyter.org/hub), [Pangeo](http://pangeo.io).
 
 **Your profile**: proficient with linux, interested in IT administration with
-a focus on cloud deployment, independent learner of new tools, problem solver,
+a focus on cloud deployment, independent learner, problem solver,
 ideally with a background in computer sciences.
 
 ## How to apply?
@@ -100,7 +100,7 @@ OGGM-Edu as well as the tools listed above. To apply, send me
 - letter of motivation (max one A4 page) with a short statement about which
   task(s) you would like to work on, and why
 
-All applications sent until **Friday 26th of March** will be considered. Later
+All applications sent until **Friday 26th of April** will be considered. Later
 applications might be considered until the positions are filled. Note that if
 you expect to graduate within the next 6 months there is no need to apply, we
 are looking for students able to work for at least 6 months.
