@@ -90,11 +90,18 @@ with the OGGM model installed and runnable in a scalable environment.
 a focus on cloud deployment, independent learner, problem solver,
 ideally with a background in computer sciences.
 
+**For this task, it is recommended/possible to have a shorter contract with
+more hours per week. We provide more technical details
+[here](https://hackmd.io/s/BkpfZAHc4).**
+
+Please contact [Thomas Fahringer](http://dps.uibk.ac.at/~tf/) or
+[myself](http://fabienmaussion.info) if you have any questions!
+
 ## How to apply?
 
 First, read the proposal carefully and explore the websites of OGGM and
-OGGM-Edu as well as the tools listed above. To apply, send me
-([Fabien](http://fabienmaussion.info)) an email with:
+OGGM-Edu as well as the tools listed above. To apply, send
+[me](http://fabienmaussion.info) an email with:
 - a short CV (including list of project relevant lectures taken and grades, and
   work experience)
 - letter of motivation (max one A4 page) with a short statement about which
