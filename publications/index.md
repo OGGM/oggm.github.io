@@ -6,13 +6,22 @@ description: "Publications related to OGGM"
 
 ### Publications making use of the OGGM model
 
+
 <ul>
 <li><small>
-Maussion, F., Butenko, A., Eis, J., Fourteau, K., Jarosch, A. H., Landmann, J., Oesterle, F., Recinos, B., Rothenpieler, T., Vlug, A., Wild, C. T., and Marzeion, B.: <b>The Open Global Glacier Model (OGGM) v1.0</b>, <i>Geosci. Model Dev. Discuss.</i>, <a href="https://doi.org/10.5194/gmd-2018-9">https://doi.org/10.5194/gmd-2018-9</a>, in review, 2018.
+Farinotti, D., Huss, M., Fürst, J., Landmann, J., Machguth, H., Maussion, F., Pandit, A.: <b>A consensus estimate for the ice thickness distribution of all glaciers on Earth</b>, <i>Nature Geoscience, 12, 168-172</i>, <a href="https://doi.org/10.1038/s41561-019-0300-3">https://doi.org/10.1038/s41561-019-0300-3</a>, 2019.
 </small></li>
 
 <li><small>
- Goosse, H., Barriat, P.-Y., Dalaiden, Q., Klein, F., Marzeion, B., Maussion, F., Pelucchi, P., and Vlug, A.: <b>Testing the consistency between changes in simulated climate and Alpine glacier length over the past millennium</b>, <i>Clim. Past Discuss.</i>, <a href="https://doi.org/10.5194/cp-2018-48">https://doi.org/10.5194/cp-2018-48</a>, in review, 2018.
+Recinos, B., Maussion, F., Rothenpieler, T., Marzeion, B.: <b>Impact of frontal ablation on the ice thickness estimation of marine-terminating glaciers in Alaska</b>, <i>The Cryosphere Discuss.</i>, <a href="https://doi.org/10.5194/tc-2018-254">https://doi.org/10.5194/tc-2018-254</a>, 2018.
+</small></li>
+
+<li><small>
+Maussion, F., Butenko, A., Champollion, N., Dusch, M., Eis, J., Fourteau, K., Gregor, P., Jarosch, A. H., Landmann, J., Oesterle, F., Recinos, B., Rothenpieler, T., Vlug, A., Wild, C. T., Marzeion, B.: <b>The Open Global Glacier Model (OGGM) v1.1</b>, <i>Geosci. Model Dev., 12, 909-931</i>, <a href="https://doi.org/10.5194/gmd-12-909-2019">https://doi.org/10.5194/gmd-12-909-2019</a>, 2019.
+</small></li>
+
+<li><small>
+Goosse, H., Barriat, P.-Y., Dalaiden, Q., Klein, F., Marzeion, B., Maussion, F., Pelucchi, P., and Vlug, A.: <b>Testing the consistency between changes in simulated climate and Alpine glacier length over the past millennium</b>, <i>Climate of the Past, 14, 1119-1133</i>, <a href="https://doi.org/10.5194/cp-14-1119-2018">https://doi.org/10.5194/cp-14-1119-2018</a>, 2018.
 </small></li>
 
 <li><small>
