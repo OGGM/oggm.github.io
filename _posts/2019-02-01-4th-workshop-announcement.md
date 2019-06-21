@@ -78,7 +78,7 @@ Note that in case of high interest we might have to limit the number of particip
 
 **For the workshop part**, the hotel accommodation (night & breakfast)
 is €90.10 in a single room and €55.10 in a twin room, per night and per person.
-The conference fee is €250 and covers all meals.
+The conference fee is €250.
 
 **For the training part** there are no fees, and attendants should take care
 of their own accommodation and meals (some suggestions will be provided later).
