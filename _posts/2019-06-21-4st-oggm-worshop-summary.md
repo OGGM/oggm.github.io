@@ -24,7 +24,7 @@ behind St-Martin d'Hères hills!
     <figcaption><i>The group gets happier every year!</i></figcaption>
 </figure>
 
-We had a Workshop in two stages ([program](/img/blog/4th_workshop/4th OGGM workshop program.pdf)).
+We had a Workshop in two stages ([program](/img/blog/4th_workshop/4th_OGGM_workshop_program.pdf)).
 The first three days at Hôtel Mésanges were dedicated to talk and discussion sessions:
 
 1. **Introduction/state-of-art of OGGM and its future**: the first day was spent with 6 presentations
