@@ -31,7 +31,9 @@ We now have a model able to simulate the dynamics of any single glacier of the
 world. This alone isn't new: let's highlight some of the features that
 makes the OGGM project unique.
 
-![img tasman](https://raw.githubusercontent.com/OGGM/oggm/master/docs/_static/ex_tasman.jpg)
+<a href="https://raw.githubusercontent.com/OGGM/oggm/master/docs/_static/ex_tasman.jpg">
+<img src="https://raw.githubusercontent.com/OGGM/oggm/master/docs/_static/ex_tasman.jpg"
+alt="Image missing" width="49%" /></a>
 
 #### Automated workflow
 

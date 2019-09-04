@@ -67,7 +67,9 @@ In order to not just take a completely random number, I probably went a bit over
 
 **Correlation of cyclic data:** Monthly (and daily) precipitation and temperature data have an inherent periodicity on longer time scales. A similar seasonal cycle is seen in the data of any station, resulting in an overestimated correlation. The key is to look at anomalies rather than absolute values. Therefore an average value for each month over the entire period is estimated. The anomaly is given by the difference (positive or negative) to the months average value.
 
-![Temperature anomalies](/img/blog/climate-comparison/temp_anomalies.png)
+<a href="/img/blog/climate-comparison/temp_anomalies.png">
+<img src="/img/blog/climate-comparison/temp_anomalies.png"
+alt="Image missing" width="100%" /></a>
 
 ## Results
 
@@ -80,33 +82,47 @@ Fabi: I remove this because HistAlp relies on station data as well, so the under
 Since rain gauges are prone to undercatch [Pollock, et. al 2014](http://adsabs.harvard.edu/abs/2014EGUGA..1611643P), this is not too suprising. The station Kleine Scheidegg is situated 260 m below the station Eigergletscher, which can be explained the even lower values [Frei and Schär 1997](http://www.map.meteoswiss.ch/sop-doc/rr_sop/FreiSchaer1998.pdf) (@TODO: does this statement even make sense?! If so, better source needed).
 -->
 
-![yearly precipitation sum](/img/blog/climate-comparison/precip_timeseries.png)
+<a href="/img/blog/climate-comparison/precip_timeseries.png">
+<img src="/img/blog/climate-comparison/precip_timeseries.png"
+alt="Image missing" width="100%" /></a>
 
 **Regional precipitation distribution (SLF stations):** The SLF stations allow the investigation of the precipitation distribution with height and location, even if only for the last 10ish years. Since it are only six stations, the validity of the findings is questionable.  
 
 A decrease of precipitation with elevation is possible, even if it is a quite bold statement with a coefficient of determination well below 0.3. In addition, precipitation seems to be higher on the northwesterly slope of Bernese Alps and lower on the southeasterly slope. I would say that the average yearly  precipitation sum depends on both, the geographical location and elevation, most probably in an non linear way.
 
-![img missing](/img/blog/climate-comparison/precip_elev_distribution.png)
+<a href="/img/blog/climate-comparison/precip_elev_distribution.png">
+<img src="/img/blog/climate-comparison/precip_elev_distribution.png"
+alt="Image missing" width="100%" /></a>
 
-![img missing](/img/blog/climate-comparison/precip_regional_distribution.png)
-
+<a href="/img/blog/climate-comparison/precip_regional_distribution.png">
+<img src="/img/blog/climate-comparison/precip_regional_distribution.png"
+alt="Image missing" width="100%" /></a>
 
 
 **Temperature:** The monthly mean temperature records of the Jungfraujoch station correlate to over 92% with the HistAlp data. It is more than likely that the HistAlp data set is directly linked to the Jungfraujoch records, explaining the strong correlation. The difference in absolute values between the station and the HistAlp data ranges between 6°C and 12.5°C. The Jungfraujoch station is located at 3580 m asl., whereas the HistAlp is referenced at 2011 m asl., resulting in an elevation difference of roughly 1570 m. Using the dry adiabatic lapse rate of 6.5 K/km this yields a temperature drop of a little over 10°C, matching the calculated differences.
 
-![img missing](/img/blog/climate-comparison/temp_diff_histogram.png)
+<a href="/img/blog/climate-comparison/temp_diff_histogram.png">
+<img src="/img/blog/climate-comparison/temp_diff_histogram.png"
+alt="Image missing" width="100%" /></a>
 
 **Trend in yearly average temperature:** A common way to investigate temperature trends is to look at the anomalies in yearly temperature average with respect to the average over the climatological reference period between 1961 and 1990. There is a positive trend after 1990, as to be expected. The trend is most prominent in spring months, followed by summer and fall. The winter months show a slight negative trend if anything at all... The summer of 2003 shows exceptionally high values, with an anomaly of +4.5°C and +3.9°C for the HistAlp and Jungfraujoch data, respectively.
 
-![tempeature anomaly fall](/img/blog/climate-comparison/tempanomaly.png)
+<a href="/img/blog/climate-comparison/tempanomaly.png">
+<img src="/img/blog/climate-comparison/tempanomaly.png"
+alt="Image missing" width="100%" /></a>
 
-![tempeature anomaly fall](/img/blog/climate-comparison/tempanomaly_spring.png)
-
-![tempeature anomaly fall](/img/blog/climate-comparison/tempanomaly_summer.png)
-
-![tempeature anomaly fall](/img/blog/climate-comparison/tempanomaly_fall.png)
-
-![tempeature anomaly fall](/img/blog/climate-comparison/tempanomaly_winter.png)
+<a href="/img/blog/climate-comparison/tempanomaly_spring.png">
+<img src="/img/blog/climate-comparison/tempanomaly_spring.png"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/climate-comparison/tempanomaly_summer.png">
+<img src="/img/blog/climate-comparison/tempanomaly_summer.png"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/climate-comparison/tempanomaly_fall.png">
+<img src="/img/blog/climate-comparison/tempanomaly_fall.png"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/climate-comparison/tempanomaly_winter.png">
+<img src="/img/blog/climate-comparison/tempanomaly_winter.png"
+alt="Image missing" width="49%" /></a>
 
 ## Discussion
 
@@ -121,4 +137,6 @@ The precipitation amount in the HistAlp data set is generally higher than the me
 
 Considering all this informations the Alps/HistAlp default value of 1.75 seems like a good starting point for the following calibration/validation phase. We will consider lowering it to 1 as well.
 
-![computed precipitation scaling factor](/img/blog/climate-comparison/precip_factor.png)
+<a href="/img/blog/climate-comparison/precip_factor.png">
+<img src="/img/blog/climate-comparison/precip_factor.png"
+alt="Image missing" width="100%" /></a>
