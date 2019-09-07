@@ -13,7 +13,7 @@ header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "i
 
 # Tertiary Parameters
 github_username:  OGGM
-twitter_username:  OGGM1
+twitter_username:  OGGM_org
 project_repository: oggm
 #disqus_shortname: oggm
 g-analytics: UA-106829797-1
