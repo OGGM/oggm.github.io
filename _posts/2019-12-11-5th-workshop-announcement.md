@@ -68,7 +68,7 @@ and full board from the afternoon of June 8th to the morning of June 12.
 ### Registration
 
 If you wish to participate to the workshop or if you have questions regarding the organization please send us an 
-e-mail at _info [at] oggm.org_. **Registration closes on March 31st, 2019.**
+e-mail at _info [at] oggm.org_. **Registration closes on March 31st, 2020.**
 
 
 ### Organisers
