@@ -61,10 +61,9 @@ model or parameterization intercomparisons in a controlled environment.
 We welcome anyone to contribute to the project!
 - View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
   [<u>ReadTheDocs</u>](http://docs.oggm.org).
-- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues).
-- Improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
+- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues), and improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
 - Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
+- Chat with us on our Slack: all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
 - Follow us on [<u>Twitter</u>](https://twitter.com/OGGM_org).
-- Subscribe to the [<u>OGGM-Announce</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-announce)
-  and [<u>OGGM-Users</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-users) mailing lists.
+- Subscribe to the [<u>OGGM-Announce</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-announce) mailing list.
 - Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
