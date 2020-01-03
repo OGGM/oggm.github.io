@@ -139,3 +139,31 @@
   github:
   url: https://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=83
   visible: true
+
+- first_name:  Lizz
+  last_name: Ultee
+  institution: MIT
+  github: https://github.com/ehultee
+  url: https://ehultee.github.io/
+  visible: true
+
+- first_name:  Zora
+  last_name: Schirmeister
+  institution: University of Innsbruck
+  github: https://github.com/zschirmeister
+  url:
+  visible: true
+
+- first_name:  Daniel
+  last_name: Frisinghelli
+  institution: University of Innsbruck
+  github: https://github.com/dfrisinghelli
+  url:
+  visible: true
+
+- first_name:  Patrick
+  last_name: Schmitt
+  institution: University of Innsbruck
+  github: https://github.com/pat-schmitt
+  url:
+  visible: true
