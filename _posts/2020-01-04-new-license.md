@@ -19,10 +19,9 @@ about which license is "more free" than others, and we won't start a flame
 war here.
 
 After some thought, we (well, mostly me, but I was supported by most of the
-OGGM contributors) settled for BSD3.
+OGGM contributors) decided to use BSD3.
 We had quite some discussion [on github](https://github.com/OGGM/oggm/issues/858)
 about this, and I am going to summarize the main points here:
-
 
 
 1. The OGGM projects provide a framework from which many models and other software
@@ -34,15 +33,17 @@ projects (or, worse, limit the endorsement of OGGM because of license issues).
 With BSD3, including OGGM code is as easy as adding our copyright notice to
 your repository.
 
-2. The GPL license is very complex and wordy. BSD3 (or MIT) are simple and clear.
+2. The GPL license is very complex and wordy. BSD (or MIT) is simple and clear.
 
-3. Even with GPL, there is no guarantee that modifications to OGGM will be made
-freely available. Previously, modifications of OGGM could not be shared openly
-thanks to GPLv3, that's true; however, single authors or organisations could take
+3. Even with a GPL license, there is no guarantee that modifications to OGGM will be made
+freely available. With a GPL license, outside modifications of OGGM could not be shared openly
+unless shared under GPL as well (that's why we chose this license). 
+However, single authors or organisations could take
 OGGM, make it better, and
 publish/produce data based on their modified version of OGGM without having
-to share it to others (as long as their modifications remained private within their
-"organisation"). This is not better with BSD, but at least the license is now
+to share it to others while still being compliant with GPL 
+(as long as their modifications remained private within their "organisation"). 
+This problem remains with a permissive license like BSD, but at least the license is now
 simple and easy: people are allowed to do so if they wish.
 
 4. After settling on MIT (which is the license recommended by Github and probably
@@ -54,6 +55,11 @@ holoviews...) and (ii) because the "third clause" (non endorsement) seems
 in the context of academic citations and publications. Indeed,
 although we encourage people to use our model, we don't want our names to be
 used to promote bad science (e.g. climate change denialists).
+
+5. In the "copyleft" VS "permissive" license debate, some people share
+the opinion that software which is mostly funded by tax payers (this is the 
+case for OGGM) should be available under no restriction to anyone, 
+i.e. this is an argument for the permissive license as well.
 
 That's it! Not a big deal for many, but still important in my opinion. We hope
 that you agree with these changes, and we hope that OGGM will continue to grow
