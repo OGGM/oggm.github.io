@@ -27,7 +27,7 @@ about this, and I am going to summarize the main points here:
 
 1. The OGGM projects provide a framework from which many models and other software
 can benefit from ([OGGM-Edu](http://edu.oggm.org) is one of them, and we hope
-to engage more models, such as the MIT licensed [SerMEQ](https://github.com/ehultee/plastic-networks)
+to engage more models, such as the MIT licensed [SERMeQ](https://github.com/ehultee/plastic-networks)
 and [PyGEM](https://github.com/drounce/PyGEM) projects).
 With the GPL license, we would enforce our license to these downstream
 projects (or, worse, limit the endorsement of OGGM because of license issues).
