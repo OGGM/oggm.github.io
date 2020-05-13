@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5th OGGM workshop moved to Feb. 2021
-subtitle: new date: 22-26 February 2021 in Neuharlingersiel, Germany
+subtitle: New date! 22-26 February 2021 in Neuharlingersiel, Germany
 author: Jan-Hendrik Malles
 date: 2020-05-12T00:00:00
 tags: workshop
@@ -35,4 +35,3 @@ Otherwise, you will get a refund after contacting us.
 - <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2019/06/21/4st-oggm-worshop-summary/"> 4th OGGM workshop </a> </u>
-
