@@ -42,5 +42,5 @@ could run their notebooks online, in a controlled environment.
 
 **If you want to know more about the project, go talk to Lizz
 [at her poster](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/590032)
-()[pdf](/img/blog/oggm-edu-agu/EHU-AGU19-poster_v3_widescreen.pdf))
+([pdf](/img/blog/oggm-edu-agu/EHU-AGU19-poster_v3_widescreen.pdf))
 on Friday 13th, or visit our website at [edu.oggm.org](http://edu.oggm.org)!**
