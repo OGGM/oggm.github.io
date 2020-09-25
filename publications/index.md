@@ -6,12 +6,20 @@ description: "Publications related to OGGM"
 
 ### Publications making use of the OGGM model
 
+(that we are aware of)
+
 **Submitted/In review**
 
-- <small> Edwards, T. L., Nowicki, S., ..., and Zwinger, T.: **Quantifying uncertainties in the land ice contribution to sea level rise this century**, submitted to Nature</small>
-- <small> Marzeion, B., Hock, R., ..., and Zekollari, H.: **Partitioning the Uncertainty of Ensemble Projections of Global Glacier Mass Change**, submitted to Earth's Future.</small>
-- <small> Parkes, D. and Goosse, H.: **Modelling regional glacier length changes over the last millennium using the Open Global Glacier Model**, The Cryosphere Discuss., [doi:10.5194/tc-2019-275](https://doi.org/10.5194/tc-2019-275), in review, 2019.</small>
-- <small> Vlug, A., Prange, M., ..., and Schulz, M.: **Influence of climate variability on the volume of Canadian Arctic glaciers in simulations of the last millennium**, in review for Arctic, Antarctic, and Alpine Research.</small>
+- <small> Eis, J., van der Laan, L., Maussion, F. and Marzeion, B.: **Reconstruction of past glacier changes using a glacier model: validation with observations**, submitted to Frontiers in Earth Science.</small>
+- <small> Recinos, B., Maussion, F., Noël, B., Möller, M., Marzeion, B.: **Calibration of a frontal ablation parameterization applied to Greenland's peripheral calving glaciers"**, submitted to Journal of Glaciology.</small>
+
+**2020**
+
+- <small> Pelto, B. M., Maussion, F., Menounos, B., Radić, V. and Zeuner, M.: **Bias-corrected estimates of glacier thickness in the Columbia River Basin, Canada**, J. Glaciol., 1–13, [doi:10.1017/jog.2020.75](https://doi.org/10.1017/jog.2020.75), 2020.</small>
+- <small> Khadka, M., Kayastha, R. B. and Kayastha, R.: **Future projection of cryospheric and hydrologic regimes in Koshi River basin, Central Himalaya, using coupled glacier dynamics and glacio-hydrological models**, J. Glaciol., 1–15, [doi:10.1017/jog.2020.51](https://doi.org/10.1017/jog.2020.51), 2020.</small>
+- <small> Parkes, D. and Goosse, H.: **Modelling regional glacier length changes over the last millennium using the Open Global Glacier Model**, The Cryosphere, 14, 3135–3153, [doi:10.5194/tc-14-3135-2020](https://doi.org/10.5194/tc-14-3135-2020), 2020.</small>
+- <small> Marzeion, B., Hock, R., Anderson, B., Bliss, A., Champollion, N., Fujita, K., Huss, M., Immerzeel, W., Kraaijenbrink, P., Malles, J., Maussion, F., Radić, V., Rounce, D. R., Sakai, A., Shannon, S., Wal, R. and Zekollari, H.: **Partitioning the Uncertainty of Ensemble Projections of Global Glacier Mass Change**, Earth’s Futur., 8(7), [doi:10.1029/2019ef001470](https://doi.org/10.1029/2019ef001470), 2020.</small>
+
 
 **2019**
 
