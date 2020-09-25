@@ -116,14 +116,14 @@
   last_name: Oberrauch
   institution: University of Innsbruck
   github: oberrauch
-  url: http://acinn.uibk.ac.at/persons/moritz_oberrauch
+  url: 
   visible: true
 
 - first_name:  Matthias
   last_name: Dusch
   institution: University of Innsbruck
-  github:
-  url: http://acinn.uibk.ac.at/persons/matthias_dusch
+  github: matthiasdusch
+  url: https://www.uibk.ac.at/acinn/people/matthias-dusch.html.en
   visible: true
 
 - first_name:  David
@@ -136,41 +136,41 @@
 - first_name:  Lizz
   last_name: Ultee
   institution: MIT
-  github: https://github.com/ehultee
+  github: ehultee
   url: https://ehultee.github.io/
   visible: true
 
 - first_name:  Zora
   last_name: Schirmeister
   institution: University of Innsbruck
-  github: https://github.com/zschirmeister
+  github: zschirmeister
   url:
   visible: true
 
 - first_name:  Daniel
   last_name: Frisinghelli
   institution: University of Innsbruck
-  github: https://github.com/dfrisinghelli
+  github: dfrisinghelli
   url:
   visible: true
 
 - first_name:  Patrick
   last_name: Schmitt
   institution: University of Innsbruck
-  github: https://github.com/pat-schmitt
+  github: pat-schmitt
   url:
   visible: true
 
 - first_name:  Lilian
   last_name: Schuster
   institution: University of Innsbruck
-  github: https://github.com/lilianschuster
-  url:
+  github: lilianschuster
+  url: https://www.uibk.ac.at/acinn/people/lilian-schuster.html.en
   visible: true
 
 - first_name:  David
   last_name: Rounce
   institution: Carnegie Mellon University
-  github: https://github.com/drounce
+  github: drounce
   url: https://www.cmu.edu/cee/people/faculty/rounce.html
   visible: true
