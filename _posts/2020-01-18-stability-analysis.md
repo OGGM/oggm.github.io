@@ -91,7 +91,7 @@ uncertainties coming from e.g. the mass-balance models.
 
 To decide on the time step, we use the famous formula:
 
-$$ \Delta t_{cfl} = C_{max}  \frac{dx}{max(u)} $$
+$ \Delta t_{cfl} = C_{max}  \frac{dx}{max(u)} $
 
 With $u$ the velocity, $dx$ the grid spacing, and $C_{max}$ the maximum Courant
 number ensuring stability. In our explicit scheme, $C_{max}=1$ is unstable.
