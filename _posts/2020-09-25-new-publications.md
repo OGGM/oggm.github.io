@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Two new OGGM publications outside of the OGGM core team
-subtitle: The goal of all open-source model developers
+title: New publications outside of the OGGM core team
+subtitle: The dream of all open-source model developers
 author: Fabien Maussion
 date: 2020-09-25T00:00:00
 tags: science publications
