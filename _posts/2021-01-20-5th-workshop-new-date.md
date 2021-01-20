@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5th OGGM workshop moved to June 2021
-subtitle: New date: June 28 to July 2, 2021, in Neuharlingersiel, Germany
+subtitle: New date! June 28 to July 2, 2021, in Neuharlingersiel, Germany
 author: Ben Marzeion
 date: 2021-01-20T00:00:00
 tags: workshop
