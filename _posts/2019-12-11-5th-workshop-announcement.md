@@ -7,7 +7,7 @@ date: 2019-12-11T00:00:00
 tags: workshop
 ---
 
-**Due to the situation, the workshop is POSTPONED! Visit [this link]({{site.base_url}}/2020/05/12/5th-workshop-postponed/) for the new announcement.**
+**Due to the situation, the workshop is POSTPONED! Visit [this link]({{site.base_url}}/2021/01/20/5th-workshop-new-date/) for the new announcement.**
 
 The 5th OGGM workshop will take place from June 8th to 12th in Neuharlingersiel, Germany.
 
