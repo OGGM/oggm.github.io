@@ -1,15 +1,15 @@
 ---
 layout: post
 title: OGGM workshop 2020 [POSTPONED]
-subtitle: to be held 08-12 June 2020 in Neuharlingersiel, Germany
+subtitle: to be held <strike>08-12 June 2020</strike> in Neuharlingersiel, Germany
 author: Ben Marzeion
 date: 2019-12-11T00:00:00
 tags: workshop
 ---
 
-**Due to the situation, the workshop is POSTPONED! Visit [this link]({{site.base_url}}/2021/01/20/5th-workshop-new-date/) for the new announcement.**
+**Due to the situation, the workshop is POSTPONED! Visit [this link]({{site.base_url}}/2021/04/13/5th-workshop-new-date-again/) for the new announcement.**
 
-The 5th OGGM workshop will take place from June 8th to 12th in Neuharlingersiel, Germany.
+The 5th OGGM workshop will take place from  <strike>June 8th to 12th</strike>  in Neuharlingersiel, Germany.
 
 ### What is it ?
 
@@ -19,7 +19,7 @@ of the [OGGM](http://docs.oggm.org) model. The workshop is open to any intereste
 
 ### Save the date
 
-**Monday 8th to Friday 12th of June 2020**. Monday to Wednesday the focus will be on presentations of previous and
+strike>Monday 8th to Friday 12th of June 2020</strike>. Monday to Wednesday the focus will be on presentations of previous and
 ongoing work, Thursday to Friday will focus on trainings and coding sessions (hands-on).
 We will start in the late afternoon on Monday, and finish before noon on Friday.
 
