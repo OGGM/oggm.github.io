@@ -15,6 +15,8 @@ Tuesday May 18th!
 - 15H-15H45 (CEST): general presentation and discussion
 - 16H-18H (CEST): online tutorials
 
+|
+
 #### Where?
 
 Via zoom, unfortunately. The room link will be shared internally: contact us if you didn't receive it!
@@ -39,6 +41,7 @@ run it themselves "on the cloud".
 - [Hydrological applications]() (in construction): a fun application of OGGM
 - Based on interest / demand: projections or ice thickness estimation with OGGM, using your own inventory / bed thickness with OGGM, etc...
 
+|
 
 #### Do I need to prepare anything?
 
