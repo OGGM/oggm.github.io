@@ -45,11 +45,24 @@ doing global scale distributed modelling.
 The glaciers chosen by the ITMIX organisors are heterogeneous: valley glaciers, ice-caps,
 marine-terminating...
 
-![](/img/blog/itmix-phase-1/Devon.jpg)  |  ![](/img/blog/itmix-phase-1/Elbrus.jpg)
-
-![](/img/blog/itmix-phase-1/Unteraar.jpg)  |  ![](/img/blog/itmix-phase-1/Aqqutikitsoq.jpg)
-
-![](/img/blog/itmix-phase-1/Austfonna.jpg)  |  ![](/img/blog/itmix-phase-1/Urumqi.jpg)
+<a href="/img/blog/itmix-phase-1/Devon.jpg">
+<img src="/img/blog/itmix-phase-1/Devon.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/Elbrus.jpg">
+<img src="/img/blog/itmix-phase-1/Elbrus.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/Unteraar.jpg">
+<img src="/img/blog/itmix-phase-1/Unteraar.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/Aqqutikitsoq.jpg">
+<img src="/img/blog/itmix-phase-1/Aqqutikitsoq.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/Austfonna.jpg">
+<img src="/img/blog/itmix-phase-1/Austfonna.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/Urumqi.jpg">
+<img src="/img/blog/itmix-phase-1/Urumqi.jpg"
+alt="Image missing" width="49%" /></a>
 
 *Blue outlines: ITMIX , Black outlines: RGI. Note that some ITMIX glaciers have
 no topography outside of their outlines.*
@@ -85,7 +98,13 @@ OGGM uses following DEM data:
 The corrected DEMs where necessary because ASTER data has many issues over
 glaciers. Take for example the DEM for two glaciers in Iceland:
 
-![](/img/blog/itmix-phase-1/wgms_dyngjujoekull_rgi50-06.00477_dom.jpg)  |  ![](/img/blog/itmix-phase-1/rgi50-07.01394.jpg)
+
+<a href="/img/blog/itmix-phase-1/wgms_dyngjujoekull_rgi50-06.00477_dom.jpg">
+<img src="/img/blog/itmix-phase-1/wgms_dyngjujoekull_rgi50-06.00477_dom.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/rgi50-07.01394.jpg">
+<img src="/img/blog/itmix-phase-1/rgi50-07.01394.jpg"
+alt="Image missing" width="49%" /></a>
 
 
 Note that the hypsometry provided in RGI V5 (M. Huss) also contains these errors.
@@ -259,12 +278,24 @@ corrected so that the altitude-area distribution of the glacier is preserved.
 We show a few examples of the inversion procedure in OGGM, which is
 meant to provide the input to a flowline model:
 
-
-![](/img/blog/itmix-phase-1/I:Elbrus_RGI50-12.00042_inv.jpg)  |  ![](/img/blog/itmix-phase-1/I:Hellstugubreen_RGI50-08.02182_inv.jpg)
-
-![](/img/blog/itmix-phase-1/I:Tasman_RGI50-18.02342_inv.jpg)  |  ![](/img/blog/itmix-phase-1/I:Unteraar_RGI50-11.01328_inv.jpg)
-
-![](/img/blog/itmix-phase-1/I:NorthGlacier_RGI50-01.16835_inv.jpg)  |  ![](/img/blog/itmix-phase-1/I:SouthGlacier_RGI50-01.16195_inv.jpg)
+<a href="/img/blog/itmix-phase-1/I:Elbrus_RGI50-12.00042_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:Elbrus_RGI50-12.00042_inv.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:Hellstugubreen_RGI50-08.02182_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:Hellstugubreen_RGI50-08.02182_inv.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:Tasman_RGI50-18.02342_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:Tasman_RGI50-18.02342_inv.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:Unteraar_RGI50-11.01328_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:Unteraar_RGI50-11.01328_inv.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:NorthGlacier_RGI50-01.16835_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:NorthGlacier_RGI50-01.16835_inv.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:SouthGlacier_RGI50-01.16195_inv.jpg">
+<img src="/img/blog/itmix-phase-1/I:SouthGlacier_RGI50-01.16195_inv.jpg"
+alt="Image missing" width="49%" /></a>
 
 ### Distributed ice thickness
 
@@ -289,7 +320,12 @@ The distribution works as follows:
 An example of the interpolation for Columbia glacier with (left) or without
 (right) slope correction:
 
-![](/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d1_8.jpg)  |  ![](/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d2_8.jpg)
+<a href="/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d1_8.jpg">
+<img src="/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d1_8.jpg"
+alt="Image missing" width="49%" /></a>
+<a href="/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d2_8.jpg">
+<img src="/img/blog/itmix-phase-1/I:Columbia_RGI50-01.10689_d2_8.jpg"
+alt="Image missing" width="49%" /></a>
 
 For the ice caps, the interpolation methods lead to similar results.
 However, it is very likely that the flowline methodology used by OGGM is not

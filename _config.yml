@@ -1,7 +1,7 @@
 # Site settings
 title: "OGGM"
 description: "An open source glacier model in Python"
-url: http://oggm.org
+url: https://oggm.org
 # url: http://localhost:4000  # for testing
 
 # Secondary Parameters
@@ -13,6 +13,7 @@ header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "i
 
 # Tertiary Parameters
 github_username:  OGGM
+twitter_username:  OGGM_org
 project_repository: oggm
 #disqus_shortname: oggm
 g-analytics: UA-106829797-1

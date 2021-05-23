@@ -13,7 +13,7 @@ Austria.**
 ### What is it?
 
 The OGGM workshop is an annual, informal meeting for developers, users, and future users
-of the [OGGM](http://oggm.readthedocs.io) model. For this third edition, we
+of the [OGGM](http://docs.oggm.org) model. For this third edition, we
 decided to open the event to any interested scientist (within the limits of our capacities!).
 
 ### Save the date

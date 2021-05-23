@@ -5,15 +5,22 @@ description: "Users and developpers of the OGGM model"
 header-img: "img/backgrounds/members.jpg"
 ---
 
-<h3>Mailing list</h3>
-<br>
-If you want to be informed about the OGGM developments, publications or
-workshops please subscribe to the OGGM mailing list by
-<u><a href="mailto:info@oggm.org">writing us an e-mail</a></u>.
-<br>
-<br>
+<h3>Github, Open Meetings and Slack</h3>
+
+<p>A lot of the project communication happens on <a href="https://github.com/OGGM/oggm" target="_blank">GitHub</a>.
+
+We also have an active Slack community (<a href="mailto:info@oggm.org">reach out</a>
+if you want to join in, it is open to anyone!), and we organize regular,
+<a href="{{ site.baseurl }}/meetings" target="_blank">open meetings</a>.</p>
+
+<h3>Social media</h3>
+
+<p>Find us <a href="https://twitter.com/OGGM_org" target="_blank">on Twitter</a>!</p>
+
 
 <h3>Research projects related to OGGM</h3>
+(selection)
+<br>
 <br>
 
 <ul>
@@ -21,10 +28,16 @@ workshops please subscribe to the OGGM mailing list by
   <li><u><a href="http://marzeion.info/content/ocean-ice-interaction-peripheral-greenland-glaciers"> Ocean-ice Interaction of peripheral Greenland Glaciers</a></u> (Universität Bremen)</li>
   <li><u><a href="http://marzeion.info/content/projections-global-glacier-melt-under-low-end-warming-scenarios"> Projections of global glacier melt under low-end warming scenarios </a></u> (Universität Bremen)</li>
   <li><u><a href="http://acinn.uibk.ac.at/research/ice-and-climate/projects/grindelwald"> The Upper Grindelwald Glacier as indicator for Holocene climate variability</a></u>  (Universität Innsbruck)</li>
-  <li>Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years (Universität Innsbruck)</li>
+  <li><u><a href="http://acinn.uibk.ac.at/research/ice-and-climate/projects/glacier-length"> Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years</a></u> (Universität Innsbruck)</li>
   <li>Modelling glacier changes over the past millennium (UC Louvain)</li>
 </ul>
 
+
+<h3>Network</h3>
+
+ <a href="https://cryo-tools.org/">
+ <img src="https://cryo-tools.org/wp-content/uploads/2017/10/cryo-tools-logo-200px.png" alt="CryTools logo">
+</a>
 
 <h3>Past and present OGGM contributors</h3>
 
@@ -32,11 +45,14 @@ workshops please subscribe to the OGGM mailing list by
 
 {% assign people = site.data.people | sort:"last_name" %}
 
-<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; list-style-type: none;">
+<ul style="columns: 3; -webkit-columns: 3; -moz-columns: 3; list-style-type: none;">
 {% for member in people %}
 {% if member.visible %}
-  <li>
+  <li style="display: inline-block;">
 	<strong>{{ member.first_name }} {{ member.last_name }} </strong>
+	<br>
+	<small><i>{{ member.institution }}</i></small>
+	<br>
 	{% if member.github %}
 	<small>
 	<a href="https://github.com/{{ member.github }}" title="Github" target="_blank"><span class="fa-stack fa-lg"> <i class="fa fa-github fa-stack-1x"></i> </span></a>
@@ -47,8 +63,6 @@ workshops please subscribe to the OGGM mailing list by
 	<a href="{{ member.url }}" title="Google Plus" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-external-link fa-stack-1x"></i></span></a>
   </small>
 	{% endif %}
-	<br>
-	<small><i>{{ member.institution }}</i></small>
   <hr>
 	</li>
 {% endif %}

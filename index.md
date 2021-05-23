@@ -5,13 +5,15 @@ title: ""
 
 ## About
 
-**OGGM is a modular open source model for glacier dynamics**
+**OGGM is an open source modelling framework for glaciers**
 
 The model accounts for glacier geometry (including contributory branches) and
-includes an explicit ice dynamics module. It can simulate past and
+includes an explicit ice dynamics module and a calving parametrization. 
+It can simulate past and
 future mass-balance, volume and geometry of (almost) any glacier in the world
 in a fully automated and extensible workflow. We rely exclusively on publicly
-available data for calibration and validation.
+available data for calibration and validation. OGGM is **modular** and
+supports novel modelling workflows: it loves to be remixed and reused!
 
 Please [get in touch](#get-involved) with us if you are interested in using
 the model or if you'd like to contribute to the project!
@@ -60,8 +62,10 @@ model or parameterization intercomparisons in a controlled environment.
 
 We welcome anyone to contribute to the project!
 - View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
-  [<u>ReadTheDocs</u>](http://oggm.readthedocs.io/).
-- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues).
-- Improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
-- Extend the model with your own [<u>module</u>](http://oggm.readthedocs.io/en/latest/add-module.html).
-- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>. We would love to hear about you!
+  [<u>ReadTheDocs</u>](http://docs.oggm.org).
+- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues), and improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
+- Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
+- Chat with us on our Slack: all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
+- Follow us on [<u>Twitter</u>](https://twitter.com/OGGM_org).
+- Subscribe to the [<u>OGGM-Announce</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-announce) mailing list.
+- Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
