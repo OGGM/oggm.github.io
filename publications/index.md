@@ -10,8 +10,13 @@ description: "Publications related to OGGM"
 
 **Submitted/In review**
 
-- <small> Eis, J., van der Laan, L., Maussion, F. and Marzeion, B.: **Reconstruction of past glacier changes using a glacier model: validation with observations**, submitted to Frontiers in Earth Science.</small>
-- <small> Recinos, B., Maussion, F., Noël, B., Möller, M., Marzeion, B.: **Calibration of a frontal ablation parameterization applied to Greenland's peripheral calving glaciers"**, submitted to Journal of Glaciology.</small>
+- <small> Recinos, B., Maussion, F., Noël, B., Möller, M., Marzeion, B.: **Calibration of a frontal ablation parameterization applied to Greenland's peripheral calving glaciers**, Journal of Glaciology, accepted.</small>
+
+**2021**
+
+- <small> Eis, J., van der Laan, L., Maussion, F. and Marzeion, B.: **Reconstruction of Past Glacier Changes with an Ice-Flow Glacier Model: Proof of Concept and Validation**, Front. Earth Sci., 9(March), 1–16, [doi:10.3389/feart.2021.595755](https://doi.org/10.3389/feart.2021.595755), 2021.</small>
+- <small> Rounce, D. R., Hock, R., McNabb, R. W., Millan, R., Sommer, C., Braun, M. H., Malz, P., Maussion, F., Mouginot, J., Seehaus, T. C. and Shean, D. E.: **Distributed global debris thickness estimates reveal debris significantly impacts glacier mass balance**, Geophys. Res. Lett., [doi:10.1029/2020GL091311](https://doi.org/10.1029/2020GL091311), 2021.</small>
+- <small> Edwards, T. et al.: **Projected land ice contributions to twenty-first-century sea level rise**, Nature, 593(7857), 74–82, [doi:10.1038/s41586-021-03302-y](https://doi.org/10.1038/s41586-021-03302-y), 2021.</small>
 
 **2020**
 
@@ -34,7 +39,7 @@ description: "Publications related to OGGM"
 
 **2017**
 
-- <small> Farinotti, D., Brinkerhoff, D. J., ..., and Andreassen, L. M.:  **How accurate are estimates of glacier ice thickness? Results from ITMIX, the Ice Thickness Models Intercomparison eXperiment**, The Cryosphere, 11, 949-970, [doi:10.5194/tc-11-949-2017](https://doi.org/10.5194/tc-11-949-2017), 2017.</small>
+- <small> Farinotti, D. et al.:  **How accurate are estimates of glacier ice thickness? Results from ITMIX, the Ice Thickness Models Intercomparison eXperiment**, The Cryosphere, 11, 949-970, [doi:10.5194/tc-11-949-2017](https://doi.org/10.5194/tc-11-949-2017), 2017.</small>
 
 
 ### Related publications (selection)
