@@ -4,3 +4,6 @@ Gemfile*
 *~
 .idea
 .jekyll-cache
+.DS_Store
+css/.DS_Store
+news/.DS_Stor

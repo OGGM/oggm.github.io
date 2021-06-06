@@ -58,16 +58,16 @@
 
 - first_name: Michael
   last_name: Adamer
-  institution: University of Innsbruck, now at Oxford University
+  institution: Oxford University
   github:
   url:
   visible: false
 
 - first_name: Beatriz
   last_name: Recinos
-  institution: University of Bremen
+  institution: National Oceanography Centre
   github: bearecinos
-  url:
+  url: https://beatrizrecinos.com/
   visible: true
 
 - first_name: Anouk
@@ -128,14 +128,14 @@
 
 - first_name:  David
   last_name: Parkes
-  institution: University of Bremen
+  institution: Université catholique de Louvain
   github:
   url: https://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=83
   visible: true
 
 - first_name:  Lizz
   last_name: Ultee
-  institution: MIT
+  institution: Georgia Institute of Technology
   github: ehultee
   url: https://ehultee.github.io/
   visible: true
