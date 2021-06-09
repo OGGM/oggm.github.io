@@ -2,7 +2,7 @@
 
 - first_name: Fabien
   last_name: Maussion
-  institution: University of Innsbruck
+  institution: University of Innsbruck. <br> <br>
   github: fmaussion
   url: http://fabienmaussion.info/
   visible: true
@@ -58,16 +58,16 @@
 
 - first_name: Michael
   last_name: Adamer
-  institution: University of Innsbruck, now at Oxford University
+  institution: Oxford University
   github:
   url:
   visible: false
 
 - first_name: Beatriz
   last_name: Recinos
-  institution: University of Bremen
+  institution: National Oceanography Centre
   github: bearecinos
-  url:
+  url: https://beatrizrecinos.com/
   visible: true
 
 - first_name: Anouk
@@ -128,14 +128,14 @@
 
 - first_name:  David
   last_name: Parkes
-  institution: University of Bremen
+  institution: Université catholique de Louvain
   github:
   url: https://www.geographie.uni-bremen.de/index.php?option=com_jresearch&view=member&task=show&id=83
   visible: true
 
 - first_name:  Lizz
   last_name: Ultee
-  institution: MIT
+  institution: Middlebury College, Vermont
   github: ehultee
   url: https://ehultee.github.io/
   visible: true
@@ -163,7 +163,7 @@
 
 - first_name:  Lilian
   last_name: Schuster
-  institution: University of Innsbruck
+  institution: University of Innsbruck. <br> <br>
   github: lilianschuster
   url: https://www.uibk.ac.at/acinn/people/lilian-schuster.html.en
   visible: true
@@ -173,4 +173,22 @@
   institution: Carnegie Mellon University
   github: drounce
   url: https://www.cmu.edu/cee/people/faculty/rounce.html
+  visible: true
+
+- first_name: Li
+  last_name: Fei
+  institution: Institute of Tibetan Plateau Research, Chinese Academy of Sciences.
+  github: Keeptg
+  visible: true
+
+- first_name: Sarah
+  last_name: Hanus
+  institution: University of Zurich
+  github: sarah-hanus
+  visible: true
+
+- first_name: Matteo
+  last_name: Castellani
+  institution: University of Innsbruck.
+  github: MatCast
   visible: true
