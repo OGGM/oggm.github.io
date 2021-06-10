@@ -2,7 +2,7 @@
 
 - first_name: Fabien
   last_name: Maussion
-  institution: University of Innsbruck. <br> <br>
+  institution: University of Innsbruck.
   github: fmaussion
   url: http://fabienmaussion.info/
   visible: true
@@ -163,7 +163,7 @@
 
 - first_name:  Lilian
   last_name: Schuster
-  institution: University of Innsbruck. <br> <br>
+  institution: University of Innsbruck.
   github: lilianschuster
   url: https://www.uibk.ac.at/acinn/people/lilian-schuster.html.en
   visible: true

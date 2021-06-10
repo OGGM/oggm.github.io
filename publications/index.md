@@ -8,8 +8,6 @@ description: "Publications related to OGGM"
 
 (that we are aware of)
 
-**Submitted/In review**
-
 
 **2021**
 - <small> Recinos, B., Maussion, F., Noël, B., Möller, M., Marzeion, B.: **Calibration of a frontal ablation parameterization applied to Greenland's peripheral calving glaciers**, J. Glaciol., 1–13, [doi:10.1017/jog.2021.63](https://doi.org/10.1017/jog.2021.63), 2021.</small>
