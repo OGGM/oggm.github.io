@@ -7,7 +7,7 @@ date: 2021-04-13T00:00:00
 tags: workshop
 ---
 
-Due to the current pandemic situation, the 5th OGGM workshop has been moved (again), this time to **September 20 to 24** (Monday to Thursday), and will take place in Neuharlingersiel, Germany, as planned before. Registrations will remain valid. Also note that there are still a few open spots. To register, please contact [info@oggm.org](mailto:info@oggm.org).
+Due to the current pandemic situation, the 5th OGGM workshop has been moved (again), this time to **September 20 to 24** (Monday to Friday), and will take place in Neuharlingersiel, Germany, as planned before. Registrations will remain valid. Also note that there are still a few open spots. To register, please contact [info@oggm.org](mailto:info@oggm.org).
 
 ### What is it ?
 
