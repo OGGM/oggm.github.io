@@ -4,7 +4,7 @@ title: New project funded!
 subtitle: Making OGGM "future-ready"
 author: Fabien Maussion and Ben Marzeion
 date: 2021-06-10T00:00:00
-tags: workshop tutorial
+tags: project
 ---
 
 Some very good news came in the mail last week: a project proposal entitled "A future-ready Open Global Glacier Model" has 
