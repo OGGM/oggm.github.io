@@ -21,11 +21,12 @@ This blog post has one simple message to convey:
 
 Let $M$ be the non-linear impact model, and $X$ the forcing data variables (temperature, precipitation, etc.). Therefore, $M(X)$ is the output of the impact model.
 
-Now let $\overline{X}$ be the average of the variable $X$ (either a temporal average, a climatology over 30 years, or the average of several ensemble members).
+Now let $\overline{X}$ be the average of the variable $X$ (either a temporal average, a climatology over 30 years, or the average of several ensemble members). Accordingly, $\overline{M(X)}$ is the average of the model output after being forced by the non-averaged $X$ (this is the *true* average value of the quantity we are interested in).
 
-Then, it is easy to show that if $M$ is a non-linear impact model (like most models), the following equations are NOT equivalent:
+Then, it is easy to show that if $M$ is a non-linear impact model (like most models), the following model results are NOT equivalent:
 
 $\overline{M(X)} \neq M(\overline{X})$
+
 
 ## A simple example (degree day model)
 
