@@ -11,17 +11,18 @@ A very typical situation in geosciences is that a numerical model (here called "
 
 ## Take home message
 
-This blog post has one simple message to convey:
+This blog post has one simple message to convey. This is well known since decades, but it tends to be forgotten:
 
 ####  **Do not average the forcing data before giving it to the impact model.** 
 
 *(unless you know what you are doing and your model is calibrated that way)*
 
+
 ## A simple demonstration
 
 Let $M$ be the non-linear impact model, and $X$ the forcing data variables (temperature, precipitation, etc.). Therefore, $M(X)$ is the output of the impact model.
 
-Now let $\overline{X}$ be the average of the variable $X$ (either a temporal average, a climatology over 30 years, or the average of several ensemble members). Accordingly, $\overline{M(X)}$ is the average of the model output after being forced by the non-averaged $X$ (this is the *true* average value of the quantity we are interested in).
+Now let $\overline{X}$ be the average of the variable $X$ (either a temporal average, a climatology over 30 years, or the average of several ensemble members). Accordingly, $\overline{M(X)}$ is the average of the model output after being forced by $X$ (not averaged). $\overline{M(X)}$ is the *true* average value of the quantity we are interested in.
 
 Then, it is easy to show that if $M$ is a non-linear impact model (like most models), the following model results are NOT equivalent:
 
@@ -38,9 +39,41 @@ with $\mu$ a calibrated melt factor (let's assume it is $\mu = 1$ here).
 
 Then, lets say we want to compute the melt on Oct. 1 of five consecutive years. For four years, the temperature was -2°C, then on the fifth it was 5°C. Then, $\overline{M(X)} = 5 / 5 = 1$. However, $M(\overline{X}) = M(-3 / 5) = 0$, i.e.: not the same.
 
-*Note: from the example above, it may seem that monthly degree days models are not possible. While monthly degree days models need tweaks, they are possible: either by changing the temperature thresholds, or by using the standard deviation of temperature as proxy for variability. The problem in our example above is that $M$ has been calibrated with a certain data: after calibration, this data should NOT be averaged further.*
+*Note: from the example above, it may seem that monthly degree days models are not possible. While monthly degree days models need tweaks, they are possible: see below for strategies around it.*
 
-## A concrete example: ensemble average
+## What to do about it?
+
+There are a few situations where you may still want or need to average your inputs before feeding them to your model. Here are a few common situations with suggested solutions:
+
+### Monthly degree day models
+
+A degree day model at monthly resolution is often needed because the forcing data (e.g. GCM data) may not be available at daily resolution. In this case, the following options are available to you:
+
+- you can calibrate the model using monthly resolution data. It may imply to recalibrate the temperature melt threshold to value below 0°C to take into account months with negative average temperatures might have positive melt days. This is the solution chosen by [Marzeion et al., (2012)](https://tc.copernicus.org/articles/6/1295/2012/) and OGGM (v1).
+- you can use monthly averages and an estimate of variability to reconstruct daily temperatures, either with random numbers ([Huss & Hock, 2015](https://www.frontiersin.org/articles/10.3389/feart.2015.00054/full); [Rounce et al., 2020](https://www.doi.org/10.1017/jog.2019.91)) or a more exact but computationally expensive distribution and quantile based method ([OGGM sandbox](https://github.com/OGGM/massbalance-sandbox)). These methods are more robust than the previous method.
+
+*Note: all these models will be "more wrong" than a true degree day model. In particular, they might ignore important aspects of the signal: the changes in temperature variability in a changing climate.*
+
+### Constant average climate forcing
+
+This is a further typical use case: say you want to compute the "committed glacier mass loss", i.e. the mass that would be lost if the climate of the last decades would "stabilize".
+
+The **first method** is to repeat the timeseries of the last decades in a loop, until the glaciers have stabilized. This is the simplest method and the one used by [Marzeion et al., (2018)](https://www.nature.com/articles/s41558-018-0093-1?WT.feed_name=subjects_climate-and-earth-system-modelling). 
+
+The **second method** is very similar, but consists of shuffling the years randomly instead of repeating the timeseries in a loop. This avoids unwanted effects related to a cyclic forcing.
+
+The **third method** consists in computing $\overline{M(X)}$:
+1. for a given glacier glacier geometry at year `y0`, compute the mass-balance over the climate period you are interested in.
+2. average the output over time (i.e. compute $\overline{M(X)}$) and give this value to the glacier evolution model.
+3. compute the new glacier geometry at `y1` and repeat at (1).
+
+As you see, this third method implies to compute N years of mass-balance (often: 20 or 30) each year of glacier evolution, because of the geometry update. This is quite computationally expensive. Therefore, the standard procedure in OGGM (the [`ConstantMassBalance`](https://github.com/OGGM/oggm/blob/42ded70dfeb44fd7a5d2d3c8a79cd1d03f1a653d/oggm/core/massbalance.py#L579) model class) is to compute the N years signal only once for a wide range of elevation bins, and then interpolate between them after each geometry update, which is much faster.
+
+A **fourth method** might consist of recalibrating the model using an average climate instead (like we did when using monthly degree day models). This method will yield more satisfying results than the naive $M(\overline{X})$, but it still ignores one important aspect of a "normal" climate: its variability.
+
+### Model ensemble
+
+Another very often encounter is an ensemble of forcing data simulations (e.g. CMIP). For this use case, there is no simple solution (see the example below) and the only reasonable way is to force your model realisation and then average the signal.
 
 If you want more information about why we write this down today, here is what Anouk Vlug found out the hard way during her PhD thesis:
 
