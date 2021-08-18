@@ -67,6 +67,8 @@ As you see, this third method implies to compute N years of mass-balance (often:
 
 A **fourth method** might consist of recalibrating the model using an average climate instead (like we did when using monthly degree day models). This method still ignores one important aspect of climate: its variability.
 
+For more information on this use case, visit our [next blog post]({{ site.url }}/2021/08/10/equilibrium-runs-oggm/) which goes into more detail.
+
 ### Model ensemble
 
 Another very often encounter is an ensemble of forcing data simulations (e.g. CMIP). For this use case, there is no simple solution (at least with temperature index models) and the only reasonable way is to force your model realisation and then average the signal.
