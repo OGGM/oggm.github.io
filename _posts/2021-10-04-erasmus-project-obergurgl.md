@@ -20,7 +20,7 @@ On the next day an excursion to the Gaisbergferner allowed all students to liter
 </figure>
 
 By approaching the glacier completely by foot and rejecting the cable car the pupils could study how glaciers form landscapes, which is well noticeable in the Gaisberg Valley and surroundings with the last huge glaciation of the Alps only 20000 years before. Further we discussed the questions: “Why are glaciers important?”, “How does their retreat affect water availability in mountainous regions?” and “What is the glaciers’ contribution to sea level rise?”. The highlight was to go on the Gaisbergferner and measure solar radiation with the EcoBot and an Albedo smartphone app. Moreover, pupils measured the change of the glacier stream run-off over the day, detected former glacier extends since the Little Ice Age (using the length change measurements from the [WGMS](wgms.ch/)) and made their own calculations about the Art project [Auswildern eines Zuchtgletschers](https://www.uibk.ac.at/newsroom/kunstprojekt-tiefkuehl-eis-fuer-gletscher.html.de) that took place a few days before on the Gaisbergferner. Later on, the students could calculate melting rates of the glacier ice from their observations.
-On the third day the pupils enjoyed a digital hands-on workshop using the OGGM-edu apps. They learned about glaciers and their climate with the OGGM-edu [Glacier Explorer](https://edu.oggm.org/en/latest/explorer.html) and received new insights in the projected changes of alpine glaciers with the OGGM-edu [Glaciers' Evolution app](https://edu.oggm.org/en/latest/alps_future.html). Finally, after a short introduction about glacier modelling, they run their own experiments on idealised glaciers using the OGGM-edu's [Glacier Simulator](https://edu.oggm.org/en/latest/simulator.html) which helped them to better understand the physics of glaciers.
+On the third day the pupils enjoyed a digital hands-on workshop using the OGGM-edu apps. They learned about glaciers and their climate with the OGGM-edu [World Glaciers Explorer](https://edu.oggm.org/en/latest/explorer.html) and received new insights in the projected changes of alpine glaciers with the OGGM-edu [Glaciers' Evolution app](https://edu.oggm.org/en/latest/alps_future.html). Finally, after a short introduction about glacier modelling, they run their own experiments on idealised glaciers using the OGGM-edu's [Glacier Simulator](https://edu.oggm.org/en/latest/simulator.html) which helped them to better understand the physics of glaciers.
 Finally, the pupils deepened topics they were interested most on Thursday and presented their results and insights in front of the school.
 We want to thank the motivated pupils and teachers for such an interesting and productive time together.
 
@@ -28,6 +28,6 @@ We want to thank the motivated pupils and teachers for such an interesting and p
     <a href="/img/blog/erasmus-obergurgl/wholeclas-s.JPG" >
     <img src="/img/blog/erasmus-obergurgl/wholeclass-s.JPG" alt="Image missing" width="100%" />
     </a>
-    <figcaption>Students listening to Lilian just after working with the Glaciers Explorer.</figcaption>
+    <figcaption>Students listening to Lilian just after working with the World Glaciers Explorer.</figcaption>
 </figure>
 
