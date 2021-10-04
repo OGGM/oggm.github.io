@@ -16,7 +16,7 @@ On the next day an excursion to the Gaisbergferner allowed all students to liter
     <a href="/img/blog/erasmus-obergurgl/walktotheglacier-s.JPG" >
     <img src="/img/blog/erasmus-obergurgl/walktotheglacier-s.JPG" alt="Image missing" width="50%" />
     </a>
-    <figcaption align = "center">Excursion to the Gaisbergferner under the bright sun.</figcaption>
+    <figcaption align = "center"><br>Excursion to the Gaisbergferner under the bright sun.</figcaption>
 </figure>
 
 By approaching the glacier completely by foot and rejecting the cable car the pupils could study how glaciers form landscapes, which is well noticeable in the Gaisberg Valley and surroundings with the last huge glaciation of the Alps only 20000 years before. Further we discussed the questions: “Why are glaciers important?”, “How does their retreat affect water availability in mountainous regions?” and “What is the glaciers’ contribution to sea level rise?”. The highlight was to go on the Gaisbergferner and measure solar radiation with the EcoBot and an Albedo smartphone app. Moreover, pupils measured the change of the glacier stream run-off over the day, detected former glacier extends since the Little Ice Age (using the length change measurements from the [WGMS](wgms.ch/)) and made their own calculations about the Art project [Auswildern eines Zuchtgletschers](https://www.uibk.ac.at/newsroom/kunstprojekt-tiefkuehl-eis-fuer-gletscher.html.de) that took place a few days before on the Gaisbergferner. Later on, the students could calculate melting rates of the glacier ice from their observations.
