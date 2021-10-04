@@ -12,8 +12,8 @@ Students of schools in Schwaz, Tirol (BRG/BORG), Palermo (Italy) and Leuven (Bel
 We had 3 days together, which we wanted to use for a dense programm. On Monday afternoon, Lilian and I introduced the newest facts about climate change published recently in the [IPCC AR6 Physical Science Basis report](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/) (including the new [interactive climate atlas](https:\\interactive-atlas.ipcc.ch/)) and took the pupils into the world of high mountains and retreating glaciers. Especially for the pupils from southern Italy and Belgium this was a new scope to explore. We started with theoretical insights about glaciers with the help of [graphics](https://edu.oggm.org/en/latest/glacier_basics.html) provided by [OGGM-edu](https://edu.oggm.org/en/latest/) and went on with first impressions of the world's glaciers using OGGM-edu's [Glacier Gallery](https://edu.oggm.org/en/latest/gallery.html).
 On the next day an excursion to the Gaisbergferner allowed all students to literally get in touch with a glacier. 
 <figure>
-    <a href="/img/blog/workshops/Walktoglacier-s.JPG" >
-    <img src="/img/blog/workshops/Walktoglacier-s.JPG" alt="Image missing" width="100%" />
+    <a href="/img/blog/erasmus-obergurgl/Walktoglacier-s.JPG" >
+    <img src="/img/blog/erasmus-obergurgl/Walktoglacier-s.JPG" alt="Image missing" width="100%" />
     </a>
     <figcaption>Excursion to the Gaisbergferner under the bright sun.</figcaption>
 </figure>
@@ -22,8 +22,8 @@ On the third day the pupils enjoyed a digital hands-on workshop using the OGGM-e
 Finally, the pupils deepened topics they were interested most on Thursday and presented their results and insights in front of the school.
 We want to thank the motivated pupils and teachers for such an interesting and productive time together.
 <figure>
-    <a href="/img/blog/workshops/wholeclas-s.JPG" >
-    <img src="/img/blog/workshops/wholeclass-s.JPG" alt="Image missing" width="100%" />
+    <a href="/img/blog/erasmus-obergurgl/wholeclas-s.JPG" >
+    <img src="/img/blog/erasmus-obergurgl/wholeclass-s.JPG" alt="Image missing" width="100%" />
     </a>
     <figcaption>Students listening to Lilian just after working with the Glaciers Explorer.</figcaption>
 </figure>
