@@ -13,7 +13,7 @@ We had 3 days together, which we wanted to use for a dense programm. On Monday a
 On the next day an excursion to the Gaisbergferner allowed all students to literally get in touch with a glacier. 
 <figure>
     <a href="/img/blog/erasmus-obergurgl/walktotheglacier-s.JPG" >
-    <img src="/img/blog/erasmus-obergurgl/walktotheglacier-s.JPG" alt="Image missing" width="100%" />
+    <img src="/img/blog/erasmus-obergurgl/walktotheglacier-s.JPG" alt="Image missing" width="50%" />
     </a>
     <figcaption>Excursion to the Gaisbergferner under the bright sun.</figcaption>
 </figure>
