@@ -3,32 +3,31 @@ layout: post
 title: Fifth OGGM workshop - a short summary
 subtitle: 20 - 24 September 2021 in Neuharlingersiel, Germany
 author: Nicolas Champollion
-date: 2021-08-17T00:00:00
+date: 2021-10-12T00:00:00
 tags: workshop
 ---
 
 In this first autumn days in the Northern Hemisphere, we report about our recent OGGM workshop. 
 It was our fifth meeting altogether, but more importantly the first one since 2 years because of the
-COVID-19 pandemic and it was a real face-to-face workshop [2021-04-13-5th-workshop-new-date-again.md](/2021/04/13/2021-04-13-5th-workshop-new-date-again.md).
-You can easily imagine how pleasant and constructive it was to meet again in the same location during one week !
-Real discussions, exchanges and drinks altogether are so essentiel for our works.
+COVID-19 pandemic, and it was a real [face-to-face workshop](/2021/04/13/2021-04-13-5th-workshop-new-date-again.md).
+You can easily imagine how pleasant and constructive it was to meet again in the same location during one week!
+Real discussions, exchanges and drinks altogether are so essential to our work.
 
-The Workshop took place in Neuharlingersiel, Germany, and was jointly organised
-by the Institut des Géosciences de l'Environnement [IGE](http://www.ige-grenoble.fr/), the university
-of Bremen [https://www.geographie.uni-bremen.de/en/climate-geography](https://www.geographie.uni-bremen.de/en/climate-geography)
-and the university of Innsbruck [https://www.uibk.ac.at/acinn/index.html.en](https://www.uibk.ac.at/acinn/index.html.en).
-We had 26 participants, around 10 of which without previous OGGM experience who came
-to learn about the model. The group includes more and more different institutes every year (8 different research
-institute this year) and a good balance between female and male (14-12). The workshop was probably the most sucessfull, partly due to 
-the in-person meeting but also due to the intense, deep discussion and brainstorming we had, and with no doubt
+The workshop took place in Neuharlingersiel, Germany, and was jointly organised
+by the Institut des Géosciences de l'Environnement [IGE](http://www.ige-grenoble.fr/), the [university
+of Bremen](https://www.geographie.uni-bremen.de/en/climate-geography)
+and the [university of Innsbruck](https://www.uibk.ac.at/acinn/index.html.en).
+We had 26 participants, around 10 of which had no previous experience with the model. 
+The group includes more and more different institutions every year (8 different research
+institutions this year) and a good gender balance. The workshop was also probably the most successful, partly due to 
+the in-person meeting but also due to the intense discussions and brainstorming we had, and with no doubt
 thanks to the boat excursion on [North sea](https://www.neuharlingersiel.de/) and the pub quizz
-with a remarkable friendly ambiance !
+with a remarkable friendly atmosphere!
 
 <figure>
     <a href="/img/blog/5th_workshop/group_picture_boat.jpg" >
     <img src="/img/blog/5th_workshop/group_picture_boat.jpg" alt="Image missing" width="100%" />
     </a>
-    <figcaption><i>The group gets wetter every year!</i></figcaption>
 </figure>
 
 <br>
@@ -37,66 +36,63 @@ with a remarkable friendly ambiance !
     <a href="/img/blog/5th_workshop/north-sea.jpg" >
     <img src="/img/blog/5th_workshop/north-sea.jpg" alt="Image missing" width="100%" />
     </a>
-    <figcaption><i>Beautifull North sea!</i></figcaption>
 </figure>
 
-We had a Workshop with different 3 different activities: typical sessions of oral presentation, 
+We had 3 different activities: typical sessions of oral presentation, 
 hands-on tutorials and group discussions and braimstorming ([program](/img/blog/5th_workshop/5th_OGGM_workshop_program_2021.pdf)).
-There were 5 sessions with oral presentations that cover the following topics:
+There were 5 sessions with oral presentations that covered the following topics:
 
 1. **Introduction and general overview of OGGM**: after a short introduction from the organizers and a first
 meet together since a long time, an amazing overview of what is OGGM, a little bit of OGGM history and
-importantly the philosophy and goal of the modelling framework was one by Fabien Maussion. In addition, we
-started discussion about building together the future of OGGM and what recommandations and ideas we can provide
-to the glacier community.
+importantly the philosophy and goal of the modelling framework. In addition, we
+started discussions about building together the future of OGGM and what recommendations and ideas we can provide
+to the community.
 
-2. **Glacier hydrology**: two presentations were dedicated to this this emerging topic, and this subject was
-present in our minds I guess during all the week thanks to its very promising scientific and societal interests,
-as well as the recent model developments to improve the "glacier catchment hydrology".
+2. **Glacier hydrology**: two presentations were dedicated to this this emerging topic (as far as OGGM is concerned), 
+and this subject was actively followed thanks to its promising scientific and societal impacts,
+as well as the recent model developments to improve glacier catchment hydrology.
 
-3. **Glaciological data, model calibration, validation and comparison**: this thematic block led by Michael Zemp
-was really impressive especially because the recent availability of global coverage of mass-balance observations
-from satellite and the great project to combine satellite (global coverage) and in-situ observations(fine 
-temporal resolution). This session had 5 presentations covering also the comparison with other models and the
-different parametrizations in OGGM.
+3. **Glaciological data, model calibration, validation and comparison**: this thematic block was led by Michael Zemp,
+who presented recent advances in global coverage mass-balance observations
+from satellite and a new project aiming to combine satellite (global coverage) and in-situ observations (fine 
+temporal resolution). This session had 5 presentations, also covering the comparison with other models and the
+different parameterizations in OGGM.
 
-4. **Recent developments**: this session that includes 5 presentations showed how alive is the community and
-how lot of different approaches tend to be included in the OGGM framework. It highlights the easiness to include
-new formulation of processes. Those developments concern among others marine-terminating glaciers, debris-covered glaciers,
+4. **Recent developments**: this session included 5 presentations showing how active the community is and
+how lot of different approaches are being included in the OGGM framework. 
+These developments concern among others marine-terminating glaciers, debris-covered glaciers,
 ice thickness inversion and surface mass-balance formulation.
 
-5. **Glacier evolution, past and future**: the last session dedicated to the use of OGGM for past and future
-glacier evolution includes 5 presentations, coming from the past to the future and from regional to global
-application and also presented new way to think about the future of glacier by looking at the targets in 
-a future point of time, either in term of global/regional warming, either in term of greenhouse gas emissions.
+5. **Glacier evolution, past and future**: the last session was dedicated to the use of OGGM for past and future
+glacier evolution and included 5 presentations about glacier reconstruction at centennial to millennial time scales, as 
+well as projections.
 
 <figure>
     <a href="/img/blog/5th_workshop/group_picture_hostel.jpg" >
-    <img src="/img/blog/4th_workshop/group_picture_hostel.jpg" alt="Image missing" width="100%"/>
+    <img src="/img/blog/5th_workshop/group_picture_hostel.jpg" alt="Image missing" width="100%"/>
     </a>
-    <figcaption><i>So many new persons involved !</i></figcaption>
 </figure>
 
-The hands-on tutorials were dedicated to beginner and more advanced tutorials, the presentation, discussion
-and tutorials about[OGGM-edu](https://edu.oggm.org/en/latest/) and its amazing applications. We had 3 long times
-for discussion on:
+The **hands-on sessions** were dedicated to beginner and more advanced tutorials, the presentation, discussion
+and tutorials about[OGGM-edu](https://edu.oggm.org/en/latest/) and its applications. We had 3 long breakout sessions
+for discussion about:
 
-1. uncertainties into glacier modelling in general and OGGM specifficaly (based mainly on
-GlacierMIP2 results published in 2020, Marzeion et al.) as how to best use the in-situ and satellite data for
+1. uncertainties in glacier modelling in general and OGGM specifically (based mainly on
+GlacierMIP2 results published in [Marzeion et al.. 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001470)) as well as how to best use the in-situ and satellite data for
 calibration and validation.
 
 2. hydrological applications and challenges, in particular the spatial scale of glacier and hydrological models
-and their imbrication, the differences in precipitation in the two communities of modelling and how
-to include the future disappearance of glaciers into the hydrological framework modelling.
+and their coupling, the differences in precipitation correction in the two communities and how
+to include the future disappearance of glaciers into a hydrological modelling framework.
 
 3. the future of OGGM, the ideas and applications that can be done and the development that are necessary. We also
-discussed about how the OGGM community works and what should be improved !
+discussed about how the OGGM community works and what could be improved 
 
 We are very glad that many could come to this workshop and we are looking forward to the next one in 2022!
 
 <figure>
     <a href="/img/blog/5th_workshop/pub_quizz.jpg" >
-    <img src="/img/blog/4th_workshop/pub_quizz.jpg" alt="Image missing" width="100%"/>
+    <img src="/img/blog/5th_workshop/pub_quizz.jpg" alt="Image missing" width="100%"/>
     </a>
     <figcaption><i>Looking forward to the next OGGM pub quizz!</i></figcaption>
 </figure>
