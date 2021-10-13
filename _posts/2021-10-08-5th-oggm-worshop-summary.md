@@ -9,7 +9,7 @@ tags: workshop
 
 In this first autumn days in the Northern Hemisphere, we report about our recent OGGM workshop. 
 It was our fifth meeting altogether, but more importantly the first one since 2 years because of the
-COVID-19 pandemic, and it was a real [face-to-face workshop](/2021/04/13/2021-04-13-5th-workshop-new-date-again.md).
+COVID-19 pandemic, and it was a real [face-to-face workshop](https://oggm.org/2021/04/13/5th-workshop-new-date-again/).
 You can easily imagine how pleasant and constructive it was to meet again in the same location during one week!
 Real discussions, exchanges and drinks altogether are so essential to our work.
 
@@ -40,7 +40,7 @@ with a remarkable friendly atmosphere!
 
 We had 3 different activities: typical sessions of oral presentation, 
 hands-on tutorials and group discussions and braimstorming ([program](/img/blog/5th_workshop/5th_OGGM_workshop_program_2021.pdf)).
-There were 5 sessions with oral presentations that covered the following topics:
+There were 5 sessions with **oral presentations** that covered the following topics:
 
 1. **Introduction and general overview of OGGM**: after a short introduction from the organizers and a first
 meet together since a long time, an amazing overview of what is OGGM, a little bit of OGGM history and
@@ -74,8 +74,7 @@ well as projections.
 </figure>
 
 The **hands-on sessions** were dedicated to beginner and more advanced tutorials, the presentation, discussion
-and tutorials about[OGGM-edu](https://edu.oggm.org/en/latest/) and its applications. We had 3 long breakout sessions
-for discussion about:
+and tutorials about [OGGM-edu](https://edu.oggm.org/en/latest/) and its applications. We had 3 long **breakout sessions** for discussion about:
 
 1. uncertainties in glacier modelling in general and OGGM specifically (based mainly on
 GlacierMIP2 results published in [Marzeion et al.. 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001470)) as well as how to best use the in-situ and satellite data for
@@ -94,7 +93,6 @@ We are very glad that many could come to this workshop and we are looking forwar
     <a href="/img/blog/5th_workshop/pub_quizz.jpg" >
     <img src="/img/blog/5th_workshop/pub_quizz.jpg" alt="Image missing" width="100%"/>
     </a>
-    <figcaption><i>Looking forward to the next OGGM pub quizz!</i></figcaption>
 </figure>
 
 The full output from this workshop will take the form of a collaborative "white paper" (if you are interested in
@@ -107,4 +105,4 @@ participating, just provide your comments and updates
 - <u> <a href="{{ site.url }}/2016/02/11/1st-oggm-worshop-summary/"> 1st OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
-- <u> <a href="{{ site.url }}/2019/06/21/4th-oggm-worshop-summary/"> 4th OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2019/06/21/4st-oggm-worshop-summary/"> 4th OGGM workshop </a> </u>
