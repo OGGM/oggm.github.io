@@ -9,7 +9,7 @@ tags: workshop
 
 In this first autumn days in the Northern Hemisphere, we report about our recent OGGM workshop. 
 It was our fifth meeting altogether, but more importantly the first one since 2 years because of the
-COVID-19 pandemic, and it was a real **[face-to-face workshop](https://oggm.org/2021/04/13/5th-workshop-new-date-again/)**.
+COVID-19 pandemic, and it was a real [face-to-face workshop](https://oggm.org/2021/04/13/5th-workshop-new-date-again/).
 You can easily imagine how pleasant and constructive it was to meet again in the same location during one week!
 Real discussions, exchanges and drinks altogether are so essential to our work.
 
@@ -74,7 +74,7 @@ well as projections.
 </figure>
 
 The **hands-on sessions** were dedicated to beginner and more advanced tutorials, the presentation, discussion
-and tutorials about [OGGM-edu](https://edu.oggm.org/en/latest/) and its applications. We had 3 long **breakout sessions for discussion** about:
+and tutorials about [OGGM-edu](https://edu.oggm.org/en/latest/) and its applications. We had 3 long **breakout sessions** for discussion about:
 
 1. uncertainties in glacier modelling in general and OGGM specifically (based mainly on
 GlacierMIP2 results published in [Marzeion et al.. 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001470)) as well as how to best use the in-situ and satellite data for
