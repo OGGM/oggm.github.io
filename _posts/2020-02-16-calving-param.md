@@ -4,7 +4,7 @@ title: A "new" calving parameterization in OGGM
 subtitle: It's only the beginning...
 author: Fabien Maussion
 date: 2020-02-16T00:00:00
-tags: science model
+tags: science programming
 ---
 
 I always thought that it would be very hard to get the

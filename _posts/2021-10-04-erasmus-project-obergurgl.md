@@ -4,7 +4,7 @@ title: Glaciers in a warming world
 subtitle: A school project
 authors: Zora Schirmeister and Lilian Schuster
 date: 2021-10-04T00:00:00
-tags: educational workshop oggm-edu
+tags: edu outreach
 ---
 
 <img src="https://raw.githubusercontent.com/OGGM/oggm-edu/master/docs/_static/logos/oggm_edu_s.png" alt="" width="30%" align="left" style="padding-right: 20px; padding-bottom: 10px;"/>

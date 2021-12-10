@@ -4,7 +4,7 @@ title: A new WGMS to RGI lookup table
 subtitle: The non-trivial problem of finding reference data for global glacier models
 author: Fabien Maussion
 date: 2017-02-19T09:00:00
-tags: RGI WGMS science
+tags: RGI science
 ---
 
 The latest release of the *World Glacier Monitoring Service* (WGMS) *Fluctuations

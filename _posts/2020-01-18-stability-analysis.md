@@ -4,7 +4,7 @@ title: The OGGM time stepping scheme
 subtitle: Trying to make it less bad
 author: Fabien Maussion
 date: 2020-01-18T00:00:00
-tags: science model numerics
+tags: science numerics programming
 ---
 
 It maybe surprising, but the "dynamical core" of OGGM

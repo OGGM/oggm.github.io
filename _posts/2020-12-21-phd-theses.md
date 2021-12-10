@@ -4,7 +4,7 @@ title: Two PhD graduations in the OGGM team
 subtitle: Congratulations Dr. Eis and Dr. Recinos!
 author: Fabien Maussion
 date: 2020-12-21T00:00:00
-tags: science publications phd
+tags: science publication
 ---
 
 Congratulations to the OGGM team members Dr. Julia Eis and Dr. Beatriz Recinos for their successful PhD defense!

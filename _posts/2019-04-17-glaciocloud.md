@@ -4,7 +4,7 @@ title: OGGM on the cloud
 subtitle: Job openings for Innsbrucker students!
 author: Fabien Maussion
 date: 2019-04-17T12:00:00
-tags: science educational
+tags: science outreach
 ---
 
 I'm happy to announce that a project related to [OGGM Edu](https://edu.oggm.org)

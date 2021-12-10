@@ -4,7 +4,7 @@ title: Job announcement
 subtitle: 3-year postdoc postion in glacier modeling at the University of Bremen
 author: Ben Marzeion
 date: 2020-06-02T00:00:00
-tags: Other
+tags: jobs
 ---
 
 As a mid-size university with 270 professorships and 20.000 students, the University of Bremen maintains a strong and internationally renowned interdisciplinary research focus on oceans and the global climate.  

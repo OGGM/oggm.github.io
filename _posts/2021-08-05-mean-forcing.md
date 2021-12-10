@@ -4,7 +4,7 @@ title: Impact models and averages of forcing data
 subtitle: A recommendation
 author: Anouk Vlug, Lilian Schuster, Fabien Maussion
 date: 2021-08-05T00:00:00
-tags: science model
+tags: science
 ---
 
 A very typical situation in geosciences is that a numerical model (here called "impact model") is driven by forcing data (often: reanalysis data or climate model output). There are many impact models around: hydrological models and glacier models are obvious ones.

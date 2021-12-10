@@ -4,7 +4,7 @@ title: Mass-balance model calibration for the Alps
 subtitle: Regional parameters derived with HISTALP climate
 author: Matthias Dusch
 date: 2018-08-10T00:00:00
-tags: alps histalp calibration
+tags: science
 ---
 
 In this post we will update the OGGM mass balance (MB) parameter values to be used for

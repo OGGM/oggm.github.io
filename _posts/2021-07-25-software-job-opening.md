@@ -4,7 +4,7 @@ title: Job opening!
 subtitle: Postdoctoral Researcher or Research Software Engineer in glacier modeling
 author: Fabien Maussion and Ben Marzeion
 date: 2021-07-25T00:00:00
-tags: project job
+tags: jobs
 ---
 
 As a mid-size university with 270 professorships and 20.000 students,

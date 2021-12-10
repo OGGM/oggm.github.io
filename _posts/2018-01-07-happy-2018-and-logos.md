@@ -4,7 +4,7 @@ title: Happy 2018 and OGGM logos
 subtitle: Corporate design is a real thing!
 author: Fabien Maussion
 date: 2018-01-08T18:00:00
-tags: other
+tags: community
 ---
 
 **The OGGM team wishes you a successful and happy 2018!**

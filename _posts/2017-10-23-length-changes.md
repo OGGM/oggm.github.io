@@ -4,7 +4,7 @@ title: Glacier length changes and initial conditions
 subtitle: Work in progress
 author: Fabien Maussion
 date: 2017-10-23T00:00:00
-tags: science model
+tags: science
 ---
 
 *Note: this blog post is a work in progress and it might be edited for content
