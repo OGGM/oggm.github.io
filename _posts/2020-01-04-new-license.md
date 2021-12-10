@@ -4,7 +4,7 @@ title: The OGGM ecosystem uses a new license
 subtitle: bye-bye copyleft
 author: Fabien Maussion
 date: 2020-01-04T00:00:00
-tags: other
+tags: community
 ---
 
 For better or for worse, OGGM just changed the license of all our

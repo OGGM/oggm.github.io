@@ -4,7 +4,7 @@ title: OGGM-Edu at AGU 2019
 subtitle: Can interactive contents be discussed in a poster?
 author: Fabien Maussion
 date: 2019-12-06T00:00:00
-tags: science outreach OGGM-Edu
+tags: science outreach edu
 ---
 
 Last summer, our colleague and collaborator [Lizz Ultee](https://ehultee.github.io/)

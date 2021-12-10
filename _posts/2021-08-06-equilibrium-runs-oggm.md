@@ -4,7 +4,7 @@ title: Equilibrium runs with OGGM
 subtitle: Comparison of methods
 author: Fabien Maussion
 date: 2021-08-10T00:00:00
-tags: science model
+tags: science
 ---
 
 Following ongoing discussions with colleagues about the [GlacierMIP3](https://github.com/GlacierMIP/GlacierMIP3) experiment, I thought that it would be good to further explain the methods listed in a [previous blog post]({{ site.url }}/2021/08/05/mean-forcing/), using concrete examples with OGGM.

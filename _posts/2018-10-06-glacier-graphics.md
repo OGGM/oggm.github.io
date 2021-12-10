@@ -4,7 +4,7 @@ title: Glacier graphics for education and outreach
 subtitle: Simple graphics to explain complex things
 author: Fabien Maussion
 date: 2018-10-06T12:00:00
-tags: science outreach
+tags: science outreach edu
 ---
 
 This week I had to prepare a 30 min presentation for an audience of scientists

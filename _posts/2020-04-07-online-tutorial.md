@@ -4,7 +4,7 @@ title: First OGGM online tutorial
 subtitle: Making best use of your quarantine time
 author: Fabien Maussion
 date: 2020-04-07T00:00:00
-tags: model tutorial
+tags: model tutorial edu
 ---
 
 We are happy to announce the very first **OGGM online tutorial**!

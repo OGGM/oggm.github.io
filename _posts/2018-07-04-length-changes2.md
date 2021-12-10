@@ -4,7 +4,7 @@ title: Glacier length changes
 subtitle: A follow up
 author: Matthias Dusch
 date: 2018-07-04T00:00:00
-tags: science model
+tags: science
 ---
 
 *Note: this blog post is a work in progress and it might be edited for content

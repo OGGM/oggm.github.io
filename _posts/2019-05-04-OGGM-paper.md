@@ -4,7 +4,7 @@ title: The OGGM description paper is finally published!
 subtitle: And... What now?
 author: Fabien Maussion
 date: 2019-05-04T12:00:00
-tags: science publications
+tags: science publication
 ---
 
 It was a long process, but our model description paper is finally

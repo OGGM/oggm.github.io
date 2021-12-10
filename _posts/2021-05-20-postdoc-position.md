@@ -4,7 +4,7 @@ title: Job announcement
 subtitle: Postdoc postion in glacier modeling at the University of Bremen
 author: Ben Marzeion 
 date: 2021-05-19T00:00:00
-tags: Other
+tags: jobs
 ---
 
 

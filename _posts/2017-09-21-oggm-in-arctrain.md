@@ -4,7 +4,7 @@ title: OGGM part of ArcTrain
 subtitle: Bremen, Germany
 author: Beatriz Recinos
 date: 2017-09-21T00:00:00
-tags: ArcTrain
+tags: community
 ---
 
 Two PhD students (Anouk and Beatriz) currently working with OGGM, joined the The In­ter­na­tio­nal Re­se­arch Trai­ning Group [ArcTrain](https://www.marum.de/Ausbildung-Karriere/ArcTrain.html): "Processes and impacts of climate change in the North Atlantic Ocean and the Canadian Arctic". 
