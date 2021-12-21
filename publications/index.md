@@ -12,10 +12,12 @@ description: "Publications related to OGGM"
 **In review**
 
 - <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice thickness inversion: an evaluation of global DEMs by ICESat-2 in the glacierized Tibetan Plateau**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-197](https://doi.org/10.5194/tc-2021-197), in review, 2021.</small>
-- <small> Pronk, J. B., Bolch, T., King, O., Wouters, B., and Benn, D. I.: **Proglacial Lakes Elevate Glacier Surface Velocities in the Himalayan Region**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-90](https://doi.org/10.5194/tc-2021-90), in review, 2021.</small>
+- <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z/, Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, in review, 2021.</small>
+- <small> Furianm W., Maussion, F., and Schneider, C.: **Projected 21st Century glacial lake evolution in High Mountain Asia**, Front. Earth Sci., in review, 2021.</small>
 
 **2021**
 
+- <small> Pronk, J. B., Bolch, T., King, O., Wouters, B., and Benn, D. I.: **Contrasting surface velocities between lake- and land-terminating glaciers in the Himalayan region**, The Cryosphere, [doi:10.5194/tc-15-5577-2021](https://doi.org/10.5194/tc-15-5577-2021), 2021.</small>
 - <small> Hartl, L., Helfricht, K., Stocker-Waldhuber, M., Seiser, B., & Fischer, A.: **Classifying disequilibrium of small mountain glaciers from patterns of surface elevation change distributions**, Journal of Glaciology, 1-16, [doi:10.1017/jog.2021.90](https://doi.org/10.1017/jog.2021.90), 2021.</small>
 - <small> Dixit, A., Sahany, S. and Kulkarni, A. V.: **Glacial changes over the Himalayan Beas basin under global warming**, J. Environ. Manage., 295(May), 113101, [doi:10.1016/j.jenvman.2021.113101](https://doi.org/10.1016/j.jenvman.2021.113101), 2021.</small>
 - <small> Shafeeque, M. and Luo, Y.: **A multi-perspective approach for selecting CMIP6 scenarios to project climate change impacts on glacio-hydrology with a case study in Upper Indus river basin**, J. Hydrol., 599(June 2020), 126466, [doi:10.1016/j.jhydrol.2021.126466](https://doi.org/10.1016/j.jhydrol.2021.126466), 2021.</small>
