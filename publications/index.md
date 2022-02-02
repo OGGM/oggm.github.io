@@ -11,10 +11,13 @@ description: "Publications related to OGGM"
 
 **In review**
 - <small> Yang, W., Li, Y., Lui, G., and Chu, W.: **Modelling Glacier Evolution in Buthanese Himalaya during the Little Ice Age**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-352](https://doi.org/10.5194/tc-2021-352), in review, 2021. </small>
-- <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice thickness inversion: an evaluation of global DEMs by ICESat-2 in the glacierized Tibetan Plateau**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-197](https://doi.org/10.5194/tc-2021-197), in review, 2021.</small>
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z/, Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, in review, 2021.</small>
 - <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st Century glacial lake evolution in High Mountain Asia**, Front. Earth Sci., in review, 2021.</small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review, 2021.</small>
+
+**2022**
+
+- <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice-thickness inversion: an evaluation of global digital elevation models (DEMs) in the glacierized Tibetan Plateau**, The Cryosphere, 16, 197–218, [doi:10.5194/tc-16-197-2022](https://doi.org/10.5194/tc-16-197-2022), 2022.</small>
 
 **2021**
 
