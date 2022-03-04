@@ -16,10 +16,10 @@ description: "Publications related to OGGM"
 **Accepted / in press**
 
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z/, Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, accepted</small>
-- <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st Century glacial lake evolution in High Mountain Asia**, Front. Earth Sci., in press.</small>
 
 **2022**
 
+- <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st-Century Glacial Lake Evolution in High Mountain Asia**, Front. Earth Sci., 10, [doi:10.3389/feart.2022.821798](https://doi.org/10.3389/feart.2022.821798), 2022.</small>
 - <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice-thickness inversion: an evaluation of global digital elevation models (DEMs) in the glacierized Tibetan Plateau**, The Cryosphere, 16, 197–218, [doi:10.5194/tc-16-197-2022](https://doi.org/10.5194/tc-16-197-2022), 2022.</small>
 
 **2021**
