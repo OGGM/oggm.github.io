@@ -12,10 +12,8 @@ description: "Publications related to OGGM"
 **In review**
 - <small> Yang, W., Li, Y., Lui, G., and Chu, W.: **Modelling Glacier Evolution in Buthanese Himalaya during the Little Ice Age**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-352](https://doi.org/10.5194/tc-2021-352), 2021. </small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review.</small>
-
-**Accepted / in press**
-
-- <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z/, Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, accepted</small>
+- <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z/, Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, in review</small>
+- <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: Process-based Estimate of Global-mean Sea-level Changes in the Common Era, Earth Syst. Dynam. Discuss. [preprint], [doi:10.5194/esd-2022-2](https://doi.org/10.5194/esd-2022-2), in review</small>
 
 **2022**
 
