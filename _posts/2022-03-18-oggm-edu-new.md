@@ -11,7 +11,9 @@ During the last few months we've been working on a new interface for the OGGM-Ed
 Our goal is to provide students and educators with an easy and intuitive way to interact and experiment with 
 OGGM, even with limited coding experience. 
 
-**Today, we are very happy to announce that this new interface is ready to be used!** See it in action on [OGGM-Edu](https://oggm.org/oggm-edu-notebooks).
+**Today, we are very happy to announce that this new interface is ready to be used!** 
+See its tools documented [here](https://edu.oggm.org/en/latest/api.html) or, even better, 
+see them in action on the [OGGM-Edu notebooks page](https://oggm.org/oggm-edu-notebooks).
 
 The `oggm-edu` python package now ships five entirely new classes:
 - `Glacier`: the main way to evolve and plot a glacier
