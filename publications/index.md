@@ -60,3 +60,26 @@ description: "Publications related to OGGM"
 - <small> Marzeion, B., Kaser, G., Maussion, F., and Champollion, N.: **Limited influence of climate change mitigation on short-term glacier mass loss**, Nature Climate Change, [doi:10.1038/s41558-018-0093-1](https://doi.org/10.1038/s41558-018-0093-1), 2018. </small>
 - <small> Marzeion, B., Cogley, J.G., Richter, K., and Parkes, D.: **Attribution of global glacier mass loss to anthropogenic and natural causes**, Science, 345, 919-921, [doi:10.1126/science.1254702](https://doi.org/10.1126/science.1254702), 2014. </small>
 - <small> Marzeion, B., Jarosch, A. H., and Hofer, M.: **Past and future sea-level change from the surface mass balance of glaciers**, The Cryosphere, 6, 1295-1322, [doi:10.5194/tc-6-1295-2012](https://doi.org/10.5194/tc-6-1295-2012), 2012. </small>
+
+### Theses making use of OGGM
+
+**PhD**
+
+- <small> Eis, J., **Reconstructing glacier evolution using a flowline model**, [doi:10.26092/elib/432](http://dx.doi.org/10.26092/elib/432), 2020. <small>
+- <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020. <small>
+- <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021. <small>
+
+**Master**
+
+- <small> Castellani, M. **Estimating Glacier Ice Thickness with Machine Learning**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-60115), 2020. <small>
+- <small> Gregor, P., **Inversion of Glacier Bed from Surface Observations by Cost Minimization: Introducing the Open Source Model COMBINE**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/3086935), 2019. <small>
+- <small> Oberrauch, M. **Testing the importance of explicit glacier dynamics for mountain glacier change projections**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/5878449), 2021. <small>
+- <small> Schmitt, P., **Flowline glacier bed estimation with numerical modelling and cost minimization : Extending the open source model COMBINE 1D**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/6139027), 2021. <small>
+- <small> Schuster, L., **Response time sensitivity of glaciers using the Open Global Glacier Model**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/4864453), 2020. <small>
+- <small> Thorlaksson, D., **Calibrating a glacier ice thickness model from in-situ point measurements**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-7259), 2017. <small>
+
+**Bachelor**
+
+- <small> Schwienbacher, F., **Model sensitivity of the mass-balance module of the OGGM model**, 2017. <small>
+
+
