@@ -71,11 +71,11 @@ description: "Publications related to OGGM"
 
 **Master**
 
-- <small> Castellani, M. **Estimating Glacier Ice Thickness with Machine Learning**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-60115), 2020. <small>
-- <small> Gregor, P., **Inversion of Glacier Bed from Surface Observations by Cost Minimization: Introducing the Open Source Model COMBINE**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/3086935), 2019. <small>
 - <small> Oberrauch, M. **Testing the importance of explicit glacier dynamics for mountain glacier change projections**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/5878449), 2021. <small>
 - <small> Schmitt, P., **Flowline glacier bed estimation with numerical modelling and cost minimization : Extending the open source model COMBINE 1D**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/6139027), 2021. <small>
+- <small> Castellani, M. **Estimating Glacier Ice Thickness with Machine Learning**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-60115), 2020. <small>
 - <small> Schuster, L., **Response time sensitivity of glaciers using the Open Global Glacier Model**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/4864453), 2020. <small>
+- <small> Gregor, P., **Inversion of Glacier Bed from Surface Observations by Cost Minimization: Introducing the Open Source Model COMBINE**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/3086935), 2019. <small>
 - <small> Thorlaksson, D., **Calibrating a glacier ice thickness model from in-situ point measurements**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-7259), 2017. <small>
 
 **Bachelor**
