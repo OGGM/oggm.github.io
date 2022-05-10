@@ -99,4 +99,4 @@ you can have a look at the summary reports of the previous editions:
 - <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2019/06/21/4st-oggm-worshop-summary/"> 4th OGGM workshop </a> </u>
-- <u> <a href="{{ site.url }}/2019/06/21/5th-oggm-worshop-summary/"> 5th OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2021/10/12/5th-oggm-worshop-summary/"> 5th OGGM workshop </a> </u>
