@@ -8,7 +8,8 @@ tags: workshop
 ---
 
 ### What is it ?
-The workshop is the 6<sup>th</sup> in a series that has brought together the community of users 
+
+**The workshop is the 6<sup>th</sup> in a series that has brought together the community of users 
 and developers of the Open Global Glacier Model ([OGGM](oggm.org)). This year's workshop 
 is organized jointly with the Python Glacier Evolution Model ([PyGEM](https://github.com/drounce/PyGEM)) 
 community. It is open to anybody interested in global glacier modeling with focus on 
@@ -16,22 +17,20 @@ active developers and users of OGGM or PyGEM. The primary goal is to discuss the
 and solutions in modeling glaciers at large scales, to learn from each other, and to develop 
 ideas and visions for the advancement of such models. The workshop will include scientific 
 presentations, hands-on coding sessions, discussion/brainstorming sessions, and generally 
-be held in an informal manner, and possibly a hike to a nearby glacier.
+be held in an informal manner (with a possible hike to a nearby glacier).**
 
 ### Agenda
+
 The workshop will include:
-1. <u>Scientific presentations</u> by the participants (ca. 15-20 min) on topics related to the theme of the workshop. 
+
+1. <b>Scientific presentations</b> by the participants (ca. 15-20 min) on topics related to the theme of the workshop. 
 These can include the state, recent developments and results of large-scale glacier modeling.
-
-2. <u>Discussion/brainstorming sessions</u> focused on topics of interest, such as future developments and visions for global glacier models.
-
-3. <u>Hands-on sessions</u> in smaller groups including:
-
-- Beginner tutorials: these sessions are for current and future OGGM/PyGEM users to learn how to set-up and customize a model run.
-- Advanced tutorials: on topics such as <i>How to contribute to OGGM/PyGEM</i>, <i>use OGGM/PyGEM with your own data</i>, or <i>use parts of OGGM/PyGEM with another model</i>.
-- Q&A session: on model problems and possible solutions.
-
-4.  <u>Glacier excursion</u>: Weather and snow conditions permitting we also plan a ½ day excursion to one of the nearby outlet glaciers of the Hardangerjøkulen Ice Cap.
+2. <b>Discussion/brainstorming sessions</b> focused on topics of interest, such as future developments and visions for global glacier models.
+3. <b>Hands-on sessions</b> in smaller groups including:
+    - Beginner tutorials: these sessions are for current and future OGGM/PyGEM users to learn how to set-up and customize a model run.
+    - Advanced tutorials: on topics such as <i>How to contribute to OGGM/PyGEM</i>, <i>use OGGM/PyGEM with your own data</i>, or <i>use parts of OGGM/PyGEM with another model</i>.
+    - Q&A session: on model problems and possible solutions.
+4.  <b>Glacier excursion</b>: Weather and snow conditions permitting we also plan a ½ day excursion to one of the nearby outlet glaciers of the Hardangerjøkulen Ice Cap.
 
 We like to keep the schedule flexible in order to meet the needs, interests and suggestions 
 of the participants. Tentatively, we plan to have presentations mostly in the mornings and 
@@ -58,7 +57,7 @@ may fall below freezing and heavy snowfall may occur combined with high winds.
 ### Transportation
 Finse is only accessible by train, from either Oslo central station (Oslo S) (ca. 4.5 hrs; 
 ca. 6 trains per day between ca. 6:00 and 23:00; ca. 600 NOK one way) or Bergen (ca. 2.5 hrs). 
-Tickets can be bought at https://www.vy.no/. From the Gardermoen Airport, Oslo central station 
+Tickets can be bought at [www.vy.no](https://www.vy.no). From the Gardermoen Airport, Oslo central station 
 can be reached by train in 20-30 minutes (many trains per hour). From Finse train station it is 
 a 15-20 minute walk (ca. 1.5 km) along a small dirt road/hiking path to the research station 
 (which may be snow-covered at that time).
@@ -77,16 +76,15 @@ A cook at the station will provide all meals for the workshop. The station has a
 and internet (4G eduroam and University of Oslo guest login).
 
 ### Workshop fee
-The final workshop fee is not confirmed yet, but we anticipate:
-Accommodation costs: 250 NOK/person/night
-Meals (breakfast, lunch, dinner): ca. 900 NOK/person/day 
+The final workshop fee is not confirmed yet, but we anticipate ca. 250 NOK/person/night for accommodation 
+and ca. 900 NOK/person/day for meals.
 
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
 [form](https://forms.gle/dgv7eynpyQ9VG6M79). 
-Due to the limited capacity of the workshop location, we would kindly like to ask you to do so 
-before 31 May (indicating your interest does not mean you're registered right away for the workshop). 
-If you have any questions please send an e-mail to info@oggm.org.
+Due to the limited capacity of the workshop location, **we would kindly like to ask you to do so 
+before 31 May** (indicating your interest does not mean you're registered right away for the workshop). 
+If you have any questions please send an e-mail to [info@oggm.org](mailto:info@oggm.org).
 
 ### Organizers
 Anouk Vlug, Regine Hock, Fabien Maussion and Ben Marzeion
