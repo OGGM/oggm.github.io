@@ -2,7 +2,7 @@
 layout: post
 title: OGGM - PyGEM Global Glacier Modeling Workshop 2022
 subtitle: 16 - 21 September, Finse, Norway
-author: Anouk Vlug, Regine Hock, Fabien Maussion and Ben Marzeion
+author: Anouk Vlug, David Rounce, Regine Hock, Fabien Maussion and Ben Marzeion
 date: 2022-05-09T00:00:00
 tags: workshop
 ---
