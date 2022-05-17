@@ -32,8 +32,8 @@ Here is a non-exhaustive list of past and current research projects related to O
 
 - Evaluating simulated centennial climate variability over the past millennium using global glacier modelling - LMGLACE (UC Louvain)
 - Predictability and Attribution of Regional Sea Level Change Caused by Glacier Mass Change (Universität Bremen)
-- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](http://acinn.uibk.ac.at/research/ice-and-climate/projects/grindelwald) (Universität Innsbruck)
-- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](http://acinn.uibk.ac.at/research/ice-and-climate/projects/glacier-length) (Universität Innsbruck)
+- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/holocene-climate-variability.html.en) (Universität Innsbruck)
+- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/modelling-glacier-length-changes.html.en) (Universität Innsbruck)
 
 ### Past and present OGGM contributors
 
