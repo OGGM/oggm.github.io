@@ -67,5 +67,4 @@ We welcome anyone to contribute to the project!
 - Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
 - Chat with us on our Slack: all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
 - Follow us on [<u>Twitter</u>](https://twitter.com/OGGM_org).
-- Subscribe to the [<u>OGGM-Announce</u>](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-announce) mailing list.
 - Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
