@@ -23,17 +23,17 @@ Here is a non-exhaustive list of past and current research projects related to O
 
 #### Current
 
-- [Ocean-ice Interaction of peripheral Greenland Glaciers](ttp://marzeion.info/content/ocean-ice-interaction-peripheral-greenland-glaciers) (Universität Bremen)
-- [Projections of global glacier melt under low-end warming scenarios](http://marzeion.info/content/projections-global-glacier-melt-under-low-end-warming-scenarios) (Universität Bremen)
+- Ocean-ice Interaction of peripheral Greenland Glaciers (Universität Bremen)
+- Projections of global glacier melt under low-end warming scenarios (Universität Bremen)
 - [Certainties and uncertainties in the future surface mass balance of mountain glaciers](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/uncertainties-glacier-smb.html.en) (Universität Innsbruck)
 - [Paris Agreement Overshooting - Reversibility, Climate Impacts and Adaptation Needs (PROVIDE)](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/provide.html.en) (Universität Innsbruck)
 
 #### Past
 
 - Evaluating simulated centennial climate variability over the past millennium using global glacier modelling - LMGLACE (UC Louvain)
-- [Predictability and Attribution of Regional Sea Level Change Caused by Glacier Mass Change](http://marzeion.info/content/predictability-and-attribution-regional-sea-level-change-caused-glacier-mass-change) (Universität Bremen)
-- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](http://acinn.uibk.ac.at/research/ice-and-climate/projects/grindelwald) (Universität Innsbruck)
-- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](http://acinn.uibk.ac.at/research/ice-and-climate/projects/glacier-length) (Universität Innsbruck)
+- Predictability and Attribution of Regional Sea Level Change Caused by Glacier Mass Change (Universität Bremen)
+- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/holocene-climate-variability.html.en) (Universität Innsbruck)
+- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/modelling-glacier-length-changes.html.en) (Universität Innsbruck)
 
 ### Past and present OGGM contributors
 
