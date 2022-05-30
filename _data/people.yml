@@ -65,14 +65,14 @@
 
 - first_name: Beatriz
   last_name: Recinos
-  institution: National Oceanography Centre
+  institution: University of Edinburgh
   github: bearecinos
   url: https://beatrizrecinos.com/
   visible: true
 
 - first_name: Anouk
   last_name: Vlug
-  institution: University of Innsbruck
+  institution: University of Bremen
   github: anoukvlug
   url: https://www.uibk.ac.at/acinn/people/anouk-vlug.html.en
   visible: true
@@ -192,3 +192,53 @@
   institution: University of Innsbruck.
   github: MatCast
   visible: true
+  
+- first_name: Erik
+  last_name: Holmgren
+  institution: University of Innsbruck
+  github: Holmgren825
+  url:
+  visible: true
+  
+- first_name: Jan-Hendrik
+  last_name: Malles
+  institution: University of Bremen
+  github: jmalles
+  url:
+  visible: true
+
+- first_name: Muhammad
+  last_name: Shafeeque
+  institution: University of Bremen
+  github: ShafeequeIGSNRR
+  url:
+  visible: true
+
+- first_name: Sadie
+  last_name: Bartholomew 
+  institution: University of Reading
+  github: sadielbartholomew
+  url: 
+  visible: true
+  
+- first_name: Samar  
+  last_name: Minallah
+  institution: University of Michigan Ann Arbor
+  github: minallah 
+  url:
+  visible: true
+  
+- first_name: Francesc 
+  last_name: Adserias 
+  institution: University of Innsbruck
+  github: franra9
+  url:
+  visible: true
+  
+- first_name: Bowen 
+  last_name: Jia
+  institution: Nanjing University
+  github: bowenbelongstonature
+  url:
+  visible: true
+  
