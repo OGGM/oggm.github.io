@@ -23,7 +23,7 @@ Here is a non-exhaustive list of past and current research projects related to O
 
 #### Current
 
-- Ocean-ice Interaction of peripheral Greenland Glaciers (Universität Bremen)
+- [Ocean-ice Interaction of peripheral Greenland Glaciers](https://groce.de/en/our-projects/5-peripheral-glaciers/) (Universität Bremen)
 - Projections of global glacier melt under low-end warming scenarios (Universität Bremen)
 - [Certainties and uncertainties in the future surface mass balance of mountain glaciers](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/uncertainties-glacier-smb.html.en) (Universität Innsbruck)
 - [Paris Agreement Overshooting - Reversibility, Climate Impacts and Adaptation Needs (PROVIDE)](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/provide.html.en) (Universität Innsbruck)
