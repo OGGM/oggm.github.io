@@ -20,7 +20,7 @@ Since many decades, the Hintereisferner glacier in the Ötztal Alps, Austria, is
     <a href="https://www.foto-webcam.eu/webcam/hintereisferner1/2022/06/21/1330" >
     <img src="/img/blog/hef-vanishing-open-air-laboratory/hintereisferner1-220621-1330-hu.jpg" alt="Image missing" width="70%" />
     </a>
-    <figcaption align = "center"><br><em>So far, this melt season 2022 started exceptionally: Hintereisferner has lost already in June most of its protecting snow cover. In the 4 preceding years from where we have webcam images available, Hintereisferner always had much more snow left in June. Check it out yourself by clicking on the image and changing the years on the webcam webpage!</em></figcaption>
+    <figcaption align = "center"><br><em>So far, this melt season 2022 started exceptionally: Hintereisferner has lost already in June most of its protecting snow cover. In the 4 preceeding years from where we have webcam images available, Hintereisferner always had much more snow left in June. Check it out yourself by clicking on the image and changing the years on the webcam webpage!</em></figcaption>
 </figure>
 
 
