@@ -18,7 +18,7 @@ Since many decades, the Hintereisferner glacier in the Ötztal Alps, Austria, is
 **Below you can see a webcam image of the Hintereisferner on June 21, 2022:** 
 <figure>
     <a href="https://www.foto-webcam.eu/webcam/hintereisferner1/2022/06/21/1330" >
-    <img src="/img/blog/hef-vanishing-open-air-laboratory/hintereisferner1-220621-1330-hu.jpg" alt="Image missing" width="65%" />
+    <img src="/img/blog/hef-vanishing-open-air-laboratory/hintereisferner1-220621-1330-hu.jpg" alt="Image missing" width="70%" />
     </a>
     <figcaption align = "center"><br><em>So far, this melt season 2022 started exceptionally: Hintereisferner has lost already in June most of its protecting snow cover. In the 4 preceding years from where we have webcam images available, Hintereisferner always had much more snow left in June. Check it out yourself by clicking on the image and changing the years on the webcam webpage!</em></figcaption>
 </figure>
@@ -34,7 +34,7 @@ On the next meeting with my supervisors, Fabien and Dave, I showed them the numb
 
 <figure>
     <a href="/img/blog/hef-vanishing-open-air-laboratory/volume_projections_HEF_glacier_most_complex_easy.jpg" >
-    <img src="/img/blog/hef-vanishing-open-air-laboratory/volume_projections_HEF_glacier_most_complex_easy.jpg" alt="Image missing" width="65%" />
+    <img src="/img/blog/hef-vanishing-open-air-laboratory/volume_projections_HEF_glacier_most_complex_easy.jpg" alt="Image missing" width="75%" />
     </a>
     <figcaption align = "center"><br><em>Relative volume change projections compared to 2020 for the Hintereisferner glacier, Ötztal Alps, Austria</em></figcaption>
 </figure>
