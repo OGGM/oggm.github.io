@@ -2,7 +2,7 @@
 layout: post
 title: Glaciers in a warming world
 subtitle: A school project
-authors: Zora Schirmeister and Lilian Schuster
+author: Zora Schirmeister and Lilian Schuster
 date: 2021-10-04T00:00:00
 tags: edu outreach
 ---
