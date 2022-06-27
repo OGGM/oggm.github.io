@@ -2,7 +2,7 @@
 layout: post
 title: Are we losing our Open Air laboratory?
 subtitle: In 11 years, the famous Hintereisferner glacier will lose around 50% of its mass of 2020
-authors: Lilian Schuster
+author: Lilian Schuster
 date: 2022-06-22T00:00:00
 tags: edu outreach
 
