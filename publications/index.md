@@ -17,6 +17,7 @@ description: "Publications related to OGGM"
 
 **2022**
 
+- <small> Bouchayer, C., Aiken, J. M., Thøgersen, K., Renard, F. and Schuler, T. V.: A machine learning framework to automate the classification of surge‐type glaciers in Svalbard, J. Geophys. Res. Earth Surf., [doi:10.1029/2022JF006597](https://doi.org/10.1029/2022JF006597), 2022.</small>
 - <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st-Century Glacial Lake Evolution in High Mountain Asia**, Front. Earth Sci., 10, [doi:10.3389/feart.2022.821798](https://doi.org/10.3389/feart.2022.821798), 2022.</small>
 - <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice-thickness inversion: an evaluation of global digital elevation models (DEMs) in the glacierized Tibetan Plateau**, The Cryosphere, 16, 197–218, [doi:10.5194/tc-16-197-2022](https://doi.org/10.5194/tc-16-197-2022), 2022.</small>
 
