@@ -12,11 +12,11 @@ description: "Publications related to OGGM"
 **In review**
 - <small> Yang, W., Li, Y., Lui, G., and Chu, W.: **Modelling Glacier Evolution in Buthanese Himalaya during the Little Ice Age**, The Cryosphere Discuss. [preprint], [doi:10.5194/tc-2021-352](https://doi.org/10.5194/tc-2021-352), 2021. </small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review.</small>
-- <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y., and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in Tian Shan, Central Asia**, Journal of Glaciology, in review</small>
 - <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: **Process-based Estimate of Global-mean Sea-level Changes in the Common Era**, Earth Syst. Dynam. Discuss. [preprint], [doi:10.5194/esd-2022-2](https://doi.org/10.5194/esd-2022-2), in review</small>
 
 **2022**
 
+- <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 1–15, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2022.</small>
 - <small> Bouchayer, C., Aiken, J. M., Thøgersen, K., Renard, F. and Schuler, T. V.: **A machine learning framework to automate the classification of surge‐type glaciers in Svalbard**, J. Geophys. Res. Earth Surf., [doi:10.1029/2022JF006597](https://doi.org/10.1029/2022JF006597), 2022.</small>
 - <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st-Century Glacial Lake Evolution in High Mountain Asia**, Front. Earth Sci., 10, [doi:10.3389/feart.2022.821798](https://doi.org/10.3389/feart.2022.821798), 2022.</small>
 - <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice-thickness inversion: an evaluation of global digital elevation models (DEMs) in the glacierized Tibetan Plateau**, The Cryosphere, 16, 197–218, [doi:10.5194/tc-16-197-2022](https://doi.org/10.5194/tc-16-197-2022), 2022.</small>
