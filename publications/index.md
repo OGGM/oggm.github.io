@@ -17,6 +17,7 @@ description: "Publications related to OGGM"
 **2022**
 
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 1–15, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2022.</small>
+- <small> Yang, W., Chu W. Liu, and G.: **Importance of the seasonal temperature and precipitation variation on glacial evolutions during the LGM at monsoonal Himalaya based on Cogarbu valley**, Palaeogeogr. Palaeoclimatol. Palaeoecol., 601, 111132, [doi:10.1016/j.palaeo.2022.111132](https://doi.org/10.1016/j.palaeo.2022.111132), 2022. </small>
 - <small> Bouchayer, C., Aiken, J. M., Thøgersen, K., Renard, F. and Schuler, T. V.: **A machine learning framework to automate the classification of surge‐type glaciers in Svalbard**, J. Geophys. Res. Earth Surf., [doi:10.1029/2022JF006597](https://doi.org/10.1029/2022JF006597), 2022.</small>
 - <small> Furian, W., Maussion, F., and Schneider, C.: **Projected 21st-Century Glacial Lake Evolution in High Mountain Asia**, Front. Earth Sci., 10, [doi:10.3389/feart.2022.821798](https://doi.org/10.3389/feart.2022.821798), 2022.</small>
 - <small> Chen, W., Yao, T., Zhang, G., Li, F., Zheng, G., Zhou, Y., and Xu, F.: **Towards ice-thickness inversion: an evaluation of global digital elevation models (DEMs) in the glacierized Tibetan Plateau**, The Cryosphere, 16, 197–218, [doi:10.5194/tc-16-197-2022](https://doi.org/10.5194/tc-16-197-2022), 2022.</small>
