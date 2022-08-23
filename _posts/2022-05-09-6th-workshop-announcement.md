@@ -76,8 +76,9 @@ A cook at the station will provide all meals for the workshop. The station has a
 and internet (4G eduroam and University of Oslo guest login).
 
 ### Workshop fee
-The final workshop fee is not confirmed yet, but we anticipate ca. 250 NOK/person/night for accommodation 
-and ca. 900 NOK/person/day for meals.
+<strike>The final workshop fee is not confirmed yet, but we anticipate ca. 250 NOK/person/night for accommodation 
+and ca. 900 NOK/person/day for meals.</strike>
+The workshop fee including meals and accommodation is 5125 NOK.
 
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
