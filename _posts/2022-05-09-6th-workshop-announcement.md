@@ -80,6 +80,35 @@ and internet (4G eduroam and University of Oslo guest login).
 and ca. 900 NOK/person/day for meals.</strike>
 The workshop fee including meals and accommodation is 5125 NOK.
 
+### Packing list
+
+<b>Workshop necessities</b>
+- Laptop for the hands-on sessions (the wifi connection goes through eduroam)
+- If needed, travel adapter for [power outlet](https://www.power-plugs-sockets.com/norway/)
+- Name tag (e.g. from a previous conference)
+- Indoor shoes/slippers (there are no shoes allowed inside and the floor can be cold)
+
+<b>Covid protocol</b>
+- FFP2/N95 masks
+- At least 5 covid self-tests
+- Suitable medication in case you fall ill
+
+<b>Glacier excursion</b>
+
+We will have an excursion to the nearby glacier, if weather conditions permit. Note the weather at the station can be anything from sunny and temperatures around 15 °C to snowstorm. For the excursion, please bring:
+- Hiking boots
+- Suitable clothing
+- Rain pans 
+- Waterproof jacket 
+- Hat
+- Neck gaitor
+- Gloves
+- Small backpack
+- Water bottle or thermos. 
+- If you have them, you may want to bring microspikes.
+- Sunn glasses
+- Make sure you have appropriate health insurance.
+
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
 [form](https://forms.gle/dgv7eynpyQ9VG6M79). 
