@@ -62,6 +62,17 @@ can be reached by train in 20-30 minutes (many trains per hour). From Finse trai
 a 15-20 minute walk (ca. 1.5 km) along a small dirt road/hiking path to the research station 
 (which may be snow-covered at that time).
 
+<b> Airport Gardemoen to Oslo </b>
+
+From the airport you need to take a train to the central train station (Oslo S ) where the train to Finse departs. 
+Turn to the right when getting out of customs and walk about 50 m where you can buy the train ticket to Oslo at a 
+counter or ticket machine. There are 2 independent companies selling tickets side by side:
+1) flytoget (flight train), fastest, ca. 20 minutes, 220 NOK
+2) ´normal´ train by company ´vy´, ca. 30 minutes, 115 NOK. This train may actually get you faster to Oslo depending when you get there since it goes more often. Trains R10, R11 and L12 go to Oslo.
+
+You can also buy the tickets online (www.vy.no or https://flytoget.no/en/).
+From the ticket counter/machines it is a 2 minute walk to the platform (down an escalator).
+
 ### Arrival / departure dates
 The workshop starts at Finse on 16 September with dinner and ends on 21 September after 
 breakfast. The Research Station closes on 21 September for winter, therefore one needs to leave 
