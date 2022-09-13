@@ -67,8 +67,9 @@ a 15-20 minute walk (ca. 1.5 km) along a small dirt road/hiking path to the rese
 From the airport you need to take a train to the central train station (Oslo S ) where the train to Finse departs. 
 Turn to the right when getting out of customs and walk about 50 m where you can buy the train ticket to Oslo at a 
 counter or ticket machine. There are 2 independent companies selling tickets side by side:
-1) flytoget (flight train), fastest, ca. 20 minutes, 220 NOK
-2) ´normal´ train by company ´vy´, ca. 30 minutes, 115 NOK. This train may actually get you faster to Oslo depending when you get there since it goes more often. Trains R10, R11 and L12 go to Oslo.
+
+1. flytoget (flight train), fastest, ca. 20 minutes, 220 NOK
+2. ´normal´ train by company ´vy´, ca. 30 minutes, 115 NOK. This train may actually get you faster to Oslo depending when you get there since it goes more often. Trains R10, R11 and L12 go to Oslo.
 
 You can also buy the tickets online (www.vy.no or https://flytoget.no/en/).
 From the ticket counter/machines it is a 2 minute walk to the platform (down an escalator).
@@ -117,8 +118,13 @@ We will have an excursion to the nearby glacier, if weather conditions permit. N
 - Small backpack
 - Water bottle or thermos. 
 - If you have them, you may want to bring microspikes.
-- Sunn glasses
+- Sunglasses
 - Make sure you have appropriate health insurance.
+
+<b> Drinks and food </b>
+
+- Note there is nothing to buy in Finse and the Research Station. If you arrive earlier than the start of the workshop earlier or leave later than the end, you are on your own for meals. 
+- Bring your own alcohol with you, if you plan to have some drinks (e.g. with the pub quiz), or order it to be delivered at the local post office. This goes as follows: Vinmonopolet will send free of charge to Finse, you just have to pick it up at the postoffice at the train station. You need to log on to the Vinmonopolet and order in the app. Use the address and use the address: Rallarvegen 2476, 5719 Finse. It normally takes 3-4 days if the things are "på lager", it might take longer.
 
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
