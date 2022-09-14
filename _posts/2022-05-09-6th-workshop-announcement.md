@@ -90,7 +90,8 @@ and internet (4G eduroam and University of Oslo guest login).
 ### Workshop fee
 <strike>The final workshop fee is not confirmed yet, but we anticipate ca. 250 NOK/person/night for accommodation 
 and ca. 900 NOK/person/day for meals.</strike>
-The workshop fee including meals and accommodation is 5125 NOK.
+<strike>The workshop fee including meals and accommodation is 5125 NOK.</strike>
+The workshop fee including meals, accommodation and a bed linen + towel set is 5225 NOK.
 
 ### Packing list
 <b>Workshop necessities</b>
@@ -98,7 +99,7 @@ The workshop fee including meals and accommodation is 5125 NOK.
 - If needed, travel adapter for [power outlet](https://www.power-plugs-sockets.com/norway/)
 - Name tag (e.g. from a previous conference)
 - Indoor shoes/slippers (there are no shoes allowed inside and the floor can be cold)
-- Optionally linen and towel (these can also be rented for 100 NOK at the research station)
+- Head torch/ flashlight might be useful (e.g. if you arrive with a late train and need to walk to the research station after sunset)
 
 <b>Covid protocol</b>
 - FFP2/N95 masks
