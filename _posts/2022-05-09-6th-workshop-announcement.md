@@ -93,12 +93,12 @@ and ca. 900 NOK/person/day for meals.</strike>
 The workshop fee including meals and accommodation is 5125 NOK.
 
 ### Packing list
-
 <b>Workshop necessities</b>
 - Laptop for the hands-on sessions (the wifi connection goes through eduroam)
 - If needed, travel adapter for [power outlet](https://www.power-plugs-sockets.com/norway/)
 - Name tag (e.g. from a previous conference)
 - Indoor shoes/slippers (there are no shoes allowed inside and the floor can be cold)
+- Optionally linen and towel (these can also be rented for 100 NOK at the research station)
 
 <b>Covid protocol</b>
 - FFP2/N95 masks
@@ -125,6 +125,24 @@ We will have an excursion to the nearby glacier, if weather conditions permit. N
 
 - Note there is nothing to buy in Finse and the Research Station. If you arrive earlier than the start of the workshop earlier or leave later than the end, you are on your own for meals. 
 - Bring your own alcohol with you, if you plan to have some drinks (e.g. with the pub quiz), or order it to be delivered at the local post office. This goes as follows: Vinmonopolet will send free of charge to Finse, you just have to pick it up at the postoffice at the train station. You need to log on to the Vinmonopolet and order in the app. Use the address and use the address: Rallarvegen 2476, 5719 Finse. It normally takes 3-4 days if the things are "på lager", it might take longer.
+
+### COVID protocol
+Recent covid outbreaks at conferences and workshops have shown how disruptive it can be, 
+with many people being sick and stuck abroad. This is something we really want to prevent. 
+Even more because the research station is both remote (with no medical facilities in its 
+surroundings) and will close right after our stay. Taking this in consideration, combined with 
+that we will be living close together, we have decided on the following protocol:
+
+- Everybody needs to bring at least 5 covid rapid-tests. Everybody should take a test 
+the day of or the night before boarding the train to Finse. If you test positive, you 
+should not travel to Finse. We also request testing the following couple of days.
+- Everybody brings sufficient masks (FFP2/N95 or similar, no cloth masks). Wearing masks 
+will be optional first, but will become necessary if someone tests positive. 
+- If anybody tests positive for covid, the person will need to isolate and can no longer 
+participate in the workshop in person. We may adjust the testing protocol as appropriate.
+
+We hope that you agree with this protocol, which aims at everyone’s safety. 
+Please get in touch with us if you have any questions!
 
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
