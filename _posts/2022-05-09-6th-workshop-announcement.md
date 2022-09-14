@@ -99,7 +99,7 @@ The workshop fee including meals, accommodation and a bed linen + towel set is 5
 - If needed, travel adapter for [power outlet](https://www.power-plugs-sockets.com/norway/)
 - Name tag (e.g. from a previous conference)
 - Indoor shoes/slippers (there are no shoes allowed inside and the floor can be cold)
-- Head torch/ flashlight might be useful (e.g. if you arrive with a late train)
+- Head torch/ flashlight might be useful (e.g. if you arrive with a late train and need to walk to the research station after sunset)
 
 <b>Covid protocol</b>
 - FFP2/N95 masks
