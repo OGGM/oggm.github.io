@@ -9,9 +9,12 @@ description: "Publications related to OGGM"
 (that we are aware of)
 
 
-**In review**
+**Submitted / In review**
+
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review.</small>
-- <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: **Process-based Estimate of Global-mean Sea-level Changes in the Common Era**, Earth Syst. Dynam. Discuss. [preprint], [doi:10.5194/esd-2022-2](https://doi.org/10.5194/esd-2022-2), in review</small>
+- <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: **Process-based Estimate of Global-mean Sea-level Changes in the Common Era**, Earth Syst. Dynam. Discuss. [preprint], [doi:10.5194/esd-2022-2](https://doi.org/10.5194/esd-2022-2), accepted</small>
+- <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., submitted.</small>
+- <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., submitted.</small>
 
 **2022**
 - <small> Yang, W., Li, Y., Lui, G., and Chu, W.: **Timing and climatic-driven mechanisms of glacier advances in Bhutanese Himalaya during the Little Ice Age**, The Cryosphere, 16, 3739–3752, [doi:10.5194/tc-16-3739-2022](https://doi.org/10.5194/tc-16-3739-2022), 2022. </small>
