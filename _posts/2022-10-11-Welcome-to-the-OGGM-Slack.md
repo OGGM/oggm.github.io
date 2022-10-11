@@ -20,11 +20,12 @@ to a sense of being part of the community.
 ### A little more on the practicalities of our slack.
 
 <b>Finding your way on the different channels</b>
-In this workspace we have a #general channel, that we use not 
-surprisingly for general messages. The #general channel is also 
+
+In this workspace we have a <i>#general</i> channel, that we use not 
+surprisingly for general messages. The <i>#general</i> channel is also 
 where the call for our fortnightly meeting is started. The 
-#support channel is often the best place to ask questions and 
-#random is being used for chitchat.
+<i>#support</i> channel is often the best place to ask questions and 
+<i>#random</i> is being used for chitchat.
 When asking a question in the #support channel it will (hopefully) 
 be answered in the threat bellow. Once your question has been 
 answered it would be great if you can add a :white_check_mark: 
@@ -35,13 +36,14 @@ the whole threat when offering their help.
 Aside from those channels that most people follow, there are 
 many thematic channels that one can add themselves to based on 
 there interest when being a full member (people with a guest status, 
-have to ask for that). To name a few #surface-mass-balance, 
-#hard-core-programming and #oggm-edu. Aside from the channels, 
+have to ask for that). To name a few <i>#surface-mass-balance</i>, 
+<i>#hard-core-programming</i> and <i>#oggm-edu</i>. Aside from the channels, 
 slack can also be used to chat privately to one or more people 
 at the same time. You can do that in 3 ways: the standard typing, 
 video-call and huddle. The later one is more like a phone call.  
 
 <b>Meeting on-line</b>
+
 Everyone on our slack is very welcome to join the 
 once-every-two-weekly-meetings, no matter your background or 
 plans with OGGM. It is quite an informal meeting, so no reason to 
@@ -57,6 +59,7 @@ time zones and schedules. (The next meeting is on October 19th
 [calendar](https://oggm.org/meetings/).
 
 <b>How to access?</b>
+
 Slack can be accessed through the browser and via a local 
 installation. My personal preference is using the app, and I 
 think that is the case for most frequent users. When using slack 
