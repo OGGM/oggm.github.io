@@ -27,10 +27,10 @@ surprisingly for general messages. The <i>#general</i> channel is also
 where the call for our fortnightly meeting is started. The 
 <i>#support</i> channel is often the best place to ask questions and 
 <i>#random</i> is being used for chitchat.
-When asking a question in the #support channel it will (hopefully) 
+When asking a question in the <i>#support</i> channel it will (hopefully) 
 be answered in the threat bellow. Once your question has been 
-answered it would be great if you can add a :white_check_mark: 
-symbol to the main question (you will see what I mean when 
+answered it would be great if you can add a check mark 
+to the main question, using e.g. the ✅ emoji (you will see what I mean when 
 scrolling through the support channel), so that the others 
 know the question has been answered and won't loose time reading 
 the whole threat when offering their help.
@@ -41,7 +41,7 @@ have to ask for that). To name a few <i>#surface-mass-balance</i>,
 <i>#hard-core-programming</i> and <i>#oggm-edu</i>. Aside from the channels, 
 slack can also be used to chat privately to one or more people 
 at the same time. You can do that in 3 ways: the standard typing, 
-video-call and huddle. The later one is more like a phone call.  
+video-call and huddle. The latter one is more like a phone call.  
 
 <b>Meeting online</b>
 
