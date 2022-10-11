@@ -42,7 +42,7 @@ slack can also be used to chat privately to one or more people
 at the same time. You can do that in 3 ways: the standard typing, 
 video-call and huddle. The later one is more like a phone call.  
 
-<b>Meeting on-line</b>
+<b>Meeting online</b>
 
 Everyone on our slack is very welcome to join the 
 once-every-two-weekly-meetings, no matter your background or 
