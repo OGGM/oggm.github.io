@@ -11,10 +11,11 @@ The OGGM Slack is our platform for internal communication.
 Though internal sounds maybe like a closed, small, and secretive 
 group. It is not. It is an open, inclusive and friendly environment, 
 that is a little more closed than an open forum where everyone 
-can read what you wrote. But what is it about? We use the slack to 
-get support, discuss and stay updated. Ranging on topics, <i>how to 
-solve this error in my code</i>, <i>who is going to this meeting</i>, <i>has 
-someone done this already</i>, … In addition the slack can contribute 
+can read what you wrote and a lot less anonymous. But what is it about? 
+We use the slack to get support, discuss and stay updated. With topics 
+ranging from <i>how to solve this error in my code</i> and <i>has 
+someone done this already</i> to <i>who is going to this meeting/conference</i>
+and plenty more... In addition the slack can contribute 
 to a sense of being part of the community.
 
 ### A little more on the practicalities of our slack.
