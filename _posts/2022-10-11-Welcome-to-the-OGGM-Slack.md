@@ -4,7 +4,7 @@ title: Welcome to the OGGM Slack!
 subtitle: A little introduction
 author: Anouk Vlug
 date: 2022-10-11T00:00:00
-tags: Community
+tags: community
 ---
 
 The OGGM Slack is our platform for internal communication. 
