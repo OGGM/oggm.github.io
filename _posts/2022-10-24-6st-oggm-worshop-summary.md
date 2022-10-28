@@ -12,33 +12,30 @@ it was time for the next chapter, in a series that has brought together the comm
 of OGGM. After what was for most of us a long day of traveling and a beautiful train 
 journey, we arrived in Finse, a remote village between Bergen and Oslo, that can only be reached by train. All that 
 was remaining of our journey was a 20 minute walk to the [research station](www.finse.uio.no) through the alpine tundra 
-with the some of the outlet glaciers of the near by ice cap insight, before receiving a warm welcome by the station manager, 
+with some of the outlet glaciers of the near by ice cap insight, before receiving a warm welcome by the station manager, 
 the cooks and the workshop participants that arrived a little earlier. This year’s workshop was jointly organized with 
 the Python Glacier Evolution Model (PyGEM) community and for the first time the workshop did not solely focused on OGGM. 
-PyGEM, ODINN, COSIPY and GloGEM were also present. 
+PyGEM, ODINN, COSIPY and GloGEM were also present, leading to a wider range of topics being presented and some more 
+overarching discussions compared to the previous editions. 
 
 The program consisted of presentations, mostly in the mornings, by the participants that were grouped together in 
 the thematic sessions: "<i>Recent developments in global glacier modeling</i>", “<i>Glacier-related hydrology and data</i>” 
 and “<i>Glacier evolution, past and future, ensemble studies and intercomparison</i>”. The presentations ranged from 
-longer overview presentations, to presentations of latest results and short pitches of new ideas. During the afternoons 
-there were hands-on tutorials in PyGEM and OGGM for beginners and OGGM for more advanced users. In addition there 
-were discussion sessions. 
+longer overview presentations, to presentations of latest results, short pitches of new ideas and two posters. This mix 
+of different presentation lenghts, was a result of having all participants indicate if, what, in what format and how 
+long they would like to present. The thematic sessions were based on the submissions, instead of being defined priorly. 
+Personally really enjoyed how that worked out, both because it created some variety in the presentation types and 
+because oneself can often best estimate what would be good to present to the audience. During the afternoons there were 
+hands-on tutorials in PyGEM and OGGM for beginners, OGGM for more advanced users and discussion sessions. The full 
+program you can find in the following document. Having said that, the program wasn't rigid. Intresting discussions
+and questions where prioritized above sticking to the schedule. Also the details, as topics of some of the discussion
+sessions were agreed on during the workshop. 
 
-Having this year a broader audience resulted in some overarching discussions. The one I found personally particularly 
-interesting, was about the “<i>relationship and potential for marriage</i>” of OGGM and PyGEM. One of the great things 
-of OGGM is that it is modular and open source, making it very easy for others to use just the part they need and combine 
-it with their own cuisine. Having an agreement on in- and output formats of the different modules, is essential in this 
-context of this modeling framework. Agreeing with others like PyGEM to use the same workflow, would come with great 
-benefits. This can avoid needing to repeat certain exercises, making intercomparisions way easier and increase the options 
-one could choice from. 
-Before the discussion started this marriage between these to models seemed inevitable for me, especially because PyGEM 
-already uses parts of OGGM. However some strong arguments during the discussion turned this upside down. To the outside 
-world it might give of a wrong impression if everything takes place within one framework and might make it seems less 
-reliable. But maybe more importantly, agreeing on one workflow, which in this case has the minimum of being glacier 
-entity based, put you on a track where no longer everything is possible. For science that could be harmful. This doesn’t 
-mean committing to the same workflow is necessarily “wrong”, there should only stay general awareness that this can 
-be restriction, and that space should remain in the global glacier modeling community for tackling questions with 
-another approach and that moving with all models to the same framework would for this reason not be desirable.  
+<figure>
+    <a href="/img/blog/6st_workshop/group_picture_finse.jpg" >
+    <img src="/img/blog/6st_workshop/group_picture_finse.jpg" alt="Image missing" width="75%" />
+    </a>
+</figure>
 
 The excursion to the nearby glacier was for some of us the first time a seeing a glacier up close, making it a wonderful 
 experience setting foot on one, especially considering that all of us are doing glacier research. For one of us it was a
