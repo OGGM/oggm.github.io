@@ -27,8 +27,10 @@ format and how long they would like to present. The thematic sessions were based
 being defined priorly. Personally really enjoyed how that worked out, both because it created some variety in the 
 presentation types and because oneself can often best estimate what would be good to present to the audience. 
 During the afternoons there were hands-on tutorials in PyGEM and OGGM for beginners, OGGM for more advanced users 
-and discussion sessions. The full program you can find in the following document. Having said that, the program wasn't 
-rigid. Intresting discussions and questions were for instance prioritized above sticking to the schedule. 
+and discussion sessions. The full program you can find in the following 
+[document](https://github.com/OGGM/oggm.github.io/tree/master/img/blog/6st_workshop/Workshop_Program_2022.pdf). 
+Having said that, the program wasn't rigid. Intresting discussions and questions were for instance prioritized above 
+sticking to the schedule. 
 
 
 <figure>
