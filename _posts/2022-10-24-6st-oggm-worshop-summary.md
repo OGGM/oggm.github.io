@@ -3,7 +3,7 @@ layout: post
 title: The OGGM - PyGEM Global Glacier Modeling Workshop 2022 – a short summary
 subtitle: Finse Norway, 16-21 October 2022
 author: Anouk Vlug, Larissa van der Laan
-date: 2022-10-24T00:00:00
+date: 2022-11-20T00:00:00
 tags: workshop
 ---
 
