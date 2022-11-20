@@ -11,7 +11,7 @@ Almost a year after the [5th OGGM workshop in Neuharlingersiel](https://oggm.org
 it was time for the next chapter in a series of workshops which, over time, has brought together the community of users, developers and friends 
 of OGGM. After what was - for most of us - a long day of traveling (from as far as Japan to as close as Bergen) and a beautiful train 
 journey, we arrived in Finse, a remote village between Bergen and Oslo, that can only be reached by train. All that 
-remained of our journey was a 20 minute walk to the [research station](www.finse.uio.no) through the alpine tundra 
+remained of our journey was a 20 minute walk to the [research station](https://www.finse.uio.no) through the alpine tundra 
 with some of the outlet glaciers of the nearby ice cap in sight, before receiving a warm welcome from the station manager, 
 the cooks and the workshop participants who had arrived a little earlier. This year’s workshop was jointly organized with 
 the Python Glacier Evolution Model (PyGEM) community, and for the first time the workshop did not solely focus on OGGM. 
@@ -35,7 +35,7 @@ sticking to the schedule.
 
 <figure>
     <a href="/img/blog/6st_workshop/groupphoto.jpg" >
-    <img src="/img/blog/6st_workshop/groupphoto.jpg" alt="Image missing" width="50%" />
+    <img src="/img/blog/6st_workshop/groupphoto.jpg" alt="Image missing" width="75%" />
     </a>
 </figure>
 
