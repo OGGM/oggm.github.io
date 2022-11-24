@@ -11,9 +11,11 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
+- <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., accepted.</small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review.</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., submitted.</small>
 - <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., submitted.</small>
+
 
 **2022**
 - <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: **Process-based Estimate of Global-mean Sea-level Changes in the Common Era**, Earth Syst. Dynam., 13, 1417–1435, [doi:10.5194/esd-13-1417-2022](https://doi.org/10.5194/esd-13-1417-2022), 2022.</small>
