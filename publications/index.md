@@ -11,13 +11,14 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
-- <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., accepted.</small>
-- <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., in review.</small>
+- <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., accepted.</small>
 - <small> Minallah, S., Schmitt, P., Bassis, J., Maussion, F. and Lipscomb, W.: **Modelling the Historical Evolution of the Karakoram’s Largest Glaciers**, J. Glaciol., submitted.</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., in review.</small>
 - <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., in review.</small>
 
 **2022**
+
+- <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., 128948, [doi:10.1016/j.jhydrol.2022.128948](https://doi.org/10.1016/j.jhydrol.2022.128948), 2022.</small>
 - <small> Nidheesh, G., Goosse, H., Parkes, D., Goelzer, H., Maussion, F., and Marzeion, B.: **Process-based Estimate of Global-mean Sea-level Changes in the Common Era**, Earth Syst. Dynam., 13, 1417–1435, [doi:10.5194/esd-13-1417-2022](https://doi.org/10.5194/esd-13-1417-2022), 2022.</small>
 - <small> Yang, W., Li, Y., Lui, G., and Chu, W.: **Timing and climatic-driven mechanisms of glacier advances in Bhutanese Himalaya during the Little Ice Age**, The Cryosphere, 16, 3739–3752, [doi:10.5194/tc-16-3739-2022](https://doi.org/10.5194/tc-16-3739-2022), 2022. </small>
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 1–15, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2022.</small>
