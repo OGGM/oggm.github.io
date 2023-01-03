@@ -11,10 +11,13 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
-- <small> Tang, S., Vlug, A., Piao, S., Li, F., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., accepted.</small>
 - <small> Minallah, S., Schmitt, P., Bassis, J., Maussion, F. and Lipscomb, W.: **Modelling the Historical Evolution of the Karakoram’s Largest Glaciers**, J. Glaciol., submitted.</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., in review.</small>
 - <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., in review.</small>
+
+**2023**
+
+- <small> Tang, S., Vlug, A., Piao, S., Li, F., Wang, T., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., 14, 32, [doi:10.1038/s41467-022-35672-w](https://doi.org/10.1038/s41467-022-35672-w), 2023.</small>
 
 **2022**
 
