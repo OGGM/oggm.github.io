@@ -14,12 +14,12 @@ description: "Publications related to OGGM"
 - <small> Minallah, S., Schmitt, P., Bassis, J., Maussion, F. and Lipscomb, W.: **Modelling the Historical Evolution of the Karakoram’s Largest Glaciers**, J. Glaciol., submitted.</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., in review.</small>
 - <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., in review.</small>
-- <small> Zhao, H., Su, B., Lei, H., Zhang, T., Xiao, C.: **A new projection for glacier mass and runoff changes over High Mountain Asia**, Science Bulletin, [doi:10.1016/j.scib.2022.12.004](https://doi.org/10.1016/j.scib.2022.12.004), in press.</small>
 
 **2023**
 
-- <small> Rounce, D. R., Hock, R., Maussion, F., Hugonnet, R., Kochtitzky, W., Huss, M., Berthier, E., Brinkerhoff, D., Compagno, L., Copland, L., Farinotti, D., Menounos, B. and McNabb, R. W.: **Global glacier change in the 21st century: Every increase in temperature matters**, Science (80-. )., 379(6627), 78–83, [doi:10.1126/science.abo1324](https://doi.org/10.1126/science.abo1324), 2023.</small>
+- <small> Rounce, D. R., Hock, R., Maussion, F., Hugonnet, R., Kochtitzky, W., Huss, M., Berthier, E., Brinkerhoff, D., Compagno, L., Copland, L., Farinotti, D., Menounos, B. and McNabb, R. W.: **Global glacier change in the 21st century: Every increase in temperature matters**, Science (80-. )., 379(6627), 78–83, [doi:10.1126/science.abo1324](https://doi.org/10.1126/science.abo1324), 2023. [[download](https://www.science.org/stoken/author-tokens/ST-948/full)].</small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Wang, T., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., 14, 32, [doi:10.1038/s41467-022-35672-w](https://doi.org/10.1038/s41467-022-35672-w), 2023.</small>
+- <small> Zhao, H., Su, B., Lei, H., Zhang, T., Xiao, C.: **A new projection for glacier mass and runoff changes over High Mountain Asia**, Science Bulletin, [doi:10.1016/j.scib.2022.12.004](https://doi.org/10.1016/j.scib.2022.12.004), in press.</small>
 
 **2022**
 
