@@ -24,7 +24,7 @@ to a sense of being part of the community.
 
 In this workspace we have a <i>#general</i> channel, that we use not 
 surprisingly for general messages. The <i>#general</i> channel is also 
-where the call for our fortnightly meeting is started. The 
+where the call for our fortnightly meetings are announced. The 
 <i>#support</i> channel is often the best place to ask questions and 
 <i>#random</i> is being used for chitchat.
 When asking a question in the <i>#support</i> channel it will (hopefully) 
