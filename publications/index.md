@@ -17,7 +17,7 @@ description: "Publications related to OGGM"
 
 **2023**
 
-- <small> Rounce, D. R., Hock, R., Maussion, F., Hugonnet, R., Kochtitzky, W., Huss, M., Berthier, E., Brinkerhoff, D., Compagno, L., Copland, L., Farinotti, D., Menounos, B. and McNabb, R. W.: **Global glacier change in the 21st century: Every increase in temperature matters**, Science (80-. )., 379(6627), 78–83, [doi:10.1126/science.abo1324](https://doi.org/10.1126/science.abo1324), 2023. [[download](https://www.science.org/stoken/author-tokens/ST-948/full)].</small>
+- <small> Rounce, D. R., Hock, R., Maussion, F., Hugonnet, R., Kochtitzky, W., Huss, M., Berthier, E., Brinkerhoff, D., Compagno, L., Copland, L., Farinotti, D., Menounos, B. and McNabb, R. W.: **Global glacier change in the 21st century: Every increase in temperature matters**, Science (80-. )., 379(6627), 78–83, [doi:10.1126/science.abo1324](https://doi.org/10.1126/science.abo1324), 2023. [[download from the authors website]([https://www.science.org/stoken/author-tokens/ST-948/full](https://www.cmu.edu/cee/people/faculty/rounce.html))].</small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Wang, T., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., 14, 32, [doi:10.1038/s41467-022-35672-w](https://doi.org/10.1038/s41467-022-35672-w), 2023.</small>
 - <small> Zhao, H., Su, B., Lei, H., Zhang, T., Xiao, C.: **A new projection for glacier mass and runoff changes over High Mountain Asia**, Science Bulletin, [doi:10.1016/j.scib.2022.12.004](https://doi.org/10.1016/j.scib.2022.12.004), in press.</small>
 
