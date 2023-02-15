@@ -11,7 +11,7 @@ tags: workshop
 
 **The workshop is the 7<sup>th</sup> in a series that has brought together the community of users 
 and developers of the Open Global Glacier Model ([OGGM](oggm.org)). This year's workshop 
-is organized by colleagues based at The University of Edinburgh. It is open to anybody interested in global glacier modeling with focus on active developers and users of OGGM. The primary goal is to discuss the challenges 
+is organized by colleagues based at [The University of Edinburgh](https://www.ed.ac.uk/geosciences). It is open to anybody interested in global glacier modeling with focus on active developers and users of OGGM. The primary goal is to discuss the challenges 
 and solutions in modeling glaciers at large scales with OGGM, to learn from each other, and to develop 
 ideas and visions for the advancement of the model. The workshop will include scientific 
 presentations, hands-on coding sessions, discussion/brainstorming sessions, and generally 
@@ -33,8 +33,7 @@ These can include the state, recent developments and results of glacier modeling
 
 We would have the beginner hands-on sessions 
 at the first 1.5 days of the workshop, so new users of OGGM can get up to speed and have a better understanding 
-of what is coming next. For the rest of the week, (tentatively) we plan to have presentations mostly in the mornings and 
-group discussions and hand-on sessions in the afternoons. 
+of what is coming next. For the rest of the week, (tentatively) we plan to have presentations mostly in the mornings and group discussions and hand-on sessions in the afternoons. 
 
 
 ### Who can participate ?
@@ -57,7 +56,7 @@ From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk 
 
 
 ### Arrival / departure dates
-The workshop starts on the 28th September in the morning and ends on the 1st of September in the afternoon. We recommend to arrive on Sunday (beginners) or Monday (all participants) and depart on Friday evening or Saturday morning.
+The workshop starts on the 28th August in the morning and ends on the 1st of September in the afternoon. We recommend to arrive on Sunday (beginners) or Monday (all participants) and depart on Friday evening or Saturday morning.
 
 ### Accommodation / meals
 All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffe/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two?) workshop evening dinners.
