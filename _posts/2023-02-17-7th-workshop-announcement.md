@@ -15,7 +15,7 @@ is organized by colleagues based at [The University of Edinburgh](https://www.ed
 and solutions in modeling glaciers at large scales with OGGM, to learn from each other, and to develop 
 ideas and visions for the advancement of the model. The workshop will include scientific 
 presentations, hands-on coding sessions, discussion/brainstorming sessions, and generally 
-be held in an informal manner (with a possible hike to a Scotish National park).**
+be held in an informal manner (with a possible hike to a Scottish National park).**
 
 ### Agenda
 
@@ -62,7 +62,7 @@ From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk 
 The workshop starts on the 28th August in the morning and ends on the 1st of September in the afternoon. We recommend to arrive on Sunday (beginners) or Monday (all participants) and depart on Friday evening or Saturday morning.
 
 ### Accommodation / meals
-All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffe/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two?) workshop evening dinners.
+All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffe/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two) workshop evening dinners.
 
 ### Workshop fee
 The final workshop fee is not confirmed yet, we anticipate approx. £480 for a shared room option and £620 for a single room option. This will include breakfast, workshop fee, excursion and the conference social dinner. 
