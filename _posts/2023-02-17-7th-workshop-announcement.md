@@ -37,7 +37,7 @@ of what is coming next. For the rest of the week, (tentatively) we plan to have 
 
 >>**Note for participants, GLAMBIE Workshop 28.08.2023 – 30.08.2023**:
 
->> The second Glacier Mass Balance Intercomparison Exercise (GLAMBIE) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We will organize a joint session and social event either on Tuesday or Wednesday. GLAMBIE participants are welcome to register to the OGGM workshop if they are interested (we will do our best to accommodate all wishes, depending on room availability, for more information on accomodation see below).
+>> The second Glacier Mass Balance Intercomparison Exercise (<a href="https://glambie.org/">GLAMBIE</a>) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We will organize a joint session and social event either on Tuesday or Wednesday. GLAMBIE participants are welcome to register to the OGGM workshop if they are interested (we will do our best to accommodate all wishes, depending on room availability, for more information on accomodation see below).
 
 ### Who can participate ?
 Anyone working on glaciological modeling using OGGM,
