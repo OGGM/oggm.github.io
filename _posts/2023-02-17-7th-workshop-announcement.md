@@ -35,11 +35,12 @@ We would have the beginner hands-on sessions
 at the first 1.5 days of the workshop, so new users of OGGM can get up to speed and have a better understanding 
 of what is coming next. For the rest of the week, (tentatively) we plan to have presentations mostly in the mornings and group discussions and hand-on sessions in the afternoons. 
 
->>**Note for participants, GLAMBIE Workshop 28.08.2023 – 30.08.2023**:
+### Note for participants of GLAMBIE Workshop (28.08.2023 – 30.08.2023)
 
->> The second Glacier Mass Balance Intercomparison Exercise (<a href="https://glambie.org/">GLAMBIE</a>) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We will organize a joint session and social event either on Tuesday or Wednesday. GLAMBIE participants are welcome to register to the OGGM workshop if they are interested (we will do our best to accommodate all wishes, depending on room availability, for more information on accomodation see below).
+The second Glacier Mass Balance Intercomparison Exercise (<a href="https://glambie.org/">GLAMBIE</a>) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We will likely organize a joint session and social event either on Tuesday or Wednesday. GLAMBIE participants are welcome to register to the OGGM workshop if they are interested (we will do our best to accommodate all wishes, depending on room availability, for more information on accomodation see below).
 
 ### Who can participate ?
+
 Anyone working on glaciological modeling using OGGM,
 but also any other global glacier modeler keen on learning more about OGGM! In particular, 
 we would like to encourage model users (current and future) as well as model developers to join 
@@ -48,10 +49,10 @@ at the University accomodation. Therefore users and developers of OGGM will be g
 priority in case interest exceeds capacity.
 
 ### Location
-The workshop will be held at the [Edinburgh Climate Change Institute (ECCI)](https://edinburghcentre.org/). ECCI is part of the School of GeoSciences, University of Edinburgh. Located in the [heart of the city,](https://goo.gl/maps/Edb3ixpE4D745icW8) is a leading centre for research, teaching, policy and practice for climate action. In general, summers in Edinburgh are reasonably warm and pleasant and the city has a lot to offer including one of the most famouse summer festivals in the world [The Fringe](https://www.edfringe.com/experience/what-is-the-festival-fringe). 
+The workshop will be held at the [Edinburgh Climate Change Institute (ECCI)](https://edinburghcentre.org/). ECCI is part of the School of GeoSciences, University of Edinburgh. Located in the [heart of the city,](https://goo.gl/maps/Edb3ixpE4D745icW8) is a leading centre for research, teaching, policy and practice for climate action. In general, summers in Edinburgh are reasonably warm and pleasant and the city has a lot to offer including one of the most famous summer festivals in the world [The Fringe](https://www.edfringe.com/experience/what-is-the-festival-fringe). 
 
 ### Transportation
-Edinburgh is the capital city of Scotland (in the UK) therefore, it is very accesible by flight or train. Edinburgh Airport is the closest international airport and Edinburgh Waverley is the name of the central train station. From The Netherlands (NL) there are a regular [ferries](https://www.dfds.com/en) to Newcastle (England), which is only approx. 2hrs by train from Edinburgh. There are also daily trains from London. 
+Edinburgh is the capital city of Scotland (in the UK) and it is very accesible by flight or train. Edinburgh Airport is the closest international airport and Edinburgh Waverley is the name of the central train station. From The Netherlands (NL) there are a regular [ferries](https://www.dfds.com/en) to Newcastle (England), which is only approx. 2hrs by train from Edinburgh. There are also daily trains from London. 
 
 From the Airport there are several bus routes and tram to the city centre ([Princes street](https://goo.gl/maps/2to6fG8Mgj7DtYQk6)), more information on public transport to and from the Airport can be found [here](https://www.edinburghairport.com/transport-links). Visit the [Lothian buses website](https://www.lothianbuses.com/) for transport information within Edinburgh. 
 
