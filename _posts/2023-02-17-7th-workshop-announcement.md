@@ -3,7 +3,7 @@ layout: post
 title: OGGM - Global Glacier Modeling Workshop 2023
 subtitle: 28 August - 1 September, Edinburgh, Scotland
 author: Beatriz Recinos, Anouk Vlug, Dan Goldberg, Fabien Maussion and Ben Marzeion
-date: 2023-02-17T00:00:00
+date: 2023-02-20T00:00:00
 tags: workshop
 ---
 
@@ -55,14 +55,14 @@ Edinburgh is the capital city of Scotland (in the UK) therefore, it is very acce
 
 From the Airport there are several bus routes and tram to the city centre ([Princes street](https://goo.gl/maps/2to6fG8Mgj7DtYQk6)), more information on public transport to and from the Airport can be found [here](https://www.edinburghairport.com/transport-links). Visit the [Lothian buses website](https://www.lothianbuses.com/) for transport information within Edinburgh. 
 
-From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk distance. And the workshop accommodation is reachable by bus.
+From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk distance and the workshop accommodation is also reachable by bus.
 
 
 ### Arrival / departure dates
 The workshop starts on the 28th August in the morning and ends on the 1st of September in the afternoon. We recommend to arrive on Sunday (beginners) or Monday (all participants) and depart on Friday evening or Saturday morning.
 
 ### Accommodation / meals
-All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffe/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two) workshop evening dinners.
+All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffee/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two) workshop evening dinners.
 
 ### Workshop fee
 The final workshop fee is not confirmed yet, we anticipate approx. £480 for a shared room option and £620 for a single room option. This will include breakfast, workshop fee, excursion and the conference social dinner. 
@@ -70,7 +70,7 @@ The final workshop fee is not confirmed yet, we anticipate approx. £480 for a s
 
 ### Registration
 If you wish to participate in the workshop, please fill out the following 
-[form](https://docs.google.com/forms/d/16M1atb-7g9szBgowJtyjvguuc9lTHXkhD0LhKLnH9cs/prefill).
+[form](https://forms.gle/Z1Twsj5KhfZtKLU89).
 
 Due to the limited capacity in accommodation, **we would kindly like to ask you to do so 
 before April 30th** (indicating your interest does not mean you're registered right away for the workshop). 
