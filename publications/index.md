@@ -11,9 +11,8 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
-- <small> Minallah, S., Schmitt, P., Bassis, J., Maussion, F. and Lipscomb, W.: **Modelling the Historical Evolution of the Karakoram’s Largest Glaciers**, J. Glaciol., submitted.</small>
-- <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., in review.</small>
-- <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., in review.</small>
+- <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., accepted.</small>
+- <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., accepted.</small>
 
 **2023**
 
