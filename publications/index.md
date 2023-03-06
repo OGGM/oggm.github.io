@@ -11,7 +11,7 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
-- <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., submitted.</small>
+- <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., [pdf: read the preprint](https://doi.org/10.31223/X5C65S).</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., accepted.</small>
 - <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., accepted.</small>
 
