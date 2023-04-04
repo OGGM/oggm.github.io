@@ -13,12 +13,12 @@ description: "Publications related to OGGM"
 
 - <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., [pdf: read the preprint](https://doi.org/10.31223/X5C65S).</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzki, W., Copland, L., Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., accepted.</small>
-- <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., accepted.</small>
 
 **2023**
 
 - <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., 617(PB), 128948, [doi:10.1016/j.jhydrol.2022.128948](https://doi.org/10.1016/j.jhydrol.2022.128948), 2023.</small>
 - <small> Hock, R., Maussion, F., Marzeion, B. and Nowicki, S.: **What is the global glacier ice volume outside the ice sheets?**, J. Glaciol., 1–7, [doi:10.1017/jog.2023.1](https://doi.org/10.1017/jog.2023.1), 2023.</small>
+- <small> Recinos, B., Maussion, F., Marzeion, B.: **Advances in data availability to constrain and evaluate ice dynamical models of Greenland’s tidewater peripheral glaciers**, Annals of Glaciol., 1–7, [doi:10.1017/aog.2023.11](https://doi.org/10.1017/aog.2023.11), 2023.</small>
 - <small> Rounce, D. R., Hock, R., Maussion, F., Hugonnet, R., Kochtitzky, W., Huss, M., Berthier, E., Brinkerhoff, D., Compagno, L., Copland, L., Farinotti, D., Menounos, B. and McNabb, R. W.: **Global glacier change in the 21st century: Every increase in temperature matters**, Science (80-. )., 379(6627), 78–83, [doi:10.1126/science.abo1324](https://doi.org/10.1126/science.abo1324), 2023. [[download from the authors website](https://www.cmu.edu/cee/people/faculty/rounce.html)].</small>
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Wang, T., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., 14, 32, [doi:10.1038/s41467-022-35672-w](https://doi.org/10.1038/s41467-022-35672-w), 2023.</small>
 - <small> Zhao, H., Su, B., Lei, H., Zhang, T., Xiao, C.: **A new projection for glacier mass and runoff changes over High Mountain Asia**, Science Bulletin, 68(1), 43-47, [doi:10.1016/j.scib.2022.12.004](https://doi.org/10.1016/j.scib.2022.12.004), 2023.</small>
