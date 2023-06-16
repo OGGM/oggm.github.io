@@ -11,6 +11,7 @@ description: "Publications related to OGGM"
 **Submitted / In review**
 
 - <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., [pdf: read the preprint](https://doi.org/10.31223/X5C65S).</small>
+- <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev. Discuss. [preprint], [doi:10.5194/gmd-2023-120](https://doi.org/10.5194/gmd-2023-120), in review, 2023.</small>
 
 **2023**
 
