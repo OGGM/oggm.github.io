@@ -37,45 +37,43 @@ of what is coming next. For the rest of the week, (tentatively) we plan to have 
 
 ### Note for participants of GLAMBIE Workshop (28.08.2023 – 30.08.2023)
 
-The second Glacier Mass Balance Intercomparison Exercise (<a href="https://glambie.org/">GLAMBIE</a>) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We will likely organize a joint session and social event either on Tuesday or Wednesday. GLAMBIE participants are welcome to register to the OGGM workshop if they are interested (we will do our best to accommodate all wishes, depending on room availability, for more information on accomodation see below).
+The second Glacier Mass Balance Intercomparison Exercise (<a href="https://glambie.org/">GLAMBIE</a>) workshop will take place also in Edinburgh during the first half of the week. This is a rare opportunity to connect the modelling and remote sensing communities! We have organized a joint session and social event on Wednesday.
 
-### Who can participate ?
 
-Anyone working on glaciological modeling using OGGM,
-but also any other global glacier modeler keen on learning more about OGGM! In particular, 
-we would like to encourage model users (current and future) as well as model developers to join 
-us. The number of participants is limited to approximately 30 due to the housing limitations 
-at the University accomodation. Therefore users and developers of OGGM will be given 
-priority in case interest exceeds capacity.
+## Accommodation / meals
+Most participants will be housed at the Pollock Estate halls - [Chancellors Court](https://goo.gl/maps/BaBVYHBxqVi2K3Z36), located at the foot of Arthur's Seat – the city's iconic ancient volcano. 
+- Check in starts 27/08/223 24hrs check desk available from 15:00 hrs   
+- Check out is 02/09/23 10:30 hrs   
+**Address:** Chancellors Court, Pollock Halls of Residence, 18 Holyrood Park Road, Edinburgh, EH16 5AY.
 
-### Location
-The workshop will be held at the [Edinburgh Climate Change Institute (ECCI)](https://edinburghcentre.org/). ECCI is part of the School of GeoSciences, University of Edinburgh. Located in the [heart of the city,](https://goo.gl/maps/Edb3ixpE4D745icW8) is a leading centre for research, teaching, policy and practice for climate action. In general, summers in Edinburgh are reasonably warm and pleasant and the city has a lot to offer including one of the most famous summer festivals in the world [The Fringe](https://www.edfringe.com/experience/what-is-the-festival-fringe). 
+There are single and twin occupancy room options and those with twin accommodation have been paired with a room buddy. Accommodation in the Estate includes a full Scottish breakfast.   
 
-### Transportation
+At ECCI Coffee/Tea sessions and Lunches will be provided via The University of Edinburgh catering business. Lunches and snacks during the workshop will be all vegetarian, and/or vegan - there are few people with gluten free requirements so please check that you don't take those if that is not your requirement. There will be fruit and snacks as well as soft drinks however, we encourage you to bring your own water bottle and cup to reduce plastic waste. Other cutlery and coffee cups and wine/beer glasses will be provided. 
+
+## Transportation and directions
 Edinburgh is the capital city of Scotland (in the UK) and it is very accesible by flight or train. Edinburgh Airport is the closest international airport and Edinburgh Waverley is the name of the central train station. From The Netherlands (NL) there are a regular [ferries](https://www.dfds.com/en) to Newcastle (England), which is only approx. 2hrs by train from Edinburgh. There are also daily trains from London. 
 
 From the Airport there are several bus routes and tram to the city centre ([Princes street](https://goo.gl/maps/2to6fG8Mgj7DtYQk6)), more information on public transport to and from the Airport can be found [here](https://www.edinburghairport.com/transport-links). Visit the [Lothian buses website](https://www.lothianbuses.com/) for transport information within Edinburgh. 
 
-From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk distance and the workshop accommodation is also reachable by bus.
+From the Edinburgh Waverley train station to ECCI there is approx. a 8 min walk distance and the workshop accommodation is also reachable by bus.  
+
+From Princess Street to Pollocks Estate halls you can either walk for 30 min up and down the hills or take a bus, several routes go there from stop PH: 30/33/14 and the closest bus stop to Pollocks Estate halls is [Commonwealth Pool](https://goo.gl/maps/FL43XJbmpiLzMUz16).
+
+From Pollock Estate halls to ECCI there is approx. a 21 min walk via Arthur’s seat or you can take a bus to the city centre.
+
+## Social activities
+
+Monday: Icebreaker - Dinner at Salisbury Arms pub, in front of the Commonwealth Pool, next to Pollock Estate halls at 6:30 PM.   
+Wednesday: GLAMBIE - OGGM social: cèilidhing at Central Hall starting at 7:00 PM   
+Friday: Excursion to Grey Mare’s tail Nature Reserve (pick up at 8:30 AM in front of ECCI)  
 
 
-### Arrival / departure dates
-The workshop starts on the 28th August in the morning and ends on the 1st of September in the afternoon. We recommend to arrive on Sunday (beginners) or Monday (all participants) and depart on Friday evening or Saturday morning.
+## What to bring?
+- Waterproof jacket (This is Scotland!) 
+- Decent walking boots
+- Laptop and things that you will need for the workshop: Don't forget your UK-plug
+- **Cup and bottle**
 
-### Accommodation / meals
-All participants will be housed at the [Pollock Estate halls](https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/), located at the foot of Arthur's Seat – the city's iconic ancient volcano. There are single and twin occupancy room options. Accommodation in the Estate includes a full Scottish breakfast. Coffee/Tea sessions and Lunches will be provided via The University of Edinburgh catering bussiness at ECCI. Additionally we will host (one or two) workshop evening dinners.
-
-### Workshop fee
-The final workshop fee is not confirmed yet, we anticipate approx. £480 for a shared room option and £620 for a single room option. This will include breakfast, workshop fee, excursion and the conference social dinner. 
-
-
-### Registration
-If you wish to participate in the workshop, please fill out the following 
-[form](https://forms.gle/Z1Twsj5KhfZtKLU89).
-
-Due to the limited capacity in accommodation, **we would kindly like to ask you to do so 
-before April 30th** (indicating your interest does not mean you're registered right away for the workshop). 
-If you have any questions please send an e-mail to [info@oggm.org](mailto:info@oggm.org).
 
 ### Organizers
 Beatriz Recinos, Dan Goldberg, Anouk Vlug, Fabien Maussion and Ben Marzeion
