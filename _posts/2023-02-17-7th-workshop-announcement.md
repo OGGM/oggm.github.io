@@ -55,7 +55,7 @@ The workshop starts on the 28th August in the morning and ends on the 1st of Sep
 
 ### Accommodation / meals
 Most participants will be housed at the Pollock Estate halls - [Chancellors Court](https://goo.gl/maps/BaBVYHBxqVi2K3Z36), located at the foot of Arthur's Seat – the city's iconic ancient volcano. 
-- Check in starts 27/08/223 24hrs check desk available from 15:00 hrs   
+- Check in starts 27/08/23 15:00 hrs (the check-in desk available 24hrs a day)    
 - Check out is 02/09/23 10:30 hrs   
 **Address:** Chancellors Court, Pollock Halls of Residence, 18 Holyrood Park Road, Edinburgh, EH16 5AY.
 
@@ -84,7 +84,7 @@ Friday: Excursion to Grey Mare’s tail Nature Reserve (pick up at 8:30 AM in fr
 ### What to bring?
 - Waterproof jacket (This is Scotland!) 
 - Decent walking boots
-- Laptop and things that you will need for the workshop: Don't forget your UK-plug
+- Laptop and things that you will need for the workshop: Don't forget your UK-powerplug
 - **Cup and bottle**
 
 
