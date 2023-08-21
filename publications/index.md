@@ -81,6 +81,7 @@ description: "Publications related to OGGM"
 **PhD**
 
 - <small> Eis, J., **Reconstructing glacier evolution using a flowline model**, [doi:10.26092/elib/432](http://dx.doi.org/10.26092/elib/432), 2020. <small>
+- <small> van der Laan, L., **Near-Term Global Glacier Mass Balance Modelling**, [doi:10.15488/14171](https://doi.org/10.15488/14171), 2023. <small>
 - <small> Malles, J., **Past to Future and Land to Sea: constraining global glacier models by observations and exploring ice-ocean interactions**, [doi:10.26092/elib/2323](http://dx.doi.org/10.26092/elib/2323), 2023. <small>
 - <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020. <small>
 - <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021. <small>
