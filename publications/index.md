@@ -10,8 +10,9 @@ description: "Publications related to OGGM"
 
 **Submitted / In review**
 
-- <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., [pdf: read the preprint](https://doi.org/10.31223/X5C65S).</small>
+- <small> Schuster, L., Rounce, D., Maussion, F.: **Glacier projections sensitivity to temperature-index model choices and calibration strategies**, Annals of Glaciol., accepted. [pdf: read the preprint](https://doi.org/10.31223/X5C65S)</small>
 - <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev. Discuss. [preprint], [doi:10.5194/gmd-2023-120](https://doi.org/10.5194/gmd-2023-120), in review, 2023.</small>
+- <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
 
 **2023**
 
@@ -79,25 +80,26 @@ description: "Publications related to OGGM"
 
 ### Theses making use of OGGM
 
+(that we are aware of)
+
 **PhD**
 
-- <small> Eis, J., **Reconstructing glacier evolution using a flowline model**, [doi:10.26092/elib/432](http://dx.doi.org/10.26092/elib/432), 2020. <small>
-- <small> van der Laan, L., **Near-Term Global Glacier Mass Balance Modelling**, [doi:10.15488/14171](https://doi.org/10.15488/14171), 2023. <small>
-- <small> Malles, J., **Past to Future and Land to Sea: constraining global glacier models by observations and exploring ice-ocean interactions**, [doi:10.26092/elib/2323](http://dx.doi.org/10.26092/elib/2323), 2023. <small>
-- <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020. <small>
-- <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021. <small>
+- <small> Eis, J., **Reconstructing glacier evolution using a flowline model**, [doi:10.26092/elib/432](http://dx.doi.org/10.26092/elib/432), 2020. </small>
+- <small> van der Laan, L., **Near-Term Global Glacier Mass Balance Modelling**, [doi:10.15488/14171](https://doi.org/10.15488/14171), 2023. </small>
+- <small> Malles, J., **Past to Future and Land to Sea: constraining global glacier models by observations and exploring ice-ocean interactions**, [doi:10.26092/elib/2323](http://dx.doi.org/10.26092/elib/2323), 2023. </small>
+- <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020. </small>
+- <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021. </small>
+- <small> Pelto, B., **An approach to remotely monitor glacier mass balance at seasonal to annual time scales, Columbia and Rocky Mountains, Canada**, [doi:10.24124/2020/59097](http://doi.org/10.24124/2020/59097), 2020. </small>
 
 **Master**
-- <small> Holmgren, E. **21<sup>st</sup> century glacier runoff and how it buffers drought in 75 large-scale basins**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/7754587), 2022. <small>
-- <small> Oberrauch, M. **Testing the importance of explicit glacier dynamics for mountain glacier change projections**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/5878449), 2021. <small>
-- <small> Schmitt, P., **Flowline glacier bed estimation with numerical modelling and cost minimization: Extending the open source model COMBINE 1D**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/6139027), 2021. <small>
-- <small> Castellani, M. **Estimating Glacier Ice Thickness with Machine Learning**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-60115), 2020. <small>
-- <small> Schuster, L., **Response time sensitivity of glaciers using the Open Global Glacier Model**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/4864453), 2020. <small>
-- <small> Gregor, P., **Inversion of Glacier Bed from Surface Observations by Cost Minimization: Introducing the Open Source Model COMBINE**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/3086935), 2019. <small>
-- <small> Thorlaksson, D., **Calibrating a glacier ice thickness model from in-situ point measurements**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-7259), 2017. <small>
+- <small> Holmgren, E. **21<sup>st</sup> century glacier runoff and how it buffers drought in 75 large-scale basins**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/7754587), 2022. </small>
+- <small> Oberrauch, M. **Testing the importance of explicit glacier dynamics for mountain glacier change projections**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/5878449), 2021. </small>
+- <small> Schmitt, P., **Flowline glacier bed estimation with numerical modelling and cost minimization: Extending the open source model COMBINE 1D**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/6139027), 2021. </small>
+- <small> Castellani, M. **Estimating Glacier Ice Thickness with Machine Learning**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-60115), 2020. </small>
+- <small> Schuster, L., **Response time sensitivity of glaciers using the Open Global Glacier Model**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/4864453), 2020. </small>
+- <small> Gregor, P., **Inversion of Glacier Bed from Surface Observations by Cost Minimization: Introducing the Open Source Model COMBINE**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/3086935), 2019. </small>
+- <small> Thorlaksson, D., **Calibrating a glacier ice thickness model from in-situ point measurements**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-7259), 2017. </small>
 
-**Bachelor**
-- <small> Arndt, M., **On Thin Ice: The future of glacial runoff in La Paz, Bolivia**, [doi:10.5281/zenodo.7946884](https://dx.doi.org/10.5281/zenodo.7946884), 2023. <small>
-- <small> Schwienbacher, F., **Model sensitivity of the mass-balance module of the OGGM model**, 2017. <small>
-
-
+**Bachelor / Undergrad**
+- <small> Arndt, M., **On Thin Ice: The future of glacial runoff in La Paz, Bolivia**, [doi:10.5281/zenodo.7946884](https://dx.doi.org/10.5281/zenodo.7946884), 2023. </small>
+- <small> Schwienbacher, F., **Model sensitivity of the mass-balance module of the OGGM model**, 2017. </small>
