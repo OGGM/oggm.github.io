@@ -3,7 +3,7 @@ layout: post
 title: The 7th OGGM Workshop – a short summary
 subtitle: Edinburgh UK, 28 August - 1 September 2023
 author: Anouk Vlug and Fabien Maussion
-date: 2023-11-07T00:00:00
+date: 2023-09-07T00:00:00
 tags: workshop
 ---
 
