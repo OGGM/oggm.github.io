@@ -18,9 +18,10 @@ worry, we’re going to guide you step-by-step through what to do when an error 
 The first step is to try to find the solution yourself. You can, for instance,
 - read the [documentation](https://docs.oggm.org/en/stable/),
 - go through the [tutorials](https://oggm.org/tutorials/stable/notebooks/welcome.html),
-- checkout the doc string (ADD link) of the function you might be trying to use or search for the function description 
-in the [List of OGGM functions and tasks](https://docs.oggm.org/en/stable/api.html),
-- and look more into depth at the code you’re trying to use and try some debugging.
+- checkout the [doc string](https://www.geeksforgeeks.org/python-docstrings/) of the function you might be trying to use
+or search for the function description in the [list of OGGM functions and tasks](https://docs.oggm.org/en/stable/api.html),
+- look more into depth at the code you’re trying to use
+- and try some debugging.
 - In some cases it might make sense to have a look at the publication [list](https://oggm.org/publications/),
 - [OGGM-edu](https://edu.oggm.org/en/latest/),
 - check-out the [blog posts](https://oggm.org/search/index.html)
@@ -39,7 +40,7 @@ Generally no OGGM coding support is given by e-mail. Most questions are best ask
 [Slack](https://oggm.org/2022/10/11/Welcome-to-the-OGGM-Slack/), our internal communications platform. That is where you 
 will most likely get the fastest response. However if you, for instance, have many questions or would rather talk about 
 the issue, you’re more than welcome to join the fortnightly on-line [community meetings](https://oggm.org/meetings/). 
-Only if you are working on code development or in case of a bug in the code base, then the 
+Only if you are working on code development or in case of a bug in the code base, then one of the OGGM repositories 
 [github](https://github.com/OGGM/) might be the most suitable place for raising an 
 [issue](https://github.com/OGGM/oggm/issues).
 
