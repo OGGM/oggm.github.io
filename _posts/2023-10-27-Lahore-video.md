@@ -1,16 +1,17 @@
 ---
 layout: post
-title: OGGM training in Lahore, Pakistan – a short video
+title: OGGM training in Lahore, Pakistan - a video flashback
 subtitle: LUMS, Lahore, Pakistan, 10-16 March 2023
 author: Anouk Vlug and Fabien Maussion
 date: 2023-10-27T00:00:00
 tags: workshop
 ---
 
-Earlier this year we organized the Glacier modelling: Practical applications with the Open Global Glacier Model 
-[training](https://oggm.org/2023/01/27/training-announcement/) in collaboration with the Himalayan University 
-Consortium at LUMS, Lahore, Pakistan. Here we would like to share the youtube video, created by our 
-colleagues at the Centre for Water Informatics & Technology LUMS, that gives a nice impression of the training week.
+Earlier this year, we organized a [training on glacier modelling](https://oggm.org/2023/01/27/training-announcement) in collaboration with 
+the [Himalayan University Consortium (HUC)](https://www.huc-hkh.org) and the [Centre for Water Informatics & Technology](https://wit.lums.edu.pk/) 
+at [LUMS](https://lums.edu.pk), Lahore, Pakistan.
+
+Here are some video impressions from the workshop, created by our colleagues at LUMS. Enjoy!
 
 .. raw:: html
 
