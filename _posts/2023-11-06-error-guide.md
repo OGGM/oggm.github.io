@@ -3,7 +3,7 @@ layout: post
 title: "Help, an error!"
 subtitle: "A short guide on what to do when you get stuck or have a question"
 author: Anouk Vlug and Jenna Sutherland
-date: 2023-11-06T00:00:00
+date: 2023-11-02T00:00:00
 tags: Community, Programming, Model
 ---
 
