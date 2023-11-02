@@ -13,7 +13,4 @@ at [LUMS](https://lums.edu.pk), Lahore, Pakistan.
 
 Here are some video impressions from the workshop, created by our colleagues at LUMS. Enjoy!
 
-.. raw:: html
-
-    <iframe width="672" height="378" src="https://www.youtube.com/watch?v=G26tsjC_JAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<p><iframe width="672" height="378" src="https://www.youtube.com/watch?v=G26tsjC_JAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
