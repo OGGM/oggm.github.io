@@ -4,7 +4,7 @@ title: "Help, an error!"
 subtitle: "A short guide on what to do when you get stuck or have a question"
 author: Anouk Vlug and Jenna Sutherland
 date: 2023-11-02T00:00:00
-tags: Community, Programming, Model
+tags: Community Programming Model
 ---
 
 When you start using OGGM, it is very likely that you will have many questions, and at some point, you will inevitably encounter an error while running your script. We have noticed that those who are new to OGGM, and to coding in general, sometimes struggle to handle these situations efficiently. Some may wrestle with the issue on their own for too long, while others bombard the community with an overload of questions, which can become exhausting. And there are those who might panic at the sight of an error.
