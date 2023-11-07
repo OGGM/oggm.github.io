@@ -12,11 +12,6 @@ OGGM has a vibrant community of users. We strive for open communication and acti
 A lot of the project communication regarding code issues or support happens on [GitHub](https://github.com/OGGM/oggm). We also have a very active Slack community for chit-chat ([reach out](mailto:info@oggm.org)
 if you want to join in, it is open to anyone!). We organize regular, [open meetings]({{site.baseurl}}/meetings) to discuss progress and ask questions.
 
-### Social media
-
-Find us on [Twitter](https://twitter.com/OGGM_org)!
-
-
 ### Research projects related to OGGM
 
 Here is a non-exhaustive list of past and current research projects related to OGGM. If you are interested in what you read here, feel free to contact the respective groups for more information and potential collaboration!
