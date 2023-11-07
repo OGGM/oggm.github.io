@@ -12,11 +12,6 @@ OGGM has a vibrant community of users. We strive for open communication and acti
 A lot of the project communication regarding code issues or support happens on [GitHub](https://github.com/OGGM/oggm). We also have a very active Slack community for chit-chat ([reach out](mailto:info@oggm.org)
 if you want to join in, it is open to anyone!). We organize regular, [open meetings]({{site.baseurl}}/meetings) to discuss progress and ask questions.
 
-### Social media
-
-Find us on [Twitter](https://twitter.com/OGGM_org)!
-
-
 ### Research projects related to OGGM
 
 Here is a non-exhaustive list of past and current research projects related to OGGM. If you are interested in what you read here, feel free to contact the respective groups for more information and potential collaboration!
@@ -25,15 +20,15 @@ Here is a non-exhaustive list of past and current research projects related to O
 
 - [Ocean-ice Interaction of peripheral Greenland Glaciers](https://groce.de/en/our-projects/5-peripheral-glaciers/) (Universität Bremen)
 - Projections of global glacier melt under low-end warming scenarios (Universität Bremen)
-- [Certainties and uncertainties in the future surface mass balance of mountain glaciers](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/uncertainties-glacier-smb.html.en) (Universität Innsbruck)
-- [Paris Agreement Overshooting - Reversibility, Climate Impacts and Adaptation Needs (PROVIDE)](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/provide.html.en) (Universität Innsbruck)
+- [Certainties and uncertainties in the future surface mass balance of mountain glaciers](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/uncertainties-glacier-smb) (Universität Innsbruck)
+- [Paris Agreement Overshooting - Reversibility, Climate Impacts and Adaptation Needs (PROVIDE)](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/provide) (Universität Innsbruck)
 
 #### Past
 
 - Evaluating simulated centennial climate variability over the past millennium using global glacier modelling - LMGLACE (UC Louvain)
 - Predictability and Attribution of Regional Sea Level Change Caused by Glacier Mass Change (Universität Bremen)
-- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/holocene-climate-variability.html.en) (Universität Innsbruck)
-- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/modelling-glacier-length-changes.html.en) (Universität Innsbruck)
+- [The Upper Grindelwald Glacier as indicator for Holocene climate variability](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/holocene-climate-variability) (Universität Innsbruck)
+- [Modelling of glacier length changes in the Alps on the base of tree-ring based temperature reconstructions for the last 2500 years](https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/modelling-glacier-length-changes) (Universität Innsbruck)
 
 ### Past and present OGGM contributors
 
