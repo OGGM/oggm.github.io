@@ -59,12 +59,10 @@ model or parameterization intercomparisons in a controlled environment.
 
 ## Get involved
 
-
 We welcome anyone to contribute to the project!
 - View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
   [<u>ReadTheDocs</u>](http://docs.oggm.org).
 - Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues), and improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
 - Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
 - Chat with us on [<u>our Slack</u>](https://oggm.org/2022/10/11/Welcome-to-the-OGGM-Slack/): all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
-- Follow us on [<u>Twitter</u>](https://twitter.com/OGGM_org).
 - Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
