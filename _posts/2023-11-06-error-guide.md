@@ -41,6 +41,7 @@ Before you ask your question, do a quick check to see if it has already been add
   - e.g., To assess the impact of feature X after integrating my module (comparable to checking if I can connect my laptop for a presentation next week).
 - **How you are trying to achieve it:**
   - e.g., The Python code I’m using (like going to the seminar room).
+  - _When sharing code, please share it as a script not a print screen._
 - **Why it is not working:**
   - e.g., The full error log (as if the seminar room is locked, and I don’t have a key).
 - **What you have already tried:**
@@ -54,5 +55,5 @@ Skipping steps may lead to misunderstandings or non-useful responses. It's possi
 
 After posing your question, the next step is to wait patiently for a reply. Community members volunteer their time to answer questions and come from different work cultures with varying hours, so don't expect immediate responses over the weekend, for instance. If your issue is resolved in the meantime, please inform the community.
 
-On Slack, follow-up discussions should occur in the thread related to your question to maintain organization. On GitHub, conversations continue within the respective issue. In either case, make it clear when a solution has been found. On GitHub, you can close the issue; on Slack, mark the main question with a ✅ emoji to indicate it has been answered. It's a kind gesture to thank those who helped you, and remember to offer help to others when you can.
+On Slack, adding additional information to the question and follow-up discussions should occur in the thread related to your question to maintain organization. On GitHub, conversations continue within the respective issue. In either case, make it clear when a solution has been found. On GitHub, you can close the issue; on Slack, mark the main question with a ✅ emoji to indicate it has been answered. It's a kind gesture to thank those who helped you, and remember to offer help to others when you can.
 
