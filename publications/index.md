@@ -11,12 +11,12 @@ description: "Publications related to OGGM"
 **Submitted / In review**
 
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Assessing the glacier projection uncertainties in the Patagonian Andes (40–56° S) from a catchment perspective**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-232](https://doi.org/10.5194/egusphere-2023-2325), 2023.</small>
-- <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev. Discuss. [preprint], [doi:10.5194/gmd-2023-120](https://doi.org/10.5194/gmd-2023-120), in review, 2023.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
 
 **2023**
 
 - <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., 617(PB), 128948, [doi:10.1016/j.jhydrol.2022.128948](https://doi.org/10.1016/j.jhydrol.2022.128948), 2023.</small>
+- <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev., 16, 6671–6687, [doi:10.5194/gmd-16-6671-2023](https://doi.org/10.5194/gmd-16-6671-2023), 2023.</small>
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 69(274), 266–280, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2023.</small>
 - <small> Hock, R., Maussion, F., Marzeion, B. and Nowicki, S.: **What is the global glacier ice volume outside the ice sheets?**, J. Glaciol., 1–7, [doi:10.1017/jog.2023.1](https://doi.org/10.1017/jog.2023.1), 2023.</small>
 - <small> Malles, J., Maussion, F., Ultee, L., Kochtitzky, W., Copland, L. and Marzeion, B.: **Exploring the impact of a frontal ablation parameterization on projected 21st-century mass change for Northern Hemisphere glaciers**, J. Glaciol., 1–16, [doi:10.1017/jog.2023.19](https://doi.org/10.1017/jog.2023.19), 2023.</small>
