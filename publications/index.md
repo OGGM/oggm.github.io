@@ -15,6 +15,7 @@ description: "Publications related to OGGM"
 
 **2023**
 
+- <small> Pesci, M. H., Schulte Overberg, P., Bosshard, T., & Förster, K.: **From global glacier modeling to catchment hydrology: bridging the gap with the WaSiM-OGGM coupling scheme**, Frontiers in Water, 5., [doi:10.3389/frwa.2023.1296344](https://doi.org/10.3389/frwa.2023.1296344), 2023</small>
 - <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., 617(PB), 128948, [doi:10.1016/j.jhydrol.2022.128948](https://doi.org/10.1016/j.jhydrol.2022.128948), 2023.</small>
 - <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev., 16, 6671–6687, [doi:10.5194/gmd-16-6671-2023](https://doi.org/10.5194/gmd-16-6671-2023), 2023.</small>
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 69(274), 266–280, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2023.</small>
@@ -42,7 +43,7 @@ description: "Publications related to OGGM"
 
 **2021**
 
-- <small> Dixit, A., Sahany, S. and Kulkarni, A. V.: **Glacial changes over the Himalayan Beas basin under global warming**, J. Environ. Manage., 295(May), 113101, [doi:10.1016/j.jenvman.2021.113101](https://doi.org/10.1016/j.jenvman.2021.113101), 2021.</small> 
+- <small> Dixit, A., Sahany, S. and Kulkarni, A. V.: **Glacial changes over the Himalayan Beas basin under global warming**, J. Environ. Manage., 295(May), 113101, [doi:10.1016/j.jenvman.2021.113101](https://doi.org/10.1016/j.jenvman.2021.113101), 2021.</small>
 - <small> Edwards, T. et al.: **Projected land ice contributions to twenty-first-century sea level rise**, Nature, 593(7857), 74–82, [doi:10.1038/s41586-021-03302-y](https://doi.org/10.1038/s41586-021-03302-y), 2021.</small>
 - <small> Eis, J., van der Laan, L., Maussion, F. and Marzeion, B.: **Reconstruction of Past Glacier Changes with an Ice-Flow Glacier Model: Proof of Concept and Validation**, Front. Earth Sci., 9(March), 1–16, [doi:10.3389/feart.2021.595755](https://doi.org/10.3389/feart.2021.595755), 2021.</small>
 - <small> Hartl, L., Helfricht, K., Stocker-Waldhuber, M., Seiser, B., & Fischer, A.: **Classifying disequilibrium of small mountain glaciers from patterns of surface elevation change distributions**, Journal of Glaciology, 1-16, [doi:10.1017/jog.2021.90](https://doi.org/10.1017/jog.2021.90), 2021.</small>
