@@ -9,7 +9,7 @@ tags: workshop
 
 ### What is it?
 
-The workshop is the 8<sup>th</sup> in a series that has brought together the community of users and developers of the Open Global Glacier Model ([OGGM](oggm.org)). This year, we are excited to organize it jointly with the Instructed Glacier Model ([IGM](https://github.com/jouvetg/igm)) community. Both models complement each other: IGM uses OGGM as a pre-processing tool, and OGGM incorporates IGM as one of its glacier evolution models. This synergy makes this workshop particularly timely and interesting.
+The workshop is the 8<sup>th</sup> in a series that has brought together the community of users and developers of the Open Global Glacier Model ([OGGM](https://oggm.org/)). This year, we are excited to organize it jointly with the Instructed Glacier Model ([IGM](https://github.com/jouvetg/igm)) community. Both models complement each other: IGM uses OGGM as a pre-processing tool, and OGGM incorporates IGM as one of its glacier evolution models. This synergy makes this workshop particularly timely and interesting.
 
 The workshop welcomes anyone interested in glacier modeling, especially active developers and users of OGGM or IGM. Its primary objective is to address the challenges and solutions in glacier modeling, foster mutual learning, and discuss ideas and visions for advancing glacier models. Attendees can expect a mix of scientific presentations, hands-on coding sessions, and discussion/brainstorming sessions, all in an informal setting. The workshop will also allow ample time for hikes in the stunning Swiss Alps.
 
@@ -56,14 +56,14 @@ Details to be announced. We expect the fee (including accomodation and meals at 
 
 ### Registration
 
-Registration will open in April 2024.
+Registration will open in March 2024.
 
 ### Important dates
 
-- Jan 2024: first announcement on CRYOLIST
+- January 2024: first announcement on CRYOLIST
 - March 2024: second announcement on CRYOLIST and registration opens
-- April 2024: registration closes
-- Mid-april 2024: accepted participants informed (including waiting list if necessary)
+- Early April 2024: registration closes
+- Mid-April 2024: accepted participants informed (including waiting list if necessary)
 - 25th August 2024: participants arrive at the workshop!
 
 ### Organizers
