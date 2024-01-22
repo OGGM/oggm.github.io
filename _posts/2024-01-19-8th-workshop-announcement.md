@@ -56,13 +56,13 @@ Details to be announced. We expect the fee (including accomodation and meals at 
 
 ### Registration
 
-Registration will open in April 2024.
+Registration will open in March 2024.
 
 ### Important dates
 
 - Jan 2024: first announcement on CRYOLIST
 - March 2024: second announcement on CRYOLIST and registration opens
-- April 2024: registration closes
+- Early-April 2024: registration closes
 - Mid-april 2024: accepted participants informed (including waiting list if necessary)
 - 25th August 2024: participants arrive at the workshop!
 
