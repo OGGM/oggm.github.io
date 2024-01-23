@@ -48,23 +48,18 @@ Chateau d'Oex is accessible by train, by taking the half-hourly GoldenPass servi
 
 ### Arrival / departure dates
 
-The workshop starts at Chateau d'Oex on August 26, 2024 in the morning and ends on August 30, 2024 after lunch. We recommend participants to arrive on Sunday 25th if possible (accomodation and dinner on the 25th will be included in the workshop fee).
+The workshop starts at Chateau d'Oex on August 26, 2024 in the morning and ends on August 30, 2024 after lunch. We recommend participants to arrive on Sunday the 25<sup>th</sup> if possible (accomodation and dinner on the 25<sup>th</sup> will be included in the workshop fee).
 
 ### Accommodation / meals and workshop fee
 
 Details to be announced. We expect the fee (including accomodation and meals at the workshop venue) to be around 500 Swiss Francs.
 
-### Registration
+### Registration procedure
 
-Registration will open in March 2024.
-
-### Important dates
-
-- January 2024: first announcement on CRYOLIST
-- March 2024: second announcement on CRYOLIST and registration opens
-- Early April 2024: registration closes
-- Mid-April 2024: accepted participants informed (including waiting list if necessary)
-- 25th August 2024: participants arrive at the workshop!
+If you wish to participate in the workshop, please express your interest by filling out the following [form]() latest on April 7<sup>th</sup>. 
+Indicating your interest does not mean you’re registered right away for the workshop. Invitations to register will be send out mid-April 
+on an individual basis, but only to those that have indicated their interest in participating. Due to the limited capacity of the workshop 
+location, some of you might end up on a waiting list. If you have any questions please send an e-mail to info@oggm.org.
 
 ### Organizers
 
