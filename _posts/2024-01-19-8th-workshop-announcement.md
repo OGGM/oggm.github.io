@@ -56,10 +56,7 @@ Details to be announced. We expect the fee (including accomodation and meals at 
 
 ### Registration procedure
 
-If you wish to participate in the workshop, please express your interest by filling out the following [form]() latest on April 7<sup>th</sup>. 
-Indicating your interest does not mean you’re registered right away for the workshop. Invitations to register will be send out mid-April 
-on an individual basis, but only to those that have indicated their interest in participating. Due to the limited capacity of the workshop 
-location, some of you might end up on a waiting list. If you have any questions please send an e-mail to info@oggm.org.
+If you are interested in participating, please complete the [registration form](https://forms.gle/8qfDuRbD9XCTjJJi7) by April 7<sup>th</sup>. Kindly note that participant numbers are capped at 30, owing to limitations in accommodation and logistics. Consequently, should we receive more applications than available spots, a selection process will be implemented based on responses provided in the form. Selected participants will be notified of the decisions by mid-April. If you have any questions please send an e-mail to info@oggm.org.
 
 ### Organizers
 
