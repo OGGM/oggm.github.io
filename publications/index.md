@@ -13,9 +13,13 @@ description: "Publications related to OGGM"
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Assessing the glacier projection uncertainties in the Patagonian Andes (40–56° S) from a catchment perspective**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-232](https://doi.org/10.5194/egusphere-2023-2325), 2023.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
 
+**2024**
+
+- <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
+
 **2023**
 
-- <small> Pesci, M. H., Schulte Overberg, P., Bosshard, T., & Förster, K.: **From global glacier modeling to catchment hydrology: bridging the gap with the WaSiM-OGGM coupling scheme**, Frontiers in Water, 5., [doi:10.3389/frwa.2023.1296344](https://doi.org/10.3389/frwa.2023.1296344), 2023</small>
+- <small> Pesci, M. H., Schulte Overberg, P., Bosshard, T., and Förster, K.: **From global glacier modeling to catchment hydrology: bridging the gap with the WaSiM-OGGM coupling scheme**, Frontiers in Water, 5., [doi:10.3389/frwa.2023.1296344](https://doi.org/10.3389/frwa.2023.1296344), 2023.</small>
 - <small> Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y: **Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram**, J. Hydrol., 617(PB), 128948, [doi:10.1016/j.jhydrol.2022.128948](https://doi.org/10.1016/j.jhydrol.2022.128948), 2023.</small>
 - <small> Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.: **Universal Differential Equations for glacier ice flow modelling**, Geosci. Model Dev., 16, 6671–6687, [doi:10.5194/gmd-16-6671-2023](https://doi.org/10.5194/gmd-16-6671-2023), 2023.</small>
 - <small> Li, F., Maussion, F., Wu, G., Chen, W., Yu, Z., Li, Y. and Liu, G.: **Influence of glacier inventories on ice thickness estimates and future glacier change projections in the Tian Shan range, Central Asia**, J. Glaciol., 69(274), 266–280, [doi:10.1017/jog.2022.60](https://doi.org/10.1017/jog.2022.60), 2023.</small>
