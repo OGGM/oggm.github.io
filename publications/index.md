@@ -12,6 +12,8 @@ description: "Publications related to OGGM"
 
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Assessing the glacier projection uncertainties in the Patagonian Andes (40–56° S) from a catchment perspective**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-232](https://doi.org/10.5194/egusphere-2023-2325), 2023.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
+- <small> Hanus, S., Schuster, L., Burek, P., Maussion, F., Wada, Y., and Viviroli, D.: **Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-2562](https://doi.org/10.5194/egusphere-2023-2562), 2024.</small>
+
 
 **2024**
 
