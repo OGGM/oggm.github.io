@@ -14,7 +14,6 @@ description: "Publications related to OGGM"
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
 - <small> Hanus, S., Schuster, L., Burek, P., Maussion, F., Wada, Y., and Viviroli, D.: **Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-2562](https://doi.org/10.5194/egusphere-2023-2562), 2024.</small>
 
-
 **2024**
 
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
