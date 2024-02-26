@@ -15,8 +15,9 @@ description: "Publications related to OGGM"
 - <small> Hanus, S., Schuster, L., Burek, P., Maussion, F., Wada, Y., and Viviroli, D.: **Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-2562](https://doi.org/10.5194/egusphere-2023-2562), 2024.</small>
 
 **2024**
-
+- <small> Chen, X., Yang, W., Li, Y., Yang, Y., Liu, J., Liu, Q.: **Timing and extent of glacial fluctuations around Mt. Noijin Kangsang on the southern Tibetan Plateau during the Little Ice Age**, Palaeogeogr. Palaeoclimatol. Palaeoecol., 640, 112092, [doi:10.1016/j.palaeo.2024.112092](https://doi.org/10.1016/j.palaeo.2024.112092), 2024.</small>
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
+- <small> Li, T., Heidler, K., Mou, L., Ignéczi, Á., Zhu, X. X., Bamber, J. L.: **A high-resolution calving front data product for marine-terminating glaciers in Svalbard**, Earth System Science Data, 16, 2, 919-939, [doi:10.5194/essd-16-919-2024](https://doi.org/10.5194/essd-16-919-2024), 2024.</small>
 - <small> Xiao, L., Li, S., Wu, K., Liu, S., Zhu, Y., Afzal, M.M., Zhou, J., Yi, Y., Wei, J., Duan, Y. and Shen, Y.: **Geodetic-Data-Calibrated Ice Flow Model to Simulate Historical and Future Response of Glaciers in Southeastern Tibetan Plateau**, Remote Sens., 16, 522, [doi:10.3390/rs16030522](https://doi.org/10.3390/rs16030522), 2024.</small>
 
 **2023**
