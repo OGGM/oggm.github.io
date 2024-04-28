@@ -74,3 +74,6 @@ you can have a look at the summary reports of the previous editions:
 - <u> <a href="{{ site.url }}/2021/10/12/5th-oggm-worshop-summary/"> 5th OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2022/11/20/6st-oggm-worshop-summary/"> 6th OGGM workshop </a> </u>
 - <u> <a href="{{ site.url }}/2023/09/07/7th-oggm-worshop-summary/"> 7th OGGM workshop </a> </u>
+
+### Acknowledgements
+This event get financial support from the [Centre interdisciplinaire de recherche sur la montagne](https://www.unil.ch/centre-montagne/fr/home.html).
