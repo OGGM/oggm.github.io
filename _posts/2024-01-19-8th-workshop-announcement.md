@@ -77,3 +77,9 @@ you can have a look at the summary reports of the previous editions:
 
 ### Acknowledgements
 This event get financial support from the [Centre interdisciplinaire de recherche sur la montagne](https://www.unil.ch/centre-montagne/fr/home.html).
+
+<figure>
+    <a href="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" >
+    <img src="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" alt="Image missing" width="10%" />
+    </a>
+</figure>
