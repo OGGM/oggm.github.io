@@ -14,6 +14,7 @@ description: "Publications related to OGGM"
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological Response of Andean Catchments to Recent Glacier Mass Loss**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-888](https://doi.org/10.5194/egusphere-2023-888), in review, 2023.</small>
 - <small> Hanus, S., Schuster, L., Burek, P., Maussion, F., Wada, Y., and Viviroli, D.: **Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-2562](https://doi.org/10.5194/egusphere-2023-2562), 2024.</small>
 - <small> van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.: **Decadal re-forecasts of glacier climatic mass balance**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-387](https://doi.org/10.5194/egusphere-2024-387), 2024.</small>
+- <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **21st century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1013](https://doi.org/10.5194/egusphere-2024-1013), 2024.</small>
 
 **2024**
 
@@ -21,6 +22,7 @@ description: "Publications related to OGGM"
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
 - <small> Li, T., Heidler, K., Mou, L., Ignéczi, Á., Zhu, X. X., Bamber, J. L.: **A high-resolution calving front data product for marine-terminating glaciers in Svalbard**, Earth System Science Data, 16, 2, 919-939, [doi:10.5194/essd-16-919-2024](https://doi.org/10.5194/essd-16-919-2024), 2024.</small>
 - <small> Xiao, L., Li, S., Wu, K., Liu, S., Zhu, Y., Afzal, M.M., Zhou, J., Yi, Y., Wei, J., Duan, Y. and Shen, Y.: **Geodetic-Data-Calibrated Ice Flow Model to Simulate Historical and Future Response of Glaciers in Southeastern Tibetan Plateau**, Remote Sens., 16, 522, [doi:10.3390/rs16030522](https://doi.org/10.3390/rs16030522), 2024.</small>
+- <small> Wang L, Yang S, Chen K, Liu S, Jin X, and Xie Y.: **A Long-Duration Glacier Change Analysis for the Urumqi River Valley, a Representative Region of Central Asia.**, Remote Sens., 16(9), 1489, [doi:10.3390/rs16091489](https://doi.org/10.3390/rs16091489), 2024.</small>
 
 **2023**
 
