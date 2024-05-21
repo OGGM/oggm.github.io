@@ -21,6 +21,7 @@ description: "Publications related to OGGM"
 - <small> Chen, X., Yang, W., Li, Y., Yang, Y., Liu, J., Liu, Q.: **Timing and extent of glacial fluctuations around Mt. Noijin Kangsang on the southern Tibetan Plateau during the Little Ice Age**, Palaeogeogr. Palaeoclimatol. Palaeoecol., 640, 112092, [doi:10.1016/j.palaeo.2024.112092](https://doi.org/10.1016/j.palaeo.2024.112092), 2024.</small>
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
 - <small> Li, T., Heidler, K., Mou, L., Ignéczi, Á., Zhu, X. X., Bamber, J. L.: **A high-resolution calving front data product for marine-terminating glaciers in Svalbard**, Earth System Science Data, 16, 2, 919-939, [doi:10.5194/essd-16-919-2024](https://doi.org/10.5194/essd-16-919-2024), 2024.</small>
+- <small> Möller, M., Recinos, B., Rastner, P., Marzeion, B.: **Heterogeneous impacts of ocean thermal forcing on ice discharge from Greenland's peripheral tidewater glaciers over 2000–2021**, Scientific Reports, 14, 11316, [doi:10.1038/s41598-024-61930-6](https://doi.org/10.1038/s41598-024-61930-6), 2024.</small>  
 - <small> Xiao, L., Li, S., Wu, K., Liu, S., Zhu, Y., Afzal, M.M., Zhou, J., Yi, Y., Wei, J., Duan, Y. and Shen, Y.: **Geodetic-Data-Calibrated Ice Flow Model to Simulate Historical and Future Response of Glaciers in Southeastern Tibetan Plateau**, Remote Sens., 16, 522, [doi:10.3390/rs16030522](https://doi.org/10.3390/rs16030522), 2024.</small>
 - <small> Wang L, Yang S, Chen K, Liu S, Jin X, and Xie Y.: **A Long-Duration Glacier Change Analysis for the Urumqi River Valley, a Representative Region of Central Asia.**, Remote Sens., 16(9), 1489, [doi:10.3390/rs16091489](https://doi.org/10.3390/rs16091489), 2024.</small>
 
@@ -40,7 +41,6 @@ description: "Publications related to OGGM"
 - <small> Tang, S., Vlug, A., Piao, S., Li, F., Wang, T., Krinner, G., Li, L. Z. X., Wang, X., Wu, G., Li, Y., Zhang, Y., Xu, H., and Yao, T.: **Regional and tele-connected impacts of the Tibetan Plateau surface darkening.**, Nat. Commun., 14, 32, [doi:10.1038/s41467-022-35672-w](https://doi.org/10.1038/s41467-022-35672-w), 2023.</small>
 - <small> Yang, L., Zhao, G., Mu, X., Liu, Y., Tian, P., and Danzengbandian, P.: **Historical and projected evolutions of glaciers in response to climate change in High Mountain Asia**, Environ. Res., 237(2), 117037, [doi:10.1016/j.envres.2023.117037](https://doi.org/10.1016/j.envres.2023.117037), 2023. </small>
 - <small> Zhao, H., Su, B., Lei, H., Zhang, T., Xiao, C.: **A new projection for glacier mass and runoff changes over High Mountain Asia**, Science Bulletin, 68(1), 43-47, [doi:10.1016/j.scib.2022.12.004](https://doi.org/10.1016/j.scib.2022.12.004), 2023.</small>
-
 
 **2022**
 
