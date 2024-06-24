@@ -8,12 +8,13 @@ description: "Publications related to OGGM"
 
 (that we are aware of)
 
-**Submitted / In review**
+**Preprints / In review**
 
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Assessing the glacier projection uncertainties in the Patagonian Andes (40–56° S) from a catchment perspective**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-232](https://doi.org/10.5194/egusphere-2023-2325), 2023.</small>
 - <small> Hanus, S., Schuster, L., Burek, P., Maussion, F., Wada, Y., and Viviroli, D.: **Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-2562](https://doi.org/10.5194/egusphere-2023-2562), 2024.</small>
 - <small> van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.: **Decadal re-forecasts of glacier climatic mass balance**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-387](https://doi.org/10.5194/egusphere-2024-387), 2024.</small>
 - <small> Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.: **Physically-based modelling of glacier evolution under climate change in the tropical Andes**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-863](https://doi.org/10.5194/egusphere-2024-863), 2024.</small>
+- <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small> 
 - <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **21st century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1013](https://doi.org/10.5194/egusphere-2024-1013), 2024.</small>
 
 **2024**
