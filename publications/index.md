@@ -26,6 +26,7 @@ description: "Publications related to OGGM"
 - <small> Möller, M., Recinos, B., Rastner, P., Marzeion, B.: **Heterogeneous impacts of ocean thermal forcing on ice discharge from Greenland's peripheral tidewater glaciers over 2000–2021**, Scientific Reports, 14, 11316, [doi:10.1038/s41598-024-61930-6](https://doi.org/10.1038/s41598-024-61930-6), 2024.</small>  
 - <small> Xiao, L., Li, S., Wu, K., Liu, S., Zhu, Y., Afzal, M.M., Zhou, J., Yi, Y., Wei, J., Duan, Y. and Shen, Y.: **Geodetic-Data-Calibrated Ice Flow Model to Simulate Historical and Future Response of Glaciers in Southeastern Tibetan Plateau**, Remote Sens., 16, 522, [doi:10.3390/rs16030522](https://doi.org/10.3390/rs16030522), 2024.</small>
 - <small> Wang L, Yang S, Chen K, Liu S, Jin X, and Xie Y.: **A Long-Duration Glacier Change Analysis for the Urumqi River Valley, a Representative Region of Central Asia.**, Remote Sens., 16(9), 1489, [doi:10.3390/rs16091489](https://doi.org/10.3390/rs16091489), 2024.</small>
+- <small> Zhou, B., Zou, Q., Jiang, H., Yang, T., Zhou, W., Chen, S., & Yao, H.: **A novel framework for predicting glacial lake outburst debris flows in the Himalayas amidst climate change**. Science of the Total Environment, 946(June), 174435. [doi:10.1016/j.scitotenv.2024.174435](https://doi.org/10.1016/j.scitotenv.2024.174435), 2024.</small>
 
 **2023**
 
