@@ -1,11 +1,1 @@
-{% if site.g-analytics %}
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.g-analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.g-analytics }}');
-</script>
-{% endif %}
+<script defer data-domain="oggm.org" src="https://plausible.oggm.org/js/script.js"></script>
