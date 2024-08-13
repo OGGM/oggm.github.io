@@ -110,6 +110,7 @@ description: "Publications related to OGGM"
 - <small> Pelto, B., **An approach to remotely monitor glacier mass balance at seasonal to annual time scales, Columbia and Rocky Mountains, Canada**, [doi:10.24124/2020/59097](http://doi.org/10.24124/2020/59097), 2020. </small>
 
 **Master**
+- <small> Chizzola, R. **Influence of the future changes of the Atlantic Meridional Overturning Circulation on North Atlantic Glaciers**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/9648318), 2024. </small>
 - <small> Holmgren, E. **21<sup>st</sup> century glacier runoff and how it buffers drought in 75 large-scale basins**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/7754587), 2022. </small>
 - <small> Oberrauch, M. **Testing the importance of explicit glacier dynamics for mountain glacier change projections**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/5878449), 2021. </small>
 - <small> Schmitt, P., **Flowline glacier bed estimation with numerical modelling and cost minimization: Extending the open source model COMBINE 1D**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/6139027), 2021. </small>
