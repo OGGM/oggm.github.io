@@ -80,6 +80,6 @@ This event get financial support from the [Centre interdisciplinaire de recherch
 
 <figure>
     <a href="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" >
-    <img src="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" alt="Image missing" width="10%" />
+    <img src="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" alt="Image missing" width="30%" />
     </a>
 </figure>
