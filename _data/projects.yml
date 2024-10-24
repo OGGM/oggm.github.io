@@ -1,5 +1,14 @@
 # Research projects
 
+- title: Contribution of avalanches to glacier mass balance at the global scale (CAIRN-GLOBAL)
+  pi: Marin Kneib
+  dates: 2024-2025
+  institution: ETH Zurich (Switzerland)
+  funder: Swiss National Science Foundation
+  sum: 120k€
+  url: 
+  visible: true
+
 - title: PROVIDE – Paris Agreement Overshooting – Reversibility, Climate Impacts and Adaptation Needs
   pi: Fabien Maussion
   dates: 2021–2024
@@ -25,6 +34,15 @@
   funder: Austrian Climate Research Programme
   sum: 50k€
   url: https://forschung.boku.ac.at/fis/suchen.projekt_uebersicht?sprache_in=de&menue_id_in=300&id_in=14978
+  visible: true
+
+- title: Contribution of avalanches to glacier mass balance (CAIRN)
+  pi: Marin Kneib
+  dates: 2023–2024
+  institution: Institut des Geosciences de l'Environnement (IGE, GRenoble, Framce), University of Innsbruck (Austria)
+  funder: Swiss National Science Foundation
+  sum: 120k€
+  url: 
   visible: true
 
 - title: UNCERTAIN – Certainties and uncertainties in the future surface mass balance of mountain glaciers
