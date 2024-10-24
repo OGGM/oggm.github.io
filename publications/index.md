@@ -6,7 +6,7 @@ description: "Publications related to OGGM"
 
 ### Publications making use of the OGGM model
 
-(that we are aware of)
+(that we are aware of - [click here](https://github.com/OGGM/oggm.github.io/issues/248) if you’d like to add your own!)
 
 **Preprints / In review**
 
@@ -20,7 +20,7 @@ description: "Publications related to OGGM"
 - <small> Schuster, L., Maussion, F., Rounce, D., Ultee, L., Schmitt, P., Lacroix, F., Frölicher, T., Schleussner, C.F.: **Irreversible glacier change and trough water for centuries after overshooting 1.5°C**, Research Square [preprint], [doi:/10.21203/rs.3.rs-5045894/v1](https://doi.org/10.21203/rs.3.rs-5045894/v1), 2024.
 - <small> Shafeeque, M., Malles, J.-H., Vlug, A., Möller, M., and Marzeion, B.: **Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2184](https://doi.org/10.5194/egusphere-2024-2184), 2024.</small>
 - <small> Vergnano, A., Franco, D., and Godio, A.: **Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2569](https://doi.org/10.5194/egusphere-2024-2569), 2024.</small>
-- <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small> 
+- <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small>
 - <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **21st century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1013](https://doi.org/10.5194/egusphere-2024-1013), 2024.</small>
 
 **2024**
