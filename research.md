@@ -7,7 +7,7 @@ header-img: "img/backgrounds/members.jpg"
 
 With a few notable exceptions, **OGGM development is generally not funded**. However, many funded research projects make use of OGGM to generate new knowledge, which often feeds back into the community — either in the form of computer code, documentation, tutorials, or simply shared expertise!
 
-Below is a non-exhaustive list of past and current research projects related to OGGM. [Click here]() if you’d like to add your own!
+Below is a non-exhaustive list of past and current research projects related to OGGM (that we are aware of). [Click here](https://github.com/OGGM/oggm.github.io/issues/248) if you’d like to add your own!
 
 {% assign projects = site.data.projects | sort:"dates" | reverse %}
 
