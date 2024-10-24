@@ -1,14 +1,5 @@
 # Research projects
 
-- title: Contribution of avalanches to glacier mass balance at the global scale (CAIRN-GLOBAL)
-  pi: Marin Kneib
-  dates: 2024-2025
-  institution: ETH Zurich (Switzerland)
-  funder: Swiss National Science Foundation
-  sum: 120k€
-  url: 
-  visible: true
-
 - title: PROVIDE – Paris Agreement Overshooting – Reversibility, Climate Impacts and Adaptation Needs
   pi: Fabien Maussion
   dates: 2021–2024
@@ -34,15 +25,6 @@
   funder: Austrian Climate Research Programme
   sum: 50k€
   url: https://forschung.boku.ac.at/fis/suchen.projekt_uebersicht?sprache_in=de&menue_id_in=300&id_in=14978
-  visible: true
-
-- title: Contribution of avalanches to glacier mass balance (CAIRN)
-  pi: Marin Kneib
-  dates: 2023–2024
-  institution: Institut des Geosciences de l'Environnement (IGE, GRenoble, Framce), University of Innsbruck (Austria)
-  funder: Swiss National Science Foundation
-  sum: 120k€
-  url: 
   visible: true
 
 - title: UNCERTAIN – Certainties and uncertainties in the future surface mass balance of mountain glaciers
@@ -106,4 +88,33 @@
   funder: Belgian Fund for Scientific Research (FNRS)
   sum:
   url:
+  visible: true
+
+- title: Matter of glacial origin and its fate in the ocean: a case study at Kerguelen - MARGO
+  pi: Stéphane Blain (collaborator Nicolas Champollion)
+  dates: 2023-2026
+  institution: Centre de recherche et d’enseignement
+des géosciences de l’environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
+  funder: ANR
+  sum: 526 k€
+  url: https://anr.fr/Projet-ANR-22-CE01-0004
+  visible: true
+
+- title: Projecting Sea-Level Rise: from Ice Sheets to Local Implications - PROTECT
+  pi: Gaël Durand, Ben Marzeion (collaborator Nicolas Champollion)
+  dates: 2021-2025
+  institution: Institut des Géosciences de l'Environnement (IGE), Universität Bremen
+  funder: H2020 Europe
+  sum: 1 000 k€
+  url: https://protect-slr.eu/
+  visible: true
+
+- title: Evolution des glaciers dans la région de l’Everest durant l’Holocene - EVERESTH
+  pi: Vicent Jomelli (collaborator Nicolas Champollion)
+  dates: 2024-2026
+  institution: Centre de recherche et d’enseignement
+des géosciences de l’environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
+  funder: CNRS INSU
+  sum: 35 k€
+  url: 
   visible: true
