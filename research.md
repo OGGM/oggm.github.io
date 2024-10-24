@@ -1,0 +1,34 @@
+---
+layout: page
+title: "Research projects"
+description: "Research projects making use of OGGM"
+header-img: "img/backgrounds/members.jpg"
+---
+
+With a few notable exceptions, **OGGM development is generally not funded**. However, many funded research projects make use of OGGM to generate new knowledge, which often feeds back into the community — either in the form of computer code, documentation, tutorials, or simply shared expertise!
+
+Below is a non-exhaustive list of past and current research projects related to OGGM. [Click here]() if you’d like to add your own!
+
+{% assign projects = site.data.projects | sort:"dates" | reverse %}
+
+<ul style="list-style-type: none;">
+{% for project in projects %}
+{% if project.visible %}
+  <li style="display: inline-block;">
+	<strong>{{ project.dates }}: {{ project.title }} </strong>
+	{% if project.url %}
+	<small>
+	<a href="{{ project.url }}" title="Project website" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-external-link fa-stack-1x"></i></span></a>
+    </small>
+	{% endif %}
+	<br>
+	<small><strong>PI:</strong> {{ project.pi }} ({{ project.institution }})</small> <br>
+	<small><strong>Funder:</strong> {{ project.funder }}</small>
+	{% if project.sum %}
+	<small> ({{ project.sum }}) </small>
+	{% endif %}
+  <hr>
+	</li>
+{% endif %}
+{% endfor %}
+</ul>
