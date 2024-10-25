@@ -1,35 +1,40 @@
 # Research projects
+# Rules:
+# - do not use colons. If you do, you need to escape them with "" around the entry
+# - funding sum and url are optional
+# - do not end with dots
+# - visible: true means the project will be displayed on the website
 
-- title: The Big Thaw: gauging the past, present and future of our mountain water resources
+- title: "The Big Thaw: gauging the past, present and future of our mountain water resources"
   pi: Hamish Pritchard
   dates: 2022-2026
   institution: British Antarctic Survey, The University of Edinburgh, UK Centre for Ecology and Hydrology and University of Birmingham.
-  funder: UKRI - Natural Environment Research Counsil.
+  funder: UKRI - Natural Environment Research Council
   sum: £1.38M
   url: https://www.bas.ac.uk/project/the-big-thaw/
   visible: true
 
-- title: : Future sea-level rise and freshwater export from Antarctic Peripheral Glaciers and Ice Caps in a warming climate
+- title: "Future sea-level rise and freshwater export from Antarctic Peripheral Glaciers and Ice Caps in a warming climate"
   pi: Beatriz Recinos (Independent Research Fellowship - NERC IRF)
   dates: 2024-2029
-  institution: The University of Edinburgh.
-  funder: UKRI - Natural Environment Research Counsil.
-  sum: £637.70K
+  institution: The University of Edinburgh
+  funder: UKRI - Natural Environment Research Counsil
+  sum: £637k
   url: https://www.ukri.org/news/early-career-scientists-awarded-distinguished-nerc-fellowships/
   visible: true
 
-- title: Contribution of avalanches to glacier mass balance at the global scale (CAIRN-GLOBAL)
+- title: "Contribution of avalanches to glacier mass balance at the global scale (CAIRN-GLOBAL)"
   pi: Marin Kneib
   dates: 2024-2025
   institution: ETH Zurich (Switzerland)
   funder: Swiss National Science Foundation
   sum: 120k€
-  url: 
+  url:
   visible: true
 
-- title: PROVIDE – Paris Agreement Overshooting – Reversibility, Climate Impacts and Adaptation Needs
+- title: "PROVIDE: Paris Agreement Overshooting - Reversibility, Climate Impacts and Adaptation Needs"
   pi: Fabien Maussion
-  dates: 2021–2024
+  dates: 2021-2024
   institution: University of Innsbruck
   funder: H2020
   sum: 230k€
@@ -38,7 +43,7 @@
 
 - title: A future-ready Open Global Glacier Model (OGGM)
   pi: Ben Marzeion, Fabien Maussion
-  dates: 2022–2024
+  dates: 2022-2024
   institution: University of Bremen
   funder: Deutsche Forschungsgemeinschaft (DFG)
   sum: 180k€
@@ -47,7 +52,7 @@
 
 - title: HYdro power - iMpact on the ELecTricity sector in Austria due to Climate Change in glaciated high alpine areas (HyMELT-CC)
   pi: Fabien Maussion
-  dates: 2023–2025
+  dates: 2023-2025
   institution: University of Innsbruck
   funder: Austrian Climate Research Programme
   sum: 50k€
@@ -56,16 +61,16 @@
 
 - title: Contribution of avalanches to glacier mass balance (CAIRN)
   pi: Marin Kneib
-  dates: 2023–2024
+  dates: 2023-2024
   institution: Institut des Geosciences de l'Environnement (IGE, GRenoble, Framce), University of Innsbruck (Austria)
   funder: Swiss National Science Foundation
   sum: 120k€
-  url: 
+  url:
   visible: true
 
-- title: UNCERTAIN – Certainties and uncertainties in the future surface mass balance of mountain glaciers
+- title: UNCERTAIN - Certainties and uncertainties in the future surface mass balance of mountain glaciers
   pi: Lilian Schuster
-  dates: 2021–2024
+  dates: 2021-2024
   institution: University of Innsbruck
   funder: Österreichische Akademie der Wissenschaften (ÖAW)
   sum: 120k€
@@ -74,7 +79,7 @@
 
 - title: Scaling regional sea-level changes with climate forcings
   pi: Kristin Richter, Fabien Maussion
-  dates: 2020–2022
+  dates: 2020-2022
   institution: University of Innsbruck
   funder: Austrian Science Fund (FWF)
   sum:
@@ -90,7 +95,7 @@
   url:
   visible: true
 
-- title: Projecting Sea-Level Rise: from Ice Sheets to Local Implications (PROTECT)
+- title: "Projecting Sea-Level Rise: from Ice Sheets to Local Implications (PROTECT)"
   pi: Ben Marzeion (co-lead of WP on glaciers, with Frank Paul)
   dates: 2020-2025
   institution: Universität Bremen
@@ -108,7 +113,7 @@
   url: https://groce.de/en/our-projects/5-peripheral-glaciers/
   visible: true
 
-- title: Assessment of the ocean contribution to mass loss of Greenland’s peripheral glaciers – a scale-transitioning approach
+- title: Assessment of the ocean contribution to mass loss of Greenland's peripheral glaciers - a scale-transitioning approach
   pi: Ben Marzeion
   dates: 2020-2023
   institution: Universität Bremen
@@ -126,7 +131,7 @@
   url:
   visible: true
 
-- title: Evaluating simulated centennial climate variability over the past millennium using global glacier modelling- LMGLACE
+- title: Evaluating simulated centennial climate variability over the past millennium using global glacier modelling - LMGLACE
   pi: Hugues Goosse
   dates: 2020-2023
   institution: UC Louvain
@@ -135,31 +140,29 @@
   url:
   visible: true
 
-- title: Matter of glacial origin and its fate in the ocean: a case study at Kerguelen - MARGO
+- title: "Matter of glacial origin and its fate in the ocean: a case study at Kerguelen - MARGO"
   pi: Stéphane Blain (collaborator Nicolas Champollion)
   dates: 2023-2026
-  institution: Centre de recherche et d’enseignement
-des géosciences de l’environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
+  institution: Centre de recherche et d'enseignement des géosciences de l'environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
   funder: ANR
-  sum: 526 k€
+  sum: 526k€
   url: https://anr.fr/Projet-ANR-22-CE01-0004
   visible: true
 
-- title: Projecting Sea-Level Rise: from Ice Sheets to Local Implications - PROTECT
+- title: "Projecting Sea-Level Rise: from Ice Sheets to Local Implications - PROTECT"
   pi: Gaël Durand, Ben Marzeion (collaborator Nicolas Champollion)
   dates: 2021-2025
   institution: Institut des Géosciences de l'Environnement (IGE), Universität Bremen
   funder: H2020 Europe
-  sum: 1 000 k€
+  sum: 1M€
   url: https://protect-slr.eu/
   visible: true
 
-- title: Evolution des glaciers dans la région de l’Everest durant l’Holocene - EVERESTH
+- title: Evolution des glaciers dans la région de l'Everest durant l'Holocene - EVERESTH
   pi: Vicent Jomelli (collaborator Nicolas Champollion)
   dates: 2024-2026
-  institution: Centre de recherche et d’enseignement
-des géosciences de l’environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
+  institution: Centre de recherche et d'enseignement des géosciences de l'environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
   funder: CNRS INSU
-  sum: 35 k€
-  url: 
+  sum: 35k€
+  url:
   visible: true
