@@ -72,6 +72,15 @@
   url:
   visible: true
 
+- title: Projecting Sea-Level Rise: from Ice Sheets to Local Implications (PROTECT)
+  pi: Ben Marzeion (co-lead of WP on glaciers, with Frank Paul)
+  dates: 2020-2025
+  institution: Universität Bremen
+  funder: H2020
+  sum:
+  url: https://protect-slr.eu/
+  visible: true
+
 - title: Ocean-ice Interaction of peripheral Greenland Glaciers
   pi: Ben Marzeion
   dates: 2020-2023
