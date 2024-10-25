@@ -18,11 +18,14 @@ Below is a non-exhaustive list of past and current research projects related to 
 	<strong>{{ project.dates }}: {{ project.title }} </strong>
 	{% if project.url %}
 	<small>
-	<a href="{{ project.url }}" title="Project website" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-external-link fa-stack-1x"></i></span></a>
+	<a href="{{ project.url }}" title="Project website" target="_blank">
+      <i class="fa fa-external-link"></i>
+    </a>
     </small>
 	{% endif %}
 	<br>
-	<small><strong>PI:</strong> {{ project.pi }} ({{ project.institution }})</small> <br>
+	<small><strong>PI:</strong> {{ project.pi }}</small> <br>
+	<small><strong>Institution:</strong> {{ project.institution }}</small> <br>
 	<small><strong>Funder:</strong> {{ project.funder }}</small>
 	{% if project.sum %}
 	<small> ({{ project.sum }}) </small>
