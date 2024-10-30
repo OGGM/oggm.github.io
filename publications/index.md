@@ -130,5 +130,6 @@ description: "Publications related to OGGM"
 - <small> Thorlaksson, D., **Calibrating a glacier ice thickness model from in-situ point measurements**, [link](https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-7259), 2017. </small>
 
 **Bachelor / Undergrad**
+- <small> Cort, J., **An assessment of Swiss glacier change by 2100 under varying climate projections using the Open Global Glacier Model (OGGM)**, 2024. </small>
 - <small> Arndt, M., **On Thin Ice: The future of glacial runoff in La Paz, Bolivia**, [doi:10.5281/zenodo.7946884](https://dx.doi.org/10.5281/zenodo.7946884), 2023. </small>
 - <small> Schwienbacher, F., **Model sensitivity of the mass-balance module of the OGGM model**, 2017. </small>
