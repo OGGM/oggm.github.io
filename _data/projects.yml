@@ -1,16 +1,17 @@
 # Research projects
 # Rules:
 # - do not use colons. If you do, you need to escape them with "" around the entry
-# - funding sum and url are optional
+# - dates should be in the format YYYY-YYYY
+# - order does not matter. The projects will be sorted by start date when the website is built.
+# - project url is optional but good to have
 # - do not end with dots
 # - visible: true means the project will be displayed on the website
 
 - title: "The Big Thaw: gauging the past, present and future of our mountain water resources"
-  pi: Hamish Pritchard
+  pi: Hamish Pritchard, Beatriz Recinos, Dan Goldberg, Richard Essery
   dates: 2022-2026
   institution: British Antarctic Survey, The University of Edinburgh, UK Centre for Ecology and Hydrology and University of Birmingham.
   funder: UKRI - Natural Environment Research Council
-  sum: £1.38M
   url: https://www.bas.ac.uk/project/the-big-thaw/
   visible: true
 
@@ -18,8 +19,7 @@
   pi: Beatriz Recinos (Independent Research Fellowship - NERC IRF)
   dates: 2024-2029
   institution: The University of Edinburgh
-  funder: UKRI - Natural Environment Research Counsil
-  sum: £637k
+  funder: UKRI - Natural Environment Research Council
   url: https://www.ukri.org/news/early-career-scientists-awarded-distinguished-nerc-fellowships/
   visible: true
 
@@ -28,16 +28,14 @@
   dates: 2024-2026
   institution: CEREGE, CNRS, Aix-Marseille Université
   funder: CNRS INSU LEFE
-  sum: 45k€
   url:
-  visible: true  
+  visible: true
 
 - title: "Contribution of avalanches to glacier mass balance at the global scale (CAIRN-GLOBAL)"
   pi: Marin Kneib
   dates: 2024-2025
   institution: ETH Zurich (Switzerland)
   funder: Swiss National Science Foundation
-  sum: 120k€
   url:
   visible: true
 
@@ -46,7 +44,6 @@
   dates: 2021-2024
   institution: University of Innsbruck
   funder: H2020
-  sum: 230k€
   url: https://www.provide-h2020.eu/
   visible: true
 
@@ -55,7 +52,6 @@
   dates: 2022-2024
   institution: University of Bremen
   funder: Deutsche Forschungsgemeinschaft (DFG)
-  sum: 180k€
   url: https://gepris.dfg.de/gepris/projekt/443178605?language=en
   visible: true
 
@@ -64,7 +60,6 @@
   dates: 2023-2025
   institution: University of Innsbruck
   funder: Austrian Climate Research Programme
-  sum: 50k€
   url: https://forschung.boku.ac.at/fis/suchen.projekt_uebersicht?sprache_in=de&menue_id_in=300&id_in=14978
   visible: true
 
@@ -73,7 +68,6 @@
   dates: 2023-2024
   institution: Institut des Geosciences de l'Environnement (IGE, GRenoble, Framce), University of Innsbruck (Austria)
   funder: Swiss National Science Foundation
-  sum: 120k€
   url:
   visible: true
 
@@ -82,7 +76,6 @@
   dates: 2021-2024
   institution: University of Innsbruck
   funder: Österreichische Akademie der Wissenschaften (ÖAW)
-  sum: 120k€
   url: https://www.uibk.ac.at/en/acinn/research/ice-and-climate/projects/uncertainties-glacier-smb/
   visible: true
 
@@ -91,7 +84,6 @@
   dates: 2020-2022
   institution: University of Innsbruck
   funder: Austrian Science Fund (FWF)
-  sum:
   url: https://www.uibk.ac.at/acinn/research/ice-and-climate/projects/scaling_regional_sea_level_changes.html.en
   visible: true
 
@@ -100,7 +92,6 @@
   dates: 2024-2025
   institution: University of Bristol
   funder: European Space Agency (ESA)
-  sum: 500k€
   url:
   visible: true
 
@@ -109,7 +100,6 @@
   dates: 2020-2025
   institution: Universität Bremen
   funder: H2020
-  sum:
   url: https://protect-slr.eu/
   visible: true
 
@@ -118,7 +108,6 @@
   dates: 2020-2023
   institution: Universität Bremen
   funder: Bundesministerium für Bildung und Forschung (BMBF)
-  sum:
   url: https://groce.de/en/our-projects/5-peripheral-glaciers/
   visible: true
 
@@ -136,7 +125,6 @@
   dates: 2018-2021
   institution: Universität Bremen
   funder: Deutsche Forschungsgemeinschaft (DFG)
-  sum:
   url:
   visible: true
 
@@ -145,7 +133,6 @@
   dates: 2020-2023
   institution: UC Louvain
   funder: Belgian Fund for Scientific Research (FNRS)
-  sum:
   url:
   visible: true
 
@@ -154,7 +141,6 @@
   dates: 2023-2026
   institution: Centre de recherche et d'enseignement des géosciences de l'environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
   funder: ANR
-  sum: 526k€
   url: https://anr.fr/Projet-ANR-22-CE01-0004
   visible: true
 
@@ -163,7 +149,6 @@
   dates: 2021-2025
   institution: Institut des Géosciences de l'Environnement (IGE), Universität Bremen
   funder: H2020 Europe
-  sum: 1M€
   url: https://protect-slr.eu/
   visible: true
 
@@ -172,6 +157,5 @@
   dates: 2024-2026
   institution: Centre de recherche et d'enseignement des géosciences de l'environnement (CEREGE), Institut des Géosciences de l'Environnement (IGE)
   funder: CNRS INSU
-  sum: 35k€
   url:
   visible: true
