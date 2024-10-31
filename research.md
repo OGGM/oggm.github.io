@@ -25,9 +25,6 @@ Below is a non-exhaustive list of past and current research projects where OGGM 
 	<small><strong>PI:</strong> {{ project.pi }}</small> <br>
 	<small><strong>Institution:</strong> {{ project.institution }}</small> <br>
 	<small><strong>Funder:</strong> {{ project.funder }}</small>
-	{% if project.sum %}
-	<small> ({{ project.sum }}) </small>
-	{% endif %}
   <hr>
 	</li>
 {% endif %}
