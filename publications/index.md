@@ -23,7 +23,7 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **21st century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1013](https://doi.org/10.5194/egusphere-2024-1013), 2024.</small>
 
 **2024**
-
+- <small> Hanus, S., Burek, P., Smilovic, M., Seibert, J., and Viviroli, D.: **Seasonal variability in the global relevance of mountains to satisfy lowland water demand**, Environmental Research Letters, [doi:10.1088/1748-9326/ad8507](https://doi.org/10.1088/1748-9326/ad8507), 2024.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological response of Andean Catchments to recent glacier mass loss**, The Cryosphere, 18, 2487–2507, [doi:10.5194/tc-18-2487-2024](https://doi.org/10.5194/tc-18-2487-2024), 2024.</small>
 - <small> Chen, X., Yang, W., Li, Y., Yang, Y., Liu, J., and Liu, Q.: **Timing and extent of glacial fluctuations around Mt. Noijin Kangsang on the southern Tibetan Plateau during the Little Ice Age**, Palaeogeogr. Palaeoclimatol. Palaeoecol., 640, 112092, [doi:10.1016/j.palaeo.2024.112092](https://doi.org/10.1016/j.palaeo.2024.112092), 2024.</small>
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
