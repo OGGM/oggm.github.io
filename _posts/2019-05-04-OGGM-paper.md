@@ -22,7 +22,7 @@ such a project live and move forward!
 
 I would like to take this opportunity to reflect about the status of the
 project, as well as about the challenges ahead of us, both scientific and
-organizational. I tried to keep this discussion as general as possible,
+organisational. I tried to keep this discussion as general as possible,
 leaving technical details for other platforms.
 
 ## Features
@@ -114,7 +114,7 @@ frontal ablation... All this will require **more data sources** for
 calibration and validation. In particular, we are currently not making use of the
 many geodetic mass-balance data based on satellite products.
 
-## Organizational challenges
+## Organisational challenges
 
 Developing an open-source model involves *much* more commitment than just "put
 your code online". Our goal is to engage a community of both users and

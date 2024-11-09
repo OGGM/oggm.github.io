@@ -55,13 +55,13 @@ we might have to limit the number of participants.
 
 In addition to the hotel reservation (€79 per night per person in a double room
 including all meals, €89 for a single room), there will be a small conference
-fee to cover the other organization costs (exact amount to be announced, but
+fee to cover the other organisation costs (exact amount to be announced, but
 probably no more than €100 per person).
 
 ### Registration
 
 If you wish to participate to the workshop or if you have questions regarding
-the organization please send us an e-mail at _info [at] oggm.org_
+the organisation please send us an e-mail at _info [at] oggm.org_
 **before January 12th, 2018**.
 
 ### Organisators

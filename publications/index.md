@@ -6,7 +6,7 @@ description: "Publications related to OGGM"
 
 ### Publications making use of the OGGM model
 
-We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248) if you’d like to add your own.
+We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248){:target="_blank"} if you’d like to add your own.
 
 **Preprints / In review**
 
