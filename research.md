@@ -5,7 +5,7 @@ description: "Research projects making use of OGGM"
 header-img: "img/backgrounds/members.jpg"
 ---
 
-Below is a non-exhaustive list of past and current research projects where OGGM is used. We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248) if you’d like to add your own.
+Below is a non-exhaustive list of past and current research projects where OGGM is used. We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248){:target="_blank"} if you’d like to add your own.
 
 {% assign projects = site.data.projects | sort:"dates" | reverse %}
 

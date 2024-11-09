@@ -7,16 +7,16 @@ title: ""
 
 **OGGM is an open source modelling framework for glaciers**
 
-The model accounts for glacier geometry (including contributory branches) and
-includes an explicit ice dynamics module and a calving parametrization. 
-It can simulate past and
-future mass-balance, volume and geometry of (almost) any glacier in the world
-in a fully automated and extensible workflow. We rely exclusively on publicly
-available data for calibration and validation. OGGM is **modular** and
-supports novel modelling workflows: it loves to be remixed and reused!
+The model can simulate past and future mass-balance, volume and geometry of (almost) any glacier
+in the world in a fully automated and extensible workflow. OGGM is **modular** and
+supports novel modelling workflows: it loves to be remixed and reused! OGGM also brings together a
+vibrant and friendly [community of scientists, modellers and educators](https://community.oggm.org){:target="_blank"}.
 
 Please [get in touch](#get-involved) with us if you are interested in using
 the model or if you'd like to contribute to the project!
+
+<div style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1024338665?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Projected evolution of the 5 largest glaciers in the Karakoram until 2300"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<small>These videos werw created with [oggm-3dviz](https://github.com/OGGM/oggm-3dviz) based on an OGGM simulation. Check out our [tutorials](https://tutorials.oggm.org/stable/notebooks/tutorials/distribute_flowline.html) to create your own!_</small>
 
 ## Mission
 
@@ -47,22 +47,16 @@ Our project is motivated by the far reaching goal of contributing
 “big questions” in Earth Sciences:
 - How much ice is stored on the glaciers on Earth?
 - How much ice was present on Earth at the beginning of the 20th century, and how much ice will be lost by the end of the 21st?
+- How will this affect water resources, and how to help communities to prepare for these changes?
 - What are the uncertainties associated with these numbers, and where do they originate?
 - How much model complexity is just right?
-- ...
-
-We envision the model as a seed that has high potential to grow into a
-self-sustained, community-driven global scale model for glaciers. It will enable
-regional and global studies of glacier-climate interactions
-without the need for a self-developed tool, and open new possibilities to run
-model or parameterization intercomparisons in a controlled environment.
+- and more.
 
 ## Get involved
 
 We welcome anyone to contribute to the project!
-- View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm) and the documentation on
-  [<u>ReadTheDocs</u>](http://docs.oggm.org).
-- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues), and improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls).
-- Extend the model with your own [<u>module</u>](http://docs.oggm.org/en/latest/add-module.html).
-- Chat with us on [<u>our Slack</u>](https://oggm.org/2022/10/11/Welcome-to-the-OGGM-Slack/): all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
+- Chat with us on [<u>our Slack</u>](https://community.oggm.org/guides/slack-intro.html){:target="_blank"}: all this needs is to send us <u><a href="mailto:info@oggm.org">an e-mail</a></u>!
+- View the source code on [<u>GitHub</u>](https://github.com/OGGM/oggm){:target="_blank"} and the documentation on
+  [<u>ReadTheDocs</u>](http://docs.oggm.org){:target="_blank"}.
+- Report bugs or share your ideas on the [<u>issue tracker</u>](https://github.com/OGGM/oggm/issues){:target="_blank"}, and improve the model by submitting a [<u>pull request</u>](https://github.com/OGGM/oggm/pulls){:target="_blank"}.
 - Or you can always send us <u><a href="mailto:info@oggm.org">an e-mail</a></u> the good old way. We would love to hear about you!
