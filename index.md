@@ -15,8 +15,8 @@ vibrant and friendly [community of scientists, modellers and educators](https://
 Please [get in touch](#get-involved) with us if you are interested in using
 the model or if you'd like to contribute to the project!
 
-<div style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1024338665?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Projected evolution of the 5 largest glaciers in the Karakoram until 2300"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<small>These videos werw created with [oggm-3dviz](https://github.com/OGGM/oggm-3dviz) based on an OGGM simulation. Check out our [tutorials](https://tutorials.oggm.org/stable/notebooks/tutorials/distribute_flowline.html) to create your own!_</small>
+<div style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1024346444?autoplay=1&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Projected evolution of Aletsch Glacier in the European Alps until 2100"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<small>These videos were created with [oggm-3dviz](https://github.com/OGGM/oggm-3dviz) based on an OGGM simulation. Check out our [tutorials](https://tutorials.oggm.org/stable/notebooks/tutorials/distribute_flowline.html) to create your own!_</small>
 
 ## Mission
 
