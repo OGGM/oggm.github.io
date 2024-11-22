@@ -10,7 +10,6 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 
 **Preprints / In review**
 
-- <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Assessing the glacier projection uncertainties in the Patagonian Andes (40–56° S) from a catchment perspective**, EGUsphere [preprint], [doi:10.5194/egusphere-2023-232](https://doi.org/10.5194/egusphere-2023-2325), 2023.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Aguayo, R., and Champollion, N.: **Glacio-hydrological changes along the Andes throughout the 21st Century**, Research Square [preprint], [doi:10.21203/rs.3.rs-4714636/v1](https://doi.org/10.21203/rs.3.rs-4714636/v1), 2024.</small>
 - <small> Hartl, L., Schmitt, P., Schuster, L., Helfricht, K., Abermann, J., and Maussion, F.: **Recent observations and glacier modeling point towards near complete glacier loss in western Austria (Ötztal and Stubai mountain range) if 1.5 °C is not met**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-3146](https://doi.org/10.5194/egusphere-2024-3146), 2024.</small>
 - <small> Kanzow, T., Humbert, A., Mölg, T., Scheinert, M., Braun, M., Burchard, H., Doglioni, F., Hochreuther, P., Horwath, M., Huhn, O., Kusche, J., Loebel, E., Lutz, K., Marzeion, B., McPherson, R., Mohammadi-Aragh, M., Möller, M., Pickler, C., Reinert, M., Rhein, M., Rückamp, M., Schaffer, J., Shafeeque, M., Stolzenberger, S., Timmermann, R., Turton, J., Wekerle, C., and Zeising, O.: **The atmosphere-land/ice-ocean system in the region near the 79N Glacier in Northeast Greenland: Synthesis and key findings from GROCE**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-757](https://doi.org/10.5194/egusphere-2024-757), 2024.</small>
@@ -24,6 +23,7 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 
 **2024**
 
+- <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Unravelling the sources of uncertainty in glacier runoff projections in the Patagonian Andes (40–56° S)**, The Cryosphere, 18, 5383-5406, [doi:10.5194/tc-18-5383-2024](https://doi.org/10.5194/tc-18-5383-2024), 2024.</small>
 - <small> Caro, A., Condom, T., Rabatel, A., Champollion, N., García, N., and Saavedra, F.: **Hydrological response of Andean Catchments to recent glacier mass loss**, The Cryosphere, 18, 2487–2507, [doi:10.5194/tc-18-2487-2024](https://doi.org/10.5194/tc-18-2487-2024), 2024.</small>
 - <small> Chen, X., Yang, W., Li, Y., Yang, Y., Liu, J., and Liu, Q.: **Timing and extent of glacial fluctuations around Mt. Noijin Kangsang on the southern Tibetan Plateau during the Little Ice Age**, Palaeogeogr. Palaeoclimatol. Palaeoecol., 640, 112092, [doi:10.1016/j.palaeo.2024.112092](https://doi.org/10.1016/j.palaeo.2024.112092), 2024.</small>
 - <small> Diaconu, C. -A., and Gottschling, N. M.: **Uncertainty-Aware Learning with Label Noise for Glacier Mass Balance Modelling**, IEEE Geoscience and Remote Sensing Letters, [doi:10.1109/LGRS.2024.3356160](https://doi.org/10.1109/LGRS.2024.3356160), 2024.</small>
