@@ -20,7 +20,6 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Vergnano, A., Franco, D., and Godio, A.: **Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2569](https://doi.org/10.5194/egusphere-2024-2569), 2024.</small>
 - <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small>
 
-
 **2024**
 
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Unravelling the sources of uncertainty in glacier runoff projections in the Patagonian Andes (40–56° S)**, The Cryosphere, 18, 5383-5406, [doi:10.5194/tc-18-5383-2024](https://doi.org/10.5194/tc-18-5383-2024), 2024.</small>
