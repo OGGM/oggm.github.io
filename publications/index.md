@@ -19,7 +19,7 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Shafeeque, M., Malles, J.-H., Vlug, A., Möller, M., and Marzeion, B.: **Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2184](https://doi.org/10.5194/egusphere-2024-2184), 2024.</small>
 - <small> Vergnano, A., Franco, D., and Godio, A.: **Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2569](https://doi.org/10.5194/egusphere-2024-2569), 2024.</small>
 - <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small>
-- <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **21st century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1013](https://doi.org/10.5194/egusphere-2024-1013), 2024.</small>
+
 
 **2024**
 
@@ -39,6 +39,7 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Wang L, Yang S, Chen K, Liu S, Jin X, and Xie Y.: **A Long-Duration Glacier Change Analysis for the Urumqi River Valley, a Representative Region of Central Asia.**, Remote Sens., 16(9), 1489, [doi:10.3390/rs16091489](https://doi.org/10.3390/rs16091489), 2024.</small>
 - <small> Xiao, L., Li, S., Wu, K., Liu, S., Zhu, Y., Afzal, M.M., Zhou, J., Yi, Y., Wei, J., Duan, Y., and Shen, Y.: **Geodetic-Data-Calibrated Ice Flow Model to Simulate Historical and Future Response of Glaciers in Southeastern Tibetan Plateau**, Remote Sens., 16, 522, [doi:10.3390/rs16030522](https://doi.org/10.3390/rs16030522), 2024.</small>
 - <small> Yang, W., Chu, W., Li, Y., Peng, X., and Liu, G.: **Late Quaternary paleoclimate reconstructions in Bhutanese Himalaya based on glacial modelling**. Global and Planetary Change, 240, 104513. [doi:10.1016/j.gloplacha.2024.104513](https://doi.org/10.1016/j.gloplacha.2024.104513), 2024.</small>
+- <small> Zekollari, H., Huss, M., Schuster, L., Maussion, F., Rounce, D. R., Aguayo, R., Champollion, N., Compagno, L., Hugonnet, R., Marzeion, B., Mojtabavi, S., and Farinotti, D.: **Twenty-first century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations**, The Cryosphere, 18, 5045–5066, [doi:10.5194/tc-18-5045-2024](https://doi.org/10.5194/tc-18-5045-2024), 2024.</small>
 - <small> Zhou, B., Zou, Q., Jiang, H., Yang, T., Zhou, W., Chen, S., and Yao, H.: **A novel framework for predicting glacial lake outburst debris flows in the Himalayas amidst climate change**. Science of the Total Environment, 946(June), 174435. [doi:10.1016/j.scitotenv.2024.174435](https://doi.org/10.1016/j.scitotenv.2024.174435), 2024.</small>
 
 **2023**
