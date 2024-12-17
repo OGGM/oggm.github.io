@@ -20,6 +20,7 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Shafeeque, M., Malles, J.-H., Vlug, A., Möller, M., and Marzeion, B.: **Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2184](https://doi.org/10.5194/egusphere-2024-2184), 2024.</small>
 - <small> Vergnano, A., Franco, D., and Godio, A.: **Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-2569](https://doi.org/10.5194/egusphere-2024-2569), 2024.</small>
 - <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small>
+- <small> Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P., Lipscomb, W., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., Sakai, A.: **Glacier preservation doubled by limiting warming to 1.5°C**, EarthArXiv [preprint], [doi:10.31223/X51T5W](https://doi.org/10.31223/X51T5W), 2024.</small>
 
 **2024**
 
