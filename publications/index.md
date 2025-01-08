@@ -22,6 +22,10 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 - <small> Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.: **Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins**, EGUsphere [preprint], [doi:10.5194/egusphere-2024-1778](https://doi.org/10.5194/egusphere-2024-1778), 2024.</small>
 - <small> Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P., Lipscomb, W., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., Sakai, A.: **Glacier preservation doubled by limiting warming to 1.5°C**, EarthArXiv [preprint], [doi:10.31223/X51T5W](https://doi.org/10.31223/X51T5W), 2024.</small>
 
+**2025**
+
+- <small> Pfleiderer, P., Frölicher, T.L., Kropf, C.M., Lamboll, R.D., Lejeune, Q., Lourenço, T.C., Maussion, F., McCaughey, J.W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.: **Reversal of the impact chain for actionable climate information**, Nature Geoscience, [doi:10.1038/s41561-024-01597-w](https://doi.org/10.1038/s41561-024-01597-w), 2025.</small>
+
 **2024**
 
 - <small> Aguayo, R., Maussion, F., Schuster, L., Schaefer, M., Caro, A., Schmitt, P., Mackay, J., Ultee, L., Leon-Muñoz, J., and Aguayo, M.: **Unravelling the sources of uncertainty in glacier runoff projections in the Patagonian Andes (40–56° S)**, The Cryosphere, 18, 5383-5406, [doi:10.5194/tc-18-5383-2024](https://doi.org/10.5194/tc-18-5383-2024), 2024.</small>
