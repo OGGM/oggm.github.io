@@ -25,8 +25,8 @@ We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.githu
 
 **2025**
 
-- <small> Švinka, L., Karušs, J., and Lamsters, K.: **Ice Thickness Inversion Assessment: A Comparison Study for Waldemarbreen and Irenebreen Glaciers, Svalbard**, Polar Science, 101167, [doi:10.1016/j.polar.2025.101167](https://doi.org/10.1016/j.polar.2025.101167), 2025.</small>
 - <small> Pfleiderer, P., Frölicher, T.L., Kropf, C.M., Lamboll, R.D., Lejeune, Q., Lourenço, T.C., Maussion, F., McCaughey, J.W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.: **Reversal of the impact chain for actionable climate information**, Nature Geoscience, [doi:10.1038/s41561-024-01597-w](https://doi.org/10.1038/s41561-024-01597-w), 2025.</small>
+- <small> Švinka, L., Karušs, J., and Lamsters, K.: **Ice Thickness Inversion Assessment: A Comparison Study for Waldemarbreen and Irenebreen Glaciers, Svalbard**, Polar Science, 101167, [doi:10.1016/j.polar.2025.101167](https://doi.org/10.1016/j.polar.2025.101167), 2025.</small>
 
 **2024**
 
