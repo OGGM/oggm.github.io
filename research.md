@@ -5,12 +5,13 @@ description: "Research projects making use of OGGM"
 header-img: "img/backgrounds/members.jpg"
 ---
 
-Below is a non-exhaustive list of past and current research projects where OGGM is used. We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248){:target="_blank"} if you’d like to add your own.
-
 {% assign projects = site.data.projects | sort:"dates" | reverse %}
 
+Below is a non-exhaustive list of past and current research projects where OGGM is used (we count {{projects | size}}). We are not aware of all of them! [Click here](https://github.com/OGGM/oggm.github.io/issues/248){:target="_blank"} if you’d like to add your own.
+
+
 <ul style="list-style-type: none;">
-{% for project in projects %}
+{% for project in projects -%}
 {% if project.visible %}
   <li style="display: inline-block;">
 	<strong>{{ project.dates }}: {{ project.title }} </strong>
@@ -25,8 +26,8 @@ Below is a non-exhaustive list of past and current research projects where OGGM 
 	<small><strong>PI:</strong> {{ project.pi }}</small> <br>
 	<small><strong>Institution:</strong> {{ project.institution }}</small> <br>
 	<small><strong>Funder:</strong> {{ project.funder }}</small>
-  <hr>
+    <hr>
 	</li>
 {% endif %}
-{% endfor %}
+{%endfor %}
 </ul>
