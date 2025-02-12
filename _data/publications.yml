@@ -88,6 +88,11 @@
       journal: "In: Navigating the Nexus. Water Science and Technology Library"
       doi: 10.1007/978-3-031-76532-2_3
       year: 2025
+    - title: "Evaluating the affecting factors of glacier mass balance in Tanggula Mountains using explainable machine learning and the open global glacier model"
+      authors: Xu, Q., Kang, S., He, X., & Xu, M. 
+      journal: "Journal of Mountain Science"
+      doi: 10.1007/s11629-024-9047-4
+      year: 2025
 
 - category: "2024"
   entries:
