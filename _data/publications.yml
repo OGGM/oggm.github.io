@@ -25,11 +25,6 @@
       journal: SSRN [preprint]
       doi: 10.2139/ssrn.4936600
       year: 2024
-    - title: "Physically-based modelling of glacier evolution under climate change in the tropical Andes"
-      authors: Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-863
-      year: 2024
     - title: "Freshwater input from glacier melt outside Greenland alters modeled northern high-latitude ocean circulation"
       authors: Malles, J.-H., Marzeion, B., and Myers, P. G.
       journal: EGUsphere [preprint]
@@ -68,6 +63,11 @@
 
 - category: "2025"
   entries:
+    - title: "Physically based modelling of glacier evolution under climate change in the tropical Andes"
+      authors: Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-685-2025
+      year: 2025  
     - title: "Cryo-social dynamics: the interplay of glacial dynamics and socioeconomic conditions in the Shigar Valley, Karakoram, Pakistan"
       authors: Haq, F., Shutkin, T., Afreen, M., and Mark B.G.
       journal: GeoJournal
