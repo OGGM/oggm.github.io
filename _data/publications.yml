@@ -20,11 +20,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-387
       year: 2024
-    - title: "Large Glaciers Sustaining the Upper Indus Basin Glacier Runoff in the Future"
-      authors: Luo, Y., Afzal, M.M., and Wang, X.
-      journal: SSRN [preprint]
-      doi: 10.2139/ssrn.4936600
-      year: 2024
     - title: "Irreversible glacier change and trough water for centuries after overshooting 1.5°C"
       authors: Schuster, L., Maussion, F., Rounce, D., Ultee, L., Schmitt, P., Lacroix, F., Frölicher, T., Schleussner, C.F.
       journal: Research Square [preprint]
@@ -63,6 +58,11 @@
       journal: The Cryosphere
       doi: 10.5194/tc-19-685-2025
       year: 2025  
+    - title: "Large glaciers sustaining the Upper Indus basin glacier runoff in the future"
+      authors: Afzal, M.M., Wang, X., and Luo, Y.
+      journal: Journal of Hydrology
+      doi: 10.1016/j.jhydrol.2025.132952
+      year: 2025
     - title: "Freshwater input from glacier melt outside Greenland alters modeled northern high-latitude ocean circulation"
       authors: Malles, J.-H., Marzeion, B., and Myers, P. G.
       journal: Earth System Dynamics 
