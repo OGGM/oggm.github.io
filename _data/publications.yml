@@ -5,11 +5,11 @@
       journal: Research Square [preprint]
       doi: 10.21203/rs.3.rs-4714636/v1
       year: 2024
-    - title: "Recent observations and glacier modeling point towards near complete glacier loss in western Austria (Ötztal and Stubai mountain range) if 1.5 °C is not met"
-      authors: Hartl, L., Schmitt, P., Schuster, L., Helfricht, K., Abermann, J., and Maussion, F.
+    - title: "Machine learning improves seasonal mass balance prediction for unmonitored glaciers"
+      authors: Sjursen, K. H., Bolibar, J., van der Meer, M., Andreassen, L. M., Biesheuvel, J. P., Dunse, T., Huss, M., Maussion, F., Rounce, D. R., and Tober, B.
       journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-3146
-      year: 2024
+      doi: 10.5194/egusphere-2025-1206
+      year: 2025
     - title: "The atmosphere-land/ice-ocean system in the region near the 79N Glacier in Northeast Greenland: Synthesis and key findings from GROCE"
       authors: Kanzow, T., et al.
       journal: EGUsphere [preprint]
@@ -53,6 +53,11 @@
 
 - category: "2025"
   entries:
+    - title: "Recent observations and glacier modeling point towards near-complete glacier loss in western Austria (Ötztal and Stubai mountain range) if 1.5 °C is not met"
+      authors: Hartl, L., Schmitt, P., Schuster, L., Helfricht, K., Abermann, J., and Maussion, F.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-1431-2025
+      year: 2025
     - title: "Physically based modelling of glacier evolution under climate change in the tropical Andes"
       authors: Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.
       journal: The Cryosphere
