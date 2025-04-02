@@ -1,10 +1,5 @@
 - category: "Preprints / In review"
   entries:
-    - title: "Glacio-hydrological changes along the Andes throughout the 21st Century"
-      authors: Caro, A., Condom, T., Rabatel, A., Aguayo, R., and Champollion, N.
-      journal: Research Square [preprint]
-      doi: 10.21203/rs.3.rs-4714636/v1
-      year: 2024
     - title: "Machine learning improves seasonal mass balance prediction for unmonitored glaciers"
       authors: Sjursen, K. H., Bolibar, J., van der Meer, M., Andreassen, L. M., Biesheuvel, J. P., Dunse, T., Huss, M., Maussion, F., Rounce, D. R., and Tober, B.
       journal: EGUsphere [preprint]
@@ -53,6 +48,11 @@
 
 - category: "2025"
   entries:
+    - title: "Future glacio-hydrological changes in the Andes: a focus on near-future projections up to 2050"
+      authors: Caro, A., Condom, T., Rabatel, A., Aguayo, R., and Champollion, N.
+      journal: Scientific Reports
+      doi: 10.1038/s41598-025-88069-2
+      year: 2025
     - title: "Recent observations and glacier modeling point towards near-complete glacier loss in western Austria (Ötztal and Stubai mountain range) if 1.5 °C is not met"
       authors: Hartl, L., Schmitt, P., Schuster, L., Helfricht, K., Abermann, J., and Maussion, F.
       journal: The Cryosphere
