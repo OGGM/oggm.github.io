@@ -30,11 +30,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-2569
       year: 2024
-    - title: "Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins"
-      authors: Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-1778
-      year: 2024
     - title: "Glacier preservation doubled by limiting warming to 1.5°C"
       authors: Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P., Lipscomb, W., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., Sakai, A.
       journal: EarthArXiv [preprint]
@@ -87,6 +82,11 @@
       authors: Pfleiderer, P., Frölicher, T.L., Kropf, C.M., Lamboll, R.D., Lejeune, Q., Lourenço, T.C., Maussion, F., McCaughey, J.W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
       journal: Nature Geoscience
       doi: 10.1038/s41561-024-01597-w
+      year: 2025
+    - title: "Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins"
+      authors: Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-1491-2025
       year: 2025
     - title: "The Open Global Glacier Model (OGGM) Based Assessment of Glacier Mass Variations in Chhota Shigri Glacier, Western Indian Himalaya"
       authors: Yaka, T., Remesan, R., Pachore, A.
