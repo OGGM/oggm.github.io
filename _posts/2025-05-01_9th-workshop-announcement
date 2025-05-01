@@ -1,0 +1,84 @@
+---
+layout: post
+title: OGGM Glacier Modeling Workshop 2025
+subtitle: 6 - 8 October, Brussels, Belgium
+author: Nicolas Champollion, Rodrigo Aguayo, Harry Zekollari, Fabien Maussion and Ben Marzeion
+date: 2025-05-01T00:00:00
+tags: workshop
+---
+
+### What is it?
+
+The workshop is the 9<sup>th</sup> in a series that has brought together the community of users and developers of the Open Global Glacier Model ([OGGM](https://oggm.org/)). This year, the workshop will be shorter and OGGM focused during 3 days, always in an informal and friendlay atmosphere.
+
+The workshop welcomes anyone interested in glacier modeling especially active developers and users of OGGM. Its primary objective is to address the challenges and solutions in glacier modeling, foster mutual learning, and discuss ideas and visions for advancing glacier models. Attendees can expect a mix of scientific presentations and discussion/brainstorming sessions (no hands-on this year).
+
+### Possible topics
+
+- modelling of glaciers at large scales (mountain range to global scale)
+- glacier change projections and impacts of glacier change (hydrology, hazards, sea-level rise)
+- data assimilation and ice thickness inversion
+- paleo-simulations and glacier reconstructions
+- model development, calibration, validation
+- vizualisation of glacier model results
+- future of OGGM, perspective, governance, sustainability 
+
+### Agenda
+
+We aim to maintain a flexible schedule that adapts to the participants' needs, interests, and suggestions. Typically, first afternoon will be reserved for presentations, second day dedicated to group discussions and last morning to the future of OGGM. All sessions will happen with all the participants (no parallel session).
+
+1. <b>Scientific presentations</b>: Participants presentations (approx. 5-20 minutes) on topics relevant to the workshop.
+2. <b>Discussion/brainstorming sessions</b>: Discussions and brainstorming covering all aspects of OGGM and global glacier modeling.
+3. <b>Future session</b>: Thinking about the needs and societal impacts in the future about glacier modeling and especially OGGM.
+
+### Who can participate?
+
+The workshop is open to anyone involved in glaciological modeling, particularly those using OGGM. Please note, participant numbers are limited to around 15-20 persons due to accommodation and logistical constraints. Also, be aware that there is no online option: you must be able to attend in-person.
+
+### Location
+
+The workshop will be held at the [Vrije Universiteit Brussel (Belgium)](https://www.vub.be/en). The Vrije Universiteit Brussel (VUB Dutch) is a Dutch- and English-speaking research university in Brussels, Belgium, and was formed in 1970. The university cover a broad range of fields of knowledge including the natural sciences, classics, life sciences, social sciences, humanities, and engineering. The university provides bachelor, master, and doctoral education to about 8,000 undergraduate and 1,000 graduate students.
+
+### Transportation
+
+VUB is easily accessible by public transportation from Brussels main train station or airport.
+
+### Arrival / departure dates
+
+The workshop starts at VUB on October 6, 2025 at the beginning of the afternonn and ends on October 8, 2025 before lunch. It should give the time for participants to arrive on Monday morning and to leave on Wednesday afternoon.
+
+### Accommodation / meals and workshop fee
+
+There will be no workshop fee but the organization does not cover accomodation, travel and meals. Each participants have to support themself for accomodation, travel and meals.
+
+### Registration procedure
+
+If you are interested in participating, please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSf-SUH4Ysy-bSah7qX82Udp-dscLU9vaFnRChtjHOGM7E2weA/viewform?usp=header) by July 1<sup>st</sup>. Kindly note that participant numbers are capped at 15-20, owing to limitations in logistics. Consequently, should we receive more applications than available spots, a selection process will be implemented based on responses provided in the form. Selected participants will be notified of the decisions by mid-July. If you have any questions please send an e-mail to info@oggm.org.
+
+### Organizers
+
+Nicolas Champollion, Rodrigo Aguayo, Harry Zekollari, Fabien Maussion and Ben Marzeion
+
+### Past workshops
+
+If you like to get a better feeling of what the workshop could be like,
+you can have a look at the summary reports of the previous editions:
+
+- <u> <a href="{{ site.url }}/2016/02/11/1st-oggm-worshop-summary/"> 1st OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2017/04/03/2nd-oggm-worshop-summary/"> 2nd OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2018/06/29/3nd-oggm-worshop-summary/"> 3rd OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2019/06/21/4st-oggm-worshop-summary/"> 4th OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2021/10/12/5th-oggm-worshop-summary/"> 5th OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2022/11/20/6st-oggm-worshop-summary/"> 6th OGGM workshop </a> </u>
+- <u> <a href="{{ site.url }}/2023/09/07/7th-oggm-worshop-summary/"> 7th OGGM workshop </a> </u>
+###- <u> <a href="{{ site.url }}/2024/10/01/8th-oggm-worshop-summary/"> 8th OGGM workshop </a> </u>   TO DO !!!
+
+### Acknowledgements
+
+This event thanks OGGM e.V., a non-profit organisation based in Bremen, Germany.
+
+<figure>
+    <a href="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" >
+    <img src="/img/blog/8th_workshop/unilogo_bleu_72dpi.png" alt="Image missing" width="30%" />
+    </a>
+</figure>
