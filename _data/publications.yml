@@ -5,11 +5,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2025-1206
       year: 2025
-    - title: "The atmosphere-land/ice-ocean system in the region near the 79N Glacier in Northeast Greenland: Synthesis and key findings from GROCE"
-      authors: Kanzow, T., et al.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-757
-      year: 2024
     - title: "Decadal re-forecasts of glacier climatic mass balance"
       authors: van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.
       journal: EGUsphere [preprint]
@@ -82,6 +77,11 @@
       authors: Haq, F., Shutkin, T., Afreen, M., and Mark B.G.
       journal: GeoJournal
       doi: 10.1007/s10708-025-11289-6
+      year: 2025
+    - title: "The system of atmosphere, land, ice and ocean in the region near the 79N Glacier in northeast Greenland: synthesis and key findings from the Greenland Ice Sheet–Ocean Interaction (GROCE) experiment"
+      authors: Kanzow, T., Humbert, A., Mölg, T., Scheinert, M., Braun, M., Burchard, H., Doglioni, F., Hochreuther, P., Horwath, M., Huhn, O., Kappelsberger, M., Kusche, J., Loebel, E., Lutz, K., Marzeion, B., McPherson, R., Mohammadi-Aragh, M., Möller, M., Pickler, C., Reinert, M., Rhein, M., Rückamp, M., Schaffer, J., Shafeeque, M., Stolzenberger, S., Timmermann, R., Turton, J., Wekerle, C., and Zeising, O.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-1789-2025
       year: 2025
     - title: "Ice Thickness Inversion Assessment: A Comparison Study for Waldemarbreen and Irenebreen Glaciers, Svalbard"
       authors: Švinka, L., Karušs, J., and Lamsters, K.
