@@ -7,8 +7,8 @@ date: 2023-10-27T00:00:00
 tags: workshop
 ---
 
-Earlier this year, we organized a [training on glacier modelling](https://oggm.org/2023/01/27/training-announcement) in collaboration with 
-the [Himalayan University Consortium (HUC)](https://www.huc-hkh.org) and the [Centre for Water Informatics & Technology](https://wit.lums.edu.pk/) 
+Earlier this year, we organized a [training on glacier modelling](https://oggm.org/2023/01/27/training-announcement) in collaboration with
+the [Himalayan University Consortium (HUC)](https://www.huc-hkh.org) and the [Centre for Water Informatics & Technology](https://wit.lums.edu.pk/)
 at [LUMS](https://lums.edu.pk), Lahore, Pakistan.
 
 Here are some video impressions from the workshop, created by our colleagues at LUMS. Enjoy!
