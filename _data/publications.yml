@@ -15,11 +15,6 @@
       journal: Preprints [preprint]
       doi: 10.20944/preprints202504.2343.v1
       year: 2025
-    - title: "Irreversible glacier change and trough water for centuries after overshooting 1.5°C"
-      authors: Schuster, L., Maussion, F., Rounce, D., Ultee, L., Schmitt, P., Lacroix, F., Frölicher, T., Schleussner, C-F.
-      journal: Research Square [preprint]
-      doi: 10.21203/rs.3.rs-5045894/v1
-      year: 2024
     - title: "Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing"
       authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
       journal: EGUsphere [preprint]
@@ -44,7 +39,7 @@
 - category: "2025"
   entries:
     - title: "Retreat and Frontal Ablation Rates for Alaska’s Lake-Terminating Glaciers: Investigating Potential Physical Controls with Implications for Future Stability"
-      authors: Caldwell, N. G., Armstrong, W.H., McNabb, R., Enderlin, E. M., McGrath, D., Rick, B., Hanson, J., and Baker Perry, L.
+      authors: Caldwell, N. G., Armstrong, W. H., McNabb, R., Enderlin, E. M., McGrath, D., Rick, B., Hanson, J., and Baker Perry, L.
       journal: Journal of Glaciology
       doi: 10.1017/jog.2025.37
       year: 2025
@@ -88,13 +83,18 @@
       journal: The Cryosphere
       doi: 10.5194/tc-19-1789-2025
       year: 2025
+    - title: "Irreversible glacier change and trough water for centuries after overshooting 1.5°C"
+      authors: Schuster, L., Maussion, F., Rounce, D. R., Ultee, L., Schmitt, P., Lacroix, F., Frölicher, T. L., and Schleussner, C-F.
+      journal: Nature Climate Change
+      doi: 10.1038/s41558-025-02318-w
+      year: 2025
     - title: "Ice Thickness Inversion Assessment: A Comparison Study for Waldemarbreen and Irenebreen Glaciers, Svalbard"
       authors: Švinka, L., Karušs, J., and Lamsters, K.
       journal: Polar Science
       doi: 10.1016/j.polar.2025.101167
       year: 2025
     - title: "Reversal of the impact chain for actionable climate information"
-      authors: Pfleiderer, P., Frölicher, T.L., Kropf, C. M., Lamboll, R. D., Lejeune, Q., Lourenço, T. C., Maussion, F., McCaughey, J. W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
+      authors: Pfleiderer, P., Frölicher, T. L., Kropf, C. M., Lamboll, R. D., Lejeune, Q., Lourenço, T. C., Maussion, F., McCaughey, J. W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
       journal: Nature Geoscience
       doi: 10.1038/s41561-024-01597-w
       year: 2025
@@ -157,7 +157,7 @@
       doi: 10.1016/j.scib.2024.09.023
       year: 2024
     - title: "Projections of Greenland periphery glaciers and ice caps’s change"
-      authors: Kang, L., Ding, M., Wang, Y., Sun, W., Wang, L., An, H., Zhang, Q., Che, J., and Huai, B
+      authors: Kang, L., Ding, M., Wang, Y., Sun, W., Wang, L., An, H., Zhang, Q., Che, J., and Huai, B.
       journal: Environmental Research Letters
       doi: 10.1088/1748-9326/ad8b5f
       year: 2024
@@ -182,7 +182,7 @@
       doi: 10.1038/10.1016/j.geomorph.2024.109321
       year: 2024
     - title: "Thickness of Ruth Glacier, Alaska, and depth of its Great Gorge from ice-penetrating radar and mass conservation"
-      authors: Tober, B. S., Christoffersen, M.S., Holt, J. W., Truffer, M., and Larsen, C. F.
+      authors: Tober, B. S., Christoffersen, M. S., Holt, J. W., Truffer, M., and Larsen, C. F.
       journal: Journal of Glaciology
       doi: 10.1017/jog.2024.53
       year: 2024
@@ -215,7 +215,7 @@
 - category: "2023"
   entries:
     - title: "Hydrological and dynamical response of glaciers to climate change based on their dimensions in the Hunza Basin, Karakoram"
-      authors: Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., Luo, Y
+      authors: Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., and Luo, Y.
       journal: Journal of Hydrology
       doi: 10.1016/j.jhydrol.2022.128948
       year: 2023
@@ -255,7 +255,7 @@
       doi: 10.1017/aog.2023.11
       year: 2023
     - title: "Seasonal water storage and release dynamics of bofedal wetlands in the Central Andes"
-      authors: Ross, A. C., Mendoza, M. M., Drenkhan, F., Montoya, N., Baiker, J. R., Mackay, J. D., Hannah, D. M., Buytaert, W.
+      authors: Ross, A. C., Mendoza, M. M., Drenkhan, F., Montoya, N., Baiker, J. R., Mackay, J. D., Hannah, D. M., and Buytaert, W.
       journal: Hydrological Processes
       doi: 10.1002/hyp.14940
       year: 2023
@@ -265,7 +265,7 @@
       doi: 10.1126/science.abo1324
       year: 2023. [[download from the authors website](https://www.cmu.edu/cee/people/faculty/rounce.html)]
     - title: "Glacier projections sensitivity to temperature-index model choices and calibration strategies"
-      authors: Schuster, L., Rounce, D., Maussion, F.
+      authors: Schuster, L., Rounce, D. R., and Maussion, F.
       journal: Annals of Glaciology
       doi: 10.1017/aog.2023.57
       year: 2023
@@ -351,7 +351,7 @@
       doi: 10.5194/tc-15-5577-2021
       year: 2021
     - title: "Calibration of a frontal ablation parameterization applied to Greenland's peripheral calving glaciers"
-      authors: Recinos, B., Maussion, F., Noël, B., Möller, M., Marzeion, B.
+      authors: Recinos, B., Maussion, F., Noël, B., Möller, M., and Marzeion, B.
       journal: Journal of Glaciology
       doi: 10.1017/jog.2021.63
       year: 2021
