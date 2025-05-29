@@ -25,11 +25,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-2569
       year: 2024
-    - title: "Glacier preservation doubled by limiting warming to 1.5°C"
-      authors: Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P., Lipscomb, W., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., Sakai, A.
-      journal: EarthArXiv [preprint]
-      doi: 10.31223/X51T5W
-      year: 2024
     - title: "Modeling the impacts of climate trends and lake formation on the retreat of a tropical Andean glacier (1962–2020)"
       authors: Shutkin, T. Y., Mark, B. G., Stansell, N. D., Cruz Encarnación, R., Brecher, H. H., Liu, Z., Yadav, B., and Schoessow, F. S.
       journal: EGUsphere [preprint]
@@ -122,6 +117,11 @@
       authors: Xu, Q., Kang, S., He, X., and Xu, M.
       journal: Journal of Mountain Science
       doi: 10.1007/s11629-024-9047-4
+      year: 2025
+    - title: "Glacier preservation doubled by limiting warming to 1.5°C versus 2.7°C"
+      authors: Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D. R., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P. D. A., Lipscomb, W. H., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., and Sakai, A.
+      journal: Science
+      doi: 10.1126/science.adu4675
       year: 2025
 
 - category: "2024"
