@@ -10,11 +10,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-387
       year: 2024
-    - title: "Assessment of Glacier Transformation in China over the Past 40 Years Using a China-Specific Glacier Classification System"
-      authors: Li, T., Wang, Y., Huai, B., An, H., Wang, L., and Sun, W.
-      journal: Preprints [preprint]
-      doi: 10.20944/preprints202504.2343.v1
-      year: 2025
     - title: "Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing"
       authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
       journal: EGUsphere [preprint]
@@ -87,6 +82,11 @@
       authors: Kanzow, T., Humbert, A., Mölg, T., Scheinert, M., Braun, M., Burchard, H., Doglioni, F., Hochreuther, P., Horwath, M., Huhn, O., Kappelsberger, M., Kusche, J., Loebel, E., Lutz, K., Marzeion, B., McPherson, R., Mohammadi-Aragh, M., Möller, M., Pickler, C., Reinert, M., Rhein, M., Rückamp, M., Schaffer, J., Shafeeque, M., Stolzenberger, S., Timmermann, R., Turton, J., Wekerle, C., and Zeising, O.
       journal: The Cryosphere
       doi: 10.5194/tc-19-1789-2025
+      year: 2025
+    - title: "Assessment of Glacier Transformation in China over the Past 40 Years Using a China-Specific Glacier Classification System"
+      authors: Li, T., Wang, Y., Huai, B., An, H., Wang, L., and Sun, W.
+      journal: Remote Sensing
+      doi: 10.3390/rs17132289
       year: 2025
     - title: "Downstream hydrology reduces glaciers' direct contribution to sea-level rise"
       authors: Rounce, D. R., Hock, R., Prusevich, A. A., Grogan, D. S., Lammers, R. B., Huss, M., Bliss, A., and Zan, B.
