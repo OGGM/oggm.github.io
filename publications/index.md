@@ -39,9 +39,10 @@ Currently, there are {{ total_count }} entries. We are not aware of all of them!
 - <small> Eis, J., **Reconstructing glacier evolution using a flowline model**, [doi:10.26092/elib/432](http://dx.doi.org/10.26092/elib/432), 2020.</small>
 - <small> van der Laan, L., **Near-Term Global Glacier Mass Balance Modelling**, [doi:10.15488/14171](https://doi.org/10.15488/14171), 2023.</small>
 - <small> Malles, J., **Past to Future and Land to Sea: constraining global glacier models by observations and exploring ice-ocean interactions**, [doi:10.26092/elib/2323](http://dx.doi.org/10.26092/elib/2323), 2023.</small>
-- <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020.</small>
-- <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021.</small>
 - <small> Pelto, B., **An approach to remotely monitor glacier mass balance at seasonal to annual time scales, Columbia and Rocky Mountains, Canada**, [doi:10.24124/2020/59097](http://doi.org/10.24124/2020/59097), 2020.</small>
+- <small> Recinos, B., **Ocean-glacier interaction on the large regional scale**, [doi:10.26092/elib/434](http://dx.doi.org/10.26092/elib/434), 2020.</small>
+- <small> Schuster, L., **Improving Our Understanding of Future Multi-Century Mountain Glacier Changes and Runoff**, [urn:nbn:at:at-ubi:1-167640](https://resolver.obvsg.at/urn:nbn:at:at-ubi:1-167640), 2024.</small>
+- <small> Vlug, A., **The influence of climate variability on the mass balance of Canadian Arctic land-terminating glaciers, in simulations of the last millennium**, [doi:10.26092/elib/1501](http://dx.doi.org/10.26092/elib/1501), 2021.</small>
 
 **Master**
 - <small> Chizzola, R. **Influence of the future changes of the Atlantic Meridional Overturning Circulation on North Atlantic Glaciers**, [link](https://diglib.uibk.ac.at/ulbtirolhs/content/titleinfo/9648318), 2024.</small>
