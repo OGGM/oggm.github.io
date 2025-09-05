@@ -1,5 +1,10 @@
 - category: "Preprints / In review"
   entries:
+    - title: "Brief Communication: Sensitivity analysis of peak water to ice thickness and temperature: A case study in the Western Kunlun Mountains of the Tibetan plateau"
+      authors: Gimenes, L., Millan, R., Champollion, N., and Bolibar, J.
+      journal: EGUsphere [preprint]
+      doi: 10.5194/egusphere-2025-3460
+      year: 2025
     - title: "Alps-wide high-resolution 3D modelling reconstruction of glacier geometry and climatic conditions for the Little Ice Age"
       authors: Henz, A., Reinthaler, J., Nussbaumer, S. U., Leger, T. P. M., Kamleitner, S., Jouvet, G., and Vieli, A.
       journal: EGUsphere [preprint]
@@ -20,6 +25,11 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-3309
       year: 2024
+    - title: "The Open Global Glacier Data Assimilation Framework (AGILE) v0.1"
+      authors: Schmitt, P., Maussion, F., Goldberg, D. N., and Gregor, P.
+      journal: EGUsphere [preprint]
+      doi: 10.5194/egusphere-2025-3401
+      year: 2025
     - title: "Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing"
       authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
       journal: EGUsphere [preprint]
@@ -38,6 +48,11 @@
 
 - category: "2025"
   entries:
+    - title: "Investigating seasonal velocity variations of selected glaciers in high mountain asia"
+      authors: Baldacchino, F., Zheng, W., Wu, K., Kapitsa, V., Yegorov, A., and Bolch, T.
+      journal: Science of Remote Sensing
+      doi: 10.1016/j.srs.2025.100266
+      year: 2025
     - title: "Tracing ice loss from the Late Holocene to the future in eastern Nuussuaq, central western Greenland"
       authors: Bonsoms, J., Oliva, M., López-Moreno, J. I., and Jouvet, G.
       journal: The Cryosphere
@@ -72,6 +87,11 @@
       authors: Huo, Y., Chen, A., Wang, N., Wu, Y., Wang, W, Zhao, H., and Bai, S.
       journal: Research in Cold and Arid Regions
       doi: 10.1016/j.rcar.2024.09.005
+      year: 2025
+    - title: "Historical and projected evolutions of glaciers in response to climate change in the Muzart River basin, Central Asia"
+      authors: Jin, X., Wang, F., Liu, S., Xie, Y., and Xu, M.
+      journal: International Journal of Digital Earth
+      doi: 10.1080/17538947.2025.2528611
       year: 2025
     - title: "Physically based modelling of glacier evolution under climate change in the tropical Andes"
       authors: Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.
