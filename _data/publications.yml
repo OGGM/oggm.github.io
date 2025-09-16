@@ -15,11 +15,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2025-1206
       year: 2025
-    - title: "Decadal re-forecasts of glacier climatic mass balance"
-      authors: van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-387
-      year: 2024
     - title: "An assessment of the disequilibrium of Alaskan glaciers"
       authors: Otto, D. R., Roe, G. H., and Christian, J. E.
       journal: EGUsphere [preprint]
@@ -92,6 +87,11 @@
       authors: Jin, X., Wang, F., Liu, S., Xie, Y., and Xu, M.
       journal: International Journal of Digital Earth
       doi: 10.1080/17538947.2025.2528611
+      year: 2025
+    - title: "Decadal re-forecasts of glacier climatic mass balance"
+      authors: van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-3879-2025
       year: 2025
     - title: "Physically based modelling of glacier evolution under climate change in the tropical Andes"
       authors: Mackay, J. D., Barrand, N. E., Hannah, D. M., Potter, E., Montoya, N., and Buytaert, W.
