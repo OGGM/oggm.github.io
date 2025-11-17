@@ -10,11 +10,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2025-2353
       year: 2025
-    - title: "Machine learning improves seasonal mass balance prediction for unmonitored glaciers"
-      authors: Sjursen, K. H., Bolibar, J., van der Meer, M., Andreassen, L. M., Biesheuvel, J. P., Dunse, T., Huss, M., Maussion, F., Rounce, D. R., and Tober, B.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2025-1206
-      year: 2025
     - title: "An assessment of the disequilibrium of Alaskan glaciers"
       authors: Otto, D. R., Roe, G. H., and Christian, J. E.
       journal: EGUsphere [preprint]
@@ -35,11 +30,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2024-2569
       year: 2024
-    - title: "Modeling the impacts of climate trends and lake formation on the retreat of a tropical Andean glacier (1962–2020)"
-      authors: Shutkin, T. Y., Mark, B. G., Stansell, N. D., Cruz Encarnación, R., Brecher, H. H., Liu, Z., Yadav, B., and Schoessow, F. S.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-3194
-      year: 2025
 
 - category: "2025"
   entries:
@@ -82,6 +72,11 @@
       authors: Hartl, L., Schmitt, P., Schuster, L., Helfricht, K., Abermann, J., and Maussion, F.
       journal: The Cryosphere
       doi: 10.5194/tc-19-1431-2025
+      year: 2025
+    - title: "Dependence of lowland water use on mountain runoff globally: Interannual variability and future changes at seasonal scale"
+      authors: Hanus, S., Burek, P., Smilovic, M., Seibert, J., Wada, Y., and Viviroli, D.
+      journal: Earth's Future
+      doi: 10.1029/2025EF006407
       year: 2025
     - title: "Projected evolution of the Qiyi Glacier in the Qilian Mountains using the PyGEM with the calibration of glaciological mass balance"
       authors: Huo, Y., Chen, A., Wang, N., Wu, Y., Wang, W, Zhao, H., and Bai, S.
@@ -128,6 +123,11 @@
       journal: Remote Sensing
       doi: 10.3390/rs17132289
       year: 2025
+    - title: "Dynamics of lake-terminating glaciers in the Himalaya and Southeastern Tibet between 1990 and 2020"
+      authors: Luo, Y., Yin, Y., Zhong, Y., Lu, X., Yang, J., Sapkota, L., Lu, X., and Liu, Q.
+      journal: Journal of Glaciology
+      doi: 10.1017/jog.2025.10088
+      year: 2025
     - title: "Downstream hydrology reduces glaciers' direct contribution to sea-level rise"
       authors: Rounce, D. R., Hock, R., Prusevich, A. A., Grogan, D. S., Lammers, R. B., Huss, M., Bliss, A., and Zan, B.
       journal: Geophysical Research Letters
@@ -138,6 +138,16 @@
       journal: Nature Climate Change
       doi: 10.1038/s41558-025-02318-w
       year: 2025
+    - title: "Modeling the impacts of climate trends and lake formation on the retreat of a tropical Andean glacier (1962–2020)"
+      authors: Shutkin, T. Y., Mark, B. G., Stansell, N. D., Cruz Encarnación, R., Brecher, H. H., Liu, Z., Yadav, B., and Schoessow, F. S.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-4835-2025
+      year: 2025
+    - title: "Machine learning improves seasonal mass balance prediction for unmonitored glaciers"
+      authors: Sjursen, K. H., Bolibar, J., van der Meer, M., Andreassen, L. M., Biesheuvel, J. P., Dunse, T., Huss, M., Maussion, F., Rounce, D. R., and Tober, B.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-5801-2025
+      year: 2025
     - title: "Ice Thickness Inversion Assessment: A Comparison Study for Waldemarbreen and Irenebreen Glaciers, Svalbard"
       authors: Švinka, L., Karušs, J., and Lamsters, K.
       journal: Polar Science
@@ -147,6 +157,11 @@
       authors: Pfleiderer, P., Frölicher, T. L., Kropf, C. M., Lamboll, R. D., Lejeune, Q., Lourenço, T. C., Maussion, F., McCaughey, J. W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
       journal: Nature Geoscience
       doi: 10.1038/s41561-024-01597-w
+      year: 2025
+    - title: "Projected decline in glacier runoff contribution during drought periods across the Qinghai-Tibetan Plateau"
+      authors: Wang, Y., Ye, A., Quincey, D. J., and James, W.
+      journal: Journal of Hydrology
+      doi: 10.1016/j.jhydrol.2025.134583
       year: 2025
     - title: "Evaluating the role of internal climate variability and bias adjustment methods on decadal glacier projections"
       authors: Weathers, M., Rounce, D. R., Fasullo, J., and Maussion, F.
