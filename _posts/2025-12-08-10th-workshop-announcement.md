@@ -37,8 +37,8 @@ The workshop continues the tradition of bringing together the global glacier-mod
 
 This edition is special in two ways:
 
-- It marks the **10th anniversary** of [the first OGGM workshop in Obergurgl](https://oggm.org/2016/02/11/1st-oggm-worshop-summary/). A small celebration will definitely be in order!
-- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [Glacier Model Intercomparison Project](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in GlacierMIP4 are especially encouraged to attend (remote participation will be offered for this session).
+- It marks the **10th anniversary** of [<u>the first OGGM workshop in Obergurgl</u>](https://oggm.org/2016/02/11/1st-oggm-worshop-summary/). A small celebration will definitely be in order!
+- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [<u>Glacier Model Intercomparison Project</u>](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in GlacierMIP4 are especially encouraged to attend (remote participation will be offered for this session).
 
 ---
 
