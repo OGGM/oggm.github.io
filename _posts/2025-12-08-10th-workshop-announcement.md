@@ -84,7 +84,7 @@ Participation will be subject to a workshop fee (likely around **€500**, to be
 
 ### Organizers
 
-- **Local organising committee:** Fabien Maussion, Ben Marzeion
+- **Local organising committee:** Fabien Maussion, Ben Marzeion, Ritu Anilkumar
 - **Scientific advisory board:** Jordi Bolibar, Nicolas Champollion, Regine Hock, Guillaume Jouvet, Beatriz Recinos, David Rounce, Harry Zekollari
 
 For any questions or requests for information, please contact [Fabien Maussion](https://fabienmaussion.info).
