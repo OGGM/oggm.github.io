@@ -33,12 +33,12 @@ This is a **“save the date”** announcement. Further details (programme, regi
 
 The workshop continues the tradition of bringing together the global glacier-modelling community — developers and users alike — to share advances, exchange ideas, and foster collaboration. It follows the successful [workshop in Oslo in 2025](https://www.mn.uio.no/geo/english/research/projects/glacmass/news/clobal-glacier-modeling-workshop.html) and builds on the [series of workshops organised by the OGGM consortium](https://oggm.org/search/#workshop) since 2016.
 
- **We welcome anyone interested in large-scale glacier evolution modelling and related challenges** (e.g. observational datasets at large scales). “Large-scale” here typically refers to the ability to simulate or monitor an entire [RGI region](https://www.glims.org/rgi_user_guide/02_regions_definition.html), although similar efforts outside that scope are also welcome.
+ **We welcome anyone interested in large-scale glacier evolution modelling and related challenges** (e.g. observational datasets at large scales). “Large-scale” here refers to the ability to simulate or monitor at least one entire [RGI region](https://www.glims.org/rgi_user_guide/02_regions_definition.html).
 
 This edition is special in two ways:
 
-- It marks the **10th anniversary** of [<u>the first OGGM workshop in Obergurgl</u>](https://oggm.org/2016/02/11/1st-oggm-worshop-summary/). A small celebration will definitely be in order!
-- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [<u>Glacier Model Intercomparison Project</u>](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in GlacierMIP4 are especially encouraged to attend (remote participation will be offered for this session).
+- It marks the **10th anniversary** of [the first OGGM workshop in Obergurgl](https://oggm.org/2016/02/11/1st-oggm-worshop-summary/). A small celebration will definitely be in order!
+- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [Glacier Model Intercomparison Project](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in GlacierMIP4 are especially encouraged to attend (remote participation will be offered for this session).
 
 ---
 
@@ -56,17 +56,21 @@ This edition is special in two ways:
 
 ### Agenda
 
-The agenda will be developed in the lead-up to the workshop. We aim to maintain a flexible schedule that adapts to participants’ needs, interests, and suggestions. Typically, sessions will include presentations, group discussions, hands-on activities, and open brainstorming.
+The agenda will be developed in the lead-up to the workshop. We aim to maintain a flexible schedule that adapts to participants’ needs, interests, and suggestions. Typically, sessions will include oral and poster presentations, group discussions, hands-on activities, and open brainstorming.
 
 ---
 
-### Logistics
+### Venue
 
-The workshop will take place at the [University Centre Obergurgl](https://www.uibk.ac.at/en/uz-obergurgl/) from **Monday lunchtime to Friday lunchtime**.
+The workshop will take place at the [University Centre Obergurgl](https://www.uibk.ac.at/en/uz-obergurgl/) from Monday 24 August to Friday 28 August 2026.
 
-Obergurgl is reachable by **train + bus** from Innsbruck (Austria) or Zürich (Switzerland). The University Centre offers **full-board accommodation** in shared or single rooms.
+Obergurgl can be reached by taking a train to **Ötztal Bahnhof** on the Innsbruck–Zürich line, followed by a bus to the village of **Obergurgl**. Nearby transport hubs include **Innsbruck** (closest), **Munich**, and **Zurich**.
 
-Participation will be subject to a workshop fee (likely around **€500**, to be confirmed and cheaper for shared rooms). We can host **approximately 40 participants**; depending on demand, a waiting list may be necessary.
+---
+
+### Costs
+
+The costs below are indicative and will be finalised when registration opens. Participants can expect a conference fee for meeting facilities and coffee breaks, plus accommodation costs: about €100 per person per night in shared rooms or €140 for single rooms, including breakfast and dinner.
 
 ---
 
@@ -84,7 +88,7 @@ Participation will be subject to a workshop fee (likely around **€500**, to be
 
 ### Organizers
 
-- **Local organising committee:** Fabien Maussion, Ben Marzeion, Ritu Anilkumar
-- **Scientific advisory board:** Jordi Bolibar, Nicolas Champollion, Regine Hock, Guillaume Jouvet, Beatriz Recinos, David Rounce, Harry Zekollari
+- **Local organising committee:** Fabien Maussion, Ben Marzeion
+- **Scientific advisory board:** Jordi Bolibar, Nicolas Champollion, Regine Hock, Matthias Huss, Guillaume Jouvet, Beatriz Recinos, David Rounce, Harry Zekollari
 
 For any questions or requests for information, please contact [Fabien Maussion](https://fabienmaussion.info).
