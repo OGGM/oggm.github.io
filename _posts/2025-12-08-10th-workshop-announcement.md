@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global Glacier Modeling Workshop 2026
+title: Global Glacier Modelling Workshop 2026
 subtitle: 24 - 28 August 2026, Obergurgl, Austria
 author: Fabien Maussion
 date: 2025-12-08T00:00:00
