@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparison of new 2025.6 glacier directories
+title: Comparison of OGGM v1.6 glacier directories
 subtitle: error analysis and projection differences between OGGM versions, baseline climates, calibration options and RGI versions 
 author: Lilian Schuster and Fabien Maussion
 date: TODO 
@@ -45,7 +45,7 @@ Both OGGM standard projection versions are available (as regionally or globally 
 ### Error analysis 
 
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 1.5rem 0;">
-  <img src="../img/blog/2025.6_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_prepro_failing_glacier_area_rgi6_7.png"
+  <img src="../img/blog/oggm_v16_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_prepro_failing_glacier_area_rgi6_7.png"
        alt="Percentage of failing glacier area per region for a selection of different preprocessed glacier directories"
        style="width: 100%; min-width: 180px; object-fit: cover;">
 </div>
@@ -67,7 +67,7 @@ Fig. 1: Failing glacier area (% of RGI area) for each region and globally for di
 ### Calibration performance
 
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 1.5rem 0;">
-  <img src="../img/blog/2025.6_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_rgi6_7.png"
+  <img src="../img/blog/oggm_v16_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_rgi6_7.png"
        alt="Amount of glaciers where the dynamical spinup works perfectly ('full success')"
        style="width: 100%; min-width: 180px; object-fit: cover;">
 </div>
@@ -96,7 +96,7 @@ When considering only the fixed-geometry mass balance ([link to figure](https://
 ### Global and regional glacier volume projection differences 
 
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 1.5rem 0;">
-  <img src="../img/blog/2025.6_gdirs_projections/3_proj_differences_options_2000_2100.png"
+  <img src="../img/blog/oggm_v16_gdirs_projections/3_proj_differences_options_2000_2100.png"
        alt="Glacier projection differences in 2000 and 2100 relative to the OGGM v1.6.3 Standard Projections for different OGGM v1.6 preprocessed glacier directories"
        style="width: 100%; min-width: 180px; object-fit: cover;">
 </div>
