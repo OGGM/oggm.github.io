@@ -7,39 +7,36 @@ date: TODO
 tags: TODO
 ---
 
-OGGM v1.6 now provides a series of preprocessed glacier directories (“gdirs”), i.e. ready-to-use glacier datasets in which all required input data and standard preprocessing steps have already been computed in a consistent and reproducible way. This blog post describes the available preprocessing options and explains their differences, including impacts on failing glaciers and on the resulting projections.
 
-----
-**In a nutshell:**
-OGGM versions 1.6.3 and 1.6.1 show no important differences in their projections. The baseline climate choice (W5E5 vs ERA5) shows no global projection differences, but it creates considerable regional differences that persist until 2100 (specifically in New Zealand – region 18). Regional instead of per-glacier calibration projects less glacier volume in Central Asia (region 13) until 2100. Using Randolph Glacier Inventory (RGI) versions 7.0G instead of 6.2 reduces strongly the failing glacier area in North Asia and Caucasus and Middle East. Initial glacier volumes in 2000 are globally similar between the RGI6.2 and RGI7.0G, but estimated RGI 7.0G volumes are around 15 % larger for North Asia and the Caucasus and Middle East, and around 15 % smaller for the Low Latitudes and New Zealand. The resulting projection differences until 2100 between RGI 6.2 and RGI 7.0G are a combination of applying the regional spinup calibration and different initial volumes at the beginning of the projections. Overall, the projection differences between the OGGM versions and options within one version are smaller than the differences to GloGEM or PyGEM.
-----
+OGGM v1.6 provides preprocessed glacier directories (“gdirs”), i.e. ready-to-use datasets with all input data and standard preprocessing steps computed consistently. This post summarizes the preprocessing options and their effects on failing glaciers and volume projections.
 
+---
+
+**In a nutshell:**  
+
+OGGM v1.6.1 and v1.6.3 produce nearly identical projections. Baseline climate (W5E5 vs ERA5) has little global impact but causes persistent regional differences, notably in New Zealand (region 18). Regional calibration lowers projected volumes in Central Asia (13). Updating from RGI 6.2 to RGI 7.0G reduces failing glacier area in North Asia (10) and the Caucasus and Middle East (12). Global 2000 volumes are similar, though RGI 7.0G is ~15% larger in North Asia and Caucasus/Middle East and ~15% smaller in the Low Latitudes (16) and New Zealand (18). Projection differences reflect both initial volume and regional spinup calibration. Overall, OGGM version and preprocessing differences are small compared to differences with GloGEM or PyGEM.
+
+--- 
 
 ## Available options
 
-- `OGGM v1.6.1 standard projections\n2023.3, W5E5, RGI62, per_glacier_spinup`:  
+- `OGGM v1.6.1 standard projections\n2023.3, W5E5, RGI62, per_glacier_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2023.3/elev_bands/W5E5_spinup/RGI62/b_160/L5/)):  
   - the previous OGGM standard projections using OGGM v1.6.1, with W5E5 as baseline climate, RGI62 as glacier inventory, and dynamical spinup and calibration performed individually for each glacier  
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2023.3/elev_bands/W5E5_spinup/RGI62/b_160/L5/)
 
-- `OGGM v1.6.3 standard projections\n2025.6, W5E5, RGI62, per_glacier_spinup`:  
+- `OGGM v1.6.3 standard projections\n2025.6, W5E5, RGI62, per_glacier_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/per_glacier_spinup/RGI62/b_160/L5/)):  
   - the same as above, but using OGGM v1.6.3 with the 2025.6 preprocessed glacier directory (differences between versions described in TODO)  
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/per_glacier_spinup/RGI62/b_160/L5/)
 
-- `2025.6, ERA5, RGI62, per_glacier_spinup`:  
+- `2025.6, ERA5, RGI62, per_glacier_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/ERA5/per_glacier_spinup/RGI62/b_160/L5/)):  
   - same as the OGGM v1.6.3 standard projections, but using ERA5 instead of W5E5 as baseline climate for the calibration. Note that ERA5 has a higher spatial resolution (0.25° × 0.25° grid) than W5E5 (0.5°).  
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/ERA5/per_glacier_spinup/RGI62/b_160/L5/)
 
-- `2025.6, W5E5, RGI62, regional_spinup`:  
+- `2025.6, W5E5, RGI62, regional_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI62/b_160/L5/)):  
   - same as the OGGM v1.6.3 standard projections, but the calibration for the initialization and the mass-balance model parameters (“dynamical spinup”) is performed at the regional level instead of individually for each glacier. The regional mass-balance calibration was performed in a similar way as in [Zekollari et al. (2024)](https://tc.copernicus.org/articles/18/5045/2024/), which means that every glacier is calibrated to match the regional specific mass balance instead of the individual glacier-specific mass balance. 
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI62/b_160/L5/)
 
-- `2025.6, W5E5, RGI70G, regional_spinup`:  
+- `2025.6, W5E5, RGI70G, regional_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI70G/b_160/L5/)):  
   - same as above, but using the RGI70G inventory instead of RGI62. Differences between RGI versions are described [here](https://www.glims.org/rgi_user_guide/04_revisions.html), and the RGI 7.0 calibration strategy is described in [this part of the OGGM documentation (TODO, Fabien?)](TODO).  
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI70G/b_160/L5/)
 
-- `2025.6, W5E5, RGI70C, regional_spinup`:  
+- `2025.6, W5E5, RGI70C, regional_spinup` ([gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI70C/b_160/L5/)):  
   - same as above, but using the glacier complex product, which results in fewer “glaciers” in total (RGI70C; [more details here](https://www.glims.org/rgi_user_guide/products/glacier_complex_product.html)) instead of individual glaciers  
-  - [gdir link](https://cluster.klima.uni-bremen.de/~oggm/gdirs/oggm_v1.6/L3-L5_files/2025.6/elev_bands/W5E5/regional_spinup/RGI70C/b_160/L5/)
 
 Both OGGM standard projection versions are available (as regionally or globally aggregated datasets, or as per-glacier files) at https://github.com/OGGM/oggm-standard-projections-csv-files for all climate models and scenarios available from the cluster. For the other four options, we tested projections for a single climate model and several scenarios. All notebooks and data used for this blog post are available from [this OGGM cluster folder](https://cluster.klima.uni-bremen.de/~oggm/oggm-standard-projections/analysis_notebooks/1.6.3_2025_6_gdirs_proj_comparisons/).
 
@@ -48,13 +45,13 @@ Both OGGM standard projection versions are available (as regionally or globally 
 ### Error analysis 
 
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 1.5rem 0;">
-  <img src="../img/blog/2025.6_gdirs_projections/error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_prepro_failing_glacier_area_rgi6_7.png"
+  <img src="../img/blog/2025.6_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_prepro_failing_glacier_area_rgi6_7.png"
        alt="Percentage of failing glacier area per region for a selection of different preprocessed glacier directories"
        style="width: 100%; min-width: 180px; object-fit: cover;">
 </div>
 <i> Fig. 1: Failing glacier area (% of RGI area) for each region and globally for different preprocessed OGGM v1.6 glacier directories. The same figure for the number of failing glaciers is available [here](https://cluster.klima.uni-bremen.de/~oggm/oggm-standard-projections/analysis_notebooks/1.6.3_2025_6_gdirs_proj_comparisons/figures/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_prepro_failing_glaciers_rgi6_7.png). The [notebook used to create the figure and additional analyses](https://nbviewer.org/urls/cluster.klima.uni-bremen.de/~oggm/oggm-standard-projections/analysis_notebooks/1.6.3_2025_6_gdirs_proj_comparisons/0_error_analysis_gdirs_oggm_v16_2025.6.ipynb) is also available. </i>
 <br><br>
-Here, “failing glacier area” refers to the total area of glaciers for which the OGGM preprocessing workflow cannot be completed and which are therefore excluded from the projections. For all analysed preprocessed glacier directories, the glacier area that fails at any point in the OGGM preprocessing workflow is globally below 0.2%. In all regions except two ("North Asia (10)" and "Caucasus and Middle East (12)"), less than 1% of the glacier area fails.
+Here, “failing glacier area” refers to the total area of glaciers for which the OGGM preprocessing workflow cannot be completed and which are therefore excluded from the projections. For all analysed preprocessed glacier directories, the glacier area that fails at any point in the OGGM preprocessing workflow is globally below 0.2%. In all regions except two (North Asia (10) and Caucasus and Middle East (12)), less than 1% of the glacier area fails.
 
 - The failing glacier area is slightly reduced for the OGGM v1.6.3 standard projections compared to OGGM v1.6.1, likely due to the use of newer topographical maps in the Subantarctic and Antarctic Islands (region 19) (CHECK-TODO Fabien).
 - Using ERA5 instead of W5E5 results in a similar failing glacier area.
@@ -65,7 +62,7 @@ Here, “failing glacier area” refers to the total area of glaciers for which 
 ### Calibration performance
 
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 1.5rem 0;">
-  <img src="../img/blog/2025.6_gdirs_projections/error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_rgi6_7.png"
+  <img src="../img/blog/2025.6_gdirs_projections/0_error_analysis_2025_6_w5e5_era5_vs_2023_3_spinup_calib_rgi6_7.png"
        alt="Amount of glaciers where the dynamical spinup works perfectly ('full success')"
        style="width: 100%; min-width: 180px; object-fit: cover;">
 </div>
@@ -111,7 +108,7 @@ Let's now compare the projections for each option individually:
 - Differences between the OGGM v1.6.1 and v1.6.3 Standard Projections remain within 2% over the entire projection period in all regions; globally, differences are <0.5%.
 - Using ERA5 instead of W5E5 leads to differences of 4–13% relative to the OGGM v1.6.3 Standard Projections in 2000 for the Caucasus and Middle East (12, Low Latitudes (16), and New Zealand (18). In New Zealand (18) and in the Russian Arctic (09) estimated absolute differences in 2100 are above 4%. Differences in regional climate evolution between the RGI date and the inversion date may explain part of the initial volume discrepancies. However, OGGM–ERA5 projections are not substantially closer to GloGEM and PyGEM, which have also used ERA5. Other differences, such as model physics, calibration and initial volumes may hide the influence of the baseline climate choice. 
 - Globally and for most regions, the regional calibration does not create large projection differences, as per-glacier differences are compensated at the regional scale ([see e.g. Zekollari et al. (2024)](https://tc.copernicus.org/articles/18/5045/2024/). However, regional calibration creates an around 4% lower 2020 glacier volume in New Zealand (18) with diminishing differences until 2100. In addition, glacier volume projections in Central Asia are around 9% lower in 2100 with the regional calibration (similar tendency found for this region in [Zekollari et al., 2024 (Fig. 4)](https://tc.copernicus.org/articles/18/5045/2024/)). As this region contains the largest number of glaciers, regional calibration may affect projections there more strongly than in smaller regions.
-- Because regionally calibrated "Glen A"-parameters derived from RGI62 were applied to RGI70G, any inversion volume differences between the RGI versions arise solely from updated glacier outlines rather than changes in data or methods. This results in inversion glacier volumes that are more than 10% larger in North Asia (10) and Caucasus and Middle East (12) (partly because RGI7 contains much less failing glacier area in these regions), and more than 15% smaller in the Low Latitudes (16) and New Zealand (18) ([link to figure](https://cluster.klima.uni-bremen.de/~oggm/oggm-standard-projections/analysis_notebooks/1.6.3_2025_6_gdirs_proj_comparisons/figures/1_rel_volume_difference_inversion_vs_itmix.png)). Inversion volumes are valid at different years for RGI6 and RGI7. Thus, differences between RGI62 and RGI70 preprocessed gdirs are even larger in 2000 than at inversion (Fig. 3). Over time, projection differences between RGI62 and RGI70 decrease in regions with the largest initial discrepancies. Some remaining differences in 2100 can be attributed to the regional calibration, as both RGI62 and RGI70 produce similar 2100 projections in several regions.
+- Because regionally calibrated “Glen A“-parameters derived from RGI62 were applied to RGI70G, any inversion volume differences between the RGI versions arise solely from updated glacier outlines rather than changes in data or methods. This results in inversion glacier volumes that are more than 10% larger in North Asia (10) and Caucasus and Middle East (12) (partly because RGI7 contains much less failing glacier area in these regions), and more than 15% smaller in the Low Latitudes (16) and New Zealand (18) ([link to figure](https://cluster.klima.uni-bremen.de/~oggm/oggm-standard-projections/analysis_notebooks/1.6.3_2025_6_gdirs_proj_comparisons/figures/1_rel_volume_difference_inversion_vs_itmix.png)). Inversion volumes are valid at different years for RGI6 and RGI7. Thus, differences between RGI62 and RGI70 preprocessed gdirs are even larger in 2000 than at inversion (Fig. 3). Over time, projection differences between RGI62 and RGI70 decrease in regions with the largest initial discrepancies. Some remaining differences in 2100 can be attributed to the regional calibration, as both RGI62 and RGI70 produce similar 2100 projections in several regions.
 - Using glacier complexes (RGI70C) instead of individual glaciers (RGI70G) leads to substantial differences (>4%) in four regions in 2000 and to a ~1% larger global volume. By 2100, absolute volume differences decreased globally and in these four regions, but appeared instead in two other regions. 
 
 
@@ -122,27 +119,4 @@ Let's now compare the projections for each option individually:
 - What does this mean for GMIP4? 
     - Assuming that RGI62 is valid at the year 2000 (as planned for GMIP4) creates quite substantially different 2000 glacier volumes. 
 - ... 
-
--------
-
-
-TO ASK FABIEN: 
-- I am still confused why the initial volume can be so much higher for 16,17,18 under ERA5 ... although the failing glacier area is not that different. Maybe it is the different past climate from W5E5/ERA5 between RGI date and year 2000 that explains it??? 
-- Hugonnet et al. (2021) dmdtda --> if I understand that correctly it is estimates by the "constant" RGI area
-- regional dmdtda --> this is estimated by the "time-varying" RGI area (tarea) (linear interpolation ...) ---> what is the right comparison to OGGM dmdtda regional???
-
-
------
-Summary of the initialisation and calibration approach for the RGI70 preprocessed OGGM glacier directories:
-- We used the same input datasets (climate, topography, etc.) to generate OGGM glacier directories for RGI6, RGI7G, and RGI7C.
-
-- Since RGI7 currently has no mass-balance observations, we calibrated OGGM for all versions using the same regional mass-balance estimates from Hugonnet et al. 2021, assuming these are the same for all glaciers in a region (like in Zekollari et al 2024) and do not change between RGI6 and RGI7. This is a strong assumption, but it has limited influence on the inversion itself (more so on projections).
-
-- We applied the OGGM inversion to RGI6, tuning glenA to match the regional ice-volume estimates from the Farinotti et al. (2019) consensus.
-
--The regionally tuned glenA parameters from RGI6 were then applied to RGI7G. As a result, any volume differences between RGI6 and RGI7 arise solely from updated glacier outlines, not data or methods changes.
-
-- Finally (less critical, but useful), we aggregated the RGI7G results to the glacier-complex level and re-ran the inversion on RGI7C, tuning it to match the RGI7G totals. This allows us to produce ice-thickness maps at the glacier complex scale without artefacts.
-
-
 
