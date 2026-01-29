@@ -1,10 +1,5 @@
 - category: "Preprints / In review"
   entries:
-    - title: "Brief Communication: Sensitivity analysis of peak water to ice thickness and temperature: A case study in the Western Kunlun Mountains of the Tibetan plateau"
-      authors: Gimenes, L., Millan, R., Champollion, N., and Bolibar, J.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2025-3460
-      year: 2025
     - title: "Alps-wide high-resolution 3D modelling reconstruction of glacier geometry and climatic conditions for the Little Ice Age"
       authors: Henz, A., Reinthaler, J., Nussbaumer, S. U., Leger, T. P. M., Kamleitner, S., Jouvet, G., and Vieli, A.
       journal: EGUsphere [preprint]
@@ -31,6 +26,14 @@
       doi: 10.5194/egusphere-2024-2569
       year: 2024
 
+- category: "2026"
+  entries:
+    - title: "Brief communication: Sensitivity analysis of peak water to ice thickness and temperature: A case study in the Western Kunlun Mountains of the Tibetan Plateau"
+      authors: Gimenes, L., Millan, R., Champollion, N., and Bolibar, J.
+      journal: The Cryosphere
+      doi: 10.5194/tc-20-171-2026
+      year: 2026
+      
 - category: "2025"
   entries:
     - title: "Topographically-controlled contribution of avalanches to glacier mass balance in the 21st century"
@@ -157,6 +160,11 @@
       authors: Švinka, L., Karušs, J., and Lamsters, K.
       journal: Polar Science
       doi: 10.1016/j.polar.2025.101167
+      year: 2025
+    - title: "Peak glacier extinction in the mid-twenty-first century"
+      authors: Van Tricht, L., Zekollari, H., Huss, M., Rounce, D. R., Schuster, L., Aguayo, R., Schmitt, P., Maussion, F., Tober, B., and Farinotti, D. 
+      journal: Nature Climate Change
+      doi: 10.1038/s41558-025-02513-9
       year: 2025
     - title: "Reversal of the impact chain for actionable climate information"
       authors: Pfleiderer, P., Frölicher, T. L., Kropf, C. M., Lamboll, R. D., Lejeune, Q., Lourenço, T. C., Maussion, F., McCaughey, J. W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
