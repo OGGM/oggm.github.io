@@ -8,8 +8,8 @@ url: https://oggm.org
 baseurl:
 header-img: img/backgrounds/blue_ice.jpg
 headercolor: "#FFFFFF"
-# logo: img/logos/oggm_l_alpha.png
-logo: img/logos/logo_xmas.png
+logo: img/logos/oggm_l_alpha.png
+# logo: img/logos/logo_xmas.png
 header-images: ["img/backgrounds/slide_2.jpg", "img/backgrounds/slide_3.jpg", "img/backgrounds/slide_4.jpg", "img/backgrounds/slide_5.jpg"]
 
 # Tertiary Parameters
