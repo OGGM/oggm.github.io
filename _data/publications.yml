@@ -15,11 +15,6 @@
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2025-3401
       year: 2025
-    - title: "Projecting the Response of Greenland's Peripheral Glaciers to Future Climate Change: Glacier Losses, Sea Level Impact, Freshwater Contributions, and Peak Water Timing"
-      authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-2184
-      year: 2024
     - title: "Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection"
       authors: Vergnano, A., Franco, D., and Godio, A.
       journal: EGUsphere [preprint]
@@ -28,10 +23,25 @@
 
 - category: "2026"
   entries:
+    - title: "An integrated assessment of water scarcity and glacier runoff changes in Asian and South American glacierized basins"
+      authors: Calvo-Gallardo, R., Lambert, F., Álamos, N., and Urquiza, A. 
+      journal: Global Sustainability
+      doi: 10.1017/sus.2025.10046
+      year: 2026
     - title: "Brief communication: Sensitivity analysis of peak water to ice thickness and temperature: A case study in the Western Kunlun Mountains of the Tibetan Plateau"
       authors: Gimenes, L., Millan, R., Champollion, N., and Bolibar, J.
       journal: The Cryosphere
       doi: 10.5194/tc-20-171-2026
+      year: 2026
+    - title: "Projecting the response of Greenland's peripheral glaciers to future climate change: glacier losses, sea level impact, freshwater contributions, and peak water timing"
+      authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
+      journal: The Cryosphere
+      doi: 10.5194/tc-20-875-2026
+      year: 2026
+    - title: "Climate warming-induced glacier mass loss driving peak runoff variability and cryosphere service value decline"
+      authors: Sun, J., Chang, J., Guo, A., Wang, Y., Li, Z., Zhai, D., Wang, P., and Wang, J.
+      journal: Journal of Hydrology
+      doi: 10.1016/j.jhydrol.2026.135084
       year: 2026
       
 - category: "2025"
