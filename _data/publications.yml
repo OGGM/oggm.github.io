@@ -1,25 +1,5 @@
 - category: "Preprints / In review"
   entries:
-    - title: "Alps-wide high-resolution 3D modelling reconstruction of glacier geometry and climatic conditions for the Little Ice Age"
-      authors: Henz, A., Reinthaler, J., Nussbaumer, S. U., Leger, T. P. M., Kamleitner, S., Jouvet, G., and Vieli, A.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2025-2353
-      year: 2025
-    - title: "An assessment of the disequilibrium of Alaskan glaciers"
-      authors: Otto, D. R., Roe, G. H., and Christian, J. E.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-3309
-      year: 2024
-    - title: "The Open Global Glacier Data Assimilation Framework (AGILE) v0.1"
-      authors: Schmitt, P., Maussion, F., Goldberg, D. N., and Gregor, P.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2025-3401
-      year: 2025
-    - title: "Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection"
-      authors: Vergnano, A., Franco, D., and Godio, A.
-      journal: EGUsphere [preprint]
-      doi: 10.5194/egusphere-2024-2569
-      year: 2024
 
 - category: "2026"
   entries:
@@ -32,6 +12,11 @@
       authors: Gimenes, L., Millan, R., Champollion, N., and Bolibar, J.
       journal: The Cryosphere
       doi: 10.5194/tc-20-171-2026
+      year: 2026
+    - title: "AGILE v0.1: The Open Global Glacier Data Assimilation Framework"
+      authors: Schmitt, P., Maussion, F., Goldberg, D. N., and Gregor, P.
+      journal: Geoscientific Model Development
+      doi: 10.5194/gmd-19-1301-2026
       year: 2026
     - title: "Projecting the response of Greenland's peripheral glaciers to future climate change: glacier losses, sea level impact, freshwater contributions, and peak water timing"
       authors: Shafeeque, M., Malles, J-H., Vlug, A., Möller, M., and Marzeion, B.
@@ -96,6 +81,11 @@
       journal: Earth's Future
       doi: 10.1029/2025EF006407
       year: 2025
+    - title: "Alps-wide high-resolution 3D modelling reconstruction of glacier geometry and climatic conditions for the Little Ice Age"
+      authors: Henz, A., Reinthaler, J., Nussbaumer, S. U., Leger, T. P. M., Kamleitner, S., Jouvet, G., and Vieli, A.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-5913-2025
+      year: 2025
     - title: "Projected evolution of the Qiyi Glacier in the Qilian Mountains using the PyGEM with the calibration of glaciological mass balance"
       authors: Huo, Y., Chen, A., Wang, N., Wu, Y., Wang, W, Zhao, H., and Bai, S.
       journal: Research in Cold and Arid Regions
@@ -146,6 +136,11 @@
       journal: Journal of Glaciology
       doi: 10.1017/jog.2025.10088
       year: 2025
+    - title: "An assessment of the disequilibrium of Alaskan glaciers"
+      authors: Otto, D. R., Roe, G. H., and Christian, J. E.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-4969-2025
+      year: 2025
     - title: "Downstream hydrology reduces glaciers' direct contribution to sea-level rise"
       authors: Rounce, D. R., Hock, R., Prusevich, A. A., Grogan, D. S., Lammers, R. B., Huss, M., Bliss, A., and Zan, B.
       journal: Geophysical Research Letters
@@ -180,6 +175,11 @@
       authors: Pfleiderer, P., Frölicher, T. L., Kropf, C. M., Lamboll, R. D., Lejeune, Q., Lourenço, T. C., Maussion, F., McCaughey, J. W., Quilcaille, Y., Rogelj, J., Sanderson, B., Schuster, L., Sillmann, J., Smith, C., Theokritoff, E., and Schleussner, C-F.
       journal: Nature Geoscience
       doi: 10.1038/s41561-024-01597-w
+      year: 2025
+    - title: "Integrating GPR and ice-thickness models for improved bedrock detection: the case study of Rutor temperate glacier"
+      authors: Vergnano, A., Franco, D., and Godio, A.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-6965-2025
       year: 2025
     - title: "Projected decline in glacier runoff contribution during drought periods across the Qinghai-Tibetan Plateau"
       authors: Wang, Y., Ye, A., Quincey, D. J., and James, W.
