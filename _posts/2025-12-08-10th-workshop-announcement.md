@@ -25,20 +25,24 @@ tags: workshop
        style="width: 24%; min-width: 180px; object-fit: cover;">
 </div>
 
-This is a **“save the date”** announcement. Further details (programme, registration, etc.) will be shared in due course.
+**New (Februrary 26th, 2026): registration for the workshop is now opened!** Please indicate your interest in registering for the workshop by filling this online MS Form **by March 22, 2026**:
+
+<div style="border: 3px solid; padding: 0.8rem 1rem; border-radius: 6px; text-align: center; font-weight: 700; margin: 0.8rem 0;">
+     <a href="https://forms.office.com/e/696KK1CUej">Registration Form - Global Glacier Modelling Workshop 2026</a>
+</div>
 
 ---
 
 ### What is it?
 
-The workshop continues the tradition of bringing together the global glacier-modelling community — developers and users alike — to share advances, exchange ideas, and foster collaboration. It follows the successful [workshop in Oslo in 2025](https://www.mn.uio.no/geo/english/research/projects/glacmass/news/clobal-glacier-modeling-workshop.html) and builds on the [series of workshops organised by the OGGM consortium](https://oggm.org/search/#workshop) since 2016.
+The workshop continues the tradition of bringing together the global glacier modelling community — developers and users alike — to share advances, exchange ideas, and foster collaboration. It follows the successful [workshop in Oslo in 2025](https://www.mn.uio.no/geo/english/research/projects/glacmass/news/clobal-glacier-modeling-workshop.html) and builds on the [series of workshops organised by the OGGM consortium](https://oggm.org/search/#workshop) since 2016.
 
  **We welcome anyone interested in large-scale glacier evolution modelling and related challenges** (e.g. observational datasets at large scales). “Large-scale” here refers to the ability to simulate or monitor at least one entire [RGI region](https://www.glims.org/rgi_user_guide/02_regions_definition.html).
 
 This edition is special in two ways:
 
 - It marks the **10th anniversary** of [the first OGGM workshop in Obergurgl](https://oggm.org/2016/02/11/1st-oggm-worshop-summary/). A small celebration will definitely be in order!
-- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [Glacier Model Intercomparison Project](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in GlacierMIP4 are especially encouraged to attend (remote participation will be offered for this session).
+- We will host a **dedicated GlacierMIP4 session**, focusing on the next phase of the [Glacier Model Intercomparison Project](https://climate-cryosphere.org/working-groups/glaciermip/). Participants in [GlacierMIP4](https://github.com/GlacierMIP/GlacierMIP4) are especially encouraged to attend (remote participation will be offered for this session).
 
 ---
 
@@ -70,7 +74,22 @@ Obergurgl can be reached by taking a train to **Ötztal Bahnhof** on the Innsbru
 
 ### Costs
 
-The costs below are indicative and will be finalised when registration opens. Participants can expect a conference fee for meeting facilities and coffee breaks, plus accommodation costs: about €100 per person per night in shared rooms or €140 for single rooms, including breakfast and dinner.
+Participants can expect:
+
+- a conference fee of €250 to cover meeting facilities and coffee breaks (these costs might be lowered pending ongoing funding acquisition efforts);
+- accommodation costs of €99 per person per night in shared rooms or €139 per person per night for single rooms (limited availability), including breakfast and dinner.
+
+---
+
+### Registration (opened until March 22, 2026)
+
+Please indicate your interest in registering for the workshop by filling this online MS Form:
+
+<div style="border: 3px solid; padding: 0.8rem 1rem; border-radius: 6px; text-align: center; font-weight: 700; margin: 0.8rem 0;">
+     <a href="https://forms.office.com/e/696KK1CUej">Registration Form - Global Glacier Modelling Workshop 2026</a>
+</div>
+
+By submitting this form, you confirm that you intend to attend the full workshop if selected. However, due to the limited capacity of the venue, participation cannot be guaranteed and will be based on a selection process. Confirmation of participation, along with further details regarding registration and payment, will be communicated by the end of April 2026.
 
 ---
 
@@ -79,7 +98,7 @@ The costs below are indicative and will be finalised when registration opens. Pa
 *Indicative timeline:*
 
 - **February 2026** — Call for abstracts & registration opens
-- **March 2026** — Participants informed of acceptance
+- **April 2026** — Participants informed of acceptance
 - **April 2026** — Waiting list notifications (if needed)
 - **May 2026** — First programme draft published
 - **August 2026** — Workshop!
@@ -88,7 +107,7 @@ The costs below are indicative and will be finalised when registration opens. Pa
 
 ### Organizers
 
-- **Local organising committee:** Fabien Maussion, Ben Marzeion
+- **Local organising committee:** Fabien Maussion, Ben Marzeion, Ritu Anilkumar
 - **Scientific advisory board:** Jordi Bolibar, Nicolas Champollion, Regine Hock, Matthias Huss, Guillaume Jouvet, Beatriz Recinos, David Rounce, Harry Zekollari
 
 For any questions or requests for information, please contact [Fabien Maussion](https://fabienmaussion.info).
