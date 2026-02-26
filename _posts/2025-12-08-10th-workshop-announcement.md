@@ -76,7 +76,7 @@ Obergurgl can be reached by taking a train to **Ötztal Bahnhof** on the Innsbru
 
 Participants can expect:
 
-- a conference fee of €250 to cover meeting facilities and coffee breaks (to be confirmed pending funding acquisition efforts);
+- a conference fee of €250 to cover meeting facilities and coffee breaks (these costs might be lowered pending ongoing funding acquisition efforts);
 - accommodation costs of €99 per person per night in shared rooms or €139 per person per night for single rooms (limited availability), including breakfast and dinner.
 
 ---
