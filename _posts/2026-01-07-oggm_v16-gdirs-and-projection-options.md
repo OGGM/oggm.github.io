@@ -8,14 +8,15 @@ tags: science
 ---
 
 
-OGGM v1.6 provides preprocessed glacier directories (“gdirs”), i.e. ready-to-use datasets with all input data and standard preprocessing steps computed consistently. This blogpost summarizes the preprocessing options and their effects on failing glaciers and volume projections.
+OGGM provides [preprocessed glacier directories](https://docs.oggm.org/en/stable/shop.html#pre-processed-directories) ("gdirs"), i.e. ready-to-use datasets containing all input data and standard preprocessing steps computed consistently. With version 1.6.3 (to be released in March 2026), OGGM provides a new set of preprocessed directories. These are either updates of the v1.6.1 ones, or new directories using updated climate data (ERA5) and RGI version 7 glacier outlines.
+
+This blog post summarizes the available preprocessing options and their effects on failing glaciers and volume projections.
 
 ---
 
 **In a nutshell:**
 
-OGGM v1.6.1 and v1.6.3 produce nearly identical projections. Baseline climate (W5E5 vs ERA5) has little global impact but causes persistent regional differences, notably in New Zealand (region 18). Regional calibration lowers projected volumes in Central Asia (13). Updating from Randolph Glacier Inventory (RGI) 6.2 to RGI 7.0 reduces failing glacier area in North Asia (10) and the Caucasus and Middle East (12), which causes around 15% larger glacier volumes in year 2000 in these regions. Globally, 2000 volumes between RGI inventories are similar, but around ~15% smaller in the Low Latitudes (16) and New Zealand (18). Projection differences until 2100 using RGI7.0 instead of RGI6.2 are affected by the initial volume and regional spinup calibration. Overall, OGGM version and preprocessing option projection differences are smaller than differences to GloGEM or PyGEM, and smaller than differences between climate model
-forcing options.
+OGGM v1.6.1 and v1.6.3 produce nearly identical projections. Baseline climate (W5E5 vs ERA5) has little global impact but causes persistent regional differences, notably in New Zealand (region 18). Regional calibration lowers projected volumes in Central Asia (13). Updating from Randolph Glacier Inventory (RGI) 6.2 to RGI 7.0 reduces failing glacier area in North Asia (10) and the Caucasus and Middle East (12), which causes around 15% larger glacier volumes in year 2000 in these regions. Globally, 2000 volumes between RGI inventories are similar, but around ~15% smaller in the Low Latitudes (16) and New Zealand (18). Projection differences until 2100 using RGI7.0 instead of RGI6.2 are affected by the initial volume and regional spinup calibration. Overall, OGGM version and preprocessing option projection differences are smaller than differences to GloGEM or PyGEM, and smaller than differences between climate model forcing options.
 
 ---
 
