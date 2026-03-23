@@ -25,11 +25,7 @@ tags: workshop
        style="width: 24%; min-width: 180px; object-fit: cover;">
 </div>
 
-**New (Februrary 26th, 2026): registration for the workshop is now opened!** Please indicate your interest in registering for the workshop by filling this online MS Form **by March 22, 2026**:
-
-<div style="border: 3px solid; padding: 0.8rem 1rem; border-radius: 6px; text-align: center; font-weight: 700; margin: 0.8rem 0;">
-     <a href="https://forms.office.com/e/696KK1CUej">Registration Form - Global Glacier Modelling Workshop 2026</a>
-</div>
+**New (March 23rd, 2026): registration for the workshop is now closed!** Registered participants will be informed about the outcome shortly.
 
 ---
 
@@ -83,13 +79,7 @@ Participants can expect:
 
 ### Registration (opened until March 22, 2026)
 
-Please indicate your interest in registering for the workshop by filling this online MS Form:
-
-<div style="border: 3px solid; padding: 0.8rem 1rem; border-radius: 6px; text-align: center; font-weight: 700; margin: 0.8rem 0;">
-     <a href="https://forms.office.com/e/696KK1CUej">Registration Form - Global Glacier Modelling Workshop 2026</a>
-</div>
-
-By submitting this form, you confirm that you intend to attend the full workshop if selected. However, due to the limited capacity of the venue, participation cannot be guaranteed and will be based on a selection process. Confirmation of participation, along with further details regarding registration and payment, will be communicated by the end of April 2026.
+Registration is now closed! Thanks for your interest in the workshop.
 
 ---
 
