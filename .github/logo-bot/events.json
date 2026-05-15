@@ -1,0 +1,116 @@
+{
+  "target_config": "_config.yml",
+  "default_logo": "img/logos/oggm_l_alpha.png",
+  "events": [
+    {
+      "name": "christmas",
+      "logo": "img/logos/celebrations/oggm_logo_christmas.png",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas",
+      "priority": 100,
+      "rules": [
+        {
+          "type": "fixed_range",
+          "start": "12-15",
+          "end": "01-05"
+        }
+      ]
+    },
+    {
+      "name": "womeninscience",
+      "logo": "img/logos/celebrations/oggm_logo_womeninscience.png",
+      "source_url": "https://en.wikipedia.org/wiki/International_Day_of_Women_and_Girls_in_Science",
+      "priority": 70,
+      "rules": [
+        {
+          "type": "fixed_range",
+          "start": "02-08",
+          "end": "02-14"
+        }
+      ]
+    },
+    {
+      "name": "worldglacierday",
+      "logo": "img/logos/celebrations/oggm_logo_worldglacierday.png",
+      "source_url": "https://www.un.org/en/observances/world-glaciers-day",
+      "priority": 75,
+      "rules": [
+        {
+          "type": "fixed_range",
+          "start": "03-18",
+          "end": "03-24"
+        }
+      ]
+    },
+    {
+      "name": "disabilityday",
+      "logo": "img/logos/celebrations/oggm_logo_disabilityday.png",
+      "source_url": "https://en.wikipedia.org/wiki/International_Day_of_Persons_with_Disabilities",
+      "priority": 65,
+      "rules": [
+        {
+          "type": "fixed_range",
+          "start": "12-01",
+          "end": "12-05"
+        }
+      ]
+    },
+    {
+      "name": "pride",
+      "logo": "img/logos/celebrations/oggm_logo_pride.png",
+      "source_url": "https://en.wikipedia.org/wiki/Pride_Month",
+      "priority": 60,
+      "rules": [
+        {
+          "type": "fixed_range",
+          "start": "06-01",
+          "end": "06-30"
+        }
+      ]
+    },
+    {
+      "name": "chinese-new-year",
+      "logo": "img/logos/celebrations/oggm_logo_chinesenewyear.png",
+      "source_url": "https://en.wikipedia.org/wiki/Chinese_New_Year",
+      "priority": 80,
+      "rules": [
+        {
+          "type": "holiday_window",
+          "country": "CN",
+          "contains": "Chinese New Year",
+          "start_offset": -3,
+          "end_offset": 7
+        }
+      ]
+    },
+    {
+      "name": "diwali",
+      "logo": "img/logos/celebrations/oggm_logo_diwali.png",
+      "source_url": "https://en.wikipedia.org/wiki/Diwali",
+      "priority": 78,
+      "rules": [
+        {
+          "type": "holiday_window",
+          "country": "IN",
+          "contains": "Diwali",
+          "start_offset": -2,
+          "end_offset": 3
+        }
+      ]
+    },
+    {
+      "name": "aid",
+      "logo": "img/logos/celebrations/oggm_logo_aid.png",
+      "source_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+      "priority": 79,
+      "rules": [
+        {
+          "type": "holiday_window",
+          "country": "SA",
+          "contains": "Eid al-Fitr",
+          "start_offset": -2,
+          "end_offset": 2
+        }
+      ]
+    }
+  ]
+}
