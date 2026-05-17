@@ -10,6 +10,11 @@
       journal: The Cryosphere
       doi: 10.5194/tc-20-171-2026
       year: 2026
+    - title: "Projections of Changes in Glacier Area and Volume in the Xinjiang Region, northwestern China, Based on CGI-XJ2020"
+      authors: Liu, B., Li, Z., and Xu, L.
+      journal: Research in Cold and Arid Regions
+      doi: 10.1016/j.rcar.2026.04.005
+      year: 2026
     - title: "AGILE v0.1: The Open Global Glacier Data Assimilation Framework"
       authors: Schmitt, P., Maussion, F., Goldberg, D. N., and Gregor, P.
       journal: Geoscientific Model Development
@@ -34,6 +39,11 @@
       authors: Yang, W., Mackintosh, A. N., Cooper, E-L., Li, Y., Jones, R. S., Chu, W., and Tielidze, L. G.
       journal: Communications Earth & Environment
       doi: 10.1038/s43247-026-03391-5
+      year: 2026
+    - title: "Climate change-driven runoff variations in alpine catchments: Quantitative attribution using three innovative methods coupled with cryospheric processes"
+      authors: Yin, Z., Fang, C., Shan, J., Chen, Z., Zhu, R., and Feng, Q.
+      journal: Journal of Hydrology
+      doi: 10.1016/j.jhydrol.2026.135566
       year: 2026
       
 - category: "2025"
