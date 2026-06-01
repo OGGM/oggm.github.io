@@ -29,15 +29,15 @@ layout: default
 					{% if site.logo %}
           {% if site.logo_event_url and site.logo_event_url != "" %}
           <a href="{{ site.logo_event_url }}" target="_blank" rel="noopener noreferrer" aria-label="Learn about this logo event">
-            <img src= "{{ site.logo }}" style="width: 50%">
+            <img src= "{{ site.logo }}" style="width: 50%; filter: drop-shadow(0 0 16px rgba(255,255,255,1)) drop-shadow(0 0 24px rgba(255,255,255,0.7));">
           </a>
           {% else %}
-          <img src= "{{ site.logo }}" style="width: 50%">
+          <img src= "{{ site.logo }}" style="width: 50%; filter: drop-shadow(0 0 16px rgba(255,255,255,1)) drop-shadow(0 0 24px rgba(255,255,255,0.7));">
           {% endif %}
 					{% endif %}
           <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
           <hr class="small">
-          <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+          <span class="subheading" style="text-shadow: 0 1px 6px rgba(0,0,0,0.9), 0 0 12px rgba(0,0,0,0.7);">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
         </div>
       </div>
     </div>
