@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compute the active celebration logo and update _config.yml accordingly."""
+"""Compute the active celebration logo and update a target repo's config file."""
 
 from __future__ import annotations
 
@@ -18,7 +18,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--events-file",
         default=".github/logo-bot/events.json",
-        help="Path to event configuration JSON.",
+        help="Path to event configuration JSON (relative to cwd, not workdir).",
+    )
+    parser.add_argument(
+        "--target",
+        default="website",
+        help="Target id from events.json targets array.",
+    )
+    parser.add_argument(
+        "--workdir",
+        default=".",
+        help="Root of the repo being modified (defaults to cwd).",
     )
     parser.add_argument(
         "--today",
@@ -106,17 +116,32 @@ def active_event(events: List[Dict], today: dt.date) -> Tuple[Optional[Dict], Op
     return event, window
 
 
-def replace_logo(config_text: str, desired_logo: str) -> Tuple[str, bool, Optional[str]]:
+def replace_yaml_logo(config_text: str, desired_logo: str) -> Tuple[str, bool, Optional[str]]:
     pattern = re.compile(r"^(logo:\s*)(\S+)(\s*)$", re.MULTILINE)
     match = pattern.search(config_text)
     if not match:
-        raise RuntimeError("Could not find a top-level logo setting in _config.yml")
+        raise RuntimeError("Could not find a top-level 'logo:' field in config file")
 
     current_logo = match.group(2)
     if current_logo == desired_logo:
         return config_text, False, current_logo
 
     new_text = pattern.sub(rf"\1{desired_logo}\3", config_text, count=1)
+    return new_text, True, current_logo
+
+
+def replace_sphinx_logo(config_text: str, desired_logo: str) -> Tuple[str, bool, Optional[str]]:
+    pattern = re.compile(r"""^(html_logo\s*=\s*)(['"])([^'"]*)\2""", re.MULTILINE)
+    match = pattern.search(config_text)
+    if not match:
+        raise RuntimeError("Could not find 'html_logo' assignment in conf.py")
+
+    current_logo = match.group(3)
+    if current_logo == desired_logo:
+        return config_text, False, current_logo
+
+    quote = match.group(2)
+    new_text = pattern.sub(rf"\g<1>{quote}{desired_logo}{quote}", config_text, count=1)
     return new_text, True, current_logo
 
 
@@ -158,10 +183,16 @@ def emit_outputs(path: str, outputs: Dict[str, str]) -> None:
 def main() -> int:
     args = parse_args()
     repo_root = pathlib.Path.cwd()
+    workdir = pathlib.Path(args.workdir).resolve()
     events_path = repo_root / args.events_file
 
     with events_path.open("r", encoding="utf-8") as f:
         cfg = json.load(f)
+
+    targets = {t["id"]: t for t in cfg["targets"]}
+    if args.target not in targets:
+        raise ValueError(f"Unknown target '{args.target}'. Available: {list(targets)}")
+    target = targets[args.target]
 
     if args.today:
         today = dt.date.fromisoformat(args.today)
@@ -170,24 +201,39 @@ def main() -> int:
 
     event, window = active_event(cfg["events"], today)
     if event:
-        desired_logo = event["logo"]
+        desired_logo = target["celebration_logo_prefix"] + event["logo_filename"]
         desired_event_url = event.get("source_url", "")
         event_name = event["name"]
         window_str = f"{window[0].isoformat()}..{window[1].isoformat()}"
     else:
-        desired_logo = cfg["default_logo"]
+        desired_logo = target["default_logo"]
         desired_event_url = ""
         event_name = "default"
         window_str = "none"
 
-    target_config = repo_root / cfg.get("target_config", "_config.yml")
-    original = target_config.read_text(encoding="utf-8")
-    updated_logo, logo_changed, current_logo = replace_logo(original, desired_logo)
-    updated, url_changed, current_event_url = replace_logo_event_url(updated_logo, desired_event_url)
+    config_path = workdir / target["config_file"]
+    original = config_path.read_text(encoding="utf-8")
+    fmt = target["format"]
+
+    if fmt == "yaml_logo":
+        updated_logo, logo_changed, current_logo = replace_yaml_logo(original, desired_logo)
+    elif fmt == "sphinx":
+        updated_logo, logo_changed, current_logo = replace_sphinx_logo(original, desired_logo)
+    else:
+        raise ValueError(f"Unsupported format '{fmt}'")
+
+    url_field = target.get("logo_event_url_field")
+    if url_field and fmt == "yaml_logo":
+        updated, url_changed, current_event_url = replace_logo_event_url(updated_logo, desired_event_url)
+    else:
+        updated = updated_logo
+        url_changed = False
+        current_event_url = ""
+
     changed = logo_changed or url_changed
 
     if changed:
-        target_config.write_text(updated, encoding="utf-8")
+        config_path.write_text(updated, encoding="utf-8")
 
     safe_name = re.sub(r"[^a-z0-9-]+", "-", event_name.lower()).strip("-") or "default"
     branch = f"bot/logo-{safe_name}-{today.isoformat()}"
@@ -209,6 +255,7 @@ def main() -> int:
     emit_outputs(args.github_output, outputs)
 
     print(f"today={today.isoformat()}")
+    print(f"target={args.target}")
     print(f"event={event_name}")
     print(f"window={window_str}")
     print(f"current_logo={current_logo}")

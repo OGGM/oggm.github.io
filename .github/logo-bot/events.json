@@ -1,10 +1,36 @@
 {
-  "target_config": "_config.yml",
-  "default_logo": "img/logos/oggm_l_alpha.png",
+  "targets": [
+    {
+      "id": "website",
+      "config_file": "_config.yml",
+      "format": "yaml_logo",
+      "default_logo": "img/logos/oggm_l_alpha.png",
+      "celebration_logo_prefix": "img/logos/celebrations/",
+      "logo_event_url_field": "logo_event_url"
+    },
+    {
+      "id": "docs",
+      "repo": "OGGM/oggm",
+      "branch": "stable",
+      "config_file": "docs/conf.py",
+      "format": "sphinx",
+      "default_logo": "_static/logo.png",
+      "celebration_logo_prefix": "_static/logos/celebrations/"
+    },
+    {
+      "id": "tutorials",
+      "repo": "OGGM/tutorials",
+      "branch": "stable",
+      "config_file": "_config.yml",
+      "format": "yaml_logo",
+      "default_logo": "img/logo.png",
+      "celebration_logo_prefix": "img/celebrations/"
+    }
+  ],
   "events": [
     {
       "name": "christmas",
-      "logo": "img/logos/celebrations/oggm_logo_christmas.png",
+      "logo_filename": "oggm_logo_christmas.png",
       "source_url": "https://en.wikipedia.org/wiki/Christmas",
       "priority": 100,
       "rules": [
@@ -17,7 +43,7 @@
     },
     {
       "name": "womeninscience",
-      "logo": "img/logos/celebrations/oggm_logo_womeninscience.png",
+      "logo_filename": "oggm_logo_womeninscience.png",
       "source_url": "https://en.wikipedia.org/wiki/International_Day_of_Women_and_Girls_in_Science",
       "priority": 70,
       "rules": [
@@ -30,7 +56,7 @@
     },
     {
       "name": "worldglacierday",
-      "logo": "img/logos/celebrations/oggm_logo_worldglacierday.png",
+      "logo_filename": "oggm_logo_worldglacierday.png",
       "source_url": "https://www.un.org/en/observances/world-glaciers-day",
       "priority": 75,
       "rules": [
@@ -43,7 +69,7 @@
     },
     {
       "name": "disabilityday",
-      "logo": "img/logos/celebrations/oggm_logo_disabilityday.png",
+      "logo_filename": "oggm_logo_disabilityday.png",
       "source_url": "https://en.wikipedia.org/wiki/International_Day_of_Persons_with_Disabilities",
       "priority": 65,
       "rules": [
@@ -56,7 +82,7 @@
     },
     {
       "name": "pride",
-      "logo": "img/logos/celebrations/oggm_logo_pride.png",
+      "logo_filename": "oggm_logo_pride.png",
       "source_url": "https://en.wikipedia.org/wiki/Pride_Month",
       "priority": 60,
       "rules": [
@@ -69,7 +95,7 @@
     },
     {
       "name": "chinese-new-year",
-      "logo": "img/logos/celebrations/oggm_logo_chinesenewyear.png",
+      "logo_filename": "oggm_logo_chinesenewyear.png",
       "source_url": "https://en.wikipedia.org/wiki/Chinese_New_Year",
       "priority": 80,
       "rules": [
@@ -84,7 +110,7 @@
     },
     {
       "name": "diwali",
-      "logo": "img/logos/celebrations/oggm_logo_diwali.png",
+      "logo_filename": "oggm_logo_diwali.png",
       "source_url": "https://en.wikipedia.org/wiki/Diwali",
       "priority": 78,
       "rules": [
@@ -99,7 +125,7 @@
     },
     {
       "name": "aid",
-      "logo": "img/logos/celebrations/oggm_logo_aid.png",
+      "logo_filename": "oggm_logo_aid.png",
       "source_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
       "priority": 79,
       "rules": [
