@@ -117,7 +117,8 @@ def active_event(events: List[Dict], today: dt.date) -> Tuple[Optional[Dict], Op
 
 
 def replace_yaml_logo(config_text: str, desired_logo: str) -> Tuple[str, bool, Optional[str]]:
-    pattern = re.compile(r"^(logo:\s*)(\S+)(\s*)$", re.MULTILINE)
+    # Group 3 captures optional trailing comment (e.g. "  # A path to the book logo")
+    pattern = re.compile(r"^(logo:\s*)(\S+)([ \t]*(?:#[^\r\n]*)?)$", re.MULTILINE)
     match = pattern.search(config_text)
     if not match:
         raise RuntimeError("Could not find a top-level 'logo:' field in config file")
