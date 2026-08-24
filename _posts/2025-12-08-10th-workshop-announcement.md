@@ -25,7 +25,7 @@ tags: workshop
        style="width: 24%; min-width: 180px; object-fit: cover;">
 </div>
 
-<span style="color: #d9534f;">**New (August 13, 2026): preliminary programme published!** Access it [here](/img/blog/ggmw2026/ggmw2026_schedule_v3.pdf).</span>
+<span style="color: #d9534f;">**Workshop programme published!** Access it [here](/img/blog/ggmw2026/ggmw2026_schedule.pdf).</span>
 
 ---
 
