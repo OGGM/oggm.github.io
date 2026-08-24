@@ -66,7 +66,7 @@ We gratefully acknowledge the financial support of the  [International Associati
 
 ### Agenda
 
-**The agenda (v3, 2026/08/13) is available [here](/img/blog/ggmw2026/ggmw2026_schedule_v3.pdf)**. We aim to maintain a flexible schedule that adapts to participants’ needs, interests, and suggestions. Feel free to reach out if you have any suggestions!
+**The agenda (v2026/08/24) is available [here](/img/blog/ggmw2026/ggmw2026_schedule.pdf)**. We aim to maintain a flexible schedule that adapts to participants’ needs, interests, and suggestions. Feel free to reach out if you have any suggestions!
 
 ---
 
