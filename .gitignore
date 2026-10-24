@@ -11,3 +11,5 @@ news/.DS_Stor
 ignore/
 .claude
 CLAUDE.md
+_tools/review.md
+_tools/__pycache__/

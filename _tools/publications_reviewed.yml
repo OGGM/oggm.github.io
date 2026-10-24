@@ -1,0 +1,1002 @@
+# Papers citing OGGM that were reviewed and NOT added to _data/publications.yml.
+# find_publications.py skips these. Delete an entry to have it re-checked.
+- doi: 10.5194/essd-10-1551-2018
+  title: Global sea-level budget 1993–present
+  year: 2018
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41558-021-01074-x
+  title: Climate change decisive for Asia’s snow meltwater supply
+  year: 2021
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-13-1125-2019
+  title: Modelling the future evolution of glaciers in the European Alps under the EURO-CORDEX RCM ensemble
+  year: 2019
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1088/1748-9326/ab304e
+  title: Projections of declining fluvial sediment delivery to major deltas worldwide in response to climate change and anthropogenic stress
+  year: 2019
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s43017-024-00554-w
+  title: Characteristics and changes of glacial lakes and outburst floods
+  year: 2024
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41467-022-28033-0
+  title: Nonlinear sensitivity of glacier mass balance to future climate change unveiled by deep learning
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-14-565-2020
+  title: Deep learning applied to glacier evolution modelling
+  year: 2020
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2021.120
+  title: Deep learning speeds up ice flow modelling by several orders of magnitude
+  year: 2021
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.3389/frwa.2022.909246
+  title: Challenges in Understanding the Variability of the Cryosphere in the Himalaya and Its Impact on Regional Water Resources
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1029/2021rg000754
+  title: Ice‐Dynamical Glacier Evolution Modeling—A Review
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2022.41
+  title: Inversion of a Stokes glacier flow model emulated by deep learning
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-16-1697-2022
+  title: 'Modelling supraglacial debris-cover evolution from the single-glacier to the regional scale: an application to High Mountain Asia'
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2019.93
+  title: A Bayesian ice thickness estimation model for large-scale applications
+  year: 2019
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2023.73
+  title: Ice-flow model emulator based on physics-informed deep learning
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/esd-13-935-2022
+  title: Glacial runoff buffers droughts through the 21st century
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1029/2023gl105029
+  title: Committed Ice Loss in the European Alps Until 2050 Using a Deep‐Learning‐Aided 3D Ice‐Flow Model With Data Assimilation
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41467-023-41794-6
+  title: Unchanged frequency and decreasing magnitude of outbursts from ice-dammed lakes in Alaska
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-2811-2023
+  title: Modelling point mass balance for the glaciers of the Central European Alps using machine learning techniques
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-13-1709-2019
+  title: Multi-year evaluation of airborne geodetic surveys to estimate seasonal mass balance, Columbia and Rocky Mountains, Canada
+  year: 2019
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2019.00068
+  title: Calibrated Ice Thickness Estimate for All Glaciers in Austria
+  year: 2019
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-14-3249-2020
+  title: Seasonal and interannual variability of melt-season albedo at Haig Glacier, Canadian Rocky Mountains
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-15-5017-2021
+  title: Assimilating near-real-time mass balance stake readings into a model ensemble using a particle filter
+  year: 2021
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-15-3135-2021
+  title: 'Twentieth century global glacier mass change: an ensemble-based model reconstruction'
+  year: 2021
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2021.662695
+  title: The Challenge of Non-Stationary Feedbacks in Modeling the Response of Debris-Covered Glaciers to Climate Forcing
+  year: 2021
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2021.24
+  title: Limited impact of climate forcing products on future glacier evolution in Scandinavia and Iceland
+  year: 2021
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/hess-26-5971-2022
+  title: Coupling a global glacier model to a global hydrological model prevents underestimation of glacier runoff
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1029/2022wr033618
+  title: Response of Two Glaciers in Different Climate Settings of the Tibetan Plateau to Climate Change Through Year 2100 Using a Hybrid Modeling Approach
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s43247-022-00609-0
+  title: Spatially consistent microbial biomass and future cellular carbon release from melting Northern Hemisphere glacier surfaces
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2020.64
+  title: 'Slope estimation influences on ice thickness inversion models: a case study for Monte Tronador glaciers, North Patagonian Andes'
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/aog.2023.70
+  title: Spatio-temporal variability in geometry and geodetic mass balance of Jostedalsbreen ice cap, Norway
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1038/s43247-023-01193-7
+  title: The foundations of the Patagonian icefields
+  year: 2024
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2022.767411
+  title: Indus River Basin Glacier Melt at the Subbasin Scale
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2022.61
+  title: Which glaciers are the largest in the world?
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-18-3583-2025
+  title: A Flexible Snow Model (FSM 2.1.1) including a forest canopy
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2022.6
+  title: Empirical glacier mass-balance models for South America
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2023.1192719
+  title: 'Bathymetries of proglacial lakes: a new data set from the northern Tien Shan, Kazakhstan'
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-18-5965-2024
+  title: Distributed surface mass balance of an avalanche-fed glacier
+  year: 2024
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-19-5871-2025
+  title: Recent history and future demise of Jostedalsbreen, the largest ice cap in mainland Europe
+  year: 2025
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2020.104
+  title: Measuring and inferring the ice thickness distribution of four glaciers in the Tien Shan, Kyrgyzstan
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-13-6425-2020
+  title: Inequality-constrained free-surface evolution in a full Stokes ice flow model ( evolve_glacier v1.1 )
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-14-3979-2020
+  title: 'Numerical modeling of the dynamics of the Mer de Glace glacier, French Alps: comparison with past observations and forecasting of near-future evolution'
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.3390/atmos11090981
+  title: What Can We Learn from Comparing Glacio-Hydrological Models?
+  year: 2020
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/essd-14-3889-2022
+  title: A new global dataset of mountain glacier centerlines and lengths
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2023.66
+  title: Temporal downscaling of glaciological mass balance using seasonal observations
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-2285-2023
+  title: Constraining regional glacier reconstructions using past ice thickness of deglaciating areas – a case study in the European Alps
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-4021-2023
+  title: Reconciling ice dynamics and bed topography with a versatile and fast ice thickness inversion
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41467-025-63332-2
+  title: Volcanoes stunt nearby glaciers
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/isprs-archives-xliii-b2-2020-1151-2020
+  title: USE OF HISTORICAL AERIAL IMAGES FOR 3D MODELLING OF GLACIERS IN THE PROVINCE OF TRENTO
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2022.117
+  title: 'Projected sea-level contributions from tidewater glaciers are highly sensitive to chosen bedrock topography: a case study at Hansbreen, Svalbard'
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2023.62
+  title: Bayesian parameter estimation in glacier mass-balance modelling using observations with distinct temporal resolutions and uncertainties
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2022.814027
+  title: 'Energy and glacier mass balance of Fürkeleferner, Italy: past, present, and future'
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2024.14
+  title: Response of lacustrine glacier dynamics to atmospheric forcing in the Cordillera Darwin
+  year: 2024
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/hess-29-7041-2025
+  title: Hyper-resolution large-scale hydrological modelling benefits from improved process representation in mountain regions
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-18-5467-2025
+  title: A framework for three-dimensional dynamic modeling of mountain glaciers in the Community Ice Sheet Model (CISM v2.2)
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2025.1517081
+  title: Multidecadal estimation of hydrological contribution and glacier mass balance in the semi-arid Andes based on physically based modeling and geodetic mass balance
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/essd-18-199-2026
+  title: 'Towards Bedmap Himalayas: a new airborne glacier thickness survey in Khumbu Himal, Nepal'
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-4315-2023
+  title: 'Brief communication: Measuring and modelling the ice thickness of the Grigoriev ice cap (Kyrgyzstan) and comparison with global datasets'
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-44-326484-9.00024-5
+  title: Multi-sensor deep learning for glacier mapping
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2021.82
+  title: 'Modelling the Vadret da Tschierva, Switzerland: calibration with the historical length record and future response to climate change'
+  year: 2021
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.31857/s2076673424030021
+  title: Mathematical modeling of Elbrus glaciers in the 21st century. Part 2. Forecasting glacier evolution and lake formation under various SSP scenarios
+  year: 2024
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1017/s0022143025100531
+  title: 'Regional glacier melt modeling: insights from surface energy balance and positive degree-day comparisons'
+  year: 2025
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41467-026-78260-y
+  title: Resolving short-term meteorological variability amplifies projected glacier loss and sea-level rise
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-14-3235-2020
+  title: 'Possible biases in scaling-based estimates of glacier change: a case study in the Himalaya'
+  year: 2020
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1134/s0001433824701172
+  title: 'Mathematical Modeling of Elbrus Glaciers in the 21st Century: Part 2. Projections of Glacier Dynamics and Lake Formation under Various SSP Scenarios'
+  year: 2024
+  reason: English version of 10.31857/s2076673424030021 (mentions only)
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs14051098
+  title: 'Processing of VENµS Images of High Mountains: A Case Study for Cryospheric and Hydro-Climatic Applications in the Everest Region (Nepal)'
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.1017/9781009157896.016
+  title: 'Annex II: Models'
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41597-023-02828-2
+  title: 'PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia'
+  year: 2024
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.31223/x51h18
+  title: A Scenario-Neutral Approach to Climate Change in Glacier Mass Balance Modelling
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.21203/rs.3.rs-2166876/v1
+  title: Modelling the impact of atmospheric heat accumulation on glacier mass balance
+  year: 2022
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.22541/essoar.168882076.67731971/v1
+  title: Ice loss in the European Alps until 2050 using a fully assimilated, deep-learning-aided 3D ice-flow model
+  year: 2023
+  reason: preprint of 10.1029/2023gl105029 (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-20-4209-2026
+  title: Sensitivity of Andean Glaciers to ice-flow parameters in the Parallel Ice Sheet Model
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.21203/rs.3.rs-10743366/v1
+  title: Subglacial landscape reveal potential future glacial lakes in the Southern Andes
+  year: 2026
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-19-8939-2026
+  title: 'ITMSL: an improved ice thickness inversion model integrating basal sliding dynamics for High Mountain Asia (v1.0.0)'
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41467-026-78654-y
+  title: Global-scale variability of glacier velocity and mass loss across terminus environments
+  year: 2026
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-20-6045-2026
+  title: 'GlaUnTI: a hybrid physics–machine learning model enables transferable glacier surface mass balance estimation'
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.48550/arxiv.2607.04117
+  title: 'GlacierCastAI: Predicting Glacier Retreat from Multi-Modal Satellite Imagery and Climate Signals'
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-19-8565-2026
+  title: 'Evolving beyond collapse: an adaptive particle batch smoother for cryospheric data assimilation'
+  year: 2026
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.48550/arxiv.2409.12034
+  title: Multi-Sensor Deep Learning for Glacier Mapping
+  year: 2024
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-5435-2023
+  title: 'Annual to seasonal glacier mass balance in High Mountain Asia derived from Pléiades stereo images: examples from the Pamir and the Tibetan Plateau'
+  year: 2023
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/esd-2021-94
+  title: Glacial runoff buffers droughts through the 21st century
+  year: 2021
+  reason: preprint of 10.5194/esd-13-935-2022
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2021-233
+  title: 'Modelling supraglacial debris-cover evolution from the single glacier to the regional scale: an application to High Mountain Asia'
+  year: 2021
+  reason: preprint of 10.5194/tc-16-1697-2022
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2021-241
+  title: Effects of climate change on the valley glaciers of the Italian Alps
+  year: 2021
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2020-320
+  title: '20th century global glacier mass change: an ensemble-based model reconstruction'
+  year: 2020
+  reason: preprint of 10.5194/tc-15-3135-2021
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2020-281
+  title: Assimilating near real-time mass balance observations into a model ensemble using a particle filter
+  year: 2020
+  reason: preprint of 10.5194/tc-15-5017-2021
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2020-87
+  title: Seasonal and interannual variability of melt-season albedo at Haig Glacier, Canadian Rocky Mountains
+  year: 2020
+  reason: preprint of 10.5194/tc-14-3249-2020
+  reviewed: '2026-10-24'
+- doi: 10.5194/gmd-2020-58
+  title: 'Free–Surface Flow as a Variational Inequality (evolve_glacier v1.1): Numerical Aspects of a Glaciological Application'
+  year: 2020
+  reason: preprint of 10.5194/gmd-13-6425-2020
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-2023-87
+  title: 'Global vs local glacier modelling: a comparison in the Tien Shan'
+  year: 2023
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-17-2811-2023
+  title: Modelling the Point Mass Balance for the Glaciers of Central European Alps using Machine Learning Techniques
+  year: 2022
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: null
+  title: A new global dataset of mountain glacier centerline and length 1
+  year: 2022
+  reason: earlier version of 10.5194/essd-14-3889-2022 (cites only)
+  reviewed: '2026-10-24'
+- doi: null
+  title: 'Towards ice thickness inversion: an evaluation of global DEMs in the glacierized Tibetan Plateau'
+  year: 2021
+  reason: earlier version of 10.5194/tc-16-197-2022 (already listed)
+  reviewed: '2026-10-24'
+- doi: null
+  title: Concepts and capabilities of the Instructed Glacier Model (IGM v2.2.1) This
+  year: null
+  reason: later version of 10.31223/x5t99c (IGM preprint)
+  reviewed: '2026-10-24'
+- doi: null
+  title: Global glacier
+  year: null
+  reason: not a paper (bad metadata)
+  reviewed: '2026-10-24'
+- doi: null
+  title: A Flexible Snow Model (FSM 2.1.0) including a forest canopy
+  year: null
+  reason: earlier version of 10.5194/gmd-18-3583-2025 (mentions only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-2025-5302
+  title: 'Interpretable Deep Learning for Glacier Mass Balance: Temporal Attention Patterns in Central Asia'
+  year: null
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-2025-3461
+  title: 'MATILDA-Online v1.0.1: A Cloud-based Open-Source Workflow for Modeling Water Resources in Glacierized Catchments'
+  year: null
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-2025-6387
+  title: Retreating glaciers and snow cover are amplifying summer droughts in the upper Adige River Basin (Italy)
+  year: null
+  reason: cites OGGM (reference list only)
+  reviewed: '2026-10-24'
+- doi: 10.5194/hess-30-6511-2026
+  title: 'Integrating a global glacier model into local hydrological modeling: Impacts on melt contributions'
+  year: null
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-2026-913
+  title: Modulation of glacier surge cycles on decadal to centennial timescales by intrinsic thermal-structure variability
+  year: null
+  reason: mentions OGGM, does not use it
+  reviewed: '2026-10-24'
+- doi: null
+  title: Cheap and accurate higher-order ice flow emulator for mountain glaciers
+  year: null
+  reason: same as 10.5194/egusphere-2026-5523 (reference list only)
+  reviewed: '2026-10-24'
+- doi: null
+  title: 'Brief Communication: Inferring Glacier Equilibrium Line Altitudes in Central Europe with FROST'
+  year: null
+  reason: earlier version of 10.5194/tc-20-3817-2026 (FROST)
+  reviewed: '2026-10-24'
+- doi: 10.3389/feart.2019.00331
+  title: Glacier Mass Change in High Mountain Asia Through 2100 Using the Open-Source Python Glacier Evolution Model (PyGEM)
+  year: 2020
+  reason: early PyGEM (before the OGGM coupling), not counted
+  reviewed: '2026-10-24'
+- doi: 10.3390/w14071006
+  title: Variations in Glacier Runoff Contributed by the Increased Negative Mass Balance over the Last Forty Years in the Tien Shan Mountains
+  year: 2022
+  reason: early PyGEM (before the OGGM coupling), not counted
+  reviewed: '2026-10-24'
+- doi: 10.3389/frwa.2021.728156
+  title: Grand Challenges of Hydrologic Modeling for Food-Energy-Water Nexus Security in High Mountain Asia
+  year: 2021
+  reason: early PyGEM (before the OGGM coupling), not counted
+  reviewed: '2026-10-24'
+- doi: 10.1017/jog.2024.57
+  title: Deriving seasonal and annual surface mass balance for debris-covered glaciers from flow-corrected satellite stereo DEM time series
+  year: 2024
+  reason: borderline, not counted
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-20-2999-2026
+  title: Future Retreat of Great Aletsch Glacier and Hintereisferner – application of a full-Stokes model to two valley glaciers in the European Alps
+  year: 2026
+  reason: borderline, not counted
+  reviewed: '2026-10-24'
+- doi: 10.5194/tc-20-5115-2026
+  title: Projecting the evolution of the Northern Patagonian Icefield until the year 2200
+  year: 2026
+  reason: borderline, not counted
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.jog.2025.102122
+  title: 'GRACE-derived land uplift model in Fennoscandia: Assessing the impact of hydrological loading on land uplift rates and uncertainty'
+  year: 2025
+  reason: borderline, not counted
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-2026-5529
+  title: A contour-gradient approach for improving glacier centerline 1 extraction in High Mountain Asia
+  year: null
+  reason: borderline, not counted
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-egu21-10047
+  title: Using a CMIP5 multi-model ensemble to model glacier mass balance on decadal scales
+  year: 2021
+  reason: conference abstract (not listed)
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-egu2020-9589
+  title: Calibrating a regional glacier model using post-LIA glacier length changes in the Alps
+  year: 2020
+  reason: conference abstract (not listed)
+  reviewed: '2026-10-24'
+- doi: 10.70675/cdf3eb91z24dbz4dcaz9de9z9bc7fa69f0f7
+  title: Recent decades and future hydrological changes related to glacier shrinkage in the Andes (11°N-55°S)
+  year: 2023
+  reason: thesis (theses are listed by hand on the page)
+  reviewed: '2026-10-24'
+- doi: 10.26686/wgtn.21128218
+  title: The magnitude of regional cooling across Southern Patagonia during the Antarctic Cold Reversal and Younger Dryas determined by glacier modelling
+  year: 2022
+  reason: thesis (theses are listed by hand on the page)
+  reviewed: '2026-10-24'
+- doi: 10.24124/2023/59439
+  title: Multiple geochronological approaches to constrain late Quaternary glacial histories in western Canada
+  year: 2023
+  reason: thesis (theses are listed by hand on the page)
+  reviewed: '2026-10-24'
+- doi: 10.70675/b7a0baa4z1c92z4b88z934ezd06d3553db5f
+  title: 'Past and future evolution of French Alpine glaciers in a changing climate : a deep learning glacio-hydrological modelling approach'
+  year: 2020
+  reason: thesis (theses are listed by hand on the page)
+  reviewed: '2026-10-24'
+- doi: 10.35537/10915/158228
+  title: Estimación del volumen de los glaciares de la Argentina
+  year: 2023
+  reason: thesis (theses are listed by hand on the page)
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.geomorph.2021.107783
+  title: Future Glacial Lake Outburst Flood (GLOF) hazard of the South Lhonak Lake, Sikkim Himalaya
+  year: 2021
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.scitotenv.2023.161717
+  title: 'Assessment of potential present and future glacial lake outburst flood hazard in the Hunza valley: A case study of Shisper and Mochowar glacier'
+  year: 2023
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.gloplacha.2022.103923
+  title: Ice thickness and morphological analysis reveal the future glacial lake distribution and formation probability in the Tibetan Plateau and its surroundings
+  year: 2022
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s10661-022-10658-9
+  title: Ice thickness distribution of Himalayan glaciers inferred from DInSAR-based glacier surface velocity
+  year: 2022
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s11069-022-05661-9
+  title: Assessment of climate change impacts on glacio-hydrological processes and their variations within critical zone
+  year: 2022
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s10113-024-02333-1
+  title: 'Pyrenean glaciers are disappearing fast: state of the glaciers after the extreme mass losses in 2022 and 2023'
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1029/2024av001586
+  title: Accelerating River Discharge in High Mountain Asia
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.coldregions.2024.104158
+  title: Ice thickness distribution and stability of three large freshwater calving glaciers on the eastern side of the Southern Patagonian Icefield
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs16112009
+  title: Ice Thickness Measurement and Volume Modeling of Muztagh Ata Glacier No.16, Eastern Pamir
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1080/10106049.2021.1939437
+  title: Decadal terminus position changes and ice thickness measurement of Menthosa Glacier in Lahaul region of North-Western Himalaya
+  year: 2021
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs15225378
+  title: 'Surface Motion and Topographic Effects on Ice Thickness Inversion for High Mountain Asia Glaciers: A Comparison Study from Three Numerical Models'
+  year: 2023
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s12665-024-11529-x
+  title: Catchment scale volume and mass changes for glaciers in the Parvati basin of Western Himalaya during 2000–2015
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.ejrh.2025.102255
+  title: Mass loss of Bayi Glacier in the Heihe River Basin revealed by ground-penetration radar measurements from 2006 to 2023
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.epsl.2025.119511
+  title: 'Disentangling topographic and climatic controls on glacier length: A case study in the tropical Colombian Andes'
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.13189/eer.2023.110404
+  title: Thickness and Mass of East Rathong Glacier (ERG), West Sikkim, India, Estimated Using GIS
+  year: 2023
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs14246189
+  title: Dynamic Evolution Modeling of a Lake-Terminating Glacier in the Western Himalayas Using a Two-Dimensional Higher-Order Flowline Model
+  year: 2022
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.jsames.2024.104902
+  title: 'Announcement of an approaching death: Glaciar Norte, Citlaltépetl volcano, Mexico'
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s00382-019-04676-6
+  title: Development and testing of a subgrid glacier mass balance model for nesting in the Canadian Regional Climate Model
+  year: 2019
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1007/s12524-024-02029-3
+  title: Volume Estimation of Glaciers in Alaknanda Sub-basin
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs17010040
+  title: Characterizing Changes in Geometry and Flow Speeds of Land- and Lake-Terminating Glaciers at the Headwaters of Yarlung Zangbo River, Western Himalayas
+  year: 2024
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/geosciences15070242
+  title: A Glacier Ice Thickness Estimation Method Based on Deep Convolutional Neural Networks
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.geomorph.2025.109893
+  title: 'PG-Tools: A framework and an ArcGIS toolbox to standardize paleoglacier outlines and attributes'
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.ejrh.2026.103257
+  title: Volume estimation and dynamics of the Purog Kangri ice field on the inner Tibetan Plateau
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.jhydrol.2026.135450
+  title: Assessing the impact of ice thickness uncertainty on future glacier evolution in the Himalayas using a higher-order glacier flow model
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.3390/w18091030
+  title: Evaluation of a Land Surface–Glacier Coupled Model over the Three-River Headwaters Region in the Qinghai–Tibet Plateau
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.pce.2026.104482
+  title: Ice-flux divergence and strain rates reveal compressive-flow hotspots on Gangotri glacier
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.jhydrol.2026.135695
+  title: Hydrological response to glacier peak water in the largest inland river basin of China
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.jag.2026.105559
+  title: Quantifying lake expansion probability under compound glacier–climate forcing using a GCL-CPF framework integrating multi-source Earth observation and vine copula theory
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1029/2025ms005440
+  title: Development and Evaluation of the Conjunctive Surface‐Subsurface Process Model Version 3 (CSSPv3) at Global Scale
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1029/2025wr041259
+  title: Machine Learning Driven Glacier Thickness Estimation in Diverse Continental Glaciers Using Innovative Pixel Based Skeletonization Approach
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1029/2025gl119840
+  title: Glacier Equilibrium‐Line Altitude Change Across Alaska and Adjacent Canada Indicates a Cold, Dry Little Ice Age and Weaker Aleutian Low
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1029/2025wr040877
+  title: Reduced Future Summer Water Availability in the Tien Shan Due To Glacier Wastage
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.accre.2023.08.004
+  title: Spatial differences of ice volume across High Mountain Asia
+  year: 2023
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1109/jstars.2026.3693741
+  title: Remote Sensing and Graph Neural Network Reveal Past and Future Glacier Changes in Buha River Basin (1966–2100)
+  year: 2026
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.2208/journalofjsce.25-27023
+  title: 'GLACIER MASS-BALANCE MODELLING: VALIDATION OF AN ENERGY-BALANCE APPROACH INTEGRATING DEBRIS-LAYERS OVER THE HIMALAYAS'
+  year: 2025
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1126/science.abf3668
+  title: Glaciohydrology of the Himalaya-Karakoram
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.epsl.2020.116295
+  title: Deciphering the evolution and forcing mechanisms of glaciation over the Himalayan-Tibetan orogen during the past 20,000 years
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1007/s12583-020-1056-9
+  title: Glacier-Glacial Lake Interactions and Glacial Lake Development in the Central Himalaya, India (1994–2017)
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs16101709
+  title: 'Remote Sensing and Modeling of the Cryosphere in High Mountain Asia: A Multidisciplinary Review'
+  year: 2024
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.geomorph.2022.108293
+  title: UAV-based geomorphological evolution of the Terminus Area of the Hailuogou Glacier, Southeastern Tibetan Plateau between 2017 and 2020
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.scitotenv.2024.172467
+  title: 'RETRACTED: Monitoring dynamics of Kyagar Glacier surge and repeated draining of Ice-dammed lake using multi-source remote sensing'
+  year: 2024
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs15112844
+  title: 'Towards a Digital Twin Prototype of Alpine Glaciers: Proposal for a Possible Theoretical Framework'
+  year: 2023
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1007/s11356-025-36578-y
+  title: 'Glacial retreat and climate change: insights from remote sensing technologies'
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1109/jstars.2020.3028653
+  title: Integrating Models and Remote Sensing Data for Distributed Glacier Mass Balance Estimation
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-12-818234-5.00011-0
+  title: 'The Response of Glaciers to Climate Change: Observations and Impacts'
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1002/esp.5555
+  title: 'Geophysical–geotechnical methodology for assessing the spatial distribution of glacio‐lacustrine sediments: The case history of Lake Seracchi'
+  year: 2023
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1029/2022jf006898
+  title: Comprehensive Radar Mapping of Malaspina Glacier (Sít' Tlein), Alaska—The World's Largest Piedmont Glacier—Reveals Potential for Instability
+  year: 2023
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1080/17538947.2025.2513046
+  title: Spatiotemporal characteristics of glacier area and length changes in Xizang, China, from 2000 to 2022
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1111/gwat.13189
+  title: Subglacial Meltwater Recharge in the Dongkemadi River Basin, Yangtze River Source Region
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-323-88456-3.00015-0
+  title: A review on observed historical changes in hydroclimatic extreme events over Europe
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1007/s40333-023-0016-5
+  title: Seasonal variations in glacier velocity in the High Mountain Asia region during 2015–2020
+  year: 2023
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.rcar.2025.09.001
+  title: 'The Chinese Glacier inventory of Xinjiang in 2020 (CGI-XJ2020): Compilation, features and primary results'
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1029/2020gl090213
+  title: SERMeQ Model Produces a Realistic Upper Bound on Calving Retreat for 155 Greenland Outlet Glaciers
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs14112679
+  title: 'Operational Processing of Big Satellite Data for Monitoring Glacier Dynamics: Case Study of Muldrow Glacier'
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1061/jsendh.steng-11413
+  title: Probabilistic Sea Level Rise Hazard Analysis Based on the Current Generation of Data and Protocols
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1515/geo-2020-0316
+  title: Geometric similarity of the twin collapsed glaciers in the west Tibet
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs16132446
+  title: Elevation Changes of A’nyemaqen Snow Mountain Revealed with Satellite Remote Sensing
+  year: 2024
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1038/s41558-025-02312-2
+  title: Glacier melt trough after overshoot
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1080/15481603.2025.2596939
+  title: Distinct characteristics and mechanisms of two tidewater glaciers exhibiting velocity anomalies in western Svalbard
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/geosciences10010012
+  title: Uncertainty Assessment of Ice Discharge Using GPR-Derived Ice Thickness from Gourdon Glacier, Antarctic Peninsula
+  year: 2019
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-12-818234-5.00224-8
+  title: Mass Balance of Glaciers
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.31237/osf.io/6qth3
+  title: Surface velocity and ice thickness of the Müller ice cap, Axel Heiberg Island
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1002/9781119787754.ch5
+  title: Landscape Modeling, Glacier and Ice Sheet Dynamics, and the Three Poles
+  year: 2022
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.22541/au.159818480.01127985
+  title: Quantifying the ice storage in the Upper Indus River basin with the ground-penetrating radar measurements and Glacier Bed Topography version 2 modeling
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1134/s1875372821040065
+  title: Earth Insolation and Tendencies of the Variation of Alpine Ice Resources
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1126/science.ade2355
+  title: Acting now will reduce glacier loss
+  year: 2023
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-443-32838-1.00006-0
+  title: Glaciers and climate change
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.18357/wg26202415
+  title: Local Impacts of Climate Change
+  year: 2024
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-323-85242-5.00083-x
+  title: Mass balance of glaciers and ice caps
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-323-85242-5.00074-9
+  title: Glaciers in central Europe
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/j.accre.2026.04.005
+  title: Glacier type transformation trends in China over 1981–2019 based on Shi‒Xie classification framework
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs18132142
+  title: Estimation of Glacier Mass Balance in the Three-River Headwaters Region from 2000 to 2025 Based on ZiYuan-3 Satellite Data
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1515/9783112211991-003
+  title: '55Chapter 3 Glacier Disappearance Prediction: Observational Constraints and Modeling Approaches'
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1080/2154896x.2026.2696754
+  title: 'TROPIPOLAR – GLASCLIM project: advancing scientific collaboration on glacier mass balance modelling across the Andes and the Antarctic Peninsula through machine learning'
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.1016/b978-0-443-15748-6.00136-2
+  title: 'Mountain Glaciers: Key indicators of climate variations'
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.3390/rs18101467
+  title: A Novel Approach for Automatic Glacial Lake Type Identification in the Parlung Zangbo Basin via Glacially Fed Lake Subdivision
+  year: 2026
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-egu21-13311
+  title: Proglacial Lakes Elevate Glacier Surface Velocities in the Himalayan Region
+  year: 2021
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-egu21-10912
+  title: Potential and scientific requirements of optical clock networks for validating satellite gravity missions
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.5194/egusphere-egu2020-9317
+  title: Always delayed? Holocene and current evolution of Pasterze Glacier, Austria
+  year: 2020
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: 10.2208/jscejhe.75.2_i_919
+  title: DEVELOPMENT AND VALIDATION OF A LARGE-SCALE GLACIER MODEL BASED ON AN ENERGY BALANCE APPROACH OVER CENTRAL EUROPE
+  year: 2019
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.2208/jscejhe.78.2_i_529
+  title: ESTIMATION OF DEBRIS DISTRIBUTION IN GLOBAL GLACIERS AND CALCULATION OF THRMAL RESISTANCE IN ASIAN GLACIERS
+  year: 2022
+  reason: full text not readable (paywalled/blocked); not ticked in review
+  reviewed: '2026-10-24'
+- doi: 10.1109/rcsm67767.2025.11507265
+  title: 'Global Glacier Health Index: An AI-Powered System to Assess Glacier Conditions Worldwide'
+  year: 2025
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: null
+  title: Detailed Glacier Area Change Analysis in the European Alps with Deep Learning
+  year: null
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: null
+  title: 'Snow4Flow: Concept Paper for a NASA Earth Venture Suborbital-4 Investigation'
+  year: null
+  reason: full text not readable; unlikely from title
+  reviewed: '2026-10-24'
+- doi: null
+  title: Ground penetrating radar on Rutor temperate glacier supported by ice-thickness modeling algorithms for bedrock detection
+  year: 2024
+  reason: earlier version of 10.5194/tc-19-6965-2025 (already listed)
+  reviewed: '2026-10-24'

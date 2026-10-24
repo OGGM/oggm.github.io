@@ -1,9 +1,29 @@
 - category: "Preprints"
   entries:
+    - title: "Debris cover controls glacial thinning, lakes, and hazards in High Mountain Asia"
+      authors: Anderson, L., Scherler, D., McCoy, S., McGrath, D., Kirkbride, M., Zeller, L., and Anderson, R.
+      journal: Research Square [preprint]
+      doi: 10.21203/rs.3.rs-3389408/v1
+      year: 2023
     - title: "Validation of high-resolution ICON-LES in complex terrain using observations from two HEFEX field campaigns"
       authors: Georgi, A., Schlagbauer, L., Flacké Haualand, K., Springer, M., Nicholson, L., and Sauter, T.
       journal: EGUsphere [preprint]
       doi: 10.5194/egusphere-2026-3922
+      year: 2026
+    - title: "Concepts and capabilities of the Instructed Glacier Model"
+      authors: Jouvet, G., Cook, S., Cordonnier, G., Finley, B., Henz, A., Herrmann, O., Maussion, F., Mey, J., Scherler, D., and Welty, E.
+      journal: EarthArXiv [preprint]
+      doi: 10.31223/x5t99c
+      year: 2024
+    - title: "Updating the ESA Earth System Model for Future Gravity Mission Simulation Studies: ESA ESM 3.0"
+      authors: Shihora, L., Jensen, L., Boergens, E., Klemann, V., Dill, R., Sasgen, I., Wouters, B., Schlaak, M., Sauber-Rosenberg, J., Han, S-C., Tanaka, Y., Braitenberg, C., Javed, M. T., Maurizio, G., Lecomte, H., Babeyko, A., Hovius, N., and Dobslaw, H.
+      journal: Earth System Science Data Discussions [preprint]
+      doi: 10.5194/essd-2026-576
+      year: 2026
+    - title: "Observational data provide valuable insights for glacier thickness reconstruction in High Mountain Asia"
+      authors: Smith, G. M. A., Goldberg, D. N., Jouvet, G., Maddison, J. R., and Pritchard, H. D.
+      journal: EGUsphere [preprint]
+      doi: 10.5194/egusphere-2026-788
       year: 2026
     - title: "Joint Bayesian Calibration of Frontal Ablation and Surface Mass Balance in Global Glacier Models"
       authors: Yang, R., Ultee, L., Aalstad, K., Debolskiy, M. V., Hock, R., Schmitt, P., Rounce, D., and Li, T.
@@ -37,6 +57,11 @@
       authors: He, B., Ding, J., Huang, W., Chen, Y., and Shao, C.
       journal: CATENA
       doi: 10.1016/j.catena.2026.110431
+      year: 2026
+    - title: "Brief communication: Inferring Glacier Equilibrium Line Altitudes in the Europe Alps with FROST"
+      authors: Herrmann, O., Prasad, V., Zöller, A., Groos, A. R., Cook, S., Sommer, C., and Fürst, J. J.
+      journal: The Cryosphere
+      doi: 10.5194/tc-20-3817-2026
       year: 2026
     - title: "Reconstruction and projection of the evolution of Schiaparelli Glacier, Southern Patagonia (1749–2100) using OGGM constrained by dendroglaciological records"
       authors: Hu, Y., Huang, R., Zhu, H., Zhu, X., Grießinger, J., Liang, E., Farías-Barahona, D., Tabone, I., and Meier, W. J.
@@ -88,10 +113,20 @@
       journal: Journal of Hydrology
       doi: 10.1016/j.jhydrol.2026.135084
       year: 2026
+    - title: "GPR-derived ice thickness of the temperate Hintereisferner glacier (Austrian Alps): evaluation of thickness models"
+      authors: Švinka, L., Lamsters, K., Karušs, J., Džeriņš, P., and Ješkins, J.
+      journal: The Cryosphere
+      doi: 10.5194/tc-20-5025-2026
+      year: 2026
     - title: "Projections of 21st-century glacier change in Alaska’s national parks calibrated against spatially distributed elevation change observations"
       authors: Tober, B. S., Rounce, D. R., Brinkerhoff, D. J., Loso, M. G., Schmitt, P., and Maussion, F.
       journal: Journal of Glaciology
       doi: 10.1017/jog.2026.10186
+      year: 2026
+    - title: "CMIP6 climate model spread outweighs glacier model spread in 21st-century drought buffering projections"
+      authors: Ultee, L., Wimberly, F., Coats, S., Mackay, J., and Holmgren, E.
+      journal: The Cryosphere
+      doi: 10.5194/tc-20-1339-2026
       year: 2026
     - title: "Accelerated hydrological response of the Western Himalayan glaciers to warming"
       authors: Umakanth, U., Panickal, S., Narayanasetti, S., Rao, S. A., Pratap, B., Kumar, P., Joshi, R., and Thamban, M.
@@ -121,6 +156,16 @@
 
 - category: "2025"
   entries:
+    - title: "Leveraging Weekly Snow Cover Time Series for Improved Glacier Monitoring and Modeling"
+      authors: Aberle, R., Enderlin, E. M., Rounce, D. R., O’Neel, S., Tober, B., and Friel, A.
+      journal: Geophysical Research Letters
+      doi: 10.1029/2025gl115523
+      year: 2025
+    - title: "Constraining sub-seasonal glacier mass balance in the Swiss Alps using Sentinel-2-derived snow-cover observations"
+      authors: Cremona, A., Huss, M., Landmann, J. M., Schwaizer, G., Paul, F., and Farinotti, D.
+      journal: Journal of Glaciology
+      doi: 10.1017/jog.2025.1
+      year: 2025
     - title: "Topographically-controlled contribution of avalanches to glacier mass balance in the 21st century"
       authors: Kneib, M., Maussion, F., Brun, F., Carcanade, G., Farinotti, D., Huss, M., van Tiel, M., Jouberton, A., Schmitt, P., Schuster, L., Dehecq, A., and Champollion, N.
       journal: Nature Communications
@@ -185,6 +230,16 @@
       authors: Jin, X., Wang, F., Liu, S., Xie, Y., and Xu, M.
       journal: International Journal of Digital Earth
       doi: 10.1080/17538947.2025.2528611
+      year: 2025
+    - title: "Pervasive glacier retreats across Svalbard from 1985 to 2023"
+      authors: Li, T., Hofer, S., Moholdt, G., Igneczi, A., Heidler, K., Zhu, X. X., and Bamber, J.
+      journal: Nature Communications
+      doi: 10.1038/s41467-025-55948-1
+      year: 2025
+    - title: "Physics-aware machine learning for glacier ice thickness estimation: a case study for Svalbard"
+      authors: Steidl, V., Bamber, J. L., and Zhu, X. X.
+      journal: The Cryosphere
+      doi: 10.5194/tc-19-645-2025
       year: 2025
     - title: "Decadal re-forecasts of glacier climatic mass balance"
       authors: van der Laan, L., Vlug, A., Scaife, A. A., Maussion, F., and Förster, K.
@@ -281,6 +336,11 @@
       journal: Earth's Future
       doi: 10.1029/2024EF005624
       year: 2025
+    - title: "An 85-year record of glacier change and refined projections for Kennicott and Root Glaciers, Alaska"
+      authors: Wells, A., Tober, B. S., Child, S. F., Rounce, D. R., Loso, M. G., Hults, C. P., Truffer, M., Holt, J. W., and Christoffersen, M. S.
+      journal: Nature Communications
+      doi: 10.1038/s41467-025-62962-w
+      year: 2025
     - title: "Inter-model differences in 21st Century Glacier Runoff for the World’s Major River Basins"
       authors: Wimberly, F., Ultee, L., Schuster, L., Huss, M., Rounce, D. R., Maussion, F., Coats, S., Mackay, J., and Holmgren, E.
       journal: The Cryosphere
@@ -305,6 +365,11 @@
       authors: Zekollari, H., Schuster, L., Maussion, F., Hock, R., Marzeion, B., Rounce, D. R., Compagno, L., Fujita, K., Huss, M., James, M., Kraaijenbrink, P. D. A., Lipscomb, W. H., Minallah, S., Oberrauch, M., van Tricht, L., Champollion, N., Edwards, T., Farinotti, D., Immerzeel, W., Leguy, G., and Sakai, A.
       journal: Science
       doi: 10.1126/science.adu4675
+      year: 2025
+    - title: "Responses to future climate change in hydrological processes and hydrological drought in the upstream of Shiyang river basin, Northwest China"
+      authors: Zhu, R., Fang, C., Yin, Z., Chen, Z., Shan, J., and Wang, T.
+      journal: "Journal of Hydrology: Regional Studies"
+      doi: 10.1016/j.ejrh.2025.102310
       year: 2025
 
 - category: "2024"
@@ -348,6 +413,16 @@
       authors: Kang, L., Ding, M., Wang, Y., Sun, W., Wang, L., An, H., Zhang, Q., Che, J., and Huai, B.
       journal: Environmental Research Letters
       doi: 10.1088/1748-9326/ad8b5f
+      year: 2024
+    - title: "Assessment of rock glaciers and their water storage in Guokalariju, Tibetan Plateau"
+      authors: Li, M., Yang, Y., Peng, Z., and Liu, G.
+      journal: The Cryosphere
+      doi: 10.5194/tc-18-1-2024
+      year: 2024
+    - title: "Numerical simulations of recent and future evolution of Monte Perdido glacier"
+      authors: Mateos-García, A., Santolaria-Otín, M., Sola, Y., Alonso-González, E., Otero, J., Del Rio, L. M., López-Moreno, J. I., and Revuelto, J.
+      journal: Cuadernos de Investigación Geográfica
+      doi: 10.18172/cig.5816
       year: 2024
     - title: "A scenario–neutral approach to climate change in glacier mass balance modeling"
       authors: van der Laan, L., Cholibois, K., El Menuawy, A., and Förster, K.
@@ -407,6 +482,11 @@
       journal: Journal of Hydrology
       doi: 10.1016/j.jhydrol.2022.128948
       year: 2023
+    - title: "A new inventory of High Mountain Asia surging glaciers derived from multiple elevation datasets since the 1970s"
+      authors: Guo, L., Li, J., Dehecq, A., Li, Z., Li, X., and Zhu, J.
+      journal: Earth System Science Data
+      doi: 10.5194/essd-15-2841-2023
+      year: 2023
     - title: "Late Holocene glacier and climate fluctuations in the Mackenzie and Selwyn mountain ranges, northwestern Canada"
       authors: Hawkins, A. C., Menounos, B., Goehring, B. M., Osborn, G., Pelto, B. M., Darvill, C. M., and Schaefer, J. M.
       journal: The Cryosphere
@@ -436,6 +516,11 @@
       authors: "O’Kane, T. J., Scaife, A. A., Kushnir, Y., Brookshaw, A., Buontempo, C., …, Wu, B."
       journal: Frontiers in Climate
       doi: 10.3389/fclim.2023.1121626
+      year: 2023
+    - title: "Exploiting high-slip flow regimes to improve inference of glacier bed topography"
+      authors: Morin, A., Flowers, G. E., Nolan, A., Brinkerhoff, D., and Berthier, E.
+      journal: Journal of Glaciology
+      doi: 10.1017/jog.2022.121
       year: 2023
     - title: "From global glacier modeling to catchment hydrology: bridging the gap with the WaSiM-OGGM coupling scheme"
       authors: Pesci, M. H., Schulte Overberg, P., Bosshard, T., and Förster, K.
@@ -500,6 +585,11 @@
       journal: Earth System Dynamics
       doi: 10.5194/esd-13-1417-2022
       year: 2022
+    - title: "Energy mass balance and flow modeling of early Holocene glaciers in the Queshque valley, Cordillera Blanca, Peru"
+      authors: Stansell, N. D., Mark, B. G., Licciardi, J. M., Rodbell, D. T., Fairman, J. G., Schoessow, F. S., Shutkin, T. Y., and Sorensen, M.
+      journal: Quaternary Science Reviews
+      doi: 10.1016/j.quascirev.2022.107414
+      year: 2022
     - title: "Projection of streamflow changes under CMIP6 scenarios in the Urumqi river head watershed, Tianshan Mountain, China"
       authors: Yang, M., Li, Z., Anjum, M. N., Kayastha, R., Kayastha, R. B., Rai, M., Zhang, X., and Xu, C.
       journal: Frontiers in Earth Science
@@ -538,6 +628,16 @@
       journal: Journal of Glaciology
       doi: 10.1017/jog.2021.90
       year: 2021
+    - title: "A GNSS velocity field for geophysical applications in Fennoscandia"
+      authors: Kierulf, H. P., Steffen, H., Barletta, V. R., Lidberg, M., Johansson, J., Kristiansen, O., and Tarasov, L.
+      journal: Journal of Geodynamics
+      doi: 10.1016/j.jog.2021.101845
+      year: 2021
+    - title: "Surface Mass-Balance Gradients From Elevation and Ice Flux Data in the Columbia Basin, Canada"
+      authors: Pelto, B. M., and Menounos, B.
+      journal: Frontiers in Earth Science
+      doi: 10.3389/feart.2021.675681
+      year: 2021
     - title: "Contrasting surface velocities between lake- and land-terminating glaciers in the Himalayan region"
       authors: Pronk, J. B., Bolch, T., King, O., Wouters, B., and Benn, D. I.
       journal: The Cryosphere
@@ -552,6 +652,16 @@
       authors: Rounce, D. R., Hock, R., McNabb, R. W., Millan, R., Sommer, C., Braun, M. H., Malz, P., Maussion, F., Mouginot, J., Seehaus, T. C., and Shean, D. E.
       journal: Geophysical Research Letters
       doi: 10.1029/2020GL091311
+      year: 2021
+    - title: "Measuring the state and temporal evolution of glaciers in Alaska and Yukon using synthetic-aperture-radar-derived (SAR-derived) 3D time series of glacier surface flow"
+      authors: Samsonov, S., Tiampo, K., and Cassotto, R.
+      journal: The Cryosphere
+      doi: 10.5194/tc-15-4221-2021
+      year: 2021
+    - title: "Potential and scientific requirements of optical clock networks for validating satellite-derived time-variable gravity data"
+      authors: Schröder, S., Stellmer, S., and Kusche, J.
+      journal: Geophysical Journal International
+      doi: 10.1093/gji/ggab132
       year: 2021
     - title: "A multi-perspective approach for selecting CMIP6 scenarios to project climate change impacts on glacio-hydrology with a case study in Upper Indus river basin"
       authors: Shafeeque, M., and Luo, Y.
