@@ -9,3 +9,5 @@ css/.DS_Store
 news/.DS_Stor
 .ipynb_checkpoints
 ignore/
+.claude
+CLAUDE.md
