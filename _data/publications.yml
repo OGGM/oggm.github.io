@@ -1,3 +1,16 @@
+- category: "Preprints"
+  entries:
+    - title: "Validation of high-resolution ICON-LES in complex terrain using observations from two HEFEX field campaigns"
+      authors: Georgi, A., Schlagbauer, L., Flacké Haualand, K., Springer, M., Nicholson, L., and Sauter, T.
+      journal: EGUsphere [preprint]
+      doi: 10.5194/egusphere-2026-3922
+      year: 2026
+    - title: "Joint Bayesian Calibration of Frontal Ablation and Surface Mass Balance in Global Glacier Models"
+      authors: Yang, R., Ultee, L., Aalstad, K., Debolskiy, M. V., Hock, R., Schmitt, P., Rounce, D., and Li, T.
+      journal: EGUsphere [preprint]
+      doi: 10.5194/egusphere-2026-1081
+      year: 2026
+
 - category: "2026"
   entries:
     - title: "Projected depletion of high mountain Asia glaciers by 2100: linking mass loss to asynchronous peak runoff"
@@ -15,10 +28,40 @@
       journal: The Cryosphere
       doi: 10.5194/tc-20-171-2026
       year: 2026
+    - title: "Adaptation Potential of Local Water Management Practices to Glacier Loss"
+      authors: Gimeno Jésus, C., Cuadros-Adriazola, J., Moulds, S., Drenkhan, F., Mackay, J., Montoya, N., Lavado-Casimiro, W., Rau, P., and Buytaert, W.
+      journal: Earth's Future
+      doi: 10.1029/2026EF008697
+      year: 2026
+    - title: "Spatiotemporal changes of soil profile salinization in Xinjiang and their response to glacial runoff variations"
+      authors: He, B., Ding, J., Huang, W., Chen, Y., and Shao, C.
+      journal: CATENA
+      doi: 10.1016/j.catena.2026.110431
+      year: 2026
+    - title: "Reconstruction and projection of the evolution of Schiaparelli Glacier, Southern Patagonia (1749–2100) using OGGM constrained by dendroglaciological records"
+      authors: Hu, Y., Huang, R., Zhu, H., Zhu, X., Grießinger, J., Liang, E., Farías-Barahona, D., Tabone, I., and Meier, W. J.
+      journal: Palaeogeography, Palaeoclimatology, Palaeoecology
+      doi: 10.1016/j.palaeo.2026.114056
+      year: 2026
+    - title: "Accelerating glacier recession contrasts rock glacier stability in a temperate mountain range"
+      authors: Khatiwada, A., McGrath, D., Pomeranz, J., Gianniny, G., Tronstad, L., Finn, D., Case, E., Knuth, F., Larsen, D., Caskey, S., Grubb, M., and Hotaling, S.
+      journal: Science Advances
+      doi: 10.1126/sciadv.aee5865
+      year: 2026
+    - title: "Regional glacier mass changes and meltwater evolution in the Tianshan Mountains since 2000"
+      authors: Li, H., Wang, P., Yu, F., Chen, P., and Zhang, M.
+      journal: Global and Planetary Change
+      doi: 10.1016/j.gloplacha.2026.105587
+      year: 2026
     - title: "Projections of Changes in Glacier Area and Volume in the Xinjiang Region, northwestern China, Based on CGI-XJ2020"
       authors: Liu, B., Li, Z., and Xu, L.
       journal: Research in Cold and Arid Regions
       doi: 10.1016/j.rcar.2026.04.005
+      year: 2026
+    - title: "AutoICE: An automated tool for estimating ice thickness and volume of glaciers in mountain regions"
+      authors: Navinkumar, P., and Ramsankaran, R.
+      journal: Environmental Modelling & Software
+      doi: 10.1016/j.envsoft.2026.106953
       year: 2026
     - title: "Rapid rebound hides glacier mass loss from satellite observations in Alaska and Iceland"
       authors: Sasgen, I., Cruz Bacca, S., Klemann, V., Vlug, A., and Zemp, M.
@@ -45,6 +88,11 @@
       journal: Journal of Hydrology
       doi: 10.1016/j.jhydrol.2026.135084
       year: 2026
+    - title: "Projections of 21st-century glacier change in Alaska’s national parks calibrated against spatially distributed elevation change observations"
+      authors: Tober, B. S., Rounce, D. R., Brinkerhoff, D. J., Loso, M. G., Schmitt, P., and Maussion, F.
+      journal: Journal of Glaciology
+      doi: 10.1017/jog.2026.10186
+      year: 2026
     - title: "Accelerated hydrological response of the Western Himalayan glaciers to warming"
       authors: Umakanth, U., Panickal, S., Narayanasetti, S., Rao, S. A., Pratap, B., Kumar, P., Joshi, R., and Thamban, M.
       journal: "Environmental Research: Climate"
@@ -54,6 +102,11 @@
       authors: Wang, Y., Ye, A., Quincey, D. J., James, W., and Xu, W.
       journal: Global and Planetary Change
       doi: 10.1016/j.gloplacha.2026.105436
+      year: 2026
+    - title: "Warming-driven runoff increase and shifted seasonality in the glacierized Hotan Basin in Central Asia"
+      authors: Xu, X., Wang, W., and Zhou, P.
+      journal: Global and Planetary Change
+      doi: 10.1016/j.gloplacha.2026.105579
       year: 2026
     - title: "Global estimates of glacier equilibrium-line altitude ratios for enhanced paleoclimate reconstructions"
       authors: Yang, W., Mackintosh, A. N., Cooper, E-L., Li, Y., Jones, R. S., Chu, W., and Tielidze, L. G.
@@ -353,6 +406,11 @@
       authors: Afzal, M. M., Wang, X., Sun, L., Jiang, T., Kong, Q., and Luo, Y.
       journal: Journal of Hydrology
       doi: 10.1016/j.jhydrol.2022.128948
+      year: 2023
+    - title: "Late Holocene glacier and climate fluctuations in the Mackenzie and Selwyn mountain ranges, northwestern Canada"
+      authors: Hawkins, A. C., Menounos, B., Goehring, B. M., Osborn, G., Pelto, B. M., Darvill, C. M., and Schaefer, J. M.
+      journal: The Cryosphere
+      doi: 10.5194/tc-17-4381-2023
       year: 2023
     - title: "Universal Differential Equations for glacier ice flow modelling"
       authors: Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and Pérez, F.
