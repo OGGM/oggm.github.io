@@ -13,6 +13,11 @@ on:
 jobs:
   rotate-website:
     runs-on: ubuntu-latest
+    outputs:
+      pr_url: ${{ steps.cpr.outputs.pull-request-url }}
+      pr_op: ${{ steps.cpr.outputs.pull-request-operation }}
+      event: ${{ steps.logo.outputs.event_name }}
+      window: ${{ steps.logo.outputs.window }}
     permissions:
       contents: write
       pull-requests: write
@@ -45,6 +50,7 @@ jobs:
           python .github/logo-bot/update_logo.py "${args[@]}" --github-output "$GITHUB_OUTPUT"
 
       - name: Create pull request
+        id: cpr
         if: steps.logo.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
@@ -54,7 +60,7 @@ jobs:
           body: |
             Automated logo rotation update for **oggm.github.io**.
 
-            - Date: ${{ inputs.date || github.run_started_at }}
+            - Date: ${{ steps.logo.outputs.today }}
             - Event: ${{ steps.logo.outputs.event_name }}
             - Window: ${{ steps.logo.outputs.window }}
             - New logo: ${{ steps.logo.outputs.desired_logo }}
@@ -71,6 +77,11 @@ jobs:
 
   rotate-docs:
     runs-on: ubuntu-latest
+    outputs:
+      pr_url: ${{ steps.cpr.outputs.pull-request-url }}
+      pr_op: ${{ steps.cpr.outputs.pull-request-operation }}
+      event: ${{ steps.logo.outputs.event_name }}
+      window: ${{ steps.logo.outputs.window }}
     permissions:
       contents: read
 
@@ -110,6 +121,7 @@ jobs:
           python .github/logo-bot/update_logo.py "${args[@]}" --github-output "$GITHUB_OUTPUT"
 
       - name: Create pull request
+        id: cpr
         if: steps.logo.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
@@ -121,7 +133,7 @@ jobs:
           body: |
             Automated logo rotation update for **docs.oggm.org** (OGGM/oggm stable).
 
-            - Date: ${{ inputs.date || github.run_started_at }}
+            - Date: ${{ steps.logo.outputs.today }}
             - Event: ${{ steps.logo.outputs.event_name }}
             - Window: ${{ steps.logo.outputs.window }}
             - New logo: ${{ steps.logo.outputs.desired_logo }}
@@ -136,6 +148,11 @@ jobs:
 
   rotate-tutorials:
     runs-on: ubuntu-latest
+    outputs:
+      pr_url: ${{ steps.cpr.outputs.pull-request-url }}
+      pr_op: ${{ steps.cpr.outputs.pull-request-operation }}
+      event: ${{ steps.logo.outputs.event_name }}
+      window: ${{ steps.logo.outputs.window }}
     permissions:
       contents: read
 
@@ -175,6 +192,7 @@ jobs:
           python .github/logo-bot/update_logo.py "${args[@]}" --github-output "$GITHUB_OUTPUT"
 
       - name: Create pull request
+        id: cpr
         if: steps.logo.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
@@ -186,7 +204,7 @@ jobs:
           body: |
             Automated logo rotation update for **OGGM/tutorials** (stable branch).
 
-            - Date: ${{ inputs.date || github.run_started_at }}
+            - Date: ${{ steps.logo.outputs.today }}
             - Event: ${{ steps.logo.outputs.event_name }}
             - Window: ${{ steps.logo.outputs.window }}
             - New logo: ${{ steps.logo.outputs.desired_logo }}
@@ -198,3 +216,89 @@ jobs:
             _config.yml
           labels: |
             automation
+
+  # PRs in OGGM/oggm and OGGM/tutorials are opened with a personal token, and
+  # GitHub does not notify people about their own actions. This job opens an
+  # issue as github-actions[bot] that mentions the maintainers, so they get
+  # notified when a PR needs merging or when a job fails.
+  notify:
+    needs: [rotate-website, rotate-docs, rotate-tutorials]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Open issue pinging maintainers
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          NOTIFY: "@fmaussion @pat-schmitt"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          INPUT_DATE: ${{ inputs.date }}
+          EVENT: ${{ needs.rotate-website.outputs.event || needs.rotate-docs.outputs.event || needs.rotate-tutorials.outputs.event }}
+          WINDOW: ${{ needs.rotate-website.outputs.window || needs.rotate-docs.outputs.window || needs.rotate-tutorials.outputs.window }}
+          WEB_RESULT: ${{ needs.rotate-website.result }}
+          WEB_URL: ${{ needs.rotate-website.outputs.pr_url }}
+          WEB_OP: ${{ needs.rotate-website.outputs.pr_op }}
+          DOCS_RESULT: ${{ needs.rotate-docs.result }}
+          DOCS_URL: ${{ needs.rotate-docs.outputs.pr_url }}
+          DOCS_OP: ${{ needs.rotate-docs.outputs.pr_op }}
+          TUT_RESULT: ${{ needs.rotate-tutorials.result }}
+          TUT_URL: ${{ needs.rotate-tutorials.outputs.pr_url }}
+          TUT_OP: ${{ needs.rotate-tutorials.outputs.pr_op }}
+        run: |
+          set -euo pipefail
+          today="${INPUT_DATE:-$(date -u +%F)}"
+          created=false
+          failed=false
+          lines=""
+
+          add() {
+            local name=$1 result=$2 url=$3 op=$4
+            if [[ "$result" != "success" ]]; then
+              failed=true
+              lines+="- **${name}**: job ${result}"$'\n'
+            elif [[ -n "$url" ]]; then
+              if [[ "$op" == "created" ]]; then created=true; fi
+              lines+="- **${name}**: ${url} (${op:-unknown})"$'\n'
+            else
+              lines+="- **${name}**: nothing to change"$'\n'
+            fi
+          }
+          add "oggm.github.io" "$WEB_RESULT" "$WEB_URL" "$WEB_OP"
+          add "docs (OGGM/oggm)" "$DOCS_RESULT" "$DOCS_URL" "$DOCS_OP"
+          add "tutorials (OGGM/tutorials)" "$TUT_RESULT" "$TUT_URL" "$TUT_OP"
+
+          if [[ "$created" != "true" && "$failed" != "true" ]]; then
+            echo "No new PR and no failure: nothing to ping about."
+            exit 0
+          fi
+
+          if [[ "$failed" == "true" ]]; then
+            title="Logo rotation bot failed"
+            # Don't open a new issue every day while the same failure persists.
+            open=$(gh issue list --state open --label automation \
+                     --search "in:title \"${title}\"" --json number --jq length)
+            if [[ "$open" != "0" ]]; then
+              echo "A failure issue is already open, not opening another one."
+              exit 0
+            fi
+            title="${title} (${today})"
+            intro="the logo rotation bot failed. See the [workflow run](${RUN_URL})."
+          else
+            title="Logo rotation: ${EVENT} (${today})"
+            intro="the logo rotation bot opened PRs that need merging."
+          fi
+
+          body="${NOTIFY} ${intro}
+
+          - Event: **${EVENT:-unknown}**
+          - Window: ${WINDOW:-unknown}
+
+          ${lines}
+          Please close this issue once everything is merged.
+          This issue was opened by \`.github/workflows/logo-rotation-pr.yml\`."
+
+          gh issue create --title "$title" --body "$body" --label automation

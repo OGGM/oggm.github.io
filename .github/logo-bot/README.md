@@ -19,7 +19,18 @@ The workflow runs daily and opens three parallel jobs, one per target repo:
 Each job:
 1. Computes the active event window (fixed-date or lunar holiday window).
 2. Updates the logo field in the target config file.
-3. Opens or updates a PR only when the logo value changes.
+3. Opens a PR only when the logo value changes. All targets use the same branch
+   (`bot/logo-rotation`), so an unmerged PR is updated in place rather than
+   duplicated the next day.
+
+## Notifications
+
+The docs and tutorials PRs are opened with `CROSS_REPO_PAT`, a personal token, and
+GitHub does not notify people about their own actions. A final `notify` job therefore
+opens an issue in this repo (as `github-actions[bot]`) that mentions the maintainers
+and links the PRs. It runs when at least one PR was newly created, or when a job
+failed (for example because the token expired). While a failure issue is open, no
+new one is created. Edit `NOTIFY` in the workflow to change who is pinged.
 
 ## Required secret
 
@@ -43,6 +54,9 @@ Each target has:
 - `config_file`: path within the repo to the file being modified.
 - `format`: `yaml_logo` (Jekyll/Jupyter Book `logo:` field) or `sphinx` (`html_logo = ...`).
 - `default_logo`: logo value used outside event windows.
+- `default_logo_overrides` (optional): list of temporary default logos, each with
+  `start` and `end` (`YYYY-MM-DD`, inclusive), `logo` (full path) and optional `name`
+  (used in PR naming). Celebration events still take precedence.
 - `celebration_logo_prefix`: prepended to `logo_filename` during an event.
 - `logo_event_url_field` (optional): YAML key for a clickable logo URL (website only).
 
@@ -50,7 +64,7 @@ Each target has:
 
 Each event has:
 
-- `name`: identifier used in branch/PR naming.
+- `name`: identifier used in PR naming.
 - `logo_filename`: filename of the celebration logo (same across all repos).
 - `source_url`: event information URL. When set, the website logo becomes clickable.
 - `priority`: higher value wins if windows overlap.

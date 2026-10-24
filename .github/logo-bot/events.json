@@ -5,6 +5,14 @@
       "config_file": "_config.yml",
       "format": "yaml_logo",
       "default_logo": "img/logos/oggm_l_alpha.png",
+      "default_logo_overrides": [
+        {
+          "name": "10years",
+          "start": "2026-10-24",
+          "end": "2026-12-31",
+          "logo": "img/logos/10years/oggm_10yearslogo-long.svg"
+        }
+      ],
       "celebration_logo_prefix": "img/logos/celebrations/",
       "logo_event_url_field": "logo_event_url"
     },
@@ -102,7 +110,7 @@
         {
           "type": "holiday_window",
           "country": "CN",
-          "contains": "Chinese New Year",
+          "contains": "Spring Festival",
           "start_offset": -3,
           "end_offset": 7
         }

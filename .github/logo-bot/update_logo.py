@@ -65,7 +65,9 @@ def holiday_anchor_dates(rule: Dict, today: dt.date) -> List[dt.date]:
     country = rule["country"]
     token = rule["contains"].lower()
 
-    holiday_map = holidays.country_holidays(country, years=years, language="en")
+    # "en_US" (not "en"): unsupported codes silently fall back to the local
+    # language (e.g. Chinese or Arabic names), and the English token never matches.
+    holiday_map = holidays.country_holidays(country, years=years, language="en_US")
     grouped: Dict[int, List[dt.date]] = {}
 
     for holiday_date, holiday_name in holiday_map.items():
@@ -114,6 +116,20 @@ def active_event(events: List[Dict], today: dt.date) -> Tuple[Optional[Dict], Op
     candidates.sort(key=lambda item: (-item[0], item[1]))
     _, _, event, window = candidates[0]
     return event, window
+
+
+def default_logo_override(target: Dict, today: dt.date) -> Optional[Dict]:
+    """Return the target's temporary default logo active today, if any.
+
+    Overrides replace the default logo between two dates (inclusive);
+    celebration events still take precedence.
+    """
+    for override in target.get("default_logo_overrides", []):
+        start = dt.date.fromisoformat(override["start"])
+        end = dt.date.fromisoformat(override["end"])
+        if start <= today <= end:
+            return override
+    return None
 
 
 def replace_yaml_logo(config_text: str, desired_logo: str) -> Tuple[str, bool, Optional[str]]:
@@ -206,6 +222,11 @@ def main() -> int:
         desired_event_url = event.get("source_url", "")
         event_name = event["name"]
         window_str = f"{window[0].isoformat()}..{window[1].isoformat()}"
+    elif override := default_logo_override(target, today):
+        desired_logo = override["logo"]
+        desired_event_url = override.get("source_url", "")
+        event_name = override.get("name", "default")
+        window_str = f"{override['start']}..{override['end']}"
     else:
         desired_logo = target["default_logo"]
         desired_event_url = ""
@@ -236,12 +257,14 @@ def main() -> int:
     if changed:
         config_path.write_text(updated, encoding="utf-8")
 
-    safe_name = re.sub(r"[^a-z0-9-]+", "-", event_name.lower()).strip("-") or "default"
-    branch = f"bot/logo-{safe_name}-{today.isoformat()}"
+    # Fixed branch name: an unmerged PR gets updated in place instead of a new
+    # PR being opened every day.
+    branch = "bot/logo-rotation"
     commit_message = f"chore: set logo to {event_name} ({today.isoformat()})"
     pr_title = f"chore: rotate logo for {event_name} ({today.isoformat()})"
 
     outputs = {
+        "today": today.isoformat(),
         "changed": "true" if changed else "false",
         "event_name": event_name,
         "desired_logo": desired_logo,
