@@ -28,7 +28,8 @@ layout: default
         <div class="site-heading" {% if page.url != '/' %}style="padding: 75px 0"{% endif %}>
 					{% if site.logo %}
           {% if site.logo_event_url and site.logo_event_url != "" %}
-          <a href="{{ site.logo_event_url }}" target="_blank" rel="noopener noreferrer" aria-label="Learn about this logo event">
+          {% assign logo_url_first = site.logo_event_url | slice: 0 %}
+          <a href="{{ site.logo_event_url }}"{% if logo_url_first != "/" %} target="_blank" rel="noopener noreferrer"{% endif %} aria-label="Learn about this logo event">
             <img src= "{{ site.logo }}" style="width: 50%; filter: drop-shadow(0 0 16px rgba(255,255,255,1)) drop-shadow(0 0 24px rgba(255,255,255,0.7));">
           </a>
           {% else %}
