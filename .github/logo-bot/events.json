@@ -10,7 +10,8 @@
           "name": "10years",
           "start": "2026-10-24",
           "end": "2026-12-31",
-          "logo": "img/logos/10years/oggm_10yearslogo-long.svg"
+          "logo": "img/logos/10years/oggm_10yearslogo-long.svg",
+          "source_url": "/2026/11/18/oggm-10-years/"
         }
       ],
       "celebration_logo_prefix": "img/logos/celebrations/",
@@ -44,7 +45,7 @@
       "rules": [
         {
           "type": "fixed_range",
-          "start": "12-15",
+          "start": "12-17",
           "end": "01-05"
         }
       ]
