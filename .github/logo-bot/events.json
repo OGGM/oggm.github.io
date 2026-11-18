@@ -45,7 +45,7 @@
       "rules": [
         {
           "type": "fixed_range",
-          "start": "12-17",
+          "start": "12-15",
           "end": "01-05"
         }
       ]

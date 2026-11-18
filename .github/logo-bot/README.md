@@ -75,7 +75,7 @@ Supported rule types:
 - `fixed_range`
   - `start`: `MM-DD`
   - `end`: `MM-DD`
-  - Supports year wrap (for example `12-17` to `01-05`).
+  - Supports year wrap (for example `12-15` to `01-05`).
 - `holiday_window`
   - `country`: ISO country code used by `python-holidays`.
   - `contains`: substring used to match holiday names.
